@@ -228,18 +228,12 @@ private:
         {
         }
 
-        bool Supported(bool spatial) const
-        {
-            // MKL2017 Batch normalization only support spatial
-            return spatial;
-        }
-
         bool HasPreparedFor(ContextIndex contextIndex) const
         {
             return !!(m_contextFlags & (1 << contextIndex));
         }
 
-        void Prepare(const TensorShape& shape, size_t numSamples, ContextIndex contextIndex, ElemType epsilon = 0)
+        void Prepare(const TensorShape& shape, bool spatial, size_t numSamples, ContextIndex contextIndex, ElemType epsilon = 0)
         {
             int flag = (1 << contextIndex);
             if (contextIndex == ContextIndex_Backward)
@@ -269,9 +263,12 @@ private:
             const size_t inoutDim = 4;
             size_t rank = m_shape.GetRank();
             size_t numElements = m_shape.GetNumElements();
-            size_t numChannels = (rank > 0) ? m_shape.GetDim(rank - 1) : 1;
+            size_t numChannels =
+                spatial ?
+                ((rank > 0) ? m_shape.GetDim(rank - 1) : 1) :
+                numElements; // flatten all dims of a sample when non-spatial
             size_t numPixels = numElements / numChannels;
-            size_t dimFirst = (rank > 1) ? m_shape.GetDim(0) : 1;
+            size_t dimFirst = (rank > 1 && spatial) ? m_shape.GetDim(0) : 1;
             size_t dimSecond = numPixels / dimFirst;
             size_t inoutSizes[4] = { dimFirst, dimSecond, numChannels, m_numSamples };
             size_t inoutStrides[4] = { 1, dimFirst, numPixels, numElements };
@@ -385,12 +382,10 @@ private:
     bool ForwardCoreMKL(const Mat& in, const Mat& scale, const Mat& bias, bool inferenceOnly, double expAvgFactor, Mat& runMean, Mat& runVariance,
         Mat& out, double epsilon, Mat& savedMean, Mat& savedInvStdDev)
     {
-        if (!m_mklContext.Supported(m_spatial)) return false;
-
         ContextIndex contextIndex = inferenceOnly ?
             ContextIndex_ForwardInfer :
             ContextIndex_ForwardTrain;
-        m_mklContext.Prepare(m_inOutT, in.GetNumCols(), contextIndex, (ElemType)epsilon);
+        m_mklContext.Prepare(m_inOutT, m_spatial, in.GetNumCols(), contextIndex, (ElemType)epsilon);
 
         if (inferenceOnly)
         {
@@ -424,9 +419,7 @@ private:
     bool BackwardCoreMKL(const Mat& in, const Mat& srcGrad, Mat& grad, const Mat& scale,
         const Mat& savedMean, const Mat& savedInvStdDev, Mat& scaleGrad, Mat& biasGrad, bool accumulateDataGrad)
     {
-        if (!m_mklContext.Supported(m_spatial)) return false;
-
-        m_mklContext.Prepare(m_inOutT, srcGrad.GetNumCols(), ContextIndex_Backward);
+        m_mklContext.Prepare(m_inOutT, m_spatial, srcGrad.GetNumCols(), ContextIndex_Backward);
 
         if (accumulateDataGrad)
         {

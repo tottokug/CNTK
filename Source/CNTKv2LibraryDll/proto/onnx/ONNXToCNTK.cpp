@@ -75,6 +75,7 @@ private:
 
     static std::vector<int> VecInt64ToVecInt(const std::vector<int64_t> &vecInt64);
     static std::vector<int64_t> VecIntToVecInt64(const std::vector<int> &vecInt);
+    static std::vector<Axis> GetAxisVecFromIntVec(const std::vector<int> &vecInt);
 
     static float GetNamedAttributeAsFloat(const Node *node, const string &attributeName);
     static float GetNamedAttributeAsFloat(const Node *node, const string &attributeName, float defaultValue);
@@ -98,6 +99,7 @@ private:
     static Variable GetNodeOperandWithPaddingResolved(std::vector<bool>& cntkConvAutoPadding, 
         NDShape& strides, const Node *node, const std::vector<Variable>& inputs, const double padValue = 0.0);
     static FunctionPtr CreateCNTKConvNode(const Node *node, const std::vector<Variable> &inputs);
+    static FunctionPtr CreateCNTKFCNode(const std::wstring& nodeName, const std::vector<Variable>& inputs);
 
     static ConvAutoPadType ConvertStrToConvAutoPadType(const string& str);
 };
@@ -683,6 +685,17 @@ namespace CNTK
     }
 }
 
+std::vector<Axis> ONNXToCNTKHelper::GetAxisVecFromIntVec(const std::vector<int> &vecInt)
+{
+    std::vector<Axis> vecAxis;
+    for (const auto& val : vecInt)
+    {
+        Axis axis(val);
+        vecAxis.push_back(axis);
+    }
+    return vecAxis;
+}
+
 std::pair<Variable, Variable> ONNXToCNTKHelper::BroadcastElementWiseInput(
     const Node *node, const Variable &input0, const Variable &input1)
 {
@@ -764,7 +777,7 @@ std::pair<std::vector<size_t>, std::vector<size_t> > ONNXToCNTKHelper::AdjustONN
     int nPadDims = pads.size() / 2;
     int rankDiff = operand.Shape().Rank() - nPadDims;
     pads.insert(pads.begin(), rankDiff, 0);
-    pads.insert(pads.begin() + nPadDims, rankDiff, 0);
+    pads.insert(pads.begin() + nPadDims + rankDiff, rankDiff, 0);
 
     // Split this into head (lower padding) and foot (upper padding), and reverse them because 
     // CNTK dimensions are in reverse order than ONNX. 
@@ -781,19 +794,7 @@ FunctionPtr ONNXToCNTKHelper::CreateFunction(const Node *node, const std::vector
     
     if (onnxOpName == "FC")
     {
-        // TODO: this is experimental code to load Facebook Caffe models. 
-        // "FC" is not in ONNX standard. Two cases need to be handled with 
-        // this type of Caffe model. 
-        // 1. Make trailing dimensions of operand 1 matches the heading dimensions of operant 2.
-        //  For example, with shape [1, dim0, dim1] * [dim2, dim3], we need to reshape 
-        //  first operand to [1, dim0 * dim1] In this case dim0 * dim1 has to be equal to dim2.
-        // 2. Broadcase bias if needed.
-        Variable input0 = inputs[0], input1 = inputs[1];
-        input0 = Reshape(input0, {1, NDShape::InferredDimension});
-
-        FunctionPtr cntkFunction = Reshape(Times(input0, input1, ToWString(node->Name())), { NDShape::InferredDimension });
-        cntkFunction = Plus(cntkFunction, inputs[2], ToWString(node->Name()));
-        return cntkFunction;
+        return CreateCNTKFCNode(ToWString(node->Name()), inputs);
     }
     else if (onnxOpName == "Sum")
     {
@@ -952,8 +953,12 @@ FunctionPtr ONNXToCNTKHelper::CreateFunction(const Node *node, const std::vector
             LogicError("The rank of input C in GEMM operator (A*B + C) is not 2. Either specify a value with rank=2, or set the broadcast attribute to 1.");
 
         FunctionPtr A = ElementTimes(input0, Constant(NDShape({ 1, 1 }), DataType::Float, static_cast<double>(alpha)));
-        FunctionPtr B = (transB != 0) ? Transpose(input1) : (FunctionPtr)input1;
         FunctionPtr C = ElementTimes(input2, Constant(NDShape({ 1, 1 }), DataType::Float, static_cast<double>(beta)));
+        if (!transA && transB && broadcast) // Special case: Equivalent to FC (fully-connected) op. Takes in account broadcast of B, if needed. 
+        {
+            return CreateCNTKFCNode(ToWString(node->Name()), { (Variable)A, input1, (Variable)C });
+        }
+        FunctionPtr B = (transB != 0) ? Transpose(input1) : (FunctionPtr)input1;        
         FunctionPtr D = (transA != 0) ? Times(B, Transpose(A)) : Times(B, A);
         // If needed, Plus op will broadcast C automatically. 
         return Plus(C, D);
@@ -1263,7 +1268,38 @@ FunctionPtr ONNXToCNTKHelper::CreateFunction(const Node *node, const std::vector
     }
     else if (onnxOpName == "Transpose")
     {
-        FunctionPtr cntkFunction = Transpose(inputs[0], ToWString(node->Name()));
+        std::vector<int> permVal;
+        if (HasNamedAttribute(node, "perm"))
+        {
+            permVal = VecInt64ToVecInt(GetNamedAttributeAsInt64Vec(node, "perm"));
+            auto rankDiff = static_cast<int>(permVal.size()) - static_cast<int>(inputs[0].Shape().Rank());
+            if (rankDiff > 1 || rankDiff < 0)
+            {
+                LogicError("Incorrect 'perm' attribute in Transpose. Length of 'perm' attribute should match the rank of the input tensor.");
+            }
+            else if (rankDiff == 1)
+            {
+                // REVIEW SPTIWARI: According to ONNX spec, 'perm' is defined for the tensor with the 
+                // batch axis included and will have the element for the batch axis as the first element.
+                // Since we strip the batch axis off of 'inputs', we will have to ignore the first element 
+                // of 'perm', and modify the other elements to reflect the reduced rank/dimensionality 
+                // of the input. Since the batch axis in ONNX is always the first axis in all nodes, there's 
+                // should not be any need to transpose the first axis and the first element of 'perm' should
+                // be 0. The implementation below is based on that assumption, otherwise it must be modified.
+                assert(permVal[0] == 0);
+                permVal.erase(permVal.begin());
+                std::for_each(permVal.begin(), permVal.end(), [](int& d) { d -= 1; });
+            }
+            // else this is the rankDiff == 0 case, so we do nothing and keep perm as it is.
+        }
+        else
+        {
+            int nDims = inputs[0].Shape().Rank();
+            permVal.resize(nDims);
+            std::generate(permVal.begin(), permVal.end(), [&nDims] { return --nDims; }); // Reverse the axes.
+        }
+        auto perm = GetAxisVecFromIntVec(permVal);
+        FunctionPtr cntkFunction = Transpose(inputs[0], perm, ToWString(node->Name()));
         return cntkFunction;
     }
     else if (onnxOpName == "Gather")
@@ -1281,6 +1317,7 @@ FunctionPtr ONNXToCNTKHelper::CreateFunction(const Node *node, const std::vector
 FunctionPtr ONNXToCNTKHelper::FromONNXNode(const Node *node, ONNXToCNTKMap &constructedNodeMap,
     const Graph* graph, const DeviceDescriptor& computeDevice)
 {
+    auto nodeOpStr = node->OpType();
     ONNXToCNTKMap::iterator itONNXToCNTKMap = constructedNodeMap.find(node);
     if (itONNXToCNTKMap != constructedNodeMap.end())
     {
@@ -1391,6 +1428,14 @@ Variable ONNXToCNTKHelper::GetNodeOperandWithPaddingResolved(std::vector<bool>& 
         }
         cntkConvAutoPadding.insert(cntkConvAutoPadding.begin(), strides.Rank(), false); // For 'VALID' convolution
     }
+    else
+    {
+        // REVIEW SPTIWARI: Ideally this should not happen. ONNX spec says that one
+        // and only one of these two attributes MUST be present. However, we are handling
+        // this case leniently for now and assuming that there's no padding and behavior
+        // is the same as when auto_pad == VALID.
+        cntkConvAutoPadding.insert(cntkConvAutoPadding.begin(), strides.Rank(), false); // For 'VALID' convolution
+    }
 
     AdjustAutoPaddingAndStrideForCNTKSpecialCases(operand, cntkConvAutoPadding, strides);
     return convOperand;
@@ -1421,6 +1466,23 @@ FunctionPtr ONNXToCNTKHelper::CreateCNTKConvNode(const Node *node, const std::ve
         groups,
         maxTempMemSizeInSamples,
         ToWString(node->Name()));
+}
+
+FunctionPtr ONNXToCNTKHelper::CreateCNTKFCNode(const std::wstring& nodeName, const std::vector<Variable>& inputs)
+{
+    // TODO: this is experimental code to load Facebook Caffe models. 
+    // "FC" is not in ONNX standard. Two cases need to be handled with 
+    // this type of Caffe model. 
+    // 1. Make trailing dimensions of operand 1 matches the heading dimensions of operant 2.
+    //  For example, with shape [1, dim0, dim1] * [dim2, dim3], we need to reshape 
+    //  first operand to [1, dim0 * dim1] In this case dim0 * dim1 has to be equal to dim2.
+    // 2. Broadcase bias if needed.
+    Variable input0 = inputs[0], input1 = inputs[1];
+    input0 = Reshape(input0, { 1, NDShape::InferredDimension });
+
+    FunctionPtr cntkFunction = Reshape(Times(input0, input1, nodeName), { NDShape::InferredDimension });
+    cntkFunction = Plus(cntkFunction, inputs[2], nodeName);
+    return cntkFunction;
 }
 
 FunctionPtr ONNXToCNTK::CreateGraph(ONNXIR::Graph* src, const DeviceDescriptor& computeDevice)

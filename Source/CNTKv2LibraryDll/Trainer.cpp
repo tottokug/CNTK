@@ -54,12 +54,21 @@ namespace CNTK
         if (!m_lossFunction->Output().DynamicAxes().empty())
         {
             m_aggregatedLossFunction = ReduceSum(lossFunction, Axis::AllAxes(), L"aggregateLoss");
+
+            // accumulate loss in float32 for output in float16
+            if (m_aggregatedLossFunction->Output().GetDataType() == DataType::Float16)
+                m_aggregatedLossFunction = Cast(m_aggregatedLossFunction, DataType::Float);
+
             combinedFunctionArgs.push_back(m_aggregatedLossFunction);
             m_trainingSampleCountVar = m_lossFunction;
         }
         else
         {
-            m_aggregatedLossFunction = m_lossFunction;
+            // accumulate loss in float32 for output in float16
+            if (m_lossFunction->Output().GetDataType() == DataType::Float16)
+                m_aggregatedLossFunction = Cast(m_lossFunction, DataType::Float);
+            else
+                m_aggregatedLossFunction = m_lossFunction;
 
             std::function<std::pair<Variable, bool>(const FunctionPtr& root)> FindTrainingSampleCountVar;
             FindTrainingSampleCountVar = [&FindTrainingSampleCountVar](const FunctionPtr& root) -> std::pair<Variable, bool> {
@@ -363,8 +372,10 @@ namespace CNTK
 
         if (m_aggregatedLossFunction->Output().GetDataType() == DataType::Float)
             m_rootGradientValue->Data()->SetValue(1.0f);
-        else
+        else if (m_aggregatedLossFunction->Output().GetDataType() == DataType::Double)
             m_rootGradientValue->Data()->SetValue(1.0);
+        else
+            m_rootGradientValue->Data()->SetValue(half(1.0));
 
         for (const auto& parameter : m_learnerParameters)
             parameterGradients[parameter] = nullptr;
@@ -541,7 +552,7 @@ namespace CNTK
             return m_parameterLearners->ParameterLearners().front()->TotalNumberOfSamplesSeen();
         default:
             //should not be here; whenever a new data unit is defined, there should be a new case in this function.
-            LogicError("Unsupported data unit: %d", unit);
+            LogicError("Unsupported data unit: %d", (int)unit);
         }
     }
 

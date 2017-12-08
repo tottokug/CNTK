@@ -520,11 +520,7 @@ public:
         stream >> matrixName >> format >> numRows >> numCols;
         ElemType* d_array = new ElemType[numRows * numCols];
         for (size_t i = 0; i < numRows * numCols; ++i)
-        {
-            double dvalue;
-            stream >> dvalue;
-            d_array[i] = (ElemType)dvalue;
-        }
+            stream >> d_array[i];
         stream.GetMarker(fileMarkerEndSection, std::wstring(L"EMAT"));
         us.SetValue(numRows, numCols, d_array, matrixFlagNormal);
 
@@ -542,7 +538,7 @@ public:
 
         stream << us.m_numRows << us.m_numCols;
         for (size_t i = 0; i < us.GetNumElements(); ++i)
-            stream << (double)us.Data()[i];
+            stream << us.Data()[i];
         stream.PutMarker(fileMarkerEndSection, std::wstring(L"EMAT"));
         return stream;
     }

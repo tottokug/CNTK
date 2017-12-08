@@ -3110,9 +3110,7 @@ MATH_API File& operator>>(File& stream, GPUSparseMatrix<ElemType>& us)
         // read in the sparse matrix info
         for (size_t i = 0; i < nz; ++i)
         {
-            double dvalue;
-            stream >> dvalue;
-            dataBuffer[i] = (ElemType)dvalue;
+            stream >> dataBuffer[i];
         }
         for (size_t i = 0; i < nz; ++i)
         {
@@ -3178,7 +3176,7 @@ MATH_API File& operator<<(File& stream, const GPUSparseMatrix<ElemType>& us)
 
         for (size_t i = 0; i < nz; ++i)
         {
-            stream << (double)dataBuffer[i];
+            stream << dataBuffer[i];
         }
         for (size_t i = 0; i < nz; ++i)
         {

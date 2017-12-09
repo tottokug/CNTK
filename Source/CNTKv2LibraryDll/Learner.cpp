@@ -242,7 +242,10 @@ namespace CNTK
         }
         else
         {
-            shape = NDShape({ paramShape[0], factor * paramShape[1] });
+            if (factor == 1)
+                shape = parameter.Shape();
+            else
+                shape = NDShape({ paramShape[0], factor * paramShape[1] });
         }
 
         if (parameter.GetDataType() != DataType::Double)

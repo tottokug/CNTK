@@ -6,7 +6,7 @@ namespace CNTK {
 
 // Host functions for converting between FP32 and FP16 formats
 // TODO: use f16c instructions if available
-inline void halfbits2float(const unsigned short* src, float* res)
+inline void float16ToFloat(const unsigned short* src, float* res)
 {
     unsigned h = *src;
     unsigned sign = ((h >> 15) & 1);
@@ -36,7 +36,7 @@ inline void halfbits2float(const unsigned short* src, float* res)
     *(unsigned*)res = ((sign << 31) | (exponent << 23) | mantissa);
 }
 
-inline void float2halfbits(float* src, unsigned short* dest)
+inline void float2Float16(float* src, unsigned short* dest)
 {
     unsigned x = *(unsigned*)src;
     unsigned u = (x & 0x7fffffff), remainder, shift, lsb, lsb_s1, lsb_m1;

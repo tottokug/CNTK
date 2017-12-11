@@ -50,13 +50,13 @@ namespace CNTK
 
 #ifndef SWIG
         // construction from build-in types
-        float16(float f) { float2halfbits(&f, &__x); }
+        float16(float f) { float2Float16(&f, &__x); }
         float16(double d) : float16((float)d) {}
         float16(int i) : float16((float)i) {}
         float16(size_t u) : float16((float)u) {}
 
         // cast to build-in types
-        operator float() const { float f; halfbits2float(&__x, &f); return f; }
+        operator float() const { float f; float16ToFloat(&__x, &f); return f; }
 
         // compare functions
         inline bool operator==(const float16& rhs) const { return (__x == rhs.__x); }
@@ -66,7 +66,7 @@ namespace CNTK
         static float16 create(float f)
         {
             float16 v;
-            float2halfbits(&f, &v.__x);
+            float2Float16(&f, &v.__x);
             return v;
         }
 

@@ -47,7 +47,7 @@ public:
     // construction from build-in types
     __FP16_DECL__ half(float f) {
 #ifndef __CUDA_ARCH__
-        CNTK::float2halfbits(&f, &__x);
+        CNTK::float2Float16(&f, &__x);
 #else
         *this = half(__float2half(f));
 #endif
@@ -61,7 +61,7 @@ public:
 
     __FP16_DECL__ half& operator=(float f) {
 #ifndef __CUDA_ARCH__
-        CNTK::float2halfbits(&f, &__x); return *this;
+        CNTK::float2Float16(&f, &__x); return *this;
 #else
         *this = half(__float2half(f)); return *this;
 #endif
@@ -86,7 +86,7 @@ public:
     __FP16_DECL__ operator float() const {
 #ifndef __CUDA_ARCH__
         float f;
-        CNTK::halfbits2float(&__x, &f);
+        CNTK::float16ToFloat(&__x, &f);
         return f;
 #else
         return __half2float(*this);

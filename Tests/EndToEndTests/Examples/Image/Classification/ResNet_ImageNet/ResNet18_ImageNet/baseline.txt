@@ -1,53 +1,60 @@
 CPU info:
-    CPU Model Name: Intel(R) Xeon(R) CPU X5680 @ 3.33GHz
+    CPU Model Name: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
     Hardware threads: 12
-    Total Memory: 33537232 kB
+    Total Memory: 57700428 kB
 -------------------------------------------------------------------
-=== Running /cygdrive/d/GitHub/CNTK/x64/release/cntk.exe configFile=D:\GitHub\CNTK\Examples\Image\Classification\ResNet\BrainScript/ResNet18_ImageNet1K.cntk currentDirectory=D:\GitHub\CNTK\Examples\Image\DataSets\ImageNet RunDir=C:\cygwin64\tmp\cntk-test-20170509223141.954564\Examples\Image\Classification\ResNet_ImageNet_ResNet18_ImageNet@release_gpu DataDir=D:\GitHub\CNTK\Examples\Image\DataSets\ImageNet ConfigDir=D:\GitHub\CNTK\Examples\Image\Classification\ResNet\BrainScript OutputDir=C:\cygwin64\tmp\cntk-test-20170509223141.954564\Examples\Image\Classification\ResNet_ImageNet_ResNet18_ImageNet@release_gpu DeviceId=0 timestamping=true forceDeterministicAlgorithms=true traceLevel=0 stderr=- TrainNetwork=[SGD=[epochSize=4,minibatchSize=2,maxEpochs=2,numMBsToShowResult=1,learningRatesPerMB=0.01]] BNStatistics=[minibatchSize=2,itersPerNode=1] Eval=[minibatchSize=2]
-CNTK 2.0rc2+ (HEAD fbb53d, May  8 2017 10:15:58) on CHAZHANG at 2017/05/10 06:31:43
+=== Running /home/ubuntu/workspace/build/1bitsgd/release/bin/cntk configFile=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ResNet_ImageNet/ResNet18_ImageNet/../../../../../../../Examples/Image/Classification/ResNet/BrainScript/ResNet18_ImageNet1K.cntk currentDirectory=/home/ubuntu/workspace/Examples/Image/DataSets/ImageNet RunDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/Classification/ResNet_ImageNet_ResNet18_ImageNet@release_gpu DataDir=/home/ubuntu/workspace/Examples/Image/DataSets/ImageNet ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ResNet_ImageNet/ResNet18_ImageNet/../../../../../../../Examples/Image/Classification/ResNet/BrainScript OutputDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/Classification/ResNet_ImageNet_ResNet18_ImageNet@release_gpu DeviceId=0 timestamping=true forceDeterministicAlgorithms=true traceLevel=0 stderr=- TrainNetwork=[SGD=[epochSize=4,minibatchSize=2,maxEpochs=2,numMBsToShowResult=1,learningRatesPerMB=0.01]] BNStatistics=[minibatchSize=2,itersPerNode=1] Eval=[minibatchSize=2]
+CNTK 2.3.1+ (HEAD b130d7, Dec  8 2017 01:52:00) at 2017/12/09 10:50:11
 
-D:\GitHub\CNTK\x64\release\cntk.exe  configFile=D:\GitHub\CNTK\Examples\Image\Classification\ResNet\BrainScript/ResNet18_ImageNet1K.cntk  currentDirectory=D:\GitHub\CNTK\Examples\Image\DataSets\ImageNet  RunDir=C:\cygwin64\tmp\cntk-test-20170509223141.954564\Examples\Image\Classification\ResNet_ImageNet_ResNet18_ImageNet@release_gpu  DataDir=D:\GitHub\CNTK\Examples\Image\DataSets\ImageNet  ConfigDir=D:\GitHub\CNTK\Examples\Image\Classification\ResNet\BrainScript  OutputDir=C:\cygwin64\tmp\cntk-test-20170509223141.954564\Examples\Image\Classification\ResNet_ImageNet_ResNet18_ImageNet@release_gpu  DeviceId=0  timestamping=true  forceDeterministicAlgorithms=true  traceLevel=0  stderr=-  TrainNetwork=[SGD=[epochSize=4,minibatchSize=2,maxEpochs=2,numMBsToShowResult=1,learningRatesPerMB=0.01]]  BNStatistics=[minibatchSize=2,itersPerNode=1]  Eval=[minibatchSize=2]
-Changed current directory to D:\GitHub\CNTK\Examples\Image\DataSets\ImageNet
+/home/ubuntu/workspace/build/1bitsgd/release/bin/cntk  configFile=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ResNet_ImageNet/ResNet18_ImageNet/../../../../../../../Examples/Image/Classification/ResNet/BrainScript/ResNet18_ImageNet1K.cntk  currentDirectory=/home/ubuntu/workspace/Examples/Image/DataSets/ImageNet  RunDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/Classification/ResNet_ImageNet_ResNet18_ImageNet@release_gpu  DataDir=/home/ubuntu/workspace/Examples/Image/DataSets/ImageNet  ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ResNet_ImageNet/ResNet18_ImageNet/../../../../../../../Examples/Image/Classification/ResNet/BrainScript  OutputDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/Classification/ResNet_ImageNet_ResNet18_ImageNet@release_gpu  DeviceId=0  timestamping=true  forceDeterministicAlgorithms=true  traceLevel=0  stderr=-  TrainNetwork=[SGD=[epochSize=4,minibatchSize=2,maxEpochs=2,numMBsToShowResult=1,learningRatesPerMB=0.01]]  BNStatistics=[minibatchSize=2,itersPerNode=1]  Eval=[minibatchSize=2]
+Changed current directory to /home/ubuntu/workspace/Examples/Image/DataSets/ImageNet
+--------------------------------------------------------------------------
+[[33164,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: 4bb8be993ee1
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
 ping [requestnodes (before change)]: 1 nodes pinging each other
 ping [requestnodes (after change)]: 1 nodes pinging each other
 requestnodes [MPIWrapperMpi]: using 1 out of 1 MPI nodes on a single host (1 requested); we (0) are in (participating)
 ping [mpihelper]: 1 nodes pinging each other
-05/10/2017 06:31:43: Redirecting stderr to file -_TrainNetwork_BNStatistics_Eval.logrank0
-CNTK 2.0rc2+ (HEAD fbb53d, May  8 2017 10:15:58) on CHAZHANG at 2017/05/10 06:31:43
+12/09/2017 10:50:11: Redirecting stderr to file -_TrainNetwork_Eval.logrank0
+CNTK 2.3.1+ (HEAD b130d7, Dec  8 2017 01:52:00) at 2017/12/09 10:50:11
 
-D:\GitHub\CNTK\x64\release\cntk.exe  configFile=D:\GitHub\CNTK\Examples\Image\Classification\ResNet\BrainScript/ResNet18_ImageNet1K.cntk  currentDirectory=D:\GitHub\CNTK\Examples\Image\DataSets\ImageNet  RunDir=C:\cygwin64\tmp\cntk-test-20170509223141.954564\Examples\Image\Classification\ResNet_ImageNet_ResNet18_ImageNet@release_gpu  DataDir=D:\GitHub\CNTK\Examples\Image\DataSets\ImageNet  ConfigDir=D:\GitHub\CNTK\Examples\Image\Classification\ResNet\BrainScript  OutputDir=C:\cygwin64\tmp\cntk-test-20170509223141.954564\Examples\Image\Classification\ResNet_ImageNet_ResNet18_ImageNet@release_gpu  DeviceId=0  timestamping=true  forceDeterministicAlgorithms=true  traceLevel=0  stderr=-  TrainNetwork=[SGD=[epochSize=4,minibatchSize=2,maxEpochs=2,numMBsToShowResult=1,learningRatesPerMB=0.01]]  BNStatistics=[minibatchSize=2,itersPerNode=1]  Eval=[minibatchSize=2]
--------------------------------------------------------------------
-Build info: 
+/home/ubuntu/workspace/build/1bitsgd/release/bin/cntk  configFile=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ResNet_ImageNet/ResNet18_ImageNet/../../../../../../../Examples/Image/Classification/ResNet/BrainScript/ResNet18_ImageNet1K.cntk  currentDirectory=/home/ubuntu/workspace/Examples/Image/DataSets/ImageNet  RunDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/Classification/ResNet_ImageNet_ResNet18_ImageNet@release_gpu  DataDir=/home/ubuntu/workspace/Examples/Image/DataSets/ImageNet  ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ResNet_ImageNet/ResNet18_ImageNet/../../../../../../../Examples/Image/Classification/ResNet/BrainScript  OutputDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/Classification/ResNet_ImageNet_ResNet18_ImageNet@release_gpu  DeviceId=0  timestamping=true  forceDeterministicAlgorithms=true  traceLevel=0  stderr=-  TrainNetwork=[SGD=[epochSize=4,minibatchSize=2,maxEpochs=2,numMBsToShowResult=1,learningRatesPerMB=0.01]]  BNStatistics=[minibatchSize=2,itersPerNode=1]  Eval=[minibatchSize=2]
+12/09/2017 10:50:11: -------------------------------------------------------------------
+12/09/2017 10:50:11: Build info: 
 
-		Built time: May  8 2017 10:09:53
-		Last modified date: Mon May  8 09:12:53 2017
-		Build type: Release
-		Build target: GPU
-		With 1bit-SGD: yes
-		With ASGD: yes
-		Math lib: mkl
-		CUDA_PATH: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0
-		CUB_PATH: C:\src\cub-1.4.1
-		CUDNN_PATH: C:\local\cudnn-8.0-v5.1\cuda
-		Build Branch: master
-		Build SHA1: 190dc1b3042d62c20aeba5bd336bbeaa8a6466ca
-		Built by chazhang on CHAZHANG
-		Build Path: D:\GitHub\CNTK\Source\CNTKv2LibraryDll\
-		MPI distribution: Microsoft MPI
-		MPI version: 7.0.12437.6
--------------------------------------------------------------------
--------------------------------------------------------------------
-GPU info:
+12/09/2017 10:50:11: 		Built time: Dec  8 2017 01:46:20
+12/09/2017 10:50:11: 		Last modified date: Wed Nov 15 09:27:10 2017
+12/09/2017 10:50:11: 		Build type: release
+12/09/2017 10:50:11: 		Build target: GPU
+12/09/2017 10:50:11: 		With 1bit-SGD: yes
+12/09/2017 10:50:11: 		With ASGD: yes
+12/09/2017 10:50:11: 		Math lib: mkl
+12/09/2017 10:50:11: 		CUDA version: 9.0.0
+12/09/2017 10:50:11: 		CUDNN version: 7.0.4
+12/09/2017 10:50:11: 		Build Branch: HEAD
+12/09/2017 10:50:11: 		Build SHA1: b130d7735044ce6697bfb963af91445bee740c73
+12/09/2017 10:50:11: 		MPI distribution: Open MPI
+12/09/2017 10:50:11: 		MPI version: 1.10.7
+12/09/2017 10:50:11: -------------------------------------------------------------------
+12/09/2017 10:50:11: -------------------------------------------------------------------
+12/09/2017 10:50:11: GPU info:
 
-		Device[0]: cores = 2688; computeCapability = 3.5; type = "GeForce GTX TITAN"; total memory = 6144 MB; free memory = 5144 MB
--------------------------------------------------------------------
-05/10/2017 06:31:43: WARNING: forceDeterministicAlgorithms flag is specified. Using 1 CPU thread for processing.
+12/09/2017 10:50:11: 		Device[0]: cores = 3072; computeCapability = 5.2; type = "Tesla M60"; total memory = 8123 MB; free memory = 8112 MB
+12/09/2017 10:50:11: -------------------------------------------------------------------
+12/09/2017 10:50:11: WARNING: forceDeterministicAlgorithms flag is specified. Using 1 CPU thread for processing.
 
-05/10/2017 06:31:43: ##############################################################################
-05/10/2017 06:31:43: #                                                                            #
-05/10/2017 06:31:43: # TrainNetwork command (train action)                                        #
-05/10/2017 06:31:43: #                                                                            #
-05/10/2017 06:31:43: ##############################################################################
+12/09/2017 10:50:11: ##############################################################################
+12/09/2017 10:50:11: #                                                                            #
+12/09/2017 10:50:11: # TrainNetwork command (train action)                                        #
+12/09/2017 10:50:11: #                                                                            #
+12/09/2017 10:50:11: ##############################################################################
 
 Node 'model.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [7 x 7 x 3 x 64].
 Node 'model.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
@@ -160,59 +167,35 @@ Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter 
 Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [512 x 1].
 Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [512 x 1].
 Node 'model.arrayOfFunctions[10].W' (LearnableParameter operation) operation: Tensor shape was inferred as [1000 x 1 x 1 x 512].
-05/10/2017 06:31:45: 
+12/09/2017 10:50:13: 
 Model has 216 nodes. Using GPU 0.
 
-05/10/2017 06:31:45: Training criterion:   ce = CrossEntropyWithSoftmax
-05/10/2017 06:31:45: Evaluation criterion: errs = ClassificationError
+12/09/2017 10:50:13: Training criterion:   ce = CrossEntropyWithSoftmax
 
-05/10/2017 06:31:45: Training 16410152 parameters in 68 parameter tensors.
+12/09/2017 10:50:13: Evaluation criteria:
+12/09/2017 10:50:13: 	errs = ClassificationError
+12/09/2017 10:50:13: 	top5Errs = ClassificationError
 
-05/10/2017 06:31:48: Finished Epoch[ 1 of 2]: [Training] ce = 6.72834778 * 4; errs = 100.000% * 4; totalSamplesSeen = 4; learningRatePerSample = 0.0049999999; epochTime=1.66637s
-05/10/2017 06:31:55: Final Results: Minibatch[1-513]: ce = 8.65330892 * 1024; perplexity = 5729.07242359; errs = 99.902% * 1024
-05/10/2017 06:31:55: Finished Epoch[ 1 of 2]: [Validate] ce = 8.65330892 * 1024; errs = 99.902% * 1024
-05/10/2017 06:31:57: Finished Epoch[ 2 of 2]: [Training] ce = 6.86802006 * 4; errs = 100.000% * 4; totalSamplesSeen = 8; learningRatePerSample = 0.0049999999; epochTime=0.228572s
-05/10/2017 06:32:04: Final Results: Minibatch[1-513]: ce = 8.68305869 * 1024; perplexity = 5902.07159790; errs = 99.902% * 1024
-05/10/2017 06:32:04: Finished Epoch[ 2 of 2]: [Validate] ce = 8.68305869 * 1024; errs = 99.902% * 1024
+12/09/2017 10:50:13: Training 16410152 parameters in 68 parameter tensors.
 
-
-05/10/2017 06:32:06: ##############################################################################
-05/10/2017 06:32:06: #                                                                            #
-05/10/2017 06:32:06: # BNStatistics command (bnstat action)                                       #
-05/10/2017 06:32:06: #                                                                            #
-05/10/2017 06:32:06: ##############################################################################
-
-evalNodeNames are not specified, using all the default evalnodes and training criterion nodes.
-05/10/2017 06:32:07: Estimating Statistics --> z.x.x.x.x.x.x.x.x.x.x._
-05/10/2017 06:32:07: Estimating Statistics --> z.x.x.x.x.x.x.x.x.x.b.x._
-05/10/2017 06:32:07: Estimating Statistics --> z.x.x.x.x.x.x.x.x.x.b
-05/10/2017 06:32:07: Estimating Statistics --> z.x.x.x.x.x.x.x.x.b.x._
-05/10/2017 06:32:07: Estimating Statistics --> z.x.x.x.x.x.x.x.x.b
-05/10/2017 06:32:07: Estimating Statistics --> z.x.x.x.x.x.x.x.b.x._
-05/10/2017 06:32:07: Estimating Statistics --> z.x.x.x.x.x.x.x.b
-05/10/2017 06:32:07: Estimating Statistics --> z.x.x.x.x.x.x.x.s
-05/10/2017 06:32:07: Estimating Statistics --> z.x.x.x.x.x.x.b.x._
-05/10/2017 06:32:08: Estimating Statistics --> z.x.x.x.x.x.x.b
-05/10/2017 06:32:08: Estimating Statistics --> z.x.x.x.x.x.b.x._
-05/10/2017 06:32:08: Estimating Statistics --> z.x.x.x.x.x.b
-05/10/2017 06:32:08: Estimating Statistics --> z.x.x.x.x.x.s
-05/10/2017 06:32:08: Estimating Statistics --> z.x.x.x.x.b.x._
-05/10/2017 06:32:08: Estimating Statistics --> z.x.x.x.x.b
-05/10/2017 06:32:08: Estimating Statistics --> _z.x.x.x.b.x._
-05/10/2017 06:32:08: Estimating Statistics --> _z.x.x.x.b
-05/10/2017 06:32:08: Estimating Statistics --> z.x.x.x.s
-05/10/2017 06:32:08: Estimating Statistics --> z.x.x.x.b.x._
-05/10/2017 06:32:08: Estimating Statistics --> z.x.x.x.b
-05/10/2017 06:32:08: Estimating Statistics --> z.x.x.b.x._
-05/10/2017 06:32:08: Estimating Statistics --> z.x.x.b
+NcclComm: initialized
+12/09/2017 10:50:14: Finished Epoch[ 1 of 2]: [Training] ce = 6.85923195 * 4; errs = 100.000% * 4; top5Errs = 100.000% * 4; totalSamplesSeen = 4; learningRatePerSample = 0.0049999999; epochTime=0.764779s
+NcclComm: initialized
+12/09/2017 10:50:21: Final Results: Minibatch[1-513]: ce = 7.03119635 * 1024; perplexity = 1131.38333579; errs = 99.707% * 1024; top5Errs = 99.316% * 1024
+12/09/2017 10:50:21: Finished Epoch[ 1 of 2]: [Validate] ce = 7.03119635 * 1024; errs = 99.707% * 1024; top5Errs = 99.316% * 1024
+12/09/2017 10:50:23: Finished Epoch[ 2 of 2]: [Training] ce = 6.94577765 * 4; errs = 100.000% * 4; top5Errs = 100.000% * 4; totalSamplesSeen = 8; learningRatePerSample = 0.0049999999; epochTime=0.0988312s
+NcclComm: initialized
+12/09/2017 10:50:30: Final Results: Minibatch[1-513]: ce = 7.05868116 * 1024; perplexity = 1162.91045598; errs = 99.707% * 1024; top5Errs = 99.121% * 1024
+12/09/2017 10:50:30: Finished Epoch[ 2 of 2]: [Validate] ce = 7.05868116 * 1024; errs = 99.707% * 1024; top5Errs = 99.121% * 1024
 
 
-05/10/2017 06:32:09: ##############################################################################
-05/10/2017 06:32:09: #                                                                            #
-05/10/2017 06:32:09: # Eval command (test action)                                                 #
-05/10/2017 06:32:09: #                                                                            #
-05/10/2017 06:32:09: ##############################################################################
+12/09/2017 10:50:31: ##############################################################################
+12/09/2017 10:50:31: #                                                                            #
+12/09/2017 10:50:31: # Eval command (test action)                                                 #
+12/09/2017 10:50:31: #                                                                            #
+12/09/2017 10:50:31: ##############################################################################
 
-05/10/2017 06:32:17: Final Results: Minibatch[1-513]: errs = 99.902% * 1024; top5Errs = 99.707% * 1024
+NcclComm: initialized
+12/09/2017 10:50:38: Final Results: Minibatch[1-513]: errs = 99.707% * 1024; top5Errs = 99.121% * 1024
 
-05/10/2017 06:32:17: __COMPLETED__
+12/09/2017 10:50:38: __COMPLETED__

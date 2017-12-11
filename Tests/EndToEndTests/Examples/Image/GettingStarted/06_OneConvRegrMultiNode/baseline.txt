@@ -1,61 +1,58 @@
 CPU info:
-    CPU Model Name: Intel(R) Xeon(R) CPU X5680 @ 3.33GHz
+    CPU Model Name: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
     Hardware threads: 12
-    Total Memory: 33537232 kB
+    Total Memory: 57700428 kB
 -------------------------------------------------------------------
-=== Running /cygdrive/d/GitHub/CNTK/x64/release/cntk.exe configFile=D:\GitHub\CNTK\Examples\Image\GettingStarted/06_OneConvRegrMultiNode.cntk currentDirectory=D:\GitHub\CNTK\Examples\Image\DataSets\MNIST RunDir=C:\cygwin64\tmp\cntk-test-20170508165608.939448\Examples\Image\GettingStarted_06_OneConvRegrMultiNode@release_gpu DataDir=D:\GitHub\CNTK\Examples\Image\DataSets\MNIST ConfigDir=D:\GitHub\CNTK\Examples\Image\GettingStarted OutputDir=C:\cygwin64\tmp\cntk-test-20170508165608.939448\Examples\Image\GettingStarted_06_OneConvRegrMultiNode@release_gpu DeviceId=0 timestamping=true forceDeterministicAlgorithms=true stderr=- trainNetwork=[SGD=[maxEpochs=3]]
-CNTK 2.0rc2+ (HEAD fbb53d, May  8 2017 10:15:58) on CHAZHANG at 2017/05/09 00:56:10
+=== Running /home/ubuntu/workspace/build/1bitsgd/release/bin/cntk configFile=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/GettingStarted/06_OneConvRegrMultiNode/../../../../../../Examples/Image/GettingStarted/06_OneConvRegrMultiNode.cntk currentDirectory=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST RunDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/GettingStarted_06_OneConvRegrMultiNode@release_gpu DataDir=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/GettingStarted/06_OneConvRegrMultiNode/../../../../../../Examples/Image/GettingStarted OutputDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/GettingStarted_06_OneConvRegrMultiNode@release_gpu DeviceId=0 timestamping=true forceDeterministicAlgorithms=true stderr=- trainNetwork=[SGD=[maxEpochs=3]]
+CNTK 2.3.1+ (HEAD b130d7, Dec  8 2017 01:52:00) at 2017/12/09 10:58:53
 
-D:\GitHub\CNTK\x64\release\cntk.exe  configFile=D:\GitHub\CNTK\Examples\Image\GettingStarted/06_OneConvRegrMultiNode.cntk  currentDirectory=D:\GitHub\CNTK\Examples\Image\DataSets\MNIST  RunDir=C:\cygwin64\tmp\cntk-test-20170508165608.939448\Examples\Image\GettingStarted_06_OneConvRegrMultiNode@release_gpu  DataDir=D:\GitHub\CNTK\Examples\Image\DataSets\MNIST  ConfigDir=D:\GitHub\CNTK\Examples\Image\GettingStarted  OutputDir=C:\cygwin64\tmp\cntk-test-20170508165608.939448\Examples\Image\GettingStarted_06_OneConvRegrMultiNode@release_gpu  DeviceId=0  timestamping=true  forceDeterministicAlgorithms=true  stderr=-  trainNetwork=[SGD=[maxEpochs=3]]
-Changed current directory to D:\GitHub\CNTK\Examples\Image\DataSets\MNIST
-05/09/2017 00:56:10: Redirecting stderr to file -_trainNetwork_testNetwork.log
--------------------------------------------------------------------
-Build info: 
+/home/ubuntu/workspace/build/1bitsgd/release/bin/cntk  configFile=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/GettingStarted/06_OneConvRegrMultiNode/../../../../../../Examples/Image/GettingStarted/06_OneConvRegrMultiNode.cntk  currentDirectory=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST  RunDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/GettingStarted_06_OneConvRegrMultiNode@release_gpu  DataDir=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST  ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/GettingStarted/06_OneConvRegrMultiNode/../../../../../../Examples/Image/GettingStarted  OutputDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/GettingStarted_06_OneConvRegrMultiNode@release_gpu  DeviceId=0  timestamping=true  forceDeterministicAlgorithms=true  stderr=-  trainNetwork=[SGD=[maxEpochs=3]]
+Changed current directory to /home/ubuntu/workspace/Examples/Image/DataSets/MNIST
+12/09/2017 10:58:53: Redirecting stderr to file -_trainNetwork_testNetwork.log
+12/09/2017 10:58:53: -------------------------------------------------------------------
+12/09/2017 10:58:53: Build info: 
 
-		Built time: May  8 2017 10:09:53
-		Last modified date: Mon May  8 09:12:53 2017
-		Build type: Release
-		Build target: GPU
-		With 1bit-SGD: yes
-		With ASGD: yes
-		Math lib: mkl
-		CUDA_PATH: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0
-		CUB_PATH: C:\src\cub-1.4.1
-		CUDNN_PATH: C:\local\cudnn-8.0-v5.1\cuda
-		Build Branch: master
-		Build SHA1: 190dc1b3042d62c20aeba5bd336bbeaa8a6466ca
-		Built by chazhang on CHAZHANG
-		Build Path: D:\GitHub\CNTK\Source\CNTKv2LibraryDll\
-		MPI distribution: Microsoft MPI
-		MPI version: 7.0.12437.6
--------------------------------------------------------------------
--------------------------------------------------------------------
-GPU info:
+12/09/2017 10:58:53: 		Built time: Dec  8 2017 01:46:20
+12/09/2017 10:58:53: 		Last modified date: Wed Nov 15 09:27:10 2017
+12/09/2017 10:58:53: 		Build type: release
+12/09/2017 10:58:53: 		Build target: GPU
+12/09/2017 10:58:53: 		With 1bit-SGD: yes
+12/09/2017 10:58:53: 		With ASGD: yes
+12/09/2017 10:58:53: 		Math lib: mkl
+12/09/2017 10:58:53: 		CUDA version: 9.0.0
+12/09/2017 10:58:53: 		CUDNN version: 7.0.4
+12/09/2017 10:58:53: 		Build Branch: HEAD
+12/09/2017 10:58:53: 		Build SHA1: b130d7735044ce6697bfb963af91445bee740c73
+12/09/2017 10:58:53: 		MPI distribution: Open MPI
+12/09/2017 10:58:53: 		MPI version: 1.10.7
+12/09/2017 10:58:53: -------------------------------------------------------------------
+12/09/2017 10:58:53: -------------------------------------------------------------------
+12/09/2017 10:58:53: GPU info:
 
-		Device[0]: cores = 2688; computeCapability = 3.5; type = "GeForce GTX TITAN"; total memory = 6144 MB; free memory = 5623 MB
--------------------------------------------------------------------
+12/09/2017 10:58:53: 		Device[0]: cores = 3072; computeCapability = 5.2; type = "Tesla M60"; total memory = 8123 MB; free memory = 8112 MB
+12/09/2017 10:58:53: -------------------------------------------------------------------
 
 Configuration After Processing and Variable Resolution:
 
 configparameters: 06_OneConvRegrMultiNode.cntk:command=trainNetwork:testNetwork
-configparameters: 06_OneConvRegrMultiNode.cntk:ConfigDir=D:\GitHub\CNTK\Examples\Image\GettingStarted
-configparameters: 06_OneConvRegrMultiNode.cntk:currentDirectory=D:\GitHub\CNTK\Examples\Image\DataSets\MNIST
-configparameters: 06_OneConvRegrMultiNode.cntk:dataDir=D:\GitHub\CNTK\Examples\Image\DataSets\MNIST
+configparameters: 06_OneConvRegrMultiNode.cntk:ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/GettingStarted/06_OneConvRegrMultiNode/../../../../../../Examples/Image/GettingStarted
+configparameters: 06_OneConvRegrMultiNode.cntk:currentDirectory=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST
+configparameters: 06_OneConvRegrMultiNode.cntk:dataDir=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST
 configparameters: 06_OneConvRegrMultiNode.cntk:deviceId=0
 configparameters: 06_OneConvRegrMultiNode.cntk:forceDeterministicAlgorithms=true
-configparameters: 06_OneConvRegrMultiNode.cntk:modelPath=C:\cygwin64\tmp\cntk-test-20170508165608.939448\Examples\Image\GettingStarted_06_OneConvRegrMultiNode@release_gpu/Models/06_OneConvRegrMultiNode
-configparameters: 06_OneConvRegrMultiNode.cntk:outputDir=C:\cygwin64\tmp\cntk-test-20170508165608.939448\Examples\Image\GettingStarted_06_OneConvRegrMultiNode@release_gpu
+configparameters: 06_OneConvRegrMultiNode.cntk:modelPath=/tmp/cntk-test-20171209080859.615414/Examples/Image/GettingStarted_06_OneConvRegrMultiNode@release_gpu/Models/06_OneConvRegrMultiNode
+configparameters: 06_OneConvRegrMultiNode.cntk:outputDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/GettingStarted_06_OneConvRegrMultiNode@release_gpu
 configparameters: 06_OneConvRegrMultiNode.cntk:parallelizationMethod=DataParallelSGD
 configparameters: 06_OneConvRegrMultiNode.cntk:precision=float
 configparameters: 06_OneConvRegrMultiNode.cntk:rootDir=..
-configparameters: 06_OneConvRegrMultiNode.cntk:RunDir=C:\cygwin64\tmp\cntk-test-20170508165608.939448\Examples\Image\GettingStarted_06_OneConvRegrMultiNode@release_gpu
+configparameters: 06_OneConvRegrMultiNode.cntk:RunDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/GettingStarted_06_OneConvRegrMultiNode@release_gpu
 configparameters: 06_OneConvRegrMultiNode.cntk:stderr=-
 configparameters: 06_OneConvRegrMultiNode.cntk:testNetwork={
     action = "test"
 minibatchSize = 1024    
     reader = {
         readerType = "CNTKTextFormatReader"
-        file = "D:\GitHub\CNTK\Examples\Image\DataSets\MNIST/Test-28x28_cntk_text.txt"
+        file = "/home/ubuntu/workspace/Examples/Image/DataSets/MNIST/Test-28x28_cntk_text.txt"
         input = {
             features = { dim = 784 ; format = "dense" }
             labels =   { dim = 10  ; format = "dense" }
@@ -116,7 +113,7 @@ labelDim = 10
     }
     reader = {
         readerType = "CNTKTextFormatReader"
-        file = "D:\GitHub\CNTK\Examples\Image\DataSets\MNIST/Train-28x28_cntk_text.txt"
+        file = "/home/ubuntu/workspace/Examples/Image/DataSets/MNIST/Train-28x28_cntk_text.txt"
         input = {
             features   = { dim = 784 ; format = "dense" }
             labels =   { dim = 10  ; format = "dense" }
@@ -124,18 +121,18 @@ labelDim = 10
     }   
 } [SGD=[maxEpochs=3]]
 
-05/09/2017 00:56:10: Commands: trainNetwork testNetwork
-05/09/2017 00:56:10: precision = "float"
-05/09/2017 00:56:10: WARNING: forceDeterministicAlgorithms flag is specified. Using 1 CPU thread for processing.
+12/09/2017 10:58:53: Commands: trainNetwork testNetwork
+12/09/2017 10:58:53: precision = "float"
+12/09/2017 10:58:53: WARNING: forceDeterministicAlgorithms flag is specified. Using 1 CPU thread for processing.
 
-05/09/2017 00:56:10: ##############################################################################
-05/09/2017 00:56:10: #                                                                            #
-05/09/2017 00:56:10: # trainNetwork command (train action)                                        #
-05/09/2017 00:56:10: #                                                                            #
-05/09/2017 00:56:10: ##############################################################################
+12/09/2017 10:58:53: ##############################################################################
+12/09/2017 10:58:53: #                                                                            #
+12/09/2017 10:58:53: # trainNetwork command (train action)                                        #
+12/09/2017 10:58:53: #                                                                            #
+12/09/2017 10:58:53: ##############################################################################
 
 parallelTrain option is not enabled. ParallelTrain config will be ignored.
-05/09/2017 00:56:10: 
+12/09/2017 10:58:53: 
 Creating virgin network.
 Node '<placeholder>' (LearnableParameter operation): Initializating Parameter[10 x 0] as glorotUniform later when dimensions are fully known.
 Node '<placeholder>' (LearnableParameter operation): Initializating Parameter[64 x 0] as glorotUniform later when dimensions are fully known.
@@ -193,106 +190,112 @@ _z.x._.x: using cuDNN convolution engine for geometry: Input: 28 x 28 x 16, Outp
 
 Post-processing network complete.
 
-05/09/2017 00:56:11: 
+12/09/2017 10:58:54: 
 Model has 25 nodes. Using GPU 0.
 
-05/09/2017 00:56:11: Training criterion:   rmse = Sqrt
+12/09/2017 10:58:54: Training criterion:   rmse = Sqrt
 
 
 Allocating matrices for forward and/or backward propagation.
 
-Memory Sharing: Out of 45 matrices, 33 are shared as 9, and 12 are not shared.
+Gradient Memory Aliasing: 8 are aliased.
+	z.x._.x.x._.c (gradient) reuses z.x._.x.x._.res.x (gradient)
+	z.x._.x.PlusArgs[0] (gradient) reuses z.x._.x (gradient)
+	z.PlusArgs[0] (gradient) reuses z (gradient)
+	labels (gradient) reuses diff (gradient)
+
+Memory Sharing: Out of 45 matrices, 31 are shared as 8, and 14 are not shared.
 
 Here are the ones that share memory:
-	{ rmse : [1 x *] (gradient)
-	  rmse.z : [1 x *] }
-	{ model.arrayOfFunctions[6].b : [10] (gradient)
-	  sqerr : [1 x *] }
 	{ _z.x._.x : [14 x 14 x 16 x *]
+	  z.x._.x.x._.c : [28 x 28 x 16 x *] (gradient)
+	  z.x._.x.x._.res.x : [28 x 28 x 16 x *]
 	  z.x._.x.x._.res.x : [28 x 28 x 16 x *] (gradient) }
-	{ model.arrayOfFunctions[6].W : [10 x 64] (gradient)
-	  sqerr : [1 x *] (gradient) }
-	{ diff : [10 x *]
-	  model.arrayOfFunctions[4].arrayOfFunctions[0].W : [64 x 14 x 14 x 16] (gradient)
-	  z.PlusArgs[0] : [10 x *]
-	  z.x._.x : [64 x *] (gradient) }
-	{ _z.x._.x : [14 x 14 x 16 x *] (gradient)
-	  model.arrayOfFunctions[1].b : [1 x 1 x 16] (gradient)
-	  z.x : [64 x *]
-	  z.x._.x.PlusArgs[0] : [64 x *] }
-	{ diff : [10 x *] (gradient)
-	  model.arrayOfFunctions[4].arrayOfFunctions[0].b : [64] (gradient)
-	  z.PlusArgs[0] : [10 x *] (gradient) }
 	{ model.arrayOfFunctions[1].W : [5 x 5 x 1 x 16] (gradient)
 	  z.x._.x.x : [28 x 28 x 16 x *]
 	  z.x._.x.x._.c : [28 x 28 x 16 x *] }
-	{ rmse.z : [1 x *] (gradient)
+	{ model.arrayOfFunctions[4].arrayOfFunctions[0].W : [64 x 14 x 14 x 16] (gradient)
+	  rmse.z : [1 x *] (gradient)
 	  sqerr._ : [10 x *]
 	  sqerr._ : [10 x *] (gradient)
+	  z.PlusArgs[0] : [10 x *]
+	  z.x : [64 x *] (gradient) }
+	{ model.arrayOfFunctions[4].arrayOfFunctions[0].b : [64] (gradient)
+	  sqerr : [1 x *] }
+	{ model.arrayOfFunctions[1].b : [1 x 1 x 16] (gradient)
+	  sqerr : [1 x *] (gradient)
 	  z : [10 x *]
 	  z : [10 x *] (gradient)
-	  z.x : [64 x *] (gradient)
+	  z.PlusArgs[0] : [10 x *] (gradient)
 	  z.x._.x : [64 x *]
+	  z.x._.x : [64 x *] (gradient)
 	  z.x._.x.PlusArgs[0] : [64 x *] (gradient)
-	  z.x._.x.x : [28 x 28 x 16 x *] (gradient)
-	  z.x._.x.x._.c : [28 x 28 x 16 x *] (gradient)
-	  z.x._.x.x._.res.x : [28 x 28 x 16 x *] }
+	  z.x._.x.x : [28 x 28 x 16 x *] (gradient) }
+	{ rmse : [1 x *] (gradient)
+	  rmse.z : [1 x *] }
+	{ _z.x._.x : [14 x 14 x 16 x *] (gradient)
+	  z.x : [64 x *]
+	  z.x._.x.PlusArgs[0] : [64 x *] }
+	{ diff : [10 x *]
+	  model.arrayOfFunctions[6].W : [10 x 64] (gradient) }
 
 Here are the ones that don't share memory:
-	{labels : [10 x *]}
-	{model.arrayOfFunctions[4].arrayOfFunctions[0].b : [64]}
-	{_rmse.z : [1]}
-	{model.arrayOfFunctions[6].b : [10]}
-	{model.arrayOfFunctions[6].W : [10 x 64]}
-	{model.arrayOfFunctions[1].b : [1 x 1 x 16]}
-	{model.arrayOfFunctions[1].W : [5 x 5 x 1 x 16]}
-	{model.arrayOfFunctions[4].arrayOfFunctions[0].W : [64 x 14 x 14 x 16]}
-	{z.x._.x.x._.x.ElementTimesArgs[0] : [1 x 1]}
-	{features : [28 x 28 x 1 x *]}
 	{rmse : [1 x *]}
 	{z.x._.x.x._.x : [28 x 28 x 1 x *]}
+	{model.arrayOfFunctions[6].b : [10] (gradient)}
+	{diff : [10 x *] (gradient)}
+	{_rmse.z : [1]}
+	{z.x._.x.x._.x.ElementTimesArgs[0] : [1 x 1]}
+	{model.arrayOfFunctions[1].W : [5 x 5 x 1 x 16]}
+	{model.arrayOfFunctions[4].arrayOfFunctions[0].W : [64 x 14 x 14 x 16]}
+	{model.arrayOfFunctions[4].arrayOfFunctions[0].b : [64]}
+	{model.arrayOfFunctions[1].b : [1 x 1 x 16]}
+	{features : [28 x 28 x 1 x *]}
+	{model.arrayOfFunctions[6].W : [10 x 64]}
+	{model.arrayOfFunctions[6].b : [10]}
+	{labels : [10 x *]}
 
 
-05/09/2017 00:56:11: Training 201834 parameters in 6 out of 6 parameter tensors and 20 nodes with gradient:
+12/09/2017 10:58:54: Training 201834 parameters in 6 out of 6 parameter tensors and 20 nodes with gradient:
 
-05/09/2017 00:56:11: 	Node 'model.arrayOfFunctions[1].W' (LearnableParameter operation) : [5 x 5 x 1 x 16]
-05/09/2017 00:56:11: 	Node 'model.arrayOfFunctions[1].b' (LearnableParameter operation) : [1 x 1 x 16]
-05/09/2017 00:56:11: 	Node 'model.arrayOfFunctions[4].arrayOfFunctions[0].W' (LearnableParameter operation) : [64 x 14 x 14 x 16]
-05/09/2017 00:56:11: 	Node 'model.arrayOfFunctions[4].arrayOfFunctions[0].b' (LearnableParameter operation) : [64]
-05/09/2017 00:56:11: 	Node 'model.arrayOfFunctions[6].W' (LearnableParameter operation) : [10 x 64]
-05/09/2017 00:56:11: 	Node 'model.arrayOfFunctions[6].b' (LearnableParameter operation) : [10]
+12/09/2017 10:58:54: 	Node 'model.arrayOfFunctions[1].W' (LearnableParameter operation) : [5 x 5 x 1 x 16]
+12/09/2017 10:58:54: 	Node 'model.arrayOfFunctions[1].b' (LearnableParameter operation) : [1 x 1 x 16]
+12/09/2017 10:58:54: 	Node 'model.arrayOfFunctions[4].arrayOfFunctions[0].W' (LearnableParameter operation) : [64 x 14 x 14 x 16]
+12/09/2017 10:58:54: 	Node 'model.arrayOfFunctions[4].arrayOfFunctions[0].b' (LearnableParameter operation) : [64]
+12/09/2017 10:58:54: 	Node 'model.arrayOfFunctions[6].W' (LearnableParameter operation) : [10 x 64]
+12/09/2017 10:58:54: 	Node 'model.arrayOfFunctions[6].b' (LearnableParameter operation) : [10]
 
-05/09/2017 00:56:11: No PreCompute nodes found, or all already computed. Skipping pre-computation step.
+12/09/2017 10:58:54: No PreCompute nodes found, or all already computed. Skipping pre-computation step.
 
-05/09/2017 00:56:11: Starting Epoch 1: learning rate per sample = 0.001000  effective momentum = 0.939413  momentum as time constant = 1024.0 samples
+12/09/2017 10:58:54: Starting Epoch 1: learning rate per sample = 0.001000  effective momentum = 0.939413  momentum as time constant = 1024.0 samples
 
-05/09/2017 00:56:11: Starting minibatch loop.
-05/09/2017 00:56:14:  Epoch[ 1 of 3]-Minibatch[   1- 500]: rmse = 0.19080495 * 32000; time = 3.4614s; samplesPerSecond = 9244.8
-05/09/2017 00:56:16: Finished Epoch[ 1 of 3]: [Training] rmse = 0.16211440 * 60000; totalSamplesSeen = 60000; learningRatePerSample = 0.001; epochTime=5.09104s
-05/09/2017 00:56:16: SGD: Saving checkpoint model 'C:\cygwin64\tmp\cntk-test-20170508165608.939448\Examples\Image\GettingStarted_06_OneConvRegrMultiNode@release_gpu/Models/06_OneConvRegrMultiNode.1'
+12/09/2017 10:58:54: Starting minibatch loop.
+12/09/2017 10:58:55:  Epoch[ 1 of 3]-Minibatch[   1- 500]: rmse = 0.19079666 * 32000; time = 1.8468s; samplesPerSecond = 17327.5
+12/09/2017 10:58:56: Finished Epoch[ 1 of 3]: [Training] rmse = 0.16211479 * 60000; totalSamplesSeen = 60000; learningRatePerSample = 0.001; epochTime=2.41205s
+12/09/2017 10:58:56: SGD: Saving checkpoint model '/tmp/cntk-test-20171209080859.615414/Examples/Image/GettingStarted_06_OneConvRegrMultiNode@release_gpu/Models/06_OneConvRegrMultiNode.1'
 
-05/09/2017 00:56:16: Starting Epoch 2: learning rate per sample = 0.001000  effective momentum = 0.939413  momentum as time constant = 1024.0 samples
+12/09/2017 10:58:56: Starting Epoch 2: learning rate per sample = 0.001000  effective momentum = 0.939413  momentum as time constant = 1024.0 samples
 
-05/09/2017 00:56:16: Starting minibatch loop.
-05/09/2017 00:56:18:  Epoch[ 2 of 3]-Minibatch[   1- 500, 100.00%]: rmse = 0.10940969 * 32000; time = 1.8132s; samplesPerSecond = 17648.2
-05/09/2017 00:56:19: Finished Epoch[ 2 of 3]: [Training] rmse = 0.10429946 * 60000; totalSamplesSeen = 120000; learningRatePerSample = 0.001; epochTime=3.42095s
-05/09/2017 00:56:19: SGD: Saving checkpoint model 'C:\cygwin64\tmp\cntk-test-20170508165608.939448\Examples\Image\GettingStarted_06_OneConvRegrMultiNode@release_gpu/Models/06_OneConvRegrMultiNode.2'
+12/09/2017 10:58:56: Starting minibatch loop.
+12/09/2017 10:58:57:  Epoch[ 2 of 3]-Minibatch[   1- 500, 100.00%]: rmse = 0.10944118 * 32000; time = 0.6375s; samplesPerSecond = 50193.6
+12/09/2017 10:58:57: Finished Epoch[ 2 of 3]: [Training] rmse = 0.10433049 * 60000; totalSamplesSeen = 120000; learningRatePerSample = 0.001; epochTime=1.20308s
+12/09/2017 10:58:57: SGD: Saving checkpoint model '/tmp/cntk-test-20171209080859.615414/Examples/Image/GettingStarted_06_OneConvRegrMultiNode@release_gpu/Models/06_OneConvRegrMultiNode.2'
 
-05/09/2017 00:56:19: Starting Epoch 3: learning rate per sample = 0.001000  effective momentum = 0.939413  momentum as time constant = 1024.0 samples
+12/09/2017 10:58:57: Starting Epoch 3: learning rate per sample = 0.001000  effective momentum = 0.939413  momentum as time constant = 1024.0 samples
 
-05/09/2017 00:56:19: Starting minibatch loop.
-05/09/2017 00:56:21:  Epoch[ 3 of 3]-Minibatch[   1- 500, 100.00%]: rmse = 0.09032204 * 32000; time = 1.7899s; samplesPerSecond = 17877.8
-05/09/2017 00:56:23: Finished Epoch[ 3 of 3]: [Training] rmse = 0.08715404 * 60000; totalSamplesSeen = 180000; learningRatePerSample = 0.001; epochTime=3.35069s
-05/09/2017 00:56:23: SGD: Saving checkpoint model 'C:\cygwin64\tmp\cntk-test-20170508165608.939448\Examples\Image\GettingStarted_06_OneConvRegrMultiNode@release_gpu/Models/06_OneConvRegrMultiNode'
+12/09/2017 10:58:57: Starting minibatch loop.
+12/09/2017 10:58:58:  Epoch[ 3 of 3]-Minibatch[   1- 500, 100.00%]: rmse = 0.09040734 * 32000; time = 0.6559s; samplesPerSecond = 48791.1
+12/09/2017 10:58:58: Finished Epoch[ 3 of 3]: [Training] rmse = 0.08728639 * 60000; totalSamplesSeen = 180000; learningRatePerSample = 0.001; epochTime=1.21969s
+12/09/2017 10:58:58: SGD: Saving checkpoint model '/tmp/cntk-test-20171209080859.615414/Examples/Image/GettingStarted_06_OneConvRegrMultiNode@release_gpu/Models/06_OneConvRegrMultiNode'
 
-05/09/2017 00:56:23: Action "train" complete.
+12/09/2017 10:58:59: Action "train" complete.
 
 
-05/09/2017 00:56:23: ##############################################################################
-05/09/2017 00:56:23: #                                                                            #
-05/09/2017 00:56:23: # testNetwork command (test action)                                          #
-05/09/2017 00:56:23: #                                                                            #
-05/09/2017 00:56:23: ##############################################################################
+12/09/2017 10:58:59: ##############################################################################
+12/09/2017 10:58:59: #                                                                            #
+12/09/2017 10:58:59: # testNetwork command (test action)                                          #
+12/09/2017 10:58:59: #                                                                            #
+12/09/2017 10:58:59: ##############################################################################
 
 
 Post-processing network...
@@ -346,40 +349,40 @@ evalNodeNames are not specified, using all the default evalnodes and training cr
 
 Allocating matrices for forward and/or backward propagation.
 
-Memory Sharing: Out of 25 matrices, 14 are shared as 2, and 11 are not shared.
+Memory Sharing: Out of 25 matrices, 14 are shared as 3, and 11 are not shared.
 
 Here are the ones that share memory:
 	{ _z.x._.x : [14 x 14 x 16 x *1]
-	  diff : [10 x *1]
-	  sqerr : [1 x *1]
-	  z.PlusArgs[0] : [10 x *1]
-	  z.x._.x : [64 x *1]
-	  z.x._.x.x._.res.x : [28 x 28 x 16 x *1]
-	  z.x._.x.x._.x : [28 x 28 x 1 x *1] }
-	{ rmse.z : [1 x *1]
+	  rmse.z : [1 x *1]
 	  sqerr._ : [10 x *1]
 	  z : [10 x *1]
 	  z.x : [64 x *1]
-	  z.x._.x.PlusArgs[0] : [64 x *1]
+	  z.x._.x.x._.res.x : [28 x 28 x 16 x *1]
+	  z.x._.x.x._.x : [28 x 28 x 1 x *1] }
+	{ diff : [10 x *1]
+	  sqerr : [1 x *1]
+	  z.PlusArgs[0] : [10 x *1]
+	  z.x._.x.PlusArgs[0] : [64 x *1] }
+	{ z.x._.x : [64 x *1]
 	  z.x._.x.x : [28 x 28 x 16 x *1]
 	  z.x._.x.x._.c : [28 x 28 x 16 x *1] }
 
 Here are the ones that don't share memory:
-	{features : [28 x 28 x 1 x *1]}
 	{_rmse.z : [1]}
+	{features : [28 x 28 x 1 x *1]}
 	{labels : [10 x *1]}
-	{z.x._.x.x._.x.ElementTimesArgs[0] : [1 x 1]}
 	{model.arrayOfFunctions[1].W : [5 x 5 x 1 x 16]}
-	{model.arrayOfFunctions[6].b : [10]}
-	{model.arrayOfFunctions[4].arrayOfFunctions[0].b : [64]}
-	{model.arrayOfFunctions[6].W : [10 x 64]}
 	{model.arrayOfFunctions[1].b : [1 x 1 x 16]}
+	{model.arrayOfFunctions[4].arrayOfFunctions[0].b : [64]}
 	{model.arrayOfFunctions[4].arrayOfFunctions[0].W : [64 x 14 x 14 x 16]}
+	{model.arrayOfFunctions[6].W : [10 x 64]}
+	{model.arrayOfFunctions[6].b : [10]}
+	{z.x._.x.x._.x.ElementTimesArgs[0] : [1 x 1]}
 	{rmse : [1 x *1]}
 
-05/09/2017 00:56:24: Minibatch[1-10]: rmse = 0.07918759 * 10000
-05/09/2017 00:56:24: Final Results: Minibatch[1-10]: rmse = 0.07918759 * 10000
+12/09/2017 10:58:59: Minibatch[1-10]: rmse = 0.07936705 * 10000
+12/09/2017 10:58:59: Final Results: Minibatch[1-10]: rmse = 0.07936705 * 10000
 
-05/09/2017 00:56:24: Action "test" complete.
+12/09/2017 10:58:59: Action "test" complete.
 
-05/09/2017 00:56:24: __COMPLETED__
+12/09/2017 10:58:59: __COMPLETED__

@@ -1,1 +1,26 @@
+CPU info:
+    CPU Model Name: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
+    Hardware threads: 12
+    Total Memory: 57700428 kB
+-------------------------------------------------------------------
+Python: 3.4.4 |Continuum Analytics, Inc.| (default, Jun 15 2016, 15:26:54) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)]
+NumPy: 1.11.2
+SciPy: 0.18.1
+PyTest: 3.3.1
+~/workspace/bindings/python/doc ~/workspace/Tests/EndToEndTests/CNTKv2Python/Doc
+Current dir: /home/ubuntu/workspace/bindings/python/doc
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.3.1, py-1.5.2, pluggy-0.6.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/bindings/python/doc, inifile: pytest.ini
+collecting ... collected 4 items
+
+concepts.rst::concepts.rst PASSED                                        [ 25%]
+gettingstarted.rst::gettingstarted.rst PASSED                            [ 50%]
+test/simplenet_test.py::test_ffnet_error[0] PASSED                       [ 75%]
+test/simplernn_test.py::test_rnn_error[0] PASSED                         [100%]
+
+=========================== 4 passed in 3.85 seconds ===========================
 __COMPLETED__
+~/workspace/Tests/EndToEndTests/CNTKv2Python/Doc

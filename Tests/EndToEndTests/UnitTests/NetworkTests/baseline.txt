@@ -1,28 +1,102 @@
 CPU info:
-    CPU Model Name: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
-    Hardware threads: 24
-    Total Memory: 264172964 kB
+    CPU Model Name: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
+    Hardware threads: 12
+    Total Memory: 57700428 kB
 -------------------------------------------------------------------
-Running 7 test cases...
-
-About to throw exception 'Input is small to be cropped along x dimension in crop node.'
-
-About to throw exception 'Input is small to be cropped along y dimension in crop node.'
-
-About to throw exception 'Input is small to be cropped along x dimension in crop node.'
-
-About to throw exception 'Input is small to be cropped along y dimension in crop node.'
-Current working directory: /home/philly/jenkins/workspace/CNTK-Test-Linux-SlaveTest/Tests/EndToEndTests/UnitTests/NetworkTests
-Executable path: /home/philly/jenkins/workspace/CNTK-Test-Linux-SlaveTest/build/gpu/release/bin
-Test path: /home/philly/jenkins/workspace/CNTK-Test-Linux-SlaveTest/Tests/UnitTests/NetworkTests
-Set current path to: /home/philly/jenkins/workspace/CNTK-Test-Linux-SlaveTest/Tests/UnitTests/NetworkTests/Data
-Current working directory is now: /home/philly/jenkins/workspace/CNTK-Test-Linux-SlaveTest/Tests/UnitTests/NetworkTests/Data
-NDLBuilder Using CPU
+Current working directory: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/NetworkTests
+Executable path: /home/ubuntu/workspace/build/1bitsgd/release/bin
+Test path: /home/ubuntu/workspace/Tests/UnitTests/NetworkTests
+Set current path to: /home/ubuntu/workspace/Tests/UnitTests/NetworkTests/Data
+Current working directory is now: /home/ubuntu/workspace/Tests/UnitTests/NetworkTests/Data
+NDLBuilder Using GPU 0
+Set current path to: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/NetworkTests
+Current working directory: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/NetworkTests
+Executable path: /home/ubuntu/workspace/build/1bitsgd/release/bin
+Test path: /home/ubuntu/workspace/Tests/UnitTests/NetworkTests
+Set current path to: /home/ubuntu/workspace/Tests/UnitTests/NetworkTests/Data
+Current working directory is now: /home/ubuntu/workspace/Tests/UnitTests/NetworkTests/Data
+NDLBuilder Using GPU 0
+Set current path to: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/NetworkTests
+Current working directory: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/NetworkTests
+Executable path: /home/ubuntu/workspace/build/1bitsgd/release/bin
+Test path: /home/ubuntu/workspace/Tests/UnitTests/NetworkTests
+Set current path to: /home/ubuntu/workspace/Tests/UnitTests/NetworkTests/Data
+Current working directory is now: /home/ubuntu/workspace/Tests/UnitTests/NetworkTests/Data
+Set current path to: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/NetworkTests
+Current working directory: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/NetworkTests
+Executable path: /home/ubuntu/workspace/build/1bitsgd/release/bin
+Test path: /home/ubuntu/workspace/Tests/UnitTests/NetworkTests
+Set current path to: /home/ubuntu/workspace/Tests/UnitTests/NetworkTests/Data
+Current working directory is now: /home/ubuntu/workspace/Tests/UnitTests/NetworkTests/Data
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 3 x 16].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 16].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 16 x 32].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [1 x 1 x 16 x 32].
+Node 'z.x.x.x.s.arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.x.s.arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.b.arrayOfFunctions[0].arrayOfFunctions[0].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 32 x 32].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [32 x 1].
+Node 'model.arrayOfFunctions[6].W' (LearnableParameter operation) operation: Tensor shape was inferred as [2 x 9 x 9 x 32].
+Set current path to: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/NetworkTests
+Current working directory: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/NetworkTests
+Executable path: /home/ubuntu/workspace/build/1bitsgd/release/bin
+Test path: /home/ubuntu/workspace/Tests/UnitTests/NetworkTests
+Set current path to: /home/ubuntu/workspace/Tests/UnitTests/NetworkTests/Data
+Current working directory is now: /home/ubuntu/workspace/Tests/UnitTests/NetworkTests/Data
+Set current path to: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/NetworkTests
+Current working directory: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/NetworkTests
+Executable path: /home/ubuntu/workspace/build/1bitsgd/release/bin
+Test path: /home/ubuntu/workspace/Tests/UnitTests/NetworkTests
+Set current path to: /home/ubuntu/workspace/Tests/UnitTests/NetworkTests/Data
+Current working directory is now: /home/ubuntu/workspace/Tests/UnitTests/NetworkTests/Data
+NDLBuilder Using GPU 0
 Minibatch[0]: ActualMBSize = 1
 Written to ../Output/out.txt*
 Total Samples Evaluated = 1
-Set current path to: /home/philly/jenkins/workspace/CNTK-Test-Linux-SlaveTest/Tests/EndToEndTests/UnitTests/NetworkTests
-Running 4 test cases...
+Set current path to: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/NetworkTests
+Running 13 test cases...
 
 Test module "NetworkTests" has passed with:
   13 test cases out of 13 passed
@@ -73,15 +147,14 @@ Test module "NetworkTests" has passed with:
     Test case "CropNodeTestSuite/CropNodeBackwardTest" has passed with:
       40 assertions out of 40 passed
 
-  Test suite "EditDistanceTests" has passed with:
-    1 test case out of 1 passed
-
-    Test case "EditDistanceTests/ComputeEditDistanceErrorTest" has passed
-
   Test suite "NetworkTestSuite" has passed with:
     1 test case out of 1 passed
     1 assertion out of 1 passed
 
     Test case "NetworkTestSuite/NetworkOperatorPlus" has passed with:
       1 assertion out of 1 passed
-
+
+  Test suite "EditDistanceTests" has passed with:
+    1 test case out of 1 passed
+
+    Test case "EditDistanceTests/ComputeEditDistanceErrorTest" has passed

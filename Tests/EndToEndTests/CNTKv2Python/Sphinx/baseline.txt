@@ -1,1 +1,315 @@
+CPU info:
+    CPU Model Name: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
+    Hardware threads: 12
+    Total Memory: 57700428 kB
+-------------------------------------------------------------------
+++ python -c 'import cntk, os, sys; sys.stdout.write(os.path.dirname(os.path.abspath(cntk.__file__)))'
++ MODULE_DIR=/home/ubuntu/.local/lib/python3.4/site-packages/cntk
++ cd ../../../../bindings/python/doc
++ cp ../../../Manual/Manual_How_to_create_user_minibatch_sources.ipynb ../../../Manual/Manual_How_to_debug.ipynb ../../../Manual/Manual_How_to_feed_data.ipynb ../../../Manual/Manual_How_to_train_using_declarative_and_imperative_API.ipynb ../../../Manual/Manual_How_to_use_learners.ipynb ../../../Manual/Manual_How_to_use_network_optimizations.ipynb ../../../Manual/Manual_How_to_write_a_custom_deserializer.ipynb .
++ cp ../../../Tutorials/CNTK_101_LogisticRegression.ipynb ../../../Tutorials/CNTK_102_FeedForward.ipynb ../../../Tutorials/CNTK_103A_MNIST_DataLoader.ipynb ../../../Tutorials/CNTK_103B_MNIST_LogisticRegression.ipynb ../../../Tutorials/CNTK_103C_MNIST_MultiLayerPerceptron.ipynb ../../../Tutorials/CNTK_103D_MNIST_ConvolutionalNeuralNetwork.ipynb ../../../Tutorials/CNTK_104_Finance_Timeseries_Basic_with_Pandas_Numpy.ipynb ../../../Tutorials/CNTK_105_Basic_Autoencoder_for_Dimensionality_Reduction.ipynb ../../../Tutorials/CNTK_106A_LSTM_Timeseries_with_Simulated_Data.ipynb ../../../Tutorials/CNTK_106B_LSTM_Timeseries_with_IOT_Data.ipynb ../../../Tutorials/CNTK_200_GuidedTour.ipynb ../../../Tutorials/CNTK_201A_CIFAR-10_DataLoader.ipynb ../../../Tutorials/CNTK_201B_CIFAR-10_ImageHandsOn.ipynb ../../../Tutorials/CNTK_202_Language_Understanding.ipynb ../../../Tutorials/CNTK_203_Reinforcement_Learning_Basics.ipynb ../../../Tutorials/CNTK_204_Sequence_To_Sequence.ipynb ../../../Tutorials/CNTK_205_Artistic_Style_Transfer.ipynb ../../../Tutorials/CNTK_206A_Basic_GAN.ipynb ../../../Tutorials/CNTK_206B_DCGAN.ipynb ../../../Tutorials/CNTK_206C_WGAN_LSGAN.ipynb ../../../Tutorials/CNTK_207_Training_with_Sampled_Softmax.ipynb ../../../Tutorials/CNTK_208_Speech_Connectionist_Temporal_Classification.ipynb ../../../Tutorials/CNTK_301_Image_Recognition_with_Deep_Transfer_Learning.ipynb ../../../Tutorials/CNTK_302A_Evaluation_of_Pretrained_Super-resolution_Models.ipynb ../../../Tutorials/CNTK_302B_Image_Super-resolution_Using_CNNs_and_GANs.ipynb ../../../Tutorials/CNTK_303_Deep_Structured_Semantic_Modeling_with_LSTM_Networks.ipynb ../../../Tutorials/CNTK_599A_Sequence_To_Sequence.ipynb .
++ rm CNTK_599A_Sequence_To_Sequence.ipynb
++ '[' '' == Windows_NT ']'
++ NORM_PATH=cat
++ FIND=find
+++ printf '/home/ubuntu/.local/lib/python3.4/site-packages/cntk/%s\n' cntk_py.py conftest.py internal
+++ find /home/ubuntu/.local/lib/python3.4/site-packages/cntk -type d -name tests
+++ cat
++ sphinx-apidoc /home/ubuntu/.local/lib/python3.4/site-packages/cntk --module-first --separate --no-toc --output-dir=. --force /home/ubuntu/.local/lib/python3.4/site-packages/cntk/cntk_py.py /home/ubuntu/.local/lib/python3.4/site-packages/cntk/conftest.py /home/ubuntu/.local/lib/python3.4/site-packages/cntk/internal /home/ubuntu/.local/lib/python3.4/site-packages/cntk/logging/tests /home/ubuntu/.local/lib/python3.4/site-packages/cntk/losses/tests /home/ubuntu/.local/lib/python3.4/site-packages/cntk/eval/tests /home/ubuntu/.local/lib/python3.4/site-packages/cntk/ops/tests /home/ubuntu/.local/lib/python3.4/site-packages/cntk/internal/tests /home/ubuntu/.local/lib/python3.4/site-packages/cntk/train/tests /home/ubuntu/.local/lib/python3.4/site-packages/cntk/io/tests /home/ubuntu/.local/lib/python3.4/site-packages/cntk/learners/tests /home/ubuntu/.local/lib/python3.4/site-packages/cntk/tests /home/ubuntu/.local/lib/python3.4/site-packages/cntk/debugging/tests /home/ubuntu/.local/lib/python3.4/site-packages/cntk/metrics/tests /home/ubuntu/.local/lib/python3.4/site-packages/cntk/contrib/crosstalkcaffe/tests /home/ubuntu/.local/lib/python3.4/site-packages/cntk/contrib/deeprl/tests /home/ubuntu/.local/lib/python3.4/site-packages/cntk/random/tests /home/ubuntu/.local/lib/python3.4/site-packages/cntk/layers/tests
+Creating file ./cntk.axis.rst.
+Creating file ./cntk.core.rst.
+Creating file ./cntk.default_options.rst.
+Creating file ./cntk.device.rst.
+Creating file ./cntk.initializer.rst.
+Creating file ./cntk.sample_installer.rst.
+Creating file ./cntk.tensor.rst.
+Creating file ./cntk.variables.rst.
+Creating file ./cntk.rst.
+Creating file ./cntk.contrib.rst.
+Creating file ./cntk.contrib.crosstalk.crosstalk_cntk.rst.
+Creating file ./cntk.contrib.crosstalk.crosstalk_tensorflow.rst.
+Creating file ./cntk.contrib.crosstalk.rst.
+Creating file ./cntk.contrib.crosstalkcaffe.convert.rst.
+Creating file ./cntk.contrib.crosstalkcaffe.rst.
+Creating file ./cntk.contrib.crosstalkcaffe.adapter.baseadapter.rst.
+Creating file ./cntk.contrib.crosstalkcaffe.adapter.rst.
+Creating file ./cntk.contrib.crosstalkcaffe.adapter.bvlccaffe.caffe_pb2.rst.
+Creating file ./cntk.contrib.crosstalkcaffe.adapter.bvlccaffe.caffeadapter.rst.
+Creating file ./cntk.contrib.crosstalkcaffe.adapter.bvlccaffe.caffeimpl.rst.
+Creating file ./cntk.contrib.crosstalkcaffe.adapter.bvlccaffe.rst.
+Creating file ./cntk.contrib.crosstalkcaffe.unimodel.cntkinstance.rst.
+Creating file ./cntk.contrib.crosstalkcaffe.unimodel.cntkmodel.rst.
+Creating file ./cntk.contrib.crosstalkcaffe.unimodel.rst.
+Creating file ./cntk.contrib.crosstalkcaffe.utils.format.rst.
+Creating file ./cntk.contrib.crosstalkcaffe.utils.globalconf.rst.
+Creating file ./cntk.contrib.crosstalkcaffe.utils.rst.
+Creating file ./cntk.contrib.crosstalkcaffe.validation.validcaffe.rst.
+Creating file ./cntk.contrib.crosstalkcaffe.validation.validcore.rst.
+Creating file ./cntk.contrib.crosstalkcaffe.validation.rst.
+Creating file ./cntk.contrib.deeprl.rst.
+Creating file ./cntk.contrib.deeprl.agent.agent.rst.
+Creating file ./cntk.contrib.deeprl.agent.agent_factory.rst.
+Creating file ./cntk.contrib.deeprl.agent.policy_gradient.rst.
+Creating file ./cntk.contrib.deeprl.agent.qlearning.rst.
+Creating file ./cntk.contrib.deeprl.agent.random_agent.rst.
+Creating file ./cntk.contrib.deeprl.agent.tabular_qlearning.rst.
+Creating file ./cntk.contrib.deeprl.agent.rst.
+Creating file ./cntk.contrib.deeprl.agent.shared.cntk_utils.rst.
+Creating file ./cntk.contrib.deeprl.agent.shared.customized_models.rst.
+Creating file ./cntk.contrib.deeprl.agent.shared.discretize.rst.
+Creating file ./cntk.contrib.deeprl.agent.shared.models.rst.
+Creating file ./cntk.contrib.deeprl.agent.shared.policy_gradient_parameters.rst.
+Creating file ./cntk.contrib.deeprl.agent.shared.preprocessing.rst.
+Creating file ./cntk.contrib.deeprl.agent.shared.qlearning_parameters.rst.
+Creating file ./cntk.contrib.deeprl.agent.shared.replay_memory.rst.
+Creating file ./cntk.contrib.deeprl.agent.shared.rst.
+Creating file ./cntk.contrib.netopt.custom_convolution_ops.rst.
+Creating file ./cntk.contrib.netopt.factorization.rst.
+Creating file ./cntk.contrib.netopt.quantization.rst.
+Creating file ./cntk.contrib.netopt.rst.
+Creating file ./cntk.contrib.netopt.test.factorization_test.rst.
+Creating file ./cntk.contrib.netopt.test.quantization_test.rst.
+Creating file ./cntk.contrib.netopt.test.rst.
+Creating file ./cntk.debugging.debug.rst.
+Creating file ./cntk.debugging.profiler.rst.
+Creating file ./cntk.debugging.rst.
+Creating file ./cntk.eval.evaluator.rst.
+Creating file ./cntk.eval.rst.
+Creating file ./cntk.io.transforms.rst.
+Creating file ./cntk.io.rst.
+Creating file ./cntk.layers.blocks.rst.
+Creating file ./cntk.layers.higher_order_layers.rst.
+Creating file ./cntk.layers.layers.rst.
+Creating file ./cntk.layers.sequence.rst.
+Creating file ./cntk.layers.typing.rst.
+Creating file ./cntk.layers.rst.
+Creating file ./cntk.layers.models.attention.rst.
+Creating file ./cntk.layers.models.rst.
+Creating file ./cntk.learners.rst.
+Creating file ./cntk.logging.graph.rst.
+Creating file ./cntk.logging.progress_print.rst.
+Creating file ./cntk.logging.rst.
+Creating file ./cntk.losses.rst.
+Creating file ./cntk.metrics.rst.
+Creating file ./cntk.misc.converter.rst.
+Creating file ./cntk.misc.optimized_rnnstack_converter.rst.
+Creating file ./cntk.misc.rst.
+Creating file ./cntk.ops.functions.rst.
+Creating file ./cntk.ops.rst.
+Creating file ./cntk.ops.sequence.rst.
+Creating file ./cntk.random.rst.
+Creating file ./cntk.train.distributed.rst.
+Creating file ./cntk.train.trainer.rst.
+Creating file ./cntk.train.training_session.rst.
+Creating file ./cntk.train.rst.
+++ nproc
++ sphinx-build -b html -d _build/doctrees -W -j 12 . _build/html
+Running Sphinx v1.5.4
+making output directory...
+loading pickled environment... not yet created
+building [mo]: targets for 0 po files that are out of date
+building [html]: targets for 130 source files that are out of date
+updating environment: 130 added, 0 changed, 0 removed
+reading sources... [  7%] CNTK_101_LogisticRegression .. CNTK_106B_LSTM_Timeseries_with_IOT_Data
+reading sources... [ 15%] CNTK_200_GuidedTour .. CNTK_206C_WGAN_LSGAN
+reading sources... [ 23%] CNTK_207_Training_with_Sampled_Softmax .. Manual_How_to_train_using_declarative_and_imperative_API
+reading sources... [ 30%] Manual_How_to_use_learners .. cntk.contrib.crosstalkcaffe
+reading sources... [ 38%] cntk.contrib.crosstalkcaffe.adapter .. cntk.contrib.crosstalkcaffe.unimodel.cntkmodel
+reading sources... [ 46%] cntk.contrib.crosstalkcaffe.utils .. cntk.contrib.deeprl.agent.agent_factory
+reading sources... [ 53%] cntk.contrib.deeprl.agent.policy_gradient .. cntk.contrib.deeprl.agent.shared.preprocessing
+reading sources... [ 61%] cntk.contrib.deeprl.agent.shared.qlearning_parameters .. cntk.contrib.netopt.test.quantization_test
+reading sources... [ 69%] cntk.core .. cntk.io
+reading sources... [ 76%] cntk.io.transforms .. cntk.learners
+reading sources... [ 84%] cntk.logging .. cntk.ops.functions
+reading sources... [ 92%] cntk.ops.sequence .. concepts
+reading sources... [100%] examples .. tutorials
+
+waiting for workers...
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+writing output... [  7%] CNTK_102_FeedForward .. CNTK_200_GuidedTour
+writing output... [ 15%] CNTK_201A_CIFAR-10_DataLoader .. CNTK_207_Training_with_Sampled_Softmax
+writing output... [ 23%] CNTK_208_Speech_Connectionist_Temporal_Classification .. Manual_How_to_use_learners
+writing output... [ 30%] Manual_How_to_use_network_optimizations .. cntk.contrib.crosstalkcaffe.adapter
+writing output... [ 38%] cntk.contrib.crosstalkcaffe.adapter.baseadapter .. cntk.contrib.crosstalkcaffe.utils
+writing output... [ 46%] cntk.contrib.crosstalkcaffe.utils.format .. cntk.contrib.deeprl.agent.policy_gradient
+writing output... [ 53%] cntk.contrib.deeprl.agent.qlearning .. cntk.contrib.deeprl.agent.shared.qlearning_parameters
+writing output... [ 61%] cntk.contrib.deeprl.agent.shared.replay_memory .. cntk.core
+writing output... [ 69%] cntk.debugging .. cntk.io.transforms
+writing output... [ 76%] cntk.layers .. cntk.logging
+writing output... [ 84%] cntk.logging.graph .. cntk.ops.sequence
+writing output... [ 92%] cntk.random .. examples
+writing output... [100%] extend .. tutorials
+
+waiting for workers...
+generating indices... genindex py-modindex
+highlighting module code... [  1%] cntk.contrib.crosstalkcaffe.convert
+highlighting module code... [  2%] cntk.contrib.deeprl.agent.shared.cntk_utils
+highlighting module code... [  4%] cntk.logging
+highlighting module code... [  5%] cntk.layers.models.attention
+highlighting module code... [  7%] cntk.contrib.deeprl.agent.shared.qlearning_parameters
+highlighting module code... [  8%] cntk.contrib.crosstalkcaffe.adapter.bvlccaffe.caffeadapter
+highlighting module code... [ 10%] cntk.ops.functions
+highlighting module code... [ 11%] cntk.debugging.profiler
+highlighting module code... [ 13%] cntk.contrib.netopt.test.factorization_test
+highlighting module code... [ 14%] cntk.contrib.crosstalkcaffe.utils.globalconf
+highlighting module code... [ 16%] cntk.contrib.netopt.factorization
+highlighting module code... [ 17%] cntk.contrib.deeprl.agent.shared.customized_models
+highlighting module code... [ 19%] cntk.contrib.crosstalk
+highlighting module code... [ 20%] cntk.contrib.crosstalk.crosstalk_cntk
+highlighting module code... [ 22%] cntk.initializer
+highlighting module code... [ 23%] cntk.contrib.crosstalk.crosstalk_tensorflow
+highlighting module code... [ 25%] cntk.layers.sequence
+highlighting module code... [ 26%] cntk.contrib.deeprl.agent.shared.discretize
+highlighting module code... [ 28%] cntk.contrib.deeprl.agent.agent_factory
+highlighting module code... [ 29%] cntk.train.training_session
+highlighting module code... [ 31%] cntk.tensor
+highlighting module code... [ 32%] cntk.layers.layers
+highlighting module code... [ 34%] cntk.contrib.netopt.quantization
+highlighting module code... [ 35%] cntk.metrics
+highlighting module code... [ 37%] cntk.contrib.crosstalkcaffe.utils.format
+highlighting module code... [ 38%] cntk.ops.sequence
+highlighting module code... [ 40%] cntk.train.trainer
+highlighting module code... [ 41%] cntk.misc.converter
+highlighting module code... [ 43%] cntk.contrib.deeprl.agent.shared.replay_memory
+highlighting module code... [ 44%] cntk.variables
+highlighting module code... [ 46%] cntk.default_options
+highlighting module code... [ 47%] cntk.contrib.netopt.custom_convolution_ops
+highlighting module code... [ 49%] cntk.io.transforms
+highlighting module code... [ 50%] cntk.contrib.deeprl.agent.policy_gradient
+highlighting module code... [ 52%] cntk.contrib.crosstalkcaffe.adapter.baseadapter
+highlighting module code... [ 53%] cntk.layers.blocks
+highlighting module code... [ 55%] cntk.contrib.deeprl.agent.shared.models
+highlighting module code... [ 56%] cntk.contrib.deeprl.agent.qlearning
+highlighting module code... [ 58%] cntk.axis
+highlighting module code... [ 59%] cntk.losses
+highlighting module code... [ 61%] cntk.debugging.debug
+highlighting module code... [ 62%] cntk.layers.higher_order_layers
+highlighting module code... [ 64%] cntk.train.distributed
+highlighting module code... [ 65%] cntk.logging.progress_print
+highlighting module code... [ 67%] cntk.contrib.crosstalkcaffe.unimodel.cntkmodel
+highlighting module code... [ 68%] cntk.learners
+highlighting module code... [ 70%] cntk.random
+highlighting module code... [ 71%] cntk.contrib.crosstalkcaffe.unimodel.cntkinstance
+highlighting module code... [ 73%] cntk.contrib.deeprl.agent.shared.policy_gradient_parameters
+highlighting module code... [ 74%] cntk.misc.optimized_rnnstack_converter
+highlighting module code... [ 76%] cntk.contrib.deeprl.agent.shared.preprocessing
+highlighting module code... [ 77%] cntk.logging.graph
+highlighting module code... [ 79%] cntk.debugging
+highlighting module code... [ 80%] cntk.core
+highlighting module code... [ 82%] cntk.contrib.crosstalkcaffe.validation.validcore
+highlighting module code... [ 83%] cntk.io
+highlighting module code... [ 85%] cntk.contrib.deeprl.agent.tabular_qlearning
+highlighting module code... [ 86%] cntk.device
+highlighting module code... [ 88%] cntk.contrib.crosstalkcaffe.validation.validcaffe
+highlighting module code... [ 89%] cntk.contrib.deeprl.agent.agent
+highlighting module code... [ 91%] cntk.contrib.deeprl.agent.random_agent
+highlighting module code... [ 92%] cntk.contrib.crosstalkcaffe.adapter.bvlccaffe.caffeimpl
+highlighting module code... [ 94%] cntk.contrib.netopt.test.quantization_test
+highlighting module code... [ 95%] cntk.eval.evaluator
+highlighting module code... [ 97%] cntk.ops
+highlighting module code... [ 98%] cntk.layers.typing
+highlighting module code... [100%] cntk.sample_installer
+
+writing additional pages... search
+copying images... [  1%] _build/doctrees/nbsphinx/CNTK_203_Reinforcement_Learning_Basics_32_3.png
+copying images... [  2%] _build/doctrees/nbsphinx/CNTK_103D_MNIST_ConvolutionalNeuralNetwork_43_1.png
+copying images... [  3%] _build/doctrees/nbsphinx/CNTK_301_Image_Recognition_with_Deep_Transfer_Learning_27_2.jpeg
+copying images... [  4%] _build/doctrees/nbsphinx/CNTK_301_Image_Recognition_with_Deep_Transfer_Learning_14_1.jpeg
+copying images... [  6%] _build/doctrees/nbsphinx/CNTK_201B_CIFAR-10_ImageHandsOn_40_2.png
+copying images... [  7%] _build/doctrees/nbsphinx/CNTK_205_Artistic_Style_Transfer_11_2.png
+copying images... [  8%] _build/doctrees/nbsphinx/CNTK_201B_CIFAR-10_ImageHandsOn_47_2.png
+copying images... [  9%] _build/doctrees/nbsphinx/Manual_How_to_debug_15_0.svg
+copying images... [ 10%] _build/doctrees/nbsphinx/CNTK_203_Reinforcement_Learning_Basics_32_1.png
+copying images... [ 12%] _build/doctrees/nbsphinx/CNTK_301_Image_Recognition_with_Deep_Transfer_Learning_35_0.jpeg
+copying images... [ 13%] _build/doctrees/nbsphinx/CNTK_201B_CIFAR-10_ImageHandsOn_25_2.png
+copying images... [ 14%] _build/doctrees/nbsphinx/CNTK_301_Image_Recognition_with_Deep_Transfer_Learning_14_0.jpeg
+copying images... [ 15%] _build/doctrees/nbsphinx/CNTK_301_Image_Recognition_with_Deep_Transfer_Learning_27_0.jpeg
+copying images... [ 17%] _build/doctrees/nbsphinx/CNTK_101_LogisticRegression_15_0.png
+copying images... [ 18%] _build/doctrees/nbsphinx/CNTK_206A_Basic_GAN_28_0.png
+copying images... [ 19%] _build/doctrees/nbsphinx/CNTK_102_FeedForward_43_0.png
+copying images... [ 20%] _build/doctrees/nbsphinx/CNTK_201B_CIFAR-10_ImageHandsOn_25_1.png
+copying images... [ 21%] _build/doctrees/nbsphinx/CNTK_103A_MNIST_DataLoader_7_1.png
+copying images... [ 23%] _build/doctrees/nbsphinx/CNTK_205_Artistic_Style_Transfer_9_1.png
+copying images... [ 24%] _build/doctrees/nbsphinx/CNTK_101_LogisticRegression_36_1.png
+copying images... [ 25%] _build/doctrees/nbsphinx/CNTK_103C_MNIST_MultiLayerPerceptron_32_0.png
+copying images... [ 26%] _build/doctrees/nbsphinx/CNTK_200_GuidedTour_43_1.png
+copying images... [ 28%] _build/doctrees/nbsphinx/Manual_How_to_feed_data_9_0.png
+copying images... [ 29%] _build/doctrees/nbsphinx/CNTK_201B_CIFAR-10_ImageHandsOn_22_2.png
+copying images... [ 30%] _build/doctrees/nbsphinx/CNTK_207_Training_with_Sampled_Softmax_13_1.png
+copying images... [ 31%] _build/doctrees/nbsphinx/CNTK_105_Basic_Autoencoder_for_Dimensionality_Reduction_37_1.png
+copying images... [ 32%] _build/doctrees/nbsphinx/CNTK_104_Finance_Timeseries_Basic_with_Pandas_Numpy_24_0.png
+copying images... [ 34%] _build/doctrees/nbsphinx/CNTK_201B_CIFAR-10_ImageHandsOn_47_1.png
+copying images... [ 35%] _build/doctrees/nbsphinx/CNTK_101_LogisticRegression_44_1.png
+copying images... [ 36%] _build/doctrees/nbsphinx/CNTK_204_Sequence_To_Sequence_63_1.png
+copying images... [ 37%] _build/doctrees/nbsphinx/CNTK_301_Image_Recognition_with_Deep_Transfer_Learning_27_3.jpeg
+copying images... [ 39%] _build/doctrees/nbsphinx/CNTK_201B_CIFAR-10_ImageHandsOn_34_2.png
+copying images... [ 40%] _build/doctrees/nbsphinx/CNTK_203_Reinforcement_Learning_Basics_32_4.png
+copying images... [ 41%] _build/doctrees/nbsphinx/CNTK_103B_MNIST_LogisticRegression_34_0.png
+copying images... [ 42%] _build/doctrees/nbsphinx/CNTK_203_Reinforcement_Learning_Basics_32_7.png
+copying images... [ 43%] _build/doctrees/nbsphinx/CNTK_105_Basic_Autoencoder_for_Dimensionality_Reduction_37_2.png
+copying images... [ 45%] _build/doctrees/nbsphinx/CNTK_201B_CIFAR-10_ImageHandsOn_34_1.png
+copying images... [ 46%] _build/doctrees/nbsphinx/CNTK_301_Image_Recognition_with_Deep_Transfer_Learning_35_2.jpeg
+copying images... [ 47%] _build/doctrees/nbsphinx/CNTK_105_Basic_Autoencoder_for_Dimensionality_Reduction_22_0.png
+copying images... [ 48%] _build/doctrees/nbsphinx/CNTK_101_LogisticRegression_36_0.png
+copying images... [ 50%] images/nn_layers.png
+copying images... [ 51%] _build/doctrees/nbsphinx/CNTK_106A_LSTM_Timeseries_with_Simulated_Data_23_0.png
+copying images... [ 52%] _build/doctrees/nbsphinx/Manual_How_to_debug_29_1.svg
+copying images... [ 53%] _build/doctrees/nbsphinx/CNTK_106A_LSTM_Timeseries_with_Simulated_Data_29_0.png
+copying images... [ 54%] _build/doctrees/nbsphinx/CNTK_106B_LSTM_Timeseries_with_IOT_Data_29_0.png
+copying images... [ 56%] _build/doctrees/nbsphinx/CNTK_200_GuidedTour_20_0.png
+copying images... [ 57%] _build/doctrees/nbsphinx/Manual_How_to_debug_17_0.svg
+copying images... [ 58%] _build/doctrees/nbsphinx/CNTK_106A_LSTM_Timeseries_with_Simulated_Data_11_0.png
+copying images... [ 59%] _build/doctrees/nbsphinx/CNTK_106B_LSTM_Timeseries_with_IOT_Data_23_0.png
+copying images... [ 60%] _build/doctrees/nbsphinx/CNTK_105_Basic_Autoencoder_for_Dimensionality_Reduction_31_0.png
+copying images... [ 62%] _build/doctrees/nbsphinx/CNTK_104_Finance_Timeseries_Basic_with_Pandas_Numpy_27_1.png
+copying images... [ 63%] _build/doctrees/nbsphinx/CNTK_203_Reinforcement_Learning_Basics_32_5.png
+copying images... [ 64%] _build/doctrees/nbsphinx/CNTK_205_Artistic_Style_Transfer_9_0.png
+copying images... [ 65%] _build/doctrees/nbsphinx/CNTK_104_Finance_Timeseries_Basic_with_Pandas_Numpy_17_0.png
+copying images... [ 67%] _build/doctrees/nbsphinx/CNTK_206C_WGAN_LSGAN_25_0.png
+copying images... [ 68%] _build/doctrees/nbsphinx/CNTK_103B_MNIST_LogisticRegression_45_1.png
+copying images... [ 69%] _build/doctrees/nbsphinx/CNTK_103B_MNIST_LogisticRegression_34_1.png
+copying images... [ 70%] _build/doctrees/nbsphinx/CNTK_201B_CIFAR-10_ImageHandsOn_37_1.png
+copying images... [ 71%] _build/doctrees/nbsphinx/CNTK_201B_CIFAR-10_ImageHandsOn_22_1.png
+copying images... [ 73%] _build/doctrees/nbsphinx/CNTK_206B_DCGAN_27_0.png
+copying images... [ 74%] _build/doctrees/nbsphinx/CNTK_301_Image_Recognition_with_Deep_Transfer_Learning_14_2.jpeg
+copying images... [ 75%] _build/doctrees/nbsphinx/CNTK_203_Reinforcement_Learning_Basics_40_1.png
+copying images... [ 76%] _build/doctrees/nbsphinx/CNTK_201B_CIFAR-10_ImageHandsOn_40_1.png
+copying images... [ 78%] _build/doctrees/nbsphinx/CNTK_301_Image_Recognition_with_Deep_Transfer_Learning_35_1.jpeg
+copying images... [ 79%] _build/doctrees/nbsphinx/CNTK_301_Image_Recognition_with_Deep_Transfer_Learning_27_1.jpeg
+copying images... [ 80%] _build/doctrees/nbsphinx/CNTK_203_Reinforcement_Learning_Basics_42_1.png
+copying images... [ 81%] _build/doctrees/nbsphinx/CNTK_103C_MNIST_MultiLayerPerceptron_32_1.png
+copying images... [ 82%] _build/doctrees/nbsphinx/CNTK_201B_CIFAR-10_ImageHandsOn_37_2.png
+copying images... [ 84%] _build/doctrees/nbsphinx/CNTK_104_Finance_Timeseries_Basic_with_Pandas_Numpy_25_1.png
+copying images... [ 85%] _build/doctrees/nbsphinx/CNTK_203_Reinforcement_Learning_Basics_32_6.png
+copying images... [ 86%] _build/doctrees/nbsphinx/CNTK_104_Finance_Timeseries_Basic_with_Pandas_Numpy_17_1.png
+copying images... [ 87%] _build/doctrees/nbsphinx/CNTK_103C_MNIST_MultiLayerPerceptron_43_1.png
+copying images... [ 89%] _build/doctrees/nbsphinx/CNTK_301_Image_Recognition_with_Deep_Transfer_Learning_14_3.jpeg
+copying images... [ 90%] _build/doctrees/nbsphinx/CNTK_102_FeedForward_43_1.png
+copying images... [ 91%] _build/doctrees/nbsphinx/CNTK_105_Basic_Autoencoder_for_Dimensionality_Reduction_41_2.png
+copying images... [ 92%] _build/doctrees/nbsphinx/CNTK_206C_WGAN_LSGAN_36_0.png
+copying images... [ 93%] _build/doctrees/nbsphinx/CNTK_207_Training_with_Sampled_Softmax_10_1.png
+copying images... [ 95%] _build/doctrees/nbsphinx/CNTK_203_Reinforcement_Learning_Basics_43_1.png
+copying images... [ 96%] _build/doctrees/nbsphinx/CNTK_105_Basic_Autoencoder_for_Dimensionality_Reduction_41_1.png
+copying images... [ 97%] _build/doctrees/nbsphinx/CNTK_203_Reinforcement_Learning_Basics_32_2.png
+copying images... [ 98%] _build/doctrees/nbsphinx/CNTK_102_FeedForward_13_0.png
+copying images... [100%] _build/doctrees/nbsphinx/CNTK_203_Reinforcement_Learning_Basics_30_1.png
+
+copying static files... done
+copying extra files... done
+dumping search index in English (code: en) ... done
+dumping object inventory... done
+build succeeded.
++ rm Manual_How_to_create_user_minibatch_sources.ipynb Manual_How_to_debug.ipynb Manual_How_to_feed_data.ipynb Manual_How_to_train_using_declarative_and_imperative_API.ipynb Manual_How_to_use_learners.ipynb Manual_How_to_use_network_optimizations.ipynb Manual_How_to_write_a_custom_deserializer.ipynb
++ rm CNTK_101_LogisticRegression.ipynb CNTK_102_FeedForward.ipynb CNTK_103A_MNIST_DataLoader.ipynb CNTK_103B_MNIST_LogisticRegression.ipynb CNTK_103C_MNIST_MultiLayerPerceptron.ipynb CNTK_103D_MNIST_ConvolutionalNeuralNetwork.ipynb CNTK_104_Finance_Timeseries_Basic_with_Pandas_Numpy.ipynb CNTK_105_Basic_Autoencoder_for_Dimensionality_Reduction.ipynb CNTK_106A_LSTM_Timeseries_with_Simulated_Data.ipynb CNTK_106B_LSTM_Timeseries_with_IOT_Data.ipynb CNTK_200_GuidedTour.ipynb CNTK_201A_CIFAR-10_DataLoader.ipynb CNTK_201B_CIFAR-10_ImageHandsOn.ipynb CNTK_202_Language_Understanding.ipynb CNTK_203_Reinforcement_Learning_Basics.ipynb CNTK_204_Sequence_To_Sequence.ipynb CNTK_205_Artistic_Style_Transfer.ipynb CNTK_206A_Basic_GAN.ipynb CNTK_206B_DCGAN.ipynb CNTK_206C_WGAN_LSGAN.ipynb CNTK_207_Training_with_Sampled_Softmax.ipynb CNTK_208_Speech_Connectionist_Temporal_Classification.ipynb CNTK_301_Image_Recognition_with_Deep_Transfer_Learning.ipynb CNTK_302A_Evaluation_of_Pretrained_Super-resolution_Models.ipynb CNTK_302B_Image_Super-resolution_Using_CNNs_and_GANs.ipynb CNTK_303_Deep_Structured_Semantic_Modeling_with_LSTM_Networks.ipynb
++ ERROR=0
++ rm _build/html/CNTK_101_LogisticRegression.html _build/html/CNTK_102_FeedForward.html _build/html/CNTK_103A_MNIST_DataLoader.html _build/html/CNTK_103B_MNIST_LogisticRegression.html _build/html/CNTK_103C_MNIST_MultiLayerPerceptron.html _build/html/CNTK_103D_MNIST_ConvolutionalNeuralNetwork.html _build/html/CNTK_104_Finance_Timeseries_Basic_with_Pandas_Numpy.html _build/html/CNTK_105_Basic_Autoencoder_for_Dimensionality_Reduction.html _build/html/CNTK_106A_LSTM_Timeseries_with_Simulated_Data.html _build/html/CNTK_106B_LSTM_Timeseries_with_IOT_Data.html _build/html/CNTK_200_GuidedTour.html _build/html/CNTK_201A_CIFAR-10_DataLoader.html _build/html/CNTK_201B_CIFAR-10_ImageHandsOn.html _build/html/CNTK_202_Language_Understanding.html _build/html/CNTK_203_Reinforcement_Learning_Basics.html _build/html/CNTK_204_Sequence_To_Sequence.html _build/html/CNTK_205_Artistic_Style_Transfer.html _build/html/CNTK_206A_Basic_GAN.html _build/html/CNTK_206B_DCGAN.html _build/html/CNTK_206C_WGAN_LSGAN.html _build/html/CNTK_207_Training_with_Sampled_Softmax.html _build/html/CNTK_208_Speech_Connectionist_Temporal_Classification.html _build/html/CNTK_301_Image_Recognition_with_Deep_Transfer_Learning.html _build/html/CNTK_302A_Evaluation_of_Pretrained_Super-resolution_Models.html _build/html/CNTK_302B_Image_Super-resolution_Using_CNNs_and_GANs.html _build/html/CNTK_303_Deep_Structured_Semantic_Modeling_with_LSTM_Networks.html
++ rm _build/html/Manual_How_to_create_user_minibatch_sources.html _build/html/Manual_How_to_debug.html _build/html/Manual_How_to_feed_data.html _build/html/Manual_How_to_train_using_declarative_and_imperative_API.html _build/html/Manual_How_to_use_learners.html _build/html/Manual_How_to_use_network_optimizations.html _build/html/Manual_How_to_write_a_custom_deserializer.html
++ grep -aE ' at 0x[0-9a-fA-F]{8}' _build/html/cntk.axis.html _build/html/cntk.contrib.crosstalk.crosstalk_cntk.html _build/html/cntk.contrib.crosstalk.crosstalk_tensorflow.html _build/html/cntk.contrib.crosstalk.html _build/html/cntk.contrib.crosstalkcaffe.adapter.baseadapter.html _build/html/cntk.contrib.crosstalkcaffe.adapter.bvlccaffe.caffe_pb2.html _build/html/cntk.contrib.crosstalkcaffe.adapter.bvlccaffe.caffeadapter.html _build/html/cntk.contrib.crosstalkcaffe.adapter.bvlccaffe.caffeimpl.html _build/html/cntk.contrib.crosstalkcaffe.adapter.bvlccaffe.html _build/html/cntk.contrib.crosstalkcaffe.adapter.html _build/html/cntk.contrib.crosstalkcaffe.convert.html _build/html/cntk.contrib.crosstalkcaffe.html _build/html/cntk.contrib.crosstalkcaffe.unimodel.cntkinstance.html _build/html/cntk.contrib.crosstalkcaffe.unimodel.cntkmodel.html _build/html/cntk.contrib.crosstalkcaffe.unimodel.html _build/html/cntk.contrib.crosstalkcaffe.utils.format.html _build/html/cntk.contrib.crosstalkcaffe.utils.globalconf.html _build/html/cntk.contrib.crosstalkcaffe.utils.html _build/html/cntk.contrib.crosstalkcaffe.validation.html _build/html/cntk.contrib.crosstalkcaffe.validation.validcaffe.html _build/html/cntk.contrib.crosstalkcaffe.validation.validcore.html _build/html/cntk.contrib.deeprl.agent.agent.html _build/html/cntk.contrib.deeprl.agent.agent_factory.html _build/html/cntk.contrib.deeprl.agent.html _build/html/cntk.contrib.deeprl.agent.policy_gradient.html _build/html/cntk.contrib.deeprl.agent.qlearning.html _build/html/cntk.contrib.deeprl.agent.random_agent.html _build/html/cntk.contrib.deeprl.agent.shared.cntk_utils.html _build/html/cntk.contrib.deeprl.agent.shared.customized_models.html _build/html/cntk.contrib.deeprl.agent.shared.discretize.html _build/html/cntk.contrib.deeprl.agent.shared.html _build/html/cntk.contrib.deeprl.agent.shared.models.html _build/html/cntk.contrib.deeprl.agent.shared.policy_gradient_parameters.html _build/html/cntk.contrib.deeprl.agent.shared.preprocessing.html _build/html/cntk.contrib.deeprl.agent.shared.qlearning_parameters.html _build/html/cntk.contrib.deeprl.agent.shared.replay_memory.html _build/html/cntk.contrib.deeprl.agent.tabular_qlearning.html _build/html/cntk.contrib.deeprl.html _build/html/cntk.contrib.html _build/html/cntk.contrib.netopt.custom_convolution_ops.html _build/html/cntk.contrib.netopt.factorization.html _build/html/cntk.contrib.netopt.html _build/html/cntk.contrib.netopt.quantization.html _build/html/cntk.contrib.netopt.test.factorization_test.html _build/html/cntk.contrib.netopt.test.html _build/html/cntk.contrib.netopt.test.quantization_test.html _build/html/cntk.core.html _build/html/cntk.debugging.debug.html _build/html/cntk.debugging.html _build/html/cntk.debugging.profiler.html _build/html/cntk.default_options.html _build/html/cntk.device.html _build/html/cntk.eval.evaluator.html _build/html/cntk.eval.html _build/html/cntk.html _build/html/cntk.initializer.html _build/html/cntk.io.html _build/html/cntk.io.transforms.html _build/html/cntk.layers.blocks.html _build/html/cntk.layers.higher_order_layers.html _build/html/cntk.layers.html _build/html/cntk.layers.layers.html _build/html/cntk.layers.models.attention.html _build/html/cntk.layers.models.html _build/html/cntk.layers.sequence.html _build/html/cntk.layers.typing.html _build/html/cntk.learners.html _build/html/cntk.logging.graph.html _build/html/cntk.logging.html _build/html/cntk.logging.progress_print.html _build/html/cntk.losses.html _build/html/cntk.metrics.html _build/html/cntk.misc.converter.html _build/html/cntk.misc.html _build/html/cntk.misc.optimized_rnnstack_converter.html _build/html/cntk.ops.functions.html _build/html/cntk.ops.html _build/html/cntk.ops.sequence.html _build/html/cntk.random.html _build/html/cntk.sample_installer.html _build/html/cntk.tensor.html _build/html/cntk.train.distributed.html _build/html/cntk.train.html _build/html/cntk.train.trainer.html _build/html/cntk.train.training_session.html _build/html/cntk.variables.html _build/html/concepts.html _build/html/examples.html _build/html/extend.html _build/html/genindex.html _build/html/gettingstarted.html _build/html/index.html _build/html/layerref.html _build/html/manuals.html _build/html/py-modindex.html _build/html/readersprofetc.html _build/html/search.html _build/html/sequence.html _build/html/setup.html _build/html/tutorials.html
++ grep -a '``' _build/html/cntk.axis.html _build/html/cntk.contrib.crosstalk.crosstalk_cntk.html _build/html/cntk.contrib.crosstalk.crosstalk_tensorflow.html _build/html/cntk.contrib.crosstalk.html _build/html/cntk.contrib.crosstalkcaffe.adapter.baseadapter.html _build/html/cntk.contrib.crosstalkcaffe.adapter.bvlccaffe.caffe_pb2.html _build/html/cntk.contrib.crosstalkcaffe.adapter.bvlccaffe.caffeadapter.html _build/html/cntk.contrib.crosstalkcaffe.adapter.bvlccaffe.caffeimpl.html _build/html/cntk.contrib.crosstalkcaffe.adapter.bvlccaffe.html _build/html/cntk.contrib.crosstalkcaffe.adapter.html _build/html/cntk.contrib.crosstalkcaffe.convert.html _build/html/cntk.contrib.crosstalkcaffe.html _build/html/cntk.contrib.crosstalkcaffe.unimodel.cntkinstance.html _build/html/cntk.contrib.crosstalkcaffe.unimodel.cntkmodel.html _build/html/cntk.contrib.crosstalkcaffe.unimodel.html _build/html/cntk.contrib.crosstalkcaffe.utils.format.html _build/html/cntk.contrib.crosstalkcaffe.utils.globalconf.html _build/html/cntk.contrib.crosstalkcaffe.utils.html _build/html/cntk.contrib.crosstalkcaffe.validation.html _build/html/cntk.contrib.crosstalkcaffe.validation.validcaffe.html _build/html/cntk.contrib.crosstalkcaffe.validation.validcore.html _build/html/cntk.contrib.deeprl.agent.agent.html _build/html/cntk.contrib.deeprl.agent.agent_factory.html _build/html/cntk.contrib.deeprl.agent.html _build/html/cntk.contrib.deeprl.agent.policy_gradient.html _build/html/cntk.contrib.deeprl.agent.qlearning.html _build/html/cntk.contrib.deeprl.agent.random_agent.html _build/html/cntk.contrib.deeprl.agent.shared.cntk_utils.html _build/html/cntk.contrib.deeprl.agent.shared.customized_models.html _build/html/cntk.contrib.deeprl.agent.shared.discretize.html _build/html/cntk.contrib.deeprl.agent.shared.html _build/html/cntk.contrib.deeprl.agent.shared.models.html _build/html/cntk.contrib.deeprl.agent.shared.policy_gradient_parameters.html _build/html/cntk.contrib.deeprl.agent.shared.preprocessing.html _build/html/cntk.contrib.deeprl.agent.shared.qlearning_parameters.html _build/html/cntk.contrib.deeprl.agent.shared.replay_memory.html _build/html/cntk.contrib.deeprl.agent.tabular_qlearning.html _build/html/cntk.contrib.deeprl.html _build/html/cntk.contrib.html _build/html/cntk.contrib.netopt.custom_convolution_ops.html _build/html/cntk.contrib.netopt.factorization.html _build/html/cntk.contrib.netopt.html _build/html/cntk.contrib.netopt.quantization.html _build/html/cntk.contrib.netopt.test.factorization_test.html _build/html/cntk.contrib.netopt.test.html _build/html/cntk.contrib.netopt.test.quantization_test.html _build/html/cntk.core.html _build/html/cntk.debugging.debug.html _build/html/cntk.debugging.html _build/html/cntk.debugging.profiler.html _build/html/cntk.default_options.html _build/html/cntk.device.html _build/html/cntk.eval.evaluator.html _build/html/cntk.eval.html _build/html/cntk.html _build/html/cntk.initializer.html _build/html/cntk.io.html _build/html/cntk.io.transforms.html _build/html/cntk.layers.blocks.html _build/html/cntk.layers.higher_order_layers.html _build/html/cntk.layers.html _build/html/cntk.layers.layers.html _build/html/cntk.layers.models.attention.html _build/html/cntk.layers.models.html _build/html/cntk.layers.sequence.html _build/html/cntk.layers.typing.html _build/html/cntk.learners.html _build/html/cntk.logging.graph.html _build/html/cntk.logging.html _build/html/cntk.logging.progress_print.html _build/html/cntk.losses.html _build/html/cntk.metrics.html _build/html/cntk.misc.converter.html _build/html/cntk.misc.html _build/html/cntk.misc.optimized_rnnstack_converter.html _build/html/cntk.ops.functions.html _build/html/cntk.ops.html _build/html/cntk.ops.sequence.html _build/html/cntk.random.html _build/html/cntk.sample_installer.html _build/html/cntk.tensor.html _build/html/cntk.train.distributed.html _build/html/cntk.train.html _build/html/cntk.train.trainer.html _build/html/cntk.train.training_session.html _build/html/cntk.variables.html _build/html/concepts.html _build/html/examples.html _build/html/extend.html _build/html/genindex.html _build/html/gettingstarted.html _build/html/index.html _build/html/layerref.html _build/html/manuals.html _build/html/py-modindex.html _build/html/readersprofetc.html _build/html/search.html _build/html/sequence.html _build/html/setup.html _build/html/tutorials.html
++ grep -a ':[a-z][a-z]*:' _build/html/cntk.axis.html _build/html/cntk.contrib.crosstalk.crosstalk_cntk.html _build/html/cntk.contrib.crosstalk.crosstalk_tensorflow.html _build/html/cntk.contrib.crosstalk.html _build/html/cntk.contrib.crosstalkcaffe.adapter.baseadapter.html _build/html/cntk.contrib.crosstalkcaffe.adapter.bvlccaffe.caffe_pb2.html _build/html/cntk.contrib.crosstalkcaffe.adapter.bvlccaffe.caffeadapter.html _build/html/cntk.contrib.crosstalkcaffe.adapter.bvlccaffe.caffeimpl.html _build/html/cntk.contrib.crosstalkcaffe.adapter.bvlccaffe.html _build/html/cntk.contrib.crosstalkcaffe.adapter.html _build/html/cntk.contrib.crosstalkcaffe.convert.html _build/html/cntk.contrib.crosstalkcaffe.html _build/html/cntk.contrib.crosstalkcaffe.unimodel.cntkinstance.html _build/html/cntk.contrib.crosstalkcaffe.unimodel.cntkmodel.html _build/html/cntk.contrib.crosstalkcaffe.unimodel.html _build/html/cntk.contrib.crosstalkcaffe.utils.format.html _build/html/cntk.contrib.crosstalkcaffe.utils.globalconf.html _build/html/cntk.contrib.crosstalkcaffe.utils.html _build/html/cntk.contrib.crosstalkcaffe.validation.html _build/html/cntk.contrib.crosstalkcaffe.validation.validcaffe.html _build/html/cntk.contrib.crosstalkcaffe.validation.validcore.html _build/html/cntk.contrib.deeprl.agent.agent.html _build/html/cntk.contrib.deeprl.agent.agent_factory.html _build/html/cntk.contrib.deeprl.agent.html _build/html/cntk.contrib.deeprl.agent.policy_gradient.html _build/html/cntk.contrib.deeprl.agent.qlearning.html _build/html/cntk.contrib.deeprl.agent.random_agent.html _build/html/cntk.contrib.deeprl.agent.shared.cntk_utils.html _build/html/cntk.contrib.deeprl.agent.shared.customized_models.html _build/html/cntk.contrib.deeprl.agent.shared.discretize.html _build/html/cntk.contrib.deeprl.agent.shared.html _build/html/cntk.contrib.deeprl.agent.shared.models.html _build/html/cntk.contrib.deeprl.agent.shared.policy_gradient_parameters.html _build/html/cntk.contrib.deeprl.agent.shared.preprocessing.html _build/html/cntk.contrib.deeprl.agent.shared.qlearning_parameters.html _build/html/cntk.contrib.deeprl.agent.shared.replay_memory.html _build/html/cntk.contrib.deeprl.agent.tabular_qlearning.html _build/html/cntk.contrib.deeprl.html _build/html/cntk.contrib.html _build/html/cntk.contrib.netopt.custom_convolution_ops.html _build/html/cntk.contrib.netopt.factorization.html _build/html/cntk.contrib.netopt.html _build/html/cntk.contrib.netopt.quantization.html _build/html/cntk.contrib.netopt.test.factorization_test.html _build/html/cntk.contrib.netopt.test.html _build/html/cntk.contrib.netopt.test.quantization_test.html _build/html/cntk.core.html _build/html/cntk.debugging.debug.html _build/html/cntk.debugging.html _build/html/cntk.debugging.profiler.html _build/html/cntk.default_options.html _build/html/cntk.device.html _build/html/cntk.eval.evaluator.html _build/html/cntk.eval.html _build/html/cntk.html _build/html/cntk.initializer.html _build/html/cntk.io.html _build/html/cntk.io.transforms.html _build/html/cntk.layers.blocks.html _build/html/cntk.layers.higher_order_layers.html _build/html/cntk.layers.html _build/html/cntk.layers.layers.html _build/html/cntk.layers.models.attention.html _build/html/cntk.layers.models.html _build/html/cntk.layers.sequence.html _build/html/cntk.layers.typing.html _build/html/cntk.learners.html _build/html/cntk.logging.graph.html _build/html/cntk.logging.html _build/html/cntk.logging.progress_print.html _build/html/cntk.losses.html _build/html/cntk.metrics.html _build/html/cntk.misc.converter.html _build/html/cntk.misc.html _build/html/cntk.misc.optimized_rnnstack_converter.html _build/html/cntk.ops.functions.html _build/html/cntk.ops.html _build/html/cntk.ops.sequence.html _build/html/cntk.random.html _build/html/cntk.sample_installer.html _build/html/cntk.tensor.html _build/html/cntk.train.distributed.html _build/html/cntk.train.html _build/html/cntk.train.trainer.html _build/html/cntk.train.training_session.html _build/html/cntk.variables.html _build/html/concepts.html _build/html/examples.html _build/html/extend.html _build/html/genindex.html _build/html/gettingstarted.html _build/html/index.html _build/html/layerref.html _build/html/manuals.html _build/html/py-modindex.html _build/html/readersprofetc.html _build/html/search.html _build/html/sequence.html _build/html/setup.html _build/html/tutorials.html
++ (( ERROR == 0 ))
++ set +x
 __COMPLETED__

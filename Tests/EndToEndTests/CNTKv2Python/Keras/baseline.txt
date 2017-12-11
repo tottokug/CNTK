@@ -1,1 +1,1600 @@
+CPU info:
+    CPU Model Name: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
+    Hardware threads: 12
+    Total Memory: 57700428 kB
+-------------------------------------------------------------------
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.3.1, py-1.5.2, pluggy-0.6.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: keras-2.0.6/.cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6, inifile:
+collecting ... collected 373 items
+
+keras-2.0.6/tests/test_dynamic_trainability.py::test_layer_trainability_switch PASSED [  0%]
+keras-2.0.6/tests/test_dynamic_trainability.py::test_model_trainability_switch PASSED [  0%]
+keras-2.0.6/tests/test_dynamic_trainability.py::test_nested_model_trainability PASSED [  0%]
+keras-2.0.6/tests/test_loss_masking.py::test_masking PASSED              [  1%]
+keras-2.0.6/tests/test_loss_masking.py::test_loss_masking PASSED         [  1%]
+keras-2.0.6/tests/test_loss_weighting.py::test_sequential_class_weights PASSED [  1%]
+keras-2.0.6/tests/test_loss_weighting.py::test_sequential_sample_weights PASSED [  1%]
+keras-2.0.6/tests/test_loss_weighting.py::test_sequential_temporal_sample_weights PASSED [  2%]
+keras-2.0.6/tests/test_loss_weighting.py::test_class_weight_wrong_classes PASSED [  2%]
+keras-2.0.6/tests/test_model_saving.py::test_sequential_model_saving PASSED [  2%]
+keras-2.0.6/tests/test_model_saving.py::test_sequential_model_saving_2 PASSED [  2%]
+keras-2.0.6/tests/test_model_saving.py::test_functional_model_saving PASSED [  3%]
+keras-2.0.6/tests/test_model_saving.py::test_saving_multiple_metrics_outputs PASSED [  3%]
+keras-2.0.6/tests/test_model_saving.py::test_saving_without_compilation PASSED [  3%]
+keras-2.0.6/tests/test_model_saving.py::test_saving_right_after_compilation PASSED [  4%]
+keras-2.0.6/tests/test_model_saving.py::test_loading_weights_by_name PASSED [  4%]
+keras-2.0.6/tests/test_model_saving.py::test_loading_weights_by_name_2 PASSED [  4%]
+keras-2.0.6/tests/test_model_saving.py::test_saving_lambda_custom_objects PASSED [  4%]
+keras-2.0.6/tests/test_model_saving.py::test_saving_lambda_numpy_array_arguments PASSED [  5%]
+keras-2.0.6/tests/test_model_saving.py::test_saving_custom_activation_function PASSED [  5%]
+keras-2.0.6/tests/test_multiprocessing.py::test_multiprocessing_training PASSED [  5%]
+keras-2.0.6/tests/test_multiprocessing.py::test_multiprocessing_training_fromfile PASSED [  5%]
+keras-2.0.6/tests/test_multiprocessing.py::test_multiprocessing_predicting PASSED [  6%]
+keras-2.0.6/tests/test_multiprocessing.py::test_multiprocessing_evaluating PASSED [  6%]
+keras-2.0.6/tests/test_multiprocessing.py::test_multiprocessing_fit_error PASSED [  6%]
+keras-2.0.6/tests/test_multiprocessing.py::test_multiprocessing_evaluate_error PASSED [  7%]
+keras-2.0.6/tests/test_multiprocessing.py::test_multiprocessing_predict_error PASSED [  7%]
+keras-2.0.6/tests/keras/activations_test.py::test_serialization PASSED   [  7%]
+keras-2.0.6/tests/keras/activations_test.py::test_softmax PASSED         [  7%]
+keras-2.0.6/tests/keras/activations_test.py::test_time_distributed_softmax PASSED [  8%]
+keras-2.0.6/tests/keras/activations_test.py::test_softplus PASSED        [  8%]
+keras-2.0.6/tests/keras/activations_test.py::test_softsign PASSED        [  8%]
+keras-2.0.6/tests/keras/activations_test.py::test_sigmoid PASSED         [  8%]
+keras-2.0.6/tests/keras/activations_test.py::test_hard_sigmoid PASSED    [  9%]
+keras-2.0.6/tests/keras/activations_test.py::test_relu PASSED            [  9%]
+keras-2.0.6/tests/keras/activations_test.py::test_elu PASSED             [  9%]
+keras-2.0.6/tests/keras/activations_test.py::test_selu PASSED            [ 10%]
+keras-2.0.6/tests/keras/activations_test.py::test_tanh PASSED            [ 10%]
+keras-2.0.6/tests/keras/activations_test.py::test_linear PASSED          [ 10%]
+keras-2.0.6/tests/keras/constraints_test.py::test_serialization PASSED   [ 10%]
+keras-2.0.6/tests/keras/constraints_test.py::test_max_norm PASSED        [ 11%]
+keras-2.0.6/tests/keras/constraints_test.py::test_non_neg PASSED         [ 11%]
+keras-2.0.6/tests/keras/constraints_test.py::test_unit_norm PASSED       [ 11%]
+keras-2.0.6/tests/keras/constraints_test.py::test_min_max_norm PASSED    [ 11%]
+keras-2.0.6/tests/keras/initializers_test.py::test_uniform[FC] PASSED    [ 12%]
+keras-2.0.6/tests/keras/initializers_test.py::test_uniform[CONV] PASSED  [ 12%]
+keras-2.0.6/tests/keras/initializers_test.py::test_normal[FC] PASSED     [ 12%]
+keras-2.0.6/tests/keras/initializers_test.py::test_normal[CONV] PASSED   [ 13%]
+keras-2.0.6/tests/keras/initializers_test.py::test_truncated_normal[FC] PASSED [ 13%]
+keras-2.0.6/tests/keras/initializers_test.py::test_truncated_normal[CONV] PASSED [ 13%]
+keras-2.0.6/tests/keras/initializers_test.py::test_constant[FC] PASSED   [ 13%]
+keras-2.0.6/tests/keras/initializers_test.py::test_constant[CONV] PASSED [ 14%]
+keras-2.0.6/tests/keras/initializers_test.py::test_lecun_uniform[FC] PASSED [ 14%]
+keras-2.0.6/tests/keras/initializers_test.py::test_lecun_uniform[CONV] PASSED [ 14%]
+keras-2.0.6/tests/keras/initializers_test.py::test_glorot_uniform[FC] PASSED [ 14%]
+keras-2.0.6/tests/keras/initializers_test.py::test_glorot_uniform[CONV] PASSED [ 15%]
+keras-2.0.6/tests/keras/initializers_test.py::test_he_uniform[FC] PASSED [ 15%]
+keras-2.0.6/tests/keras/initializers_test.py::test_he_uniform[CONV] PASSED [ 15%]
+keras-2.0.6/tests/keras/initializers_test.py::test_glorot_normal[FC] PASSED [ 16%]
+keras-2.0.6/tests/keras/initializers_test.py::test_glorot_normal[CONV] PASSED [ 16%]
+keras-2.0.6/tests/keras/initializers_test.py::test_he_normal[FC] PASSED  [ 16%]
+keras-2.0.6/tests/keras/initializers_test.py::test_he_normal[CONV] PASSED [ 16%]
+keras-2.0.6/tests/keras/initializers_test.py::test_lecun_normal[FC] PASSED [ 17%]
+keras-2.0.6/tests/keras/initializers_test.py::test_lecun_normal[CONV] PASSED [ 17%]
+keras-2.0.6/tests/keras/initializers_test.py::test_orthogonal[FC] PASSED [ 17%]
+keras-2.0.6/tests/keras/initializers_test.py::test_orthogonal[CONV] PASSED [ 17%]
+keras-2.0.6/tests/keras/initializers_test.py::test_identity[FC] PASSED   [ 18%]
+keras-2.0.6/tests/keras/initializers_test.py::test_identity[CONV] PASSED [ 18%]
+keras-2.0.6/tests/keras/initializers_test.py::test_zero[FC] PASSED       [ 18%]
+keras-2.0.6/tests/keras/initializers_test.py::test_zero[CONV] PASSED     [ 19%]
+keras-2.0.6/tests/keras/initializers_test.py::test_one[FC] PASSED        [ 19%]
+keras-2.0.6/tests/keras/initializers_test.py::test_one[CONV] PASSED      [ 19%]
+keras-2.0.6/tests/keras/losses_test.py::test_objective_shapes_3d PASSED  [ 19%]
+keras-2.0.6/tests/keras/losses_test.py::test_objective_shapes_2d PASSED  [ 20%]
+keras-2.0.6/tests/keras/losses_test.py::test_cce_one_hot PASSED          [ 20%]
+keras-2.0.6/tests/keras/losses_test.py::test_categorical_hinge PASSED    [ 20%]
+keras-2.0.6/tests/keras/metrics_test.py::test_metrics PASSED             [ 20%]
+keras-2.0.6/tests/keras/metrics_test.py::test_sparse_metrics PASSED      [ 21%]
+keras-2.0.6/tests/keras/metrics_test.py::test_top_k_categorical_accuracy SKIPPED [ 21%]
+keras-2.0.6/tests/keras/metrics_test.py::test_sparse_top_k_categorical_accuracy SKIPPED [ 21%]
+keras-2.0.6/tests/keras/optimizers_test.py::test_sgd PASSED              [ 22%]
+keras-2.0.6/tests/keras/optimizers_test.py::test_rmsprop PASSED          [ 22%]
+keras-2.0.6/tests/keras/optimizers_test.py::test_adagrad PASSED          [ 22%]
+keras-2.0.6/tests/keras/optimizers_test.py::test_adadelta PASSED         [ 22%]
+keras-2.0.6/tests/keras/optimizers_test.py::test_adam PASSED             [ 23%]
+keras-2.0.6/tests/keras/optimizers_test.py::test_adamax PASSED           [ 23%]
+keras-2.0.6/tests/keras/optimizers_test.py::test_nadam PASSED            [ 23%]
+keras-2.0.6/tests/keras/optimizers_test.py::test_clipnorm PASSED         [ 23%]
+keras-2.0.6/tests/keras/optimizers_test.py::test_clipvalue PASSED        [ 24%]
+keras-2.0.6/tests/keras/regularizers_test.py::test_kernel_regularization PASSED [ 24%]
+keras-2.0.6/tests/keras/regularizers_test.py::test_activity_regularization PASSED [ 24%]
+keras-2.0.6/tests/keras/test_callbacks.py::test_TerminateOnNaN PASSED    [ 25%]
+keras-2.0.6/tests/keras/test_callbacks.py::test_ModelCheckpoint PASSED   [ 25%]
+keras-2.0.6/tests/keras/test_callbacks.py::test_EarlyStopping PASSED     [ 25%]
+keras-2.0.6/tests/keras/test_callbacks.py::test_EarlyStopping_reuse PASSED [ 25%]
+keras-2.0.6/tests/keras/test_callbacks.py::test_LearningRateScheduler PASSED [ 26%]
+keras-2.0.6/tests/keras/test_callbacks.py::test_ReduceLROnPlateau PASSED [ 26%]
+keras-2.0.6/tests/keras/test_callbacks.py::test_CSVLogger PASSED         [ 26%]
+keras-2.0.6/tests/keras/test_callbacks.py::test_TensorBoard SKIPPED      [ 26%]
+keras-2.0.6/tests/keras/test_callbacks.py::test_TensorBoard_convnet SKIPPED [ 27%]
+keras-2.0.6/tests/keras/test_callbacks.py::test_CallbackValData PASSED   [ 27%]
+keras-2.0.6/tests/keras/test_callbacks.py::test_LambdaCallback PASSED    [ 27%]
+keras-2.0.6/tests/keras/test_callbacks.py::test_TensorBoard_with_ReduceLROnPlateau SKIPPED [ 27%]
+keras-2.0.6/tests/keras/test_sequential_model.py::test_sequential_pop PASSED [ 28%]
+keras-2.0.6/tests/keras/test_sequential_model.py::test_sequential_fit_generator PASSED [ 28%]
+keras-2.0.6/tests/keras/test_sequential_model.py::test_sequential PASSED [ 28%]
+keras-2.0.6/tests/keras/test_sequential_model.py::test_nested_sequential PASSED [ 29%]
+keras-2.0.6/tests/keras/test_sequential_model.py::test_sequential_count_params PASSED [ 29%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_resnet50 PASSED [ 29%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_resnet50_notop SKIPPED [ 29%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_resnet50_notop_specified_input_shape PASSED [ 30%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_resnet50_pooling SKIPPED [ 30%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_resnet50_pooling_specified_input_shape PASSED [ 30%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_vgg16 PASSED [ 30%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_vgg16_notop SKIPPED [ 31%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_vgg16_notop_specified_input_shape PASSED [ 31%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_vgg16_pooling SKIPPED [ 31%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_vgg16_pooling_specified_input_shape PASSED [ 32%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_vgg19 PASSED [ 32%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_vgg19_notop SKIPPED [ 32%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_vgg19_notop_specified_input_shape PASSED [ 32%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_vgg19_pooling SKIPPED [ 33%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_vgg19_pooling_specified_input_shape PASSED [ 33%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_xception SKIPPED [ 33%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_xception_notop SKIPPED [ 33%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_xception_pooling SKIPPED [ 34%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_inceptionv3 PASSED [ 34%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_inceptionv3_notop SKIPPED [ 34%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_inceptionv3_pooling SKIPPED [ 35%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_mobilenet SKIPPED [ 35%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_mobilenet_no_top SKIPPED [ 35%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_mobilenet_pooling SKIPPED [ 35%]
+keras-2.0.6/tests/keras/applications/applications_test.py::test_depthwise_conv_2d SKIPPED [ 36%]
+keras-2.0.6/tests/keras/applications/imagenet_utils_test.py::test_preprocess_input PASSED [ 36%]
+keras-2.0.6/tests/keras/applications/imagenet_utils_test.py::test_decode_predictions PASSED [ 36%]
+keras-2.0.6/tests/keras/applications/imagenet_utils_test.py::test_obtain_input_shape PASSED [ 36%]
+keras-2.0.6/tests/keras/datasets/test_datasets.py::test_cifar PASSED     [ 37%]
+keras-2.0.6/tests/keras/datasets/test_datasets.py::test_reuters PASSED   [ 37%]
+keras-2.0.6/tests/keras/datasets/test_datasets.py::test_mnist PASSED     [ 37%]
+keras-2.0.6/tests/keras/datasets/test_datasets.py::test_imdb PASSED      [ 38%]
+keras-2.0.6/tests/keras/datasets/test_datasets.py::test_boston_housing PASSED [ 38%]
+keras-2.0.6/tests/keras/engine/test_topology.py::test_get_updates_for PASSED [ 38%]
+keras-2.0.6/tests/keras/engine/test_topology.py::test_get_losses_for PASSED [ 38%]
+keras-2.0.6/tests/keras/engine/test_topology.py::test_trainable_weights PASSED [ 39%]
+keras-2.0.6/tests/keras/engine/test_topology.py::test_learning_phase PASSED [ 39%]
+keras-2.0.6/tests/keras/engine/test_topology.py::test_layer_call_arguments PASSED [ 39%]
+keras-2.0.6/tests/keras/engine/test_topology.py::test_node_construction PASSED [ 39%]
+keras-2.0.6/tests/keras/engine/test_topology.py::test_multi_input_layer PASSED [ 40%]
+keras-2.0.6/tests/keras/engine/test_topology.py::test_recursion PASSED   [ 40%]
+keras-2.0.6/tests/keras/engine/test_topology.py::test_load_layers PASSED [ 40%]
+keras-2.0.6/tests/keras/engine/test_topology.py::test_recursion_with_bn_and_loss PASSED [ 41%]
+keras-2.0.6/tests/keras/engine/test_topology.py::test_shared_layer_depth_is_correct PASSED [ 41%]
+keras-2.0.6/tests/keras/engine/test_training.py::test_check_array_lengths PASSED [ 41%]
+keras-2.0.6/tests/keras/engine/test_training.py::test_slice_arrays PASSED [ 41%]
+keras-2.0.6/tests/keras/engine/test_training.py::test_weighted_masked_objective PASSED [ 42%]
+keras-2.0.6/tests/keras/engine/test_training.py::test_model_methods PASSED [ 42%]
+keras-2.0.6/tests/keras/engine/test_training.py::test_sparse_input_validation_split SKIPPED [ 42%]
+keras-2.0.6/tests/keras/engine/test_training.py::test_trainable_argument PASSED [ 42%]
+keras-2.0.6/tests/keras/engine/test_training.py::test_check_not_failing PASSED [ 43%]
+keras-2.0.6/tests/keras/engine/test_training.py::test_check_last_is_one PASSED [ 43%]
+keras-2.0.6/tests/keras/engine/test_training.py::test_check_bad_shape PASSED [ 43%]
+keras-2.0.6/tests/keras/engine/test_training.py::test_model_with_input_feed_tensor SKIPPED [ 44%]
+keras-2.0.6/tests/keras/engine/test_training.py::test_model_with_partial_loss PASSED [ 44%]
+keras-2.0.6/tests/keras/engine/test_training.py::test_model_with_external_loss SKIPPED [ 44%]
+keras-2.0.6/tests/keras/layers/advanced_activations_test.py::test_leaky_relu PASSED [ 44%]
+keras-2.0.6/tests/keras/layers/advanced_activations_test.py::test_prelu PASSED [ 45%]
+keras-2.0.6/tests/keras/layers/advanced_activations_test.py::test_prelu_share PASSED [ 45%]
+keras-2.0.6/tests/keras/layers/advanced_activations_test.py::test_elu PASSED [ 45%]
+keras-2.0.6/tests/keras/layers/advanced_activations_test.py::test_thresholded_relu PASSED [ 45%]
+keras-2.0.6/tests/keras/layers/convolutional_recurrent_test.py::test_convolutional_recurrent PASSED [ 46%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_causal_dilated_conv SKIPPED [ 46%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_conv_1d PASSED [ 46%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_maxpooling_1d PASSED [ 47%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_averagepooling_1d PASSED [ 47%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_convolution_2d SKIPPED [ 47%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_conv2d_transpose PASSED [ 47%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_separable_conv_2d SKIPPED [ 48%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_globalpooling_1d PASSED [ 48%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_globalpooling_2d PASSED [ 48%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_globalpooling_3d PASSED [ 48%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_maxpooling_2d PASSED [ 49%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_averagepooling_2d PASSED [ 49%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_convolution_3d PASSED [ 49%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_maxpooling_3d PASSED [ 50%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_averagepooling_3d PASSED [ 50%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_zero_padding_1d PASSED [ 50%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_zero_padding_2d PASSED [ 50%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_zero_padding_3d PASSED [ 51%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_upsampling_1d PASSED [ 51%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_upsampling_2d PASSED [ 51%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_upsampling_3d SKIPPED [ 51%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_cropping_1d SKIPPED [ 52%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_cropping_2d PASSED [ 52%]
+keras-2.0.6/tests/keras/layers/convolutional_test.py::test_cropping_3d PASSED [ 52%]
+keras-2.0.6/tests/keras/layers/core_test.py::test_masking PASSED         [ 52%]
+keras-2.0.6/tests/keras/layers/core_test.py::test_dropout PASSED         [ 53%]
+keras-2.0.6/tests/keras/layers/core_test.py::test_activation PASSED      [ 53%]
+keras-2.0.6/tests/keras/layers/core_test.py::test_reshape PASSED         [ 53%]
+keras-2.0.6/tests/keras/layers/core_test.py::test_permute PASSED         [ 54%]
+keras-2.0.6/tests/keras/layers/core_test.py::test_flatten PASSED         [ 54%]
+keras-2.0.6/tests/keras/layers/core_test.py::test_repeat_vector PASSED   [ 54%]
+keras-2.0.6/tests/keras/layers/core_test.py::test_lambda PASSED          [ 54%]
+keras-2.0.6/tests/keras/layers/core_test.py::test_dense PASSED           [ 55%]
+keras-2.0.6/tests/keras/layers/core_test.py::test_activity_regularization PASSED [ 55%]
+keras-2.0.6/tests/keras/layers/embeddings_test.py::test_embedding PASSED [ 55%]
+keras-2.0.6/tests/keras/layers/local_test.py::test_locallyconnected_1d PASSED [ 55%]
+keras-2.0.6/tests/keras/layers/local_test.py::test_locallyconnected_2d PASSED [ 56%]
+keras-2.0.6/tests/keras/layers/merge_test.py::test_merge_add PASSED      [ 56%]
+keras-2.0.6/tests/keras/layers/merge_test.py::test_merge_multiply PASSED [ 56%]
+keras-2.0.6/tests/keras/layers/merge_test.py::test_merge_average PASSED  [ 57%]
+keras-2.0.6/tests/keras/layers/merge_test.py::test_merge_maximum PASSED  [ 57%]
+keras-2.0.6/tests/keras/layers/merge_test.py::test_merge_concatenate PASSED [ 57%]
+keras-2.0.6/tests/keras/layers/merge_test.py::test_merge_dot PASSED      [ 57%]
+keras-2.0.6/tests/keras/layers/merge_test.py::test_merge_broadcast PASSED [ 58%]
+keras-2.0.6/tests/keras/layers/noise_test.py::test_GaussianNoise SKIPPED [ 58%]
+keras-2.0.6/tests/keras/layers/noise_test.py::test_GaussianDropout SKIPPED [ 58%]
+keras-2.0.6/tests/keras/layers/noise_test.py::test_AlphaDropout SKIPPED  [ 58%]
+keras-2.0.6/tests/keras/layers/normalization_test.py::test_basic_batchnorm PASSED [ 59%]
+keras-2.0.6/tests/keras/layers/normalization_test.py::test_batchnorm_correctness PASSED [ 59%]
+keras-2.0.6/tests/keras/layers/normalization_test.py::test_batchnorm_training_argument PASSED [ 59%]
+keras-2.0.6/tests/keras/layers/normalization_test.py::test_batchnorm_mode_twice PASSED [ 60%]
+keras-2.0.6/tests/keras/layers/normalization_test.py::test_batchnorm_convnet PASSED [ 60%]
+keras-2.0.6/tests/keras/layers/normalization_test.py::test_shared_batchnorm PASSED [ 60%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_return_sequences[SimpleRNN] PASSED [ 60%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_return_sequences[GRU] PASSED [ 61%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_return_sequences[LSTM] PASSED [ 61%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_dynamic_behavior[SimpleRNN] PASSED [ 61%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_dynamic_behavior[GRU] PASSED [ 61%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_dynamic_behavior[LSTM] PASSED [ 62%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_stateful_invalid_use[SimpleRNN] SKIPPED [ 62%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_stateful_invalid_use[GRU] SKIPPED [ 62%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_stateful_invalid_use[LSTM] SKIPPED [ 63%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_dropout[SimpleRNN] PASSED [ 63%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_dropout[GRU] PASSED [ 63%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_dropout[LSTM] PASSED [ 63%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_implementation_mode[SimpleRNN] PASSED [ 64%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_implementation_mode[GRU] PASSED [ 64%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_implementation_mode[LSTM] PASSED [ 64%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_statefulness[SimpleRNN] SKIPPED [ 64%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_statefulness[GRU] SKIPPED [ 65%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_statefulness[LSTM] SKIPPED [ 65%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_regularizer[SimpleRNN] PASSED [ 65%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_regularizer[GRU] PASSED [ 66%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_regularizer[LSTM] PASSED [ 66%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_masking_layer SKIPPED [ 66%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_from_config[SimpleRNN] PASSED [ 66%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_from_config[GRU] PASSED [ 67%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_from_config[LSTM] PASSED [ 67%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_specify_initial_state_keras_tensor[SimpleRNN] PASSED [ 67%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_specify_initial_state_keras_tensor[GRU] PASSED [ 67%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_specify_initial_state_keras_tensor[LSTM] PASSED [ 68%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_specify_initial_state_non_keras_tensor[SimpleRNN] PASSED [ 68%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_specify_initial_state_non_keras_tensor[GRU] PASSED [ 68%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_specify_initial_state_non_keras_tensor[LSTM] PASSED [ 69%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_reset_states_with_values[SimpleRNN] SKIPPED [ 69%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_reset_states_with_values[GRU] SKIPPED [ 69%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_reset_states_with_values[LSTM] SKIPPED [ 69%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_specify_state_with_masking[SimpleRNN] PASSED [ 70%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_specify_state_with_masking[GRU] PASSED [ 70%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_specify_state_with_masking[LSTM] PASSED [ 70%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_return_state[SimpleRNN] SKIPPED [ 70%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_return_state[GRU] SKIPPED [ 71%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_return_state[LSTM] SKIPPED [ 71%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_state_reuse[SimpleRNN] PASSED [ 71%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_state_reuse[GRU] PASSED [ 72%]
+keras-2.0.6/tests/keras/layers/recurrent_test.py::test_state_reuse[LSTM] PASSED [ 72%]
+keras-2.0.6/tests/keras/layers/wrappers_test.py::test_TimeDistributed PASSED [ 72%]
+keras-2.0.6/tests/keras/layers/wrappers_test.py::test_TimeDistributed_learning_phase SKIPPED [ 72%]
+keras-2.0.6/tests/keras/layers/wrappers_test.py::test_regularizers PASSED [ 73%]
+keras-2.0.6/tests/keras/layers/wrappers_test.py::test_Bidirectional SKIPPED [ 73%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_dense_legacy_interface PASSED [ 73%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_dropout_legacy_interface PASSED [ 73%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_embedding_legacy_interface PASSED [ 74%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_maxpooling1d_legacy_interface PASSED [ 74%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_avgpooling1d_legacy_interface PASSED [ 74%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_prelu_legacy_interface PASSED [ 75%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_gaussiannoise_legacy_interface PASSED [ 75%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_lstm_legacy_interface PASSED [ 75%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_simplernn_legacy_interface PASSED [ 75%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_gru_legacy_interface PASSED [ 76%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_gaussiandropout_legacy_interface PASSED [ 76%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_maxpooling2d_legacy_interface PASSED [ 76%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_avgpooling2d_legacy_interface PASSED [ 76%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_maxpooling3d_legacy_interface PASSED [ 77%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_avgpooling3d_legacy_interface PASSED [ 77%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_global_maxpooling2d_legacy_interface PASSED [ 77%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_global_avgpooling2d_legacy_interface PASSED [ 77%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_global_maxpooling3d_legacy_interface PASSED [ 78%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_global_avgpooling3d_legacy_interface PASSED [ 78%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_upsampling1d_legacy_interface PASSED [ 78%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_upsampling2d_legacy_interface PASSED [ 79%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_upsampling3d_legacy_interface PASSED [ 79%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_conv2d_legacy_interface PASSED [ 79%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_deconv2d_legacy_interface PASSED [ 79%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_conv1d_legacy_interface PASSED [ 80%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_separable_conv2d_legacy_interface PASSED [ 80%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_conv3d_legacy_interface PASSED [ 80%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_convlstm2d_legacy_interface PASSED [ 80%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_batchnorm_legacy_interface PASSED [ 81%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_atrousconv1d_legacy_interface PASSED [ 81%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_atrousconv2d_legacy_interface PASSED [ 81%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_zeropadding2d_legacy_interface PASSED [ 82%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_zeropadding3d_legacy_interface PASSED [ 82%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_cropping2d_legacy_interface PASSED [ 82%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_cropping3d_legacy_interface PASSED [ 82%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_generator_methods_interface PASSED [ 83%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_spatialdropout1d_legacy_interface PASSED [ 83%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_spatialdropout2d_legacy_interface PASSED [ 83%]
+keras-2.0.6/tests/keras/legacy/interface_test.py::test_spatialdropout3d_legacy_interface PASSED [ 83%]
+keras-2.0.6/tests/keras/legacy/layers_test.py::test_highway PASSED       [ 84%]
+keras-2.0.6/tests/keras/legacy/layers_test.py::test_maxout_dense PASSED  [ 84%]
+keras-2.0.6/tests/keras/legacy/layers_test.py::test_merge PASSED         [ 84%]
+keras-2.0.6/tests/keras/legacy/layers_test.py::test_merge_mask_2d SKIPPED [ 85%]
+keras-2.0.6/tests/keras/legacy/layers_test.py::test_merge_mask_3d SKIPPED [ 85%]
+keras-2.0.6/tests/keras/legacy/layers_test.py::test_sequential_regression PASSED [ 85%]
+keras-2.0.6/tests/keras/legacy/models_test.py::test_merge_sum PASSED     [ 85%]
+keras-2.0.6/tests/keras/legacy/models_test.py::test_merge_dot PASSED     [ 86%]
+keras-2.0.6/tests/keras/legacy/models_test.py::test_merge_concat PASSED  [ 86%]
+keras-2.0.6/tests/keras/legacy/models_test.py::test_merge_recursivity PASSED [ 86%]
+keras-2.0.6/tests/keras/legacy/models_test.py::test_merge_overlap PASSED [ 86%]
+keras-2.0.6/tests/keras/preprocessing/image_test.py::TestImage::test_image_data_generator PASSED [ 87%]
+keras-2.0.6/tests/keras/preprocessing/image_test.py::TestImage::test_image_data_generator_invalid_data PASSED [ 87%]
+keras-2.0.6/tests/keras/preprocessing/image_test.py::TestImage::test_image_data_generator_fit PASSED [ 87%]
+keras-2.0.6/tests/keras/preprocessing/image_test.py::TestImage::test_directory_iterator PASSED [ 88%]
+keras-2.0.6/tests/keras/preprocessing/image_test.py::TestImage::test_directory_iterator_class_mode_input PASSED [ 88%]
+keras-2.0.6/tests/keras/preprocessing/image_test.py::TestImage::test_img_utils PASSED [ 88%]
+keras-2.0.6/tests/keras/preprocessing/image_test.py::TestImage::test_random_transforms PASSED [ 88%]
+keras-2.0.6/tests/keras/preprocessing/sequence_test.py::test_pad_sequences PASSED [ 89%]
+keras-2.0.6/tests/keras/preprocessing/sequence_test.py::test_pad_sequences_vector PASSED [ 89%]
+keras-2.0.6/tests/keras/preprocessing/sequence_test.py::test_make_sampling_table PASSED [ 89%]
+keras-2.0.6/tests/keras/preprocessing/sequence_test.py::test_skipgrams PASSED [ 89%]
+keras-2.0.6/tests/keras/preprocessing/text_test.py::test_one_hot PASSED  [ 90%]
+keras-2.0.6/tests/keras/preprocessing/text_test.py::test_hashing_trick_hash PASSED [ 90%]
+keras-2.0.6/tests/keras/preprocessing/text_test.py::test_hashing_trick_md5 PASSED [ 90%]
+keras-2.0.6/tests/keras/preprocessing/text_test.py::test_tokenizer PASSED [ 91%]
+keras-2.0.6/tests/keras/utils/data_utils_test.py::test_data_utils PASSED [ 91%]
+keras-2.0.6/tests/keras/utils/data_utils_test.py::test_generator_enqueuer_threads PASSED [ 91%]
+keras-2.0.6/tests/keras/utils/data_utils_test.py::test_generator_enqueuer_processes PASSED [ 91%]
+keras-2.0.6/tests/keras/utils/data_utils_test.py::test_generator_enqueuer_fail_threads PASSED [ 92%]
+keras-2.0.6/tests/keras/utils/data_utils_test.py::test_generator_enqueuer_fail_processes PASSED [ 92%]
+keras-2.0.6/tests/keras/utils/data_utils_test.py::test_ordered_enqueuer_threads PASSED [ 92%]
+keras-2.0.6/tests/keras/utils/data_utils_test.py::test_ordered_enqueuer_processes PASSED [ 92%]
+keras-2.0.6/tests/keras/utils/data_utils_test.py::test_ordered_enqueuer_fail_threads PASSED [ 93%]
+keras-2.0.6/tests/keras/utils/data_utils_test.py::test_ordered_enqueuer_fail_processes PASSED [ 93%]
+keras-2.0.6/tests/keras/utils/generic_utils_test.py::test_custom_objects_scope PASSED [ 93%]
+keras-2.0.6/tests/keras/utils/generic_utils_test.py::test_has_arg[f(x)-x-False-True] PASSED [ 94%]
+keras-2.0.6/tests/keras/utils/generic_utils_test.py::test_has_arg[f(x)-y-False-False] PASSED [ 94%]
+keras-2.0.6/tests/keras/utils/generic_utils_test.py::test_has_arg[f(x)-y-True-False] PASSED [ 94%]
+keras-2.0.6/tests/keras/utils/generic_utils_test.py::test_has_arg[f(x, y)-y-False-True] PASSED [ 94%]
+keras-2.0.6/tests/keras/utils/generic_utils_test.py::test_has_arg[f(x, y=1)-y-False-True] PASSED [ 95%]
+keras-2.0.6/tests/keras/utils/generic_utils_test.py::test_has_arg[f(x, **kwargs)-x-False-True] PASSED [ 95%]
+keras-2.0.6/tests/keras/utils/generic_utils_test.py::test_has_arg[f(x, **kwargs)-y-False-False] PASSED [ 95%]
+keras-2.0.6/tests/keras/utils/generic_utils_test.py::test_has_arg[f(x, **kwargs)-y-True-True] PASSED [ 95%]
+keras-2.0.6/tests/keras/utils/generic_utils_test.py::test_has_arg[f(x, y=1, **kwargs)-y-False-True] PASSED [ 96%]
+keras-2.0.6/tests/keras/utils/generic_utils_test.py::test_has_arg[f(x, *args, y=1)-y-False-True] PASSED [ 96%]
+keras-2.0.6/tests/keras/utils/generic_utils_test.py::test_has_arg[f(x, *args, y=1)-z-True-False] PASSED [ 96%]
+keras-2.0.6/tests/keras/utils/generic_utils_test.py::test_has_arg[f(x, *, y=1)-x-False-True] PASSED [ 97%]
+keras-2.0.6/tests/keras/utils/generic_utils_test.py::test_has_arg[f(x, *, y=1)-y-False-True] PASSED [ 97%]
+keras-2.0.6/tests/keras/utils/generic_utils_test.py::test_has_arg[fn13-x-False-True] PASSED [ 97%]
+keras-2.0.6/tests/keras/utils/generic_utils_test.py::test_has_arg[fn14-y-False-False] PASSED [ 97%]
+keras-2.0.6/tests/keras/utils/generic_utils_test.py::test_has_arg[fn15-y-True-False] PASSED [ 98%]
+keras-2.0.6/tests/keras/utils/io_utils_test.py::test_io_utils PASSED     [ 98%]
+keras-2.0.6/tests/keras/wrappers/scikit_learn_test.py::test_classify_build_fn PASSED [ 98%]
+keras-2.0.6/tests/keras/wrappers/scikit_learn_test.py::test_classify_class_build_fn PASSED [ 98%]
+keras-2.0.6/tests/keras/wrappers/scikit_learn_test.py::test_classify_inherit_class_build_fn PASSED [ 99%]
+keras-2.0.6/tests/keras/wrappers/scikit_learn_test.py::test_regression_build_fn PASSED [ 99%]
+keras-2.0.6/tests/keras/wrappers/scikit_learn_test.py::test_regression_class_build_fn PASSED [ 99%]
+keras-2.0.6/tests/keras/wrappers/scikit_learn_test.py::test_regression_inherit_class_build_fn PASSED [100%]
+
+=============================== warnings summary ===============================
+tests/keras/utils/data_utils_test.py::TestSequence
+  cannot collect test class 'TestSequence' because it has a __init__ constructor
+
+tests/test_loss_weighting.py::test_sequential_class_weights
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input565") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input605") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input604") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/test_loss_weighting.py::test_sequential_sample_weights
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input958") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input998") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input997") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/test_loss_weighting.py::test_sequential_temporal_sample_weights
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input1351") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input1740") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input1739") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/test_model_saving.py::test_sequential_model_saving
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input9291") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input9337") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input9742") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input9291") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input9337") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input9742") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input9788") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/test_model_saving.py::test_sequential_model_saving_2
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input10201") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input10235") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input10597") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/test_model_saving.py::test_functional_model_saving
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input10885") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input10919") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input11281") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/test_model_saving.py::test_saving_without_compilation
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/models.py:245: UserWarning: No training configuration found in save file: the model was *not* compiled. Compile it manually.
+    warnings.warn('No training configuration found in save file: '
+
+tests/test_model_saving.py::test_loading_weights_by_name
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input12523") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input12557") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input12919") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/test_model_saving.py::test_loading_weights_by_name_2
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input13029") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input13063") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input13425") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/test_model_saving.py::test_saving_lambda_custom_objects
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input13569") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input13592") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input13826") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/test_model_saving.py::test_saving_lambda_numpy_array_arguments
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/layers/core.py:629: UserWarning: `output_shape` argument not specified for layer lambda_2 and cannot be automatically inferred with the Theano backend. Defaulting to output shape `(None, 4, 2, 3)` (same as input shape). If the expected output shape is different, specify it via the `output_shape` argument.
+    .format(self.name, input_shape))
+
+tests/test_model_saving.py::test_saving_custom_activation_function
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input14223") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input14246") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input14480") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/test_multiprocessing.py::test_multiprocessing_training
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/engine/training.py:1786: UserWarning: Using a generator with `use_multiprocessing=True` and multiple workers may duplicate your data. Please consider using the`keras.utils.Sequence class.
+    UserWarning('Using a generator with `use_multiprocessing=True`'
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input14687") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/test_multiprocessing.py::test_multiprocessing_training_fromfile
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/engine/training.py:1786: UserWarning: Using a generator with `use_multiprocessing=True` and multiple workers may duplicate your data. Please consider using the`keras.utils.Sequence class.
+    UserWarning('Using a generator with `use_multiprocessing=True`'
+
+tests/test_multiprocessing.py::test_multiprocessing_predicting
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/engine/training.py:2046: UserWarning: Using a generator with `use_multiprocessing=True` and multiple workers may duplicate your data. Please consider using the`keras.utils.Sequence class.
+    UserWarning('Using a generator with `use_multiprocessing=True`'
+
+tests/test_multiprocessing.py::test_multiprocessing_evaluating
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/engine/training.py:1937: UserWarning: Using a generator with `use_multiprocessing=True` and multiple workers may duplicate your data. Please consider using the`keras.utils.Sequence class.
+    UserWarning('Using a generator with `use_multiprocessing=True`'
+
+tests/test_multiprocessing.py::test_multiprocessing_fit_error
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/engine/training.py:1786: UserWarning: Using a generator with `use_multiprocessing=True` and multiple workers may duplicate your data. Please consider using the`keras.utils.Sequence class.
+    UserWarning('Using a generator with `use_multiprocessing=True`'
+
+tests/test_multiprocessing.py::test_multiprocessing_evaluate_error
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/engine/training.py:1937: UserWarning: Using a generator with `use_multiprocessing=True` and multiple workers may duplicate your data. Please consider using the`keras.utils.Sequence class.
+    UserWarning('Using a generator with `use_multiprocessing=True`'
+
+tests/test_multiprocessing.py::test_multiprocessing_predict_error
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/engine/training.py:2046: UserWarning: Using a generator with `use_multiprocessing=True` and multiple workers may duplicate your data. Please consider using the`keras.utils.Sequence class.
+    UserWarning('Using a generator with `use_multiprocessing=True`'
+
+tests/keras/constraints_test.py::test_max_norm
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:82: RuntimeWarning: data is not C contiguous; rearrange your data/computation to avoid costly data conversions
+    RuntimeWarning)
+
+tests/keras/optimizers_test.py::test_sgd
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input19306") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input19270") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/optimizers_test.py::test_rmsprop
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input19665") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input19629") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input20096") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input20060") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/optimizers_test.py::test_adagrad
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input20560") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input20524") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input20937") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input20901") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/optimizers_test.py::test_adadelta
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input21348") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input21312") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input21921") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input21885") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/optimizers_test.py::test_adam
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input22530") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input22494") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input23114") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input23078") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/optimizers_test.py::test_adamax
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input23720") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input23684") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input24307") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input24271") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/optimizers_test.py::test_nadam
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input24916") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input24880") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/optimizers_test.py::test_clipnorm
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input25777") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input25741") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/optimizers_test.py::test_clipvalue
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input26237") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input26201") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/regularizers_test.py::test_kernel_regularization
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input26574") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input26540") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input26788") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input26754") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input27015") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input26968") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/regularizers_test.py::test_activity_regularization
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input27233") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input27199") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input27447") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input27413") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/test_callbacks.py::test_TerminateOnNaN
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input27627") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input27727") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/utils/generic_utils.py:289: RuntimeWarning: invalid value encountered in multiply
+    self.sum_values[k][0] += v * (current - self.seen_so_far)
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/utils/generic_utils.py:289: RuntimeWarning: invalid value encountered in double_scalars
+    self.sum_values[k][0] += v * (current - self.seen_so_far)
+
+tests/keras/test_callbacks.py::test_ModelCheckpoint
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input28606") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input28566") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/test_callbacks.py::test_EarlyStopping
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input29077") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input29037") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/test_callbacks.py::test_EarlyStopping_reuse
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input29508") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/test_callbacks.py::test_LearningRateScheduler
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input29866") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input29826") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/test_callbacks.py::test_ReduceLROnPlateau
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input30217") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input30177") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input30568") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input30528") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/test_callbacks.py::test_CSVLogger
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input30919") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input30879") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input31270") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input31230") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/test_callbacks.py::test_CallbackValData
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input31621") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input31581") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/test_callbacks.py::test_LambdaCallback
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input31972") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input31932") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/test_sequential_model.py::test_sequential_pop
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input32283") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input32317") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input32526") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/test_sequential_model.py::test_sequential_fit_generator
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input32717") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input32663") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/test_sequential_model.py::test_sequential
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input33152") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input33112") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input33669") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input33629") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/test_sequential_model.py::test_nested_sequential
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input33923") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input33883") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input34371") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input34331") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/engine/test_topology.py::test_learning_phase
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input98094") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input98095") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/engine/test_topology.py::test_multi_input_layer
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input98250") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input98251") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input98325") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input98326") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/engine/test_topology.py::test_recursion
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input98559") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input98560") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input98636") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input98637") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input98769") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input98770") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input98810") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input98811") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input98912") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input98913") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input98915") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input98914") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/engine/topology.py:1562: UserWarning: Model inputs must come from a Keras Input layer, they cannot be the output of a previous non-Input layer. Here, a tensor specified as input to "model_19" was not an Input tensor, it was generated by layer dense_119.
+  Note that input tensors are instantiated via `tensor = Input(shape)`.
+  The tensor that caused the issue was: 
+    str(x.name))
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/engine/topology.py:1511: UserWarning: The list of outputs passed to the model is redundant. All outputs should only appear once. Found: [Composite(Plus): Input('input_j', [#], [32]), Input('input_k', [#], [32]) -> Output('Plus99375_Output_0', [#], [64]), Composite(Plus): Input('input_j', [#], [32]), Input('input_k', [#], [32]) -> Output('Plus99384_Output_0', [#], [5]), Composite(Plus): Input('input_j', [#], [32]), Input('input_k', [#], [32]) -> Output('Plus99384_Output_0', [#], [5])]
+    ' Found: ' + str(self.outputs))
+
+tests/keras/engine/test_topology.py::test_load_layers
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:82: RuntimeWarning: data is not C contiguous; rearrange your data/computation to avoid costly data conversions
+    RuntimeWarning)
+
+tests/keras/engine/test_topology.py::test_recursion_with_bn_and_loss
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input101019") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input100670") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input101100") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input100851") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/engine/test_training.py::test_model_methods
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input101856") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input101885") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input101886") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input101857") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input101884") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input102236") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input102237") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input102648") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input102649") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input103024") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input103025") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input103400") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input103401") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/engine/test_training.py:357: UserWarning: Output "dense_1" missing from loss dictionary. We assume this was done on purpose, and we will not be expecting any data to be passed to "dense_1" during training.
+    model.compile(optimizer, loss=[])
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/engine/test_training.py:357: UserWarning: Output "dropout" missing from loss dictionary. We assume this was done on purpose, and we will not be expecting any data to be passed to "dropout" during training.
+    model.compile(optimizer, loss=[])
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input104356") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input104357") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/engine/test_training.py::test_trainable_argument
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input104687") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input104707") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input104785") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input104800") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/engine/test_training.py::test_model_with_partial_loss
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/engine/test_training.py:634: UserWarning: Output "dense_1" missing from loss dictionary. We assume this was done on purpose, and we will not be expecting any data to be passed to "dense_1" during training.
+    model.compile(optimizer, loss, metrics=['mae'])
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input104878") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input104905") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/engine/test_training.py:655: UserWarning: Output "dense_1" missing from loss dictionary. We assume this was done on purpose, and we will not be expecting any data to be passed to "dense_1" during training.
+    model.compile(optimizer, loss, metrics={'dense_1': 'mae'})
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input105183") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input105217") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/convolutional_recurrent_test.py::test_convolutional_recurrent
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input126784") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/core_test.py::test_lambda
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/layers/core.py:629: UserWarning: `output_shape` argument not specified for layer lambda_3 and cannot be automatically inferred with the Theano backend. Defaulting to output shape `(None, 2)` (same as input shape). If the expected output shape is different, specify it via the `output_shape` argument.
+    .format(self.name, input_shape))
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/layers/core.py:629: UserWarning: `output_shape` argument not specified for layer lambda_3 and cannot be automatically inferred with the Theano backend. Defaulting to output shape `(3, 2)` (same as input shape). If the expected output shape is different, specify it via the `output_shape` argument.
+    .format(self.name, input_shape))
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/layers/core.py:629: UserWarning: `output_shape` argument not specified for layer lambda_4 and cannot be automatically inferred with the Theano backend. Defaulting to output shape `(None, 2)` (same as input shape). If the expected output shape is different, specify it via the `output_shape` argument.
+    .format(self.name, input_shape))
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/layers/core.py:629: UserWarning: `output_shape` argument not specified for layer lambda_4 and cannot be automatically inferred with the Theano backend. Defaulting to output shape `(3, 2)` (same as input shape). If the expected output shape is different, specify it via the `output_shape` argument.
+    .format(self.name, input_shape))
+
+tests/keras/layers/core_test.py::test_activity_regularization
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input160061") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/merge_test.py::test_merge_add
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173272") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173273") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173274") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/merge_test.py::test_merge_multiply
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173294") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173295") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173296") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/merge_test.py::test_merge_average
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173316") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173317") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/merge_test.py::test_merge_maximum
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173346") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173347") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/merge_test.py::test_merge_concatenate
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173393") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173394") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173407") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/merge_test.py::test_merge_dot
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173430") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173431") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173430") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173431") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/merge_test.py::test_merge_broadcast
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173496") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173497") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173544") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input173545") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/normalization_test.py::test_batchnorm_correctness
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input176746") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input176890") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/normalization_test.py::test_batchnorm_training_argument
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input177125") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input177293") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/normalization_test.py::test_batchnorm_mode_twice
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input177601") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input178099") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/normalization_test.py::test_batchnorm_convnet
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input178716") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input178968") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/normalization_test.py::test_shared_batchnorm
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input179454") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input179590") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input179788") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input179924") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/recurrent_test.py::test_dynamic_behavior[SimpleRNN]
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/backend/cntk_backend.py:992: UserWarning: Warning: CNTK backend does not support collapse of batch axis with inferred dimension. The reshape did not take place.
+    'Warning: CNTK backend does not support '
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input187806") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input187941") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/recurrent_test.py::test_dynamic_behavior[GRU]
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/backend/cntk_backend.py:992: UserWarning: Warning: CNTK backend does not support collapse of batch axis with inferred dimension. The reshape did not take place.
+    'Warning: CNTK backend does not support '
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input188135") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input188446") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/recurrent_test.py::test_dynamic_behavior[LSTM]
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/backend/cntk_backend.py:992: UserWarning: Warning: CNTK backend does not support collapse of batch axis with inferred dimension. The reshape did not take place.
+    'Warning: CNTK backend does not support '
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input188682") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input189154") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/recurrent_test.py::test_dropout[SimpleRNN]
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input191452") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/recurrent_test.py::test_dropout[GRU]
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input195943") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/recurrent_test.py::test_dropout[LSTM]
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input202568") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/recurrent_test.py::test_specify_initial_state_keras_tensor[SimpleRNN]
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input232811") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input232713") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input232714") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/recurrent_test.py::test_specify_initial_state_keras_tensor[GRU]
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input233557") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input233267") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input233268") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/recurrent_test.py::test_specify_initial_state_keras_tensor[LSTM]
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input234557") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input234101") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input234102") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input234103") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/recurrent_test.py::test_specify_initial_state_non_keras_tensor[SimpleRNN]
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input235249") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input235140") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/recurrent_test.py::test_specify_initial_state_non_keras_tensor[GRU]
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input236066") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input235719") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/recurrent_test.py::test_specify_initial_state_non_keras_tensor[LSTM]
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input237155") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input236624") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/recurrent_test.py::test_specify_state_with_masking[SimpleRNN]
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input237918") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input237752") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input237821") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/recurrent_test.py::test_specify_state_with_masking[GRU]
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input238732") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input238374") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input238443") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/recurrent_test.py::test_specify_state_with_masking[LSTM]
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input239800") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input239276") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input239345") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input239346") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/recurrent_test.py::test_state_reuse[SimpleRNN]
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input240383") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/recurrent_test.py::test_state_reuse[GRU]
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input240768") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/recurrent_test.py::test_state_reuse[LSTM]
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input241851") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/layers/wrappers_test.py::test_TimeDistributed
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input243507") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input243536") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input243794") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input243972") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input244259") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input244297") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input244592") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input244641") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input245034") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input245055") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input245285") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input245306") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/legacy/interface_test.py::test_dense_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:11: UserWarning: Update your `Dense` call to the Keras 2 API: `Dense(input_dim=3, name="d", units=2)`
+    old_layer = keras.layers.Dense(input_dim=3, output_dim=2, name='d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:17: UserWarning: Update your `Dense` call to the Keras 2 API: `Dense(2, kernel_constraint="maxnorm", name="d", kernel_regularizer="l1", use_bias=False, kernel_initializer="normal")`
+    W_constraint='maxnorm', name='d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:26: UserWarning: Update your `Dense` call to the Keras 2 API: `Dense(2, name="d", bias_constraint="maxnorm", use_bias=True, bias_regularizer="l1")`
+    b_constraint='maxnorm', name='d')
+
+tests/keras/legacy/interface_test.py::test_dropout_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:35: UserWarning: Update your `Dropout` call to the Keras 2 API: `Dropout(name="drop", rate=3)`
+    old_layer = keras.layers.Dropout(p=3, name='drop')
+
+tests/keras/legacy/interface_test.py::test_embedding_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:51: UserWarning: Update your `Embedding` call to the Keras 2 API: `Embedding(input_dim=4, embeddings_regularizer="l1", output_dim=2, embeddings_constraint="maxnorm", name="d", embeddings_initializer="normal")`
+    W_constraint='maxnorm')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:58: UserWarning: The `dropout` argument is no longer support in `Embedding`. You can apply a `keras.layers.SpatialDropout1D` layer right after the `Embedding` layer to get the same behavior.
+    old_layer = keras.layers.Embedding(1, 1, dropout=0.0, name='d')
+
+tests/keras/legacy/interface_test.py::test_maxpooling1d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:67: UserWarning: Update your `MaxPooling1D` call to the Keras 2 API: `MaxPooling1D(name="maxpool1d", pool_size=2, padding="valid")`
+    name='maxpool1d')
+
+tests/keras/legacy/interface_test.py::test_avgpooling1d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:84: UserWarning: Update your `AveragePooling1D` call to the Keras 2 API: `AveragePooling1D(name="d", pool_size=2, padding="valid")`
+    name='d')
+
+tests/keras/legacy/interface_test.py::test_prelu_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:95: UserWarning: Update your `PReLU` call to the Keras 2 API: `PReLU(name="p", alpha_initializer="zero")`
+    old_layer = keras.layers.PReLU(init='zero', name='p')
+
+tests/keras/legacy/interface_test.py::test_gaussiannoise_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:102: UserWarning: Update your `GaussianNoise` call to the Keras 2 API: `GaussianNoise(name="gn", stddev=0.5)`
+    old_layer = keras.layers.GaussianNoise(sigma=0.5, name='gn')
+
+tests/keras/legacy/interface_test.py::test_lstm_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:109: UserWarning: Update your `LSTM` call to the Keras 2 API: `LSTM(name="d", units=2, input_shape=[3, 5])`
+    old_layer = keras.layers.LSTM(input_shape=[3, 5], output_dim=2, name='d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:117: UserWarning: Update your `LSTM` call to the Keras 2 API: `LSTM(input_shape=[3, 5], implementation=1, name="d", units=2)`
+    old_layer = keras.layers.LSTM(input_shape=[3, 5], output_dim=2, name='d', consume_less='mem')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:122: UserWarning: The `input_dim` and `input_length` arguments in recurrent layers are deprecated. Use `input_shape` instead.
+    output_dim=2, name='d', consume_less='mem')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:122: UserWarning: Update your `LSTM` call to the Keras 2 API: `LSTM(input_shape=(3, 5), name="d", implementation=1, units=2)`
+    output_dim=2, name='d', consume_less='mem')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:127: UserWarning: The `input_dim` and `input_length` arguments in recurrent layers are deprecated. Use `input_shape` instead.
+    output_dim=2, name='d', consume_less='mem')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:127: UserWarning: Update your `LSTM` call to the Keras 2 API: `LSTM(input_shape=(None, 5), name="d", implementation=1, units=2)`
+    output_dim=2, name='d', consume_less='mem')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:131: UserWarning: Update your `LSTM` call to the Keras 2 API: `LSTM(input_shape=[3, 5], implementation=2, name="d", units=2)`
+    old_layer = keras.layers.LSTM(input_shape=[3, 5], output_dim=2, name='d', consume_less='gpu')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:144: UserWarning: Update your `LSTM` call to the Keras 2 API: `LSTM(2, bias_regularizer="l1", recurrent_initializer="glorot_uniform", unit_forget_bias=True, name="LSTM", dropout=0.1, recurrent_dropout=0.1, recurrent_regularizer="l1", kernel_regularizer="l1", kernel_initializer="normal", recurrent_activation="hard_sigmoid")`
+    name='LSTM')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:168: UserWarning: The `forget_bias_init` argument has been ignored. Use `unit_forget_bias=True` instead to initialize with ones.
+    name='LSTM')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:168: UserWarning: Update your `LSTM` call to the Keras 2 API: `LSTM(2, bias_regularizer="l1", recurrent_initializer="glorot_uniform", name="LSTM", dropout=0.1, recurrent_dropout=0.1, recurrent_regularizer="l1", kernel_regularizer="l1", kernel_initializer="normal", recurrent_activation="hard_sigmoid")`
+    name='LSTM')
+
+tests/keras/legacy/interface_test.py::test_simplernn_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:186: UserWarning: Update your `SimpleRNN` call to the Keras 2 API: `SimpleRNN(name="d", units=2, input_shape=[3, 5])`
+    old_layer = keras.layers.SimpleRNN(input_shape=[3, 5], output_dim=2, name='d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:197: UserWarning: Update your `SimpleRNN` call to the Keras 2 API: `SimpleRNN(2, bias_regularizer="l1", recurrent_initializer="glorot_uniform", name="SimpleRNN", dropout=0.1, recurrent_dropout=0.1, recurrent_regularizer="l1", kernel_regularizer="l1", kernel_initializer="normal")`
+    name='SimpleRNN')
+
+tests/keras/legacy/interface_test.py::test_gru_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:211: UserWarning: Update your `GRU` call to the Keras 2 API: `GRU(name="d", units=2, input_shape=[3, 5])`
+    old_layer = keras.layers.GRU(input_shape=[3, 5], output_dim=2, name='d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:227: UserWarning: Update your `GRU` call to the Keras 2 API: `GRU(2, bias_regularizer="l1", recurrent_initializer="glorot_uniform", name="GRU", dropout=0.1, recurrent_dropout=0.1, recurrent_regularizer="l1", kernel_regularizer="l1", kernel_initializer="normal", recurrent_activation="hard_sigmoid")`
+    name='GRU')
+
+tests/keras/legacy/interface_test.py::test_gaussiandropout_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:242: UserWarning: Update your `GaussianDropout` call to the Keras 2 API: `GaussianDropout(name="drop", rate=0.6)`
+    old_layer = keras.layers.GaussianDropout(p=0.6, name='drop')
+
+tests/keras/legacy/interface_test.py::test_maxpooling2d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:251: UserWarning: Update your `MaxPooling2D` call to the Keras 2 API: `MaxPooling2D(name="maxpool2d", pool_size=(2, 2), padding="valid")`
+    old_layer = keras.layers.MaxPooling2D(pool_size=(2, 2), border_mode='valid', name='maxpool2d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:259: UserWarning: Update your `MaxPooling2D` call to the Keras 2 API: `MaxPooling2D((2, 2), name="maxpool2d", data_format="channels_last", padding="valid")`
+    old_layer = keras.layers.MaxPooling2D((2, 2), padding='valid', dim_ordering='tf', name='maxpool2d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:263: UserWarning: Update your `MaxPooling2D` call to the Keras 2 API: `MaxPooling2D((2, 2), name="maxpool2d", data_format="channels_first", padding="valid")`
+    old_layer = keras.layers.MaxPooling2D((2, 2), padding='valid', dim_ordering='th', name='maxpool2d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:267: UserWarning: Update your `MaxPooling2D` call to the Keras 2 API: `MaxPooling2D((2, 2), name="maxpool2d", data_format=None, padding="valid")`
+    old_layer = keras.layers.MaxPooling2D((2, 2), padding='valid', dim_ordering='default', name='maxpool2d')
+
+tests/keras/legacy/interface_test.py::test_avgpooling2d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:274: UserWarning: Update your `AveragePooling2D` call to the Keras 2 API: `AveragePooling2D(name="avgpooling2d", pool_size=(2, 2), padding="valid")`
+    old_layer = keras.layers.AveragePooling2D(pool_size=(2, 2), border_mode='valid', name='avgpooling2d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:282: UserWarning: Update your `AveragePooling2D` call to the Keras 2 API: `AveragePooling2D((2, 2), name="avgpooling2d", data_format="channels_last", padding="valid")`
+    old_layer = keras.layers.AveragePooling2D((2, 2), padding='valid', dim_ordering='tf', name='avgpooling2d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:286: UserWarning: Update your `AveragePooling2D` call to the Keras 2 API: `AveragePooling2D((2, 2), name="avgpooling2d", data_format="channels_first", padding="valid")`
+    old_layer = keras.layers.AveragePooling2D((2, 2), padding='valid', dim_ordering='th', name='avgpooling2d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:290: UserWarning: Update your `AveragePooling2D` call to the Keras 2 API: `AveragePooling2D((2, 2), name="avgpooling2d", data_format=None, padding="valid")`
+    old_layer = keras.layers.AveragePooling2D((2, 2), padding='valid', dim_ordering='default', name='avgpooling2d')
+
+tests/keras/legacy/interface_test.py::test_maxpooling3d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:297: UserWarning: Update your `MaxPooling3D` call to the Keras 2 API: `MaxPooling3D(name="maxpool3d", pool_size=(2, 2, 2), padding="valid")`
+    old_layer = keras.layers.MaxPooling3D(pool_size=(2, 2, 2), border_mode='valid', name='maxpool3d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:305: UserWarning: Update your `MaxPooling3D` call to the Keras 2 API: `MaxPooling3D((2, 2, 2), name="maxpool3d", data_format="channels_last", padding="valid")`
+    old_layer = keras.layers.MaxPooling3D((2, 2, 2), padding='valid', dim_ordering='tf', name='maxpool3d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:309: UserWarning: Update your `MaxPooling3D` call to the Keras 2 API: `MaxPooling3D((2, 2, 2), name="maxpool3d", data_format="channels_first", padding="valid")`
+    old_layer = keras.layers.MaxPooling3D((2, 2, 2), padding='valid', dim_ordering='th', name='maxpool3d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:313: UserWarning: Update your `MaxPooling3D` call to the Keras 2 API: `MaxPooling3D((2, 2, 2), name="maxpool3d", data_format=None, padding="valid")`
+    old_layer = keras.layers.MaxPooling3D((2, 2, 2), padding='valid', dim_ordering='default', name='maxpool3d')
+
+tests/keras/legacy/interface_test.py::test_avgpooling3d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:320: UserWarning: Update your `AveragePooling3D` call to the Keras 2 API: `AveragePooling3D(name="avgpooling3d", pool_size=(2, 2, 2), padding="valid")`
+    old_layer = keras.layers.AveragePooling3D(pool_size=(2, 2, 2), border_mode='valid', name='avgpooling3d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:328: UserWarning: Update your `AveragePooling3D` call to the Keras 2 API: `AveragePooling3D((2, 2, 2), name="avgpooling3d", data_format="channels_last", padding="valid")`
+    old_layer = keras.layers.AveragePooling3D((2, 2, 2), padding='valid', dim_ordering='tf', name='avgpooling3d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:332: UserWarning: Update your `AveragePooling3D` call to the Keras 2 API: `AveragePooling3D((2, 2, 2), name="avgpooling3d", data_format="channels_first", padding="valid")`
+    old_layer = keras.layers.AveragePooling3D((2, 2, 2), padding='valid', dim_ordering='th', name='avgpooling3d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:336: UserWarning: Update your `AveragePooling3D` call to the Keras 2 API: `AveragePooling3D((2, 2, 2), name="avgpooling3d", data_format=None, padding="valid")`
+    old_layer = keras.layers.AveragePooling3D((2, 2, 2), padding='valid', dim_ordering='default', name='avgpooling3d')
+
+tests/keras/legacy/interface_test.py::test_global_maxpooling2d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:343: UserWarning: Update your `GlobalMaxPooling2D` call to the Keras 2 API: `GlobalMaxPooling2D(name="global_maxpool2d", data_format="channels_last")`
+    old_layer = keras.layers.GlobalMaxPooling2D(dim_ordering='tf', name='global_maxpool2d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:347: UserWarning: Update your `GlobalMaxPooling2D` call to the Keras 2 API: `GlobalMaxPooling2D(name="global_maxpool2d", data_format="channels_first")`
+    old_layer = keras.layers.GlobalMaxPooling2D(dim_ordering='th', name='global_maxpool2d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:351: UserWarning: Update your `GlobalMaxPooling2D` call to the Keras 2 API: `GlobalMaxPooling2D(name="global_maxpool2d", data_format=None)`
+    old_layer = keras.layers.GlobalMaxPooling2D(dim_ordering='default', name='global_maxpool2d')
+
+tests/keras/legacy/interface_test.py::test_global_avgpooling2d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:358: UserWarning: Update your `GlobalAveragePooling2D` call to the Keras 2 API: `GlobalAveragePooling2D(name="global_avgpool2d", data_format="channels_last")`
+    old_layer = keras.layers.GlobalAveragePooling2D(dim_ordering='tf', name='global_avgpool2d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:362: UserWarning: Update your `GlobalAveragePooling2D` call to the Keras 2 API: `GlobalAveragePooling2D(name="global_avgpool2d", data_format="channels_first")`
+    old_layer = keras.layers.GlobalAveragePooling2D(dim_ordering='th', name='global_avgpool2d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:366: UserWarning: Update your `GlobalAveragePooling2D` call to the Keras 2 API: `GlobalAveragePooling2D(name="global_avgpool2d", data_format=None)`
+    old_layer = keras.layers.GlobalAveragePooling2D(dim_ordering='default', name='global_avgpool2d')
+
+tests/keras/legacy/interface_test.py::test_global_maxpooling3d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:373: UserWarning: Update your `GlobalMaxPooling3D` call to the Keras 2 API: `GlobalMaxPooling3D(name="global_maxpool3d", data_format="channels_last")`
+    old_layer = keras.layers.GlobalMaxPooling3D(dim_ordering='tf', name='global_maxpool3d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:377: UserWarning: Update your `GlobalMaxPooling3D` call to the Keras 2 API: `GlobalMaxPooling3D(name="global_maxpool3d", data_format="channels_first")`
+    old_layer = keras.layers.GlobalMaxPooling3D(dim_ordering='th', name='global_maxpool3d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:381: UserWarning: Update your `GlobalMaxPooling3D` call to the Keras 2 API: `GlobalMaxPooling3D(name="global_maxpool3d", data_format=None)`
+    old_layer = keras.layers.GlobalMaxPooling3D(dim_ordering='default', name='global_maxpool3d')
+
+tests/keras/legacy/interface_test.py::test_global_avgpooling3d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:388: UserWarning: Update your `GlobalAveragePooling3D` call to the Keras 2 API: `GlobalAveragePooling3D(name="global_avgpool3d", data_format="channels_last")`
+    old_layer = keras.layers.GlobalAveragePooling3D(dim_ordering='tf', name='global_avgpool3d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:392: UserWarning: Update your `GlobalAveragePooling3D` call to the Keras 2 API: `GlobalAveragePooling3D(name="global_avgpool3d", data_format="channels_first")`
+    old_layer = keras.layers.GlobalAveragePooling3D(dim_ordering='th', name='global_avgpool3d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:396: UserWarning: Update your `GlobalAveragePooling3D` call to the Keras 2 API: `GlobalAveragePooling3D(name="global_avgpool3d", data_format=None)`
+    old_layer = keras.layers.GlobalAveragePooling3D(dim_ordering='default', name='global_avgpool3d')
+
+tests/keras/legacy/interface_test.py::test_upsampling1d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:403: UserWarning: Update your `UpSampling1D` call to the Keras 2 API: `UpSampling1D(name="us1d", size=3)`
+    old_layer = keras.layers.UpSampling1D(length=3, name='us1d')
+
+tests/keras/legacy/interface_test.py::test_upsampling2d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:412: UserWarning: Update your `UpSampling2D` call to the Keras 2 API: `UpSampling2D((2, 2), name="us2d", data_format="channels_last")`
+    old_layer = keras.layers.UpSampling2D((2, 2), dim_ordering='tf', name='us2d')
+
+tests/keras/legacy/interface_test.py::test_upsampling3d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:421: UserWarning: Update your `UpSampling3D` call to the Keras 2 API: `UpSampling3D((2, 2, 2), name="us3d", data_format="channels_last")`
+    name='us3d')
+
+tests/keras/legacy/interface_test.py::test_conv2d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:430: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(5, (3, 3), name="conv")`
+    old_layer = keras.layers.Convolution2D(5, 3, 3, name='conv')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:434: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(5, (3, 3), name="conv")`
+    old_layer = keras.layers.Convolution2D(5, 3, nb_col=3, name='conv')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:438: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(5, (3, 3), name="conv")`
+    old_layer = keras.layers.Convolution2D(5, nb_row=3, nb_col=3, name='conv')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:451: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(5, (3, 3), bias_regularizer="l2", name="conv", data_format="channels_first", strides=(2, 2), bias_constraint="unitnorm", padding="valid", kernel_constraint="maxnorm", kernel_regularizer="l1", kernel_initializer="normal")`
+    name='conv')
+
+tests/keras/legacy/interface_test.py::test_deconv2d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:467: UserWarning: Update your `Conv2DTranspose` call to the Keras 2 API: `Conv2DTranspose(5, (3, 3), name="deconv")`
+    old_layer = keras.layers.Deconvolution2D(5, 3, 3, (6, 7, 5), name='deconv')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:471: UserWarning: Update your `Conv2DTranspose` call to the Keras 2 API: `Conv2DTranspose(5, (3, 3), name="deconv")`
+    old_layer = keras.layers.Deconvolution2D(5, 3, 3, output_shape=(6, 7, 5), name='deconv')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:475: UserWarning: Update your `Conv2DTranspose` call to the Keras 2 API: `Conv2DTranspose(5, (3, 3), name="deconv")`
+    old_layer = keras.layers.Deconvolution2D(5, 3, nb_col=3, output_shape=(6, 7, 5), name='deconv')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:479: UserWarning: Update your `Conv2DTranspose` call to the Keras 2 API: `Conv2DTranspose(5, (3, 3), name="deconv")`
+    old_layer = keras.layers.Deconvolution2D(5, nb_row=3, nb_col=3, output_shape=(6, 7, 5), name='deconv')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:493: UserWarning: Update your `Conv2DTranspose` call to the Keras 2 API: `Conv2DTranspose(5, (3, 3), bias_regularizer="l2", name="conv", data_format="channels_first", strides=(2, 2), bias_constraint="unitnorm", padding="valid", kernel_constraint="maxnorm", kernel_regularizer="l1", kernel_initializer="normal")`
+    name='conv')
+
+tests/keras/legacy/interface_test.py::test_conv1d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:514: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(5, kernel_size=3, input_shape=(4, 3), name="conv")`
+    name='conv')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:526: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(5, 3, bias_regularizer="l2", name="conv", strides=2, bias_constraint="unitnorm", padding="valid", kernel_constraint="maxnorm", kernel_regularizer="l1", kernel_initializer="normal")`
+    name='conv')
+
+tests/keras/legacy/interface_test.py::test_separable_conv2d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:541: UserWarning: Update your `SeparableConv2D` call to the Keras 2 API: `SeparableConv2D(5, (3, 3), name="conv")`
+    old_layer = keras.layers.SeparableConv2D(5, 3, 3, name='conv')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:545: UserWarning: Update your `SeparableConv2D` call to the Keras 2 API: `SeparableConv2D(5, (3, 3), name="conv")`
+    old_layer = keras.layers.SeparableConv2D(5, 3, nb_col=3, name='conv')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:549: UserWarning: Update your `SeparableConv2D` call to the Keras 2 API: `SeparableConv2D(5, (3, 3), name="conv")`
+    old_layer = keras.layers.SeparableConv2D(5, nb_row=3, nb_col=3, name='conv')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:562: UserWarning: Update your `SeparableConv2D` call to the Keras 2 API: `SeparableConv2D(5, (3, 3), bias_regularizer="l2", pointwise_initializer="normal", depthwise_constraint="maxnorm", name="conv", data_format="channels_first", strides=(2, 2), bias_constraint="unitnorm", depthwise_regularizer="l1", padding="valid", depthwise_initializer="normal")`
+    name='conv')
+
+tests/keras/legacy/interface_test.py::test_conv3d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:581: UserWarning: Update your `Conv3D` call to the Keras 2 API: `Conv3D(5, (3, 3, 4), name="conv")`
+    old_layer = keras.layers.Convolution3D(5, 3, 3, 4, name='conv')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:585: UserWarning: Update your `Conv3D` call to the Keras 2 API: `Conv3D(5, (3, 3, 4), name="conv")`
+    old_layer = keras.layers.Convolution3D(5, 3, 3, kernel_dim3=4, name='conv')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:592: UserWarning: Update your `Conv3D` call to the Keras 2 API: `Conv3D(5, (3, 3, 4), name="conv")`
+    name='conv')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:600: UserWarning: Update your `Conv3D` call to the Keras 2 API: `Conv3D(5, (3, 3, 4), name="conv")`
+    name='conv')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:613: UserWarning: Update your `Conv3D` call to the Keras 2 API: `Conv3D(5, (3, 3, 4), bias_regularizer="l2", name="conv", data_format="channels_first", strides=(2, 2, 2), bias_constraint="unitnorm", padding="valid", kernel_constraint="maxnorm", kernel_regularizer="l1", kernel_initializer="normal")`
+    name='conv')
+
+tests/keras/legacy/interface_test.py::test_convlstm2d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:629: UserWarning: Update your `ConvLSTM2D` call to the Keras 2 API: `ConvLSTM2D(5, (3, 3), name="conv")`
+    old_layer = keras.layers.ConvLSTM2D(5, 3, 3, name='conv')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:633: UserWarning: Update your `ConvLSTM2D` call to the Keras 2 API: `ConvLSTM2D(5, (3, 3), name="conv")`
+    old_layer = keras.layers.ConvLSTM2D(5, 3, nb_col=3, name='conv')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:637: UserWarning: Update your `ConvLSTM2D` call to the Keras 2 API: `ConvLSTM2D(5, (3, 3), name="conv")`
+    old_layer = keras.layers.ConvLSTM2D(5, nb_row=3, nb_col=3, name='conv')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:654: UserWarning: Update your `ConvLSTM2D` call to the Keras 2 API: `ConvLSTM2D(5, (3, 3), bias_regularizer="l2", recurrent_initializer="uniform", unit_forget_bias=True, name="conv", data_format="channels_first", strides=(2, 2), dropout=0.2, padding="valid", recurrent_regularizer="l2", kernel_regularizer="l1", recurrent_dropout=0.1, kernel_initializer="normal", recurrent_activation="relu")`
+    name='conv')
+
+tests/keras/legacy/interface_test.py::test_batchnorm_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:674: UserWarning: Update your `BatchNormalization` call to the Keras 2 API: `BatchNormalization(name="bn")`
+    old_layer = keras.layers.BatchNormalization(mode=0, name='bn')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:681: UserWarning: Update your `BatchNormalization` call to the Keras 2 API: `BatchNormalization(beta_initializer="one", name="bn", gamma_initializer="uniform")`
+    name='bn')
+
+tests/keras/legacy/interface_test.py::test_atrousconv1d_legacy_interface
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/legacy/layers.py:741: UserWarning: The `AtrousConvolution1D` layer  has been deprecated. Use instead the `Conv1D` layer with the `dilation_rate` argument.
+    warnings.warn('The `AtrousConvolution1D` layer '
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/legacy/layers.py:745: UserWarning: Update your `Conv1D` call to the Keras 2 API: `Conv1D(5, 3, bias_regularizer="l2", name="conv", dilation_rate=2, strides=2, bias_constraint="unitnorm", padding="valid", kernel_constraint="maxnorm", kernel_regularizer="l1", kernel_initializer="normal")`
+    return Conv1D(*args, **kwargs)
+
+tests/keras/legacy/interface_test.py::test_atrousconv2d_legacy_interface
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/legacy/layers.py:755: UserWarning: The `AtrousConvolution2D` layer  has been deprecated. Use instead the `Conv2D` layer with the `dilation_rate` argument.
+    warnings.warn('The `AtrousConvolution2D` layer '
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/legacy/layers.py:759: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(5, (3, 3), bias_regularizer="l2", padding="valid", name="conv", data_format="channels_first", strides=(2, 2), bias_constraint="unitnorm", dilation_rate=(2, 2), kernel_constraint="maxnorm", kernel_regularizer="l1", kernel_initializer="normal")`
+    return Conv2D(*args, **kwargs)
+
+tests/keras/legacy/interface_test.py::test_zeropadding2d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:748: UserWarning: The `padding` argument in the Keras 2 API no longeraccepts dict types. You can now input argument as: `padding=(top_pad, bottom_pad, left_pad, right_pad)`.
+    name='zp2d')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:748: UserWarning: Update your `ZeroPadding2D` call to the Keras 2 API: `ZeroPadding2D(name="zp2d", data_format="channels_last", padding=((1, 2), (...)`
+    name='zp2d')
+
+tests/keras/legacy/interface_test.py::test_zeropadding3d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:759: UserWarning: Update your `ZeroPadding3D` call to the Keras 2 API: `ZeroPadding3D((2, 2, 2), name="zp3d", data_format="channels_last")`
+    name='zp3d')
+
+tests/keras/legacy/interface_test.py::test_cropping2d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:768: UserWarning: Update your `Cropping2D` call to the Keras 2 API: `Cropping2D(name="c2d", data_format="channels_last")`
+    old_layer = keras.layers.Cropping2D(dim_ordering='tf', name='c2d')
+
+tests/keras/legacy/interface_test.py::test_cropping3d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:775: UserWarning: Update your `Cropping3D` call to the Keras 2 API: `Cropping3D(name="c3d", data_format="channels_last")`
+    old_layer = keras.layers.Cropping3D(dim_ordering='tf', name='c3d')
+
+tests/keras/legacy/interface_test.py::test_generator_methods_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:810: UserWarning: The semantics of the Keras 2 argument `steps_per_epoch` is not the same as the Keras 1 argument `samples_per_epoch`. `steps_per_epoch` is the number of batches to draw from the generator at each epoch. Basically steps_per_epoch = samples_per_epoch/batch_size. Similarly `nb_val_samples`->`validation_steps` and `val_samples`->`steps` arguments have changed. Update your method calls accordingly.
+    nb_worker=1, pickle_safe=True, max_q_size=3)
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:810: UserWarning: Update your `fit_generator` call to the Keras 2 API: `fit_generator(validation_steps=1, validation_data=<generator..., steps_per_epoch=1, max_queue_size=3, generator=<generator..., workers=1, use_multiprocessing=True)`
+    nb_worker=1, pickle_safe=True, max_q_size=3)
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input245758") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:814: UserWarning: The semantics of the Keras 2 argument `steps_per_epoch` is not the same as the Keras 1 argument `samples_per_epoch`. `steps_per_epoch` is the number of batches to draw from the generator at each epoch. Basically steps_per_epoch = samples_per_epoch/batch_size. Similarly `nb_val_samples`->`validation_steps` and `val_samples`->`steps` arguments have changed. Update your method calls accordingly.
+    nb_worker=1, pickle_safe=False, max_q_size=3)
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:814: UserWarning: Update your `evaluate_generator` call to the Keras 2 API: `evaluate_generator(max_queue_size=3, generator=<generator..., workers=1, use_multiprocessing=False, steps=2)`
+    nb_worker=1, pickle_safe=False, max_q_size=3)
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:817: UserWarning: The semantics of the Keras 2 argument `steps_per_epoch` is not the same as the Keras 1 argument `samples_per_epoch`. `steps_per_epoch` is the number of batches to draw from the generator at each epoch. Basically steps_per_epoch = samples_per_epoch/batch_size. Similarly `nb_val_samples`->`validation_steps` and `val_samples`->`steps` arguments have changed. Update your method calls accordingly.
+    nb_worker=1, pickle_safe=False, max_q_size=3)
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:817: UserWarning: Update your `predict_generator` call to the Keras 2 API: `predict_generator(max_queue_size=3, generator=<generator..., workers=1, use_multiprocessing=False, steps=2)`
+    nb_worker=1, pickle_safe=False, max_q_size=3)
+
+tests/keras/legacy/interface_test.py::test_spatialdropout1d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:821: UserWarning: Update your `SpatialDropout1D` call to the Keras 2 API: `SpatialDropout1D(name="sd1d", rate=0.6)`
+    old_layer = keras.layers.SpatialDropout1D(p=0.6, name='sd1d')
+
+tests/keras/legacy/interface_test.py::test_spatialdropout2d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:832: UserWarning: Update your `SpatialDropout2D` call to the Keras 2 API: `SpatialDropout2D(name="sd2d", rate=0.5, data_format="channels_last")`
+    name='sd2d')
+
+tests/keras/legacy/interface_test.py::test_spatialdropout3d_legacy_interface
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/interface_test.py:847: UserWarning: Update your `SpatialDropout3D` call to the Keras 2 API: `SpatialDropout3D(name="sd3d", rate=0.5, data_format="channels_last")`
+    name='sd3d')
+
+tests/keras/legacy/layers_test.py::test_highway
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/legacy/layers.py:652: UserWarning: The `Highway` layer is deprecated and will be removed after 06/2017.
+    warnings.warn('The `Highway` layer is deprecated '
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/legacy/layers.py:652: UserWarning: The `Highway` layer is deprecated and will be removed after 06/2017.
+    warnings.warn('The `Highway` layer is deprecated '
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/legacy/layers.py:652: UserWarning: The `Highway` layer is deprecated and will be removed after 06/2017.
+    warnings.warn('The `Highway` layer is deprecated '
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/legacy/layers.py:652: UserWarning: The `Highway` layer is deprecated and will be removed after 06/2017.
+    warnings.warn('The `Highway` layer is deprecated '
+
+tests/keras/legacy/layers_test.py::test_maxout_dense
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/legacy/layers.py:527: UserWarning: The `MaxoutDense` layer is deprecated and will be removed after 06/2017.
+    warnings.warn('The `MaxoutDense` layer is deprecated '
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/legacy/layers.py:527: UserWarning: The `MaxoutDense` layer is deprecated and will be removed after 06/2017.
+    warnings.warn('The `MaxoutDense` layer is deprecated '
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/legacy/layers.py:527: UserWarning: The `MaxoutDense` layer is deprecated and will be removed after 06/2017.
+    warnings.warn('The `MaxoutDense` layer is deprecated '
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/legacy/layers.py:527: UserWarning: The `MaxoutDense` layer is deprecated and will be removed after 06/2017.
+    warnings.warn('The `MaxoutDense` layer is deprecated '
+
+tests/keras/legacy/layers_test.py::test_merge
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/layers_test.py:56: UserWarning: The `merge` function is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    merged = legacy_layers.merge([input_a, input_b], mode=mode)
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/legacy/layers.py:458: UserWarning: The `Merge` layer is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    name=name)
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input249829") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input249830") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/engine/topology.py:1242: UserWarning: The `Merge` layer is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    return cls(**config)
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/layers_test.py:69: UserWarning: The `Merge` layer is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    merged = legacy_layers.Merge(mode=mode)([input_a, input_b])
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input250010") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input250011") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input250191") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input250192") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input250372") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input250373") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input250578") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input250579") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/layers_test.py:83: UserWarning: The `merge` function is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    output_shape=lambda tup: tup[0][:-1] + (tup[0][-1] + tup[1][-1],))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input250812") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input250813") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/layers_test.py:106: UserWarning: The `merge` function is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    output_shape=fn_output_shape)
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input250880") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input250881") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/layers_test.py:129: UserWarning: The `merge` function is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    merged = legacy_layers.merge([a, b], mode=fn_mode, output_shape=fn_output_shape, output_mask=fn_output_mask)
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input250948") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input250949") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/engine/topology.py:2337: UserWarning: Layer merge_13 was passed non-serializable keyword arguments: {'mask': [Composite(Select): Input('input_224', [#], [3 x 2]) -> Output('Select251014_Output_0', [#], [3]), Composite(Select): Input('input_225', [#], [3 x 2]) -> Output('Select251082_Output_0', [#], [3])]}. They will not be included in the serialized model (and thus will be missing at deserialization time).
+    str(node.arguments) + '. They will not be included '
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input251337") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input251338") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/layers_test.py:153: UserWarning: The `merge` function is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    output_mask=lambda tup: K.concatenate([tup[0], tup[1]]))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input251348") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input251349") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/engine/topology.py:2337: UserWarning: Layer merge_14 was passed non-serializable keyword arguments: {'mask': [Composite(Select): Input('input_226', [#], [3 x 2]) -> Output('Select251414_Output_0', [#], [3]), Composite(Select): Input('input_227', [#], [3 x 2]) -> Output('Select251482_Output_0', [#], [3])]}. They will not be included in the serialized model (and thus will be missing at deserialization time).
+    str(node.arguments) + '. They will not be included '
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/layers_test.py:176: UserWarning: The `merge` function is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    merged = legacy_layers.merge([input_a, input_b], mode=fn_mode, output_shape=lambda s: s[0], arguments={'a': 0.7, 'b': 0.3})
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input251746") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input251747") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input251767") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input251768") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/legacy/layers_test.py::test_sequential_regression
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/layers_test.py:280: UserWarning: The `Merge` layer is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    branch_1_2 = models.Sequential([legacy_layers.Merge([branch_1, branch_2], mode='concat')], name='branch_1_2')
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/layers_test.py:285: UserWarning: The `Merge` layer is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    model = models.Sequential([legacy_layers.Merge([branch_1_2, branch_3], mode='concat')], name='final')
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input252540") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input252472") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input252457") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input254308") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input253791") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input253790") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/engine/topology.py:1242: UserWarning: The `Merge` layer is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    return cls(**config)
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input256669") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input255559") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input255558") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/legacy/models_test.py::test_merge_sum
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/models_test.py:61: UserWarning: The `Merge` layer is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    model.add(Merge([left, right], mode='sum'))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input257979") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input257918") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input257936") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/models_test.py:87: UserWarning: The `Merge` layer is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    model.add(Merge([left, right], mode='sum'))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input258587") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input258526") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input258544") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/engine/topology.py:1242: UserWarning: The `Merge` layer is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    return cls(**config)
+
+tests/keras/legacy/models_test.py::test_merge_dot
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/models_test.py:122: UserWarning: The `Merge` layer is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    model.add(Merge([left, right], mode='dot', dot_axes=1))
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/models_test.py:137: UserWarning: The `Merge` layer is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    model.add(Merge([left, right], mode='dot', dot_axes=[1, 1]))
+
+tests/keras/legacy/models_test.py::test_merge_concat
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/models_test.py:157: UserWarning: The `Merge` layer is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    model.add(Merge([left, right], mode='concat', name='merge'))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input259220") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input259159") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input259177") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/legacy/models_test.py::test_merge_recursivity
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/models_test.py:200: UserWarning: The `Merge` layer is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    intermediate.add(Merge([left, right], mode='sum'))
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/models_test.py:205: UserWarning: The `Merge` layer is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    model.add(Merge([intermediate, righter], mode='sum'))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input259866") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input259767") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input259785") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input259803") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/engine/topology.py:1242: UserWarning: The `Merge` layer is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    return cls(**config)
+
+tests/keras/legacy/models_test.py::test_merge_overlap
+  /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Keras/keras-2.0.6/tests/keras/legacy/models_test.py:249: UserWarning: The `Merge` layer is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    model.add(Merge([left, left], mode='sum'))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input261013") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input260970") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/engine/topology.py:1242: UserWarning: The `Merge` layer is deprecated and will be removed after 08/2017. Use instead layers from `keras.layers.merge`, e.g. `add`, `concatenate`, etc.
+    return cls(**config)
+
+tests/keras/preprocessing/image_test.py::TestImage::()::test_image_data_generator
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/preprocessing/image.py:653: UserWarning: Expected input to be images (as Numpy array) following the data format convention "channels_last" (channels on axis 3), i.e. expected either 1, 3 or 4 channels on axis 3. However, it was passed an array with shape (8, 20, 20, 1) (1 channels).
+    ' (' + str(x.shape[self.channel_axis]) + ' channels).')
+
+tests/keras/preprocessing/image_test.py::TestImage::()::test_image_data_generator_fit
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/preprocessing/image.py:653: UserWarning: Expected input to be images (as Numpy array) following the data format convention "channels_last" (channels on axis 3), i.e. expected either 1, 3 or 4 channels on axis 3. However, it was passed an array with shape (32, 10, 10, 1) (1 channels).
+    ' (' + str(x.shape[self.channel_axis]) + ' channels).')
+  /home/ubuntu/anaconda-envs/cntk-py34/lib/python3.4/site-packages/keras/preprocessing/image.py:653: UserWarning: Expected input to be images (as Numpy array) following the data format convention "channels_first" (channels on axis 1), i.e. expected either 1, 3 or 4 channels on axis 1. However, it was passed an array with shape (32, 1, 10, 10) (1 channels).
+    ' (' + str(x.shape[self.channel_axis]) + ' channels).')
+
+tests/keras/wrappers/scikit_learn_test.py::test_classify_build_fn
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input261977") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input261920") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input262434") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input262377") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/wrappers/scikit_learn_test.py::test_classify_class_build_fn
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input262891") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input262834") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input263348") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input263291") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/wrappers/scikit_learn_test.py::test_classify_inherit_class_build_fn
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input263805") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input263748") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input264262") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input264205") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/wrappers/scikit_learn_test.py::test_regression_build_fn
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input264662") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/wrappers/scikit_learn_test.py::test_regression_class_build_fn
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input265090") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+tests/keras/wrappers/scikit_learn_test.py::test_regression_inherit_class_build_fn
+  /home/ubuntu/.local/lib/python3.4/site-packages/cntk/core.py:361: UserWarning: your data is of type "float64", but your input variable (uid "Input265518") expects "<class 'numpy.float32'>". Please convert your data beforehand to speed up training.
+    (sample.dtype, var.uid, str(var.dtype)))
+
+-- Docs: http://doc.pytest.org/en/latest/warnings.html
+============================== 5 tests deselected ==============================
+===== 320 passed, 48 skipped, 5 deselected, 464 warnings in 72.94 seconds ======
 __COMPLETED__

@@ -1,20 +1,62 @@
 CPU info:
-    CPU Model Name: Intel(R) Xeon(R) CPU E5-2620 v3 @ 2.40GHz
+    CPU Model Name: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
     Hardware threads: 12
-    Total Memory: 33474872 kB
+    Total Memory: 57700428 kB
 -------------------------------------------------------------------
-/tmp/cntk-test-20170206115841.400885/CNTKv2Library_Distribution@release_gpu/TestData /cygdrive/c/repos/CNTK/Tests/EndToEndTests/CNTKv2Library/Distribution
-=== Running C:\Program Files\Microsoft MPI\Bin\/mpiexec.exe -n 2 -l C:\repos\CNTK\x64\release\V2LibraryEndToEndTests.exe Distribution C:\cygwin64\tmp\cntk-test-20170206115841.400885\CNTKv2Library_Distribution@release_gpu/v2library.log
-[1]requestnodes [MPIWrapper]: using 2 out of 2 MPI nodes on a single host (2 requested); we (1) are in (participating)
-[0]requestnodes [MPIWrapper]: using 2 out of 2 MPI nodes on a single host (2 requested); we (0) are in (participating)
-[1]Run tests using GPU build.
-[0]Run tests using GPU build.
+/tmp/cntk-test-20171209080859.615414/CNTKv2Library_Distribution@release_gpu/TestData ~/workspace/Tests/EndToEndTests/CNTKv2Library/Distribution
+=== Running mpiexec -n 2 /home/ubuntu/workspace/build/1bitsgd/release/bin/V2LibraryEndToEndTests Distribution /tmp/cntk-test-20171209080859.615414/CNTKv2Library_Distribution@release_gpu/v2library.log
+Run tests using GPU build.
+Run tests using GPU build.
+--------------------------------------------------------------------------
+[[32019,1],1]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: 4bb8be993ee1
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+ping [requestnodes (before change)]: 2 nodes pinging each other
+ping [requestnodes (before change)]: 2 nodes pinging each other
+ping [requestnodes (after change)]: 2 nodes pinging each other
+ping [requestnodes (after change)]: 2 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 2 out of 2 MPI nodes on a single host (2 requested); we (0) are in (participating)
+ping [mpihelper]: 2 nodes pinging each other
+requestnodes [MPIWrapperMpi]: using 2 out of 2 MPI nodes on a single host (2 requested); we (1) are in (participating)
+ping [mpihelper]: 2 nodes pinging each other
+Selected GPU[0] Tesla M60 as the process wide default device.
+NcclComm: disabled, same device used by more than one rank
+NcclComm: disabled, same device used by more than one rank
+[4bb8be993ee1:129536] 1 more process has sent help message help-mpi-btl-base.txt / btl:no-nics
+[4bb8be993ee1:129536] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+Selected CPU as the process wide default device.
+NcclComm: disabled, at least one rank using CPU device
+NcclComm: disabled, at least one rank using CPU device
+NcclComm: disabled, same device used by more than one rank
+NcclComm: disabled, same device used by more than one rank
+NcclComm: disabled, same device used by more than one rank
+NcclComm: disabled, same device used by more than one rank
+NcclComm: disabled, same device used by more than one rank
+NcclComm: disabled, same device used by more than one rank
+NcclComm: disabled, same device used by more than one rank
+NcclComm: disabled, same device used by more than one rank
+NcclComm: disabled, same device used by more than one rank
+NcclComm: disabled, same device used by more than one rank
+MPI Rank 0: Training loop thru samples with 1bitsgd.
+MPI Rank 0: Training loop thru samples with 1bitsgd.
+MPI Rank 0: Training loop thru samples with blockmomentum.
+MPI Rank 0: Training loop thru samples with blockmomentum.
 MPI Rank 0: Training loop thru samples with simple.
 MPI Rank 0: Training loop thru samples with simple.
 MPI Rank 0: 
 MPI Rank 0: CNTKv2Library-Distribution tests: Passed
+MPI Rank 1: Training loop thru samples with 1bitsgd.
+MPI Rank 1: Training loop thru samples with 1bitsgd.
+MPI Rank 1: Training loop thru samples with blockmomentum.
+MPI Rank 1: Training loop thru samples with blockmomentum.
 MPI Rank 1: Training loop thru samples with simple.
 MPI Rank 1: Training loop thru samples with simple.
 MPI Rank 1: 
 MPI Rank 1: CNTKv2Library-Distribution tests: Passed
-/cygdrive/c/repos/CNTK/Tests/EndToEndTests/CNTKv2Library/Distribution
+~/workspace/Tests/EndToEndTests/CNTKv2Library/Distribution

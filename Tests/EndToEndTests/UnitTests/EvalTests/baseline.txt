@@ -1,45 +1,20 @@
 CPU info:
-    CPU Model Name: Intel(R) Xeon(R) CPU E5-1650 0 @ 3.20GHz
+    CPU Model Name: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
     Hardware threads: 12
-    Total Memory: 32874316 kB
+    Total Memory: 57700428 kB
 -------------------------------------------------------------------
-Current working directory: /home/mahilleb/CNTK/Tests/EndToEndTests/UnitTests/EvalTests
-Executable path: /home/mahilleb/CNTK/build/gpu/release/bin
-Test path: /home/mahilleb/CNTK/Tests/UnitTests/EvalTests
-Set current path to: /home/mahilleb/CNTK/Tests/UnitTests/EvalTests
-Current working directory is now: /home/mahilleb/CNTK/Tests/UnitTests/EvalTests
+Current working directory: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/EvalTests
+Executable path: /home/ubuntu/workspace/build/1bitsgd/release/bin
+Test path: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
+Set current path to: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
+Current working directory is now: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
+Set current path to: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/EvalTests
+Current working directory: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/EvalTests
+Executable path: /home/ubuntu/workspace/build/1bitsgd/release/bin
+Test path: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
+Set current path to: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
+Current working directory is now: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
 NDLBuilder Using CPU
-Node 'v1' (LearnableParameter operation): Initializing Parameter[1 x 1] <- 0.000000.
-Node 'v2' (LearnableParameter operation): Initializing Parameter[1 x 1] <- 0.000000.
-Node 'v1' (LearnableParameter operation): Initializing Parameter[1 x 1] <- 1.000000.
-Node 'v2' (LearnableParameter operation): Initializing Parameter[1 x 1] <- 2.000000.
-Node 'v1' (LearnableParameter operation): Initializing Parameter[1 x 1] <- 1.000000.
-Node 'v2' (LearnableParameter operation): Initializing Parameter[1 x 1] <- 2.000000.
-Node 'v1' (LearnableParameter operation): Initializing Parameter[1 x 1] <- 1.000000.
-Node 'v2' (LearnableParameter operation): Initializing Parameter[1 x 1] <- 2.000000.
-
-Post-processing network...
-
-1 roots:
-	ol = Plus()
-
-Validating network. 3 nodes to process in pass 1.
-
-Validating --> v1 = LearnableParameter() :  -> [1 x 1]
-Validating --> v2 = LearnableParameter() :  -> [1 x 1]
-Validating --> ol = Plus (v1, v2) : [1 x 1], [1 x 1] -> [1 x 1]
-
-Validating network. 1 nodes to process in pass 2.
-
-
-Validating network, final pass.
-
-
-
-3 out of 3 nodes do not share the minibatch layout with the input data.
-
-Post-processing network complete.
-
 Output dimension: 1
 Output name: ol
 
@@ -48,39 +23,20 @@ Allocating matrices for forward and/or backward propagation.
 
 Memory Sharing: Out of 3 matrices, 0 are shared as 0, and 3 are not shared.
 
+Here are the ones that share memory:
 
-Set current path to: /home/mahilleb/CNTK/Tests/EndToEndTests/UnitTests/EvalTests
-Current working directory: /home/mahilleb/CNTK/Tests/EndToEndTests/UnitTests/EvalTests
-Executable path: /home/mahilleb/CNTK/build/gpu/release/bin
-Test path: /home/mahilleb/CNTK/Tests/UnitTests/EvalTests
-Set current path to: /home/mahilleb/CNTK/Tests/UnitTests/EvalTests
-Current working directory is now: /home/mahilleb/CNTK/Tests/UnitTests/EvalTests
+Here are the ones that don't share memory:
+	{ol : [1 x 1]}
+	{v1 : [1 x 1]}
+	{v2 : [1 x 1]}
+
+Set current path to: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/EvalTests
+Current working directory: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/EvalTests
+Executable path: /home/ubuntu/workspace/build/1bitsgd/release/bin
+Test path: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
+Set current path to: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
+Current working directory is now: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
 NDLBuilder Using CPU
-Node 'unnamed10' (LearnableParameter operation): Initializing Parameter[1 x 1] <- 0.000000.
-Node 'unnamed10' (LearnableParameter operation): Initializing Parameter[1 x 1] <- 3.000000.
-
-Post-processing network...
-
-1 roots:
-	o1 = Times()
-
-Validating network. 3 nodes to process in pass 1.
-
-Validating --> unnamed10 = LearnableParameter() :  -> [1 x 1]
-Validating --> i1 = InputValue() :  -> [1 x *1]
-Validating --> o1 = Times (unnamed10, i1) : [1 x 1], [1 x *1] -> [1 x *1]
-
-Validating network. 1 nodes to process in pass 2.
-
-
-Validating network, final pass.
-
-
-
-1 out of 3 nodes do not share the minibatch layout with the input data.
-
-Post-processing network complete.
-
 Output dimension: 1
 Output name: o1
 
@@ -89,46 +45,20 @@ Allocating matrices for forward and/or backward propagation.
 
 Memory Sharing: Out of 3 matrices, 0 are shared as 0, and 3 are not shared.
 
+Here are the ones that share memory:
 
-Set current path to: /home/mahilleb/CNTK/Tests/EndToEndTests/UnitTests/EvalTests
-Current working directory: /home/mahilleb/CNTK/Tests/EndToEndTests/UnitTests/EvalTests
-Executable path: /home/mahilleb/CNTK/build/gpu/release/bin
-Test path: /home/mahilleb/CNTK/Tests/UnitTests/EvalTests
-Set current path to: /home/mahilleb/CNTK/Tests/UnitTests/EvalTests
-Current working directory is now: /home/mahilleb/CNTK/Tests/UnitTests/EvalTests
+Here are the ones that don't share memory:
+	{o1 : [1 x *1]}
+	{i1 : [1 x *1]}
+	{unnamed10 : [1 x 1]}
+
+Set current path to: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/EvalTests
+Current working directory: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/EvalTests
+Executable path: /home/ubuntu/workspace/build/1bitsgd/release/bin
+Test path: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
+Set current path to: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
+Current working directory is now: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
 NDLBuilder Using CPU
-Node 'unnamed18' (LearnableParameter operation): Initializing Parameter[1 x 1] <- 0.000000.
-Node 'unnamed21' (LearnableParameter operation): Initializing Parameter[1 x 1] <- 0.000000.
-Node 'unnamed18' (LearnableParameter operation): Initializing Parameter[1 x 1] <- 3.000000.
-Node 'unnamed21' (LearnableParameter operation): Initializing Parameter[1 x 1] <- 5.000000.
-
-Post-processing network...
-
-3 roots:
-	i2 = InputValue()
-	o1 = Times()
-	o2 = Times()
-
-Validating network. 6 nodes to process in pass 1.
-
-Validating --> i2 = InputValue() :  -> [1 x *2]
-Validating --> unnamed18 = LearnableParameter() :  -> [1 x 1]
-Validating --> i1 = InputValue() :  -> [1 x *2]
-Validating --> o1 = Times (unnamed18, i1) : [1 x 1], [1 x *2] -> [1 x *2]
-Validating --> unnamed21 = LearnableParameter() :  -> [1 x 1]
-Validating --> o2 = Times (unnamed21, i1) : [1 x 1], [1 x *2] -> [1 x *2]
-
-Validating network. 2 nodes to process in pass 2.
-
-
-Validating network, final pass.
-
-
-
-2 out of 6 nodes do not share the minibatch layout with the input data.
-
-Post-processing network complete.
-
 Output dimension: 1
 Output name: o1
 Output dimension: 1
@@ -139,39 +69,23 @@ Allocating matrices for forward and/or backward propagation.
 
 Memory Sharing: Out of 6 matrices, 0 are shared as 0, and 6 are not shared.
 
+Here are the ones that share memory:
 
-Set current path to: /home/mahilleb/CNTK/Tests/EndToEndTests/UnitTests/EvalTests
-Current working directory: /home/mahilleb/CNTK/Tests/EndToEndTests/UnitTests/EvalTests
-Executable path: /home/mahilleb/CNTK/build/gpu/release/bin
-Test path: /home/mahilleb/CNTK/Tests/UnitTests/EvalTests
-Set current path to: /home/mahilleb/CNTK/Tests/UnitTests/EvalTests
-Current working directory is now: /home/mahilleb/CNTK/Tests/UnitTests/EvalTests
+Here are the ones that don't share memory:
+	{o2 : [1 x *2]}
+	{i1 : [1 x *2]}
+	{i2 : [1 x *2]}
+	{o1 : [1 x *2]}
+	{unnamed18 : [1 x 1]}
+	{unnamed21 : [1 x 1]}
+
+Set current path to: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/EvalTests
+Current working directory: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/EvalTests
+Executable path: /home/ubuntu/workspace/build/1bitsgd/release/bin
+Test path: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
+Set current path to: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
+Current working directory is now: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
 NDLBuilder Using CPU
-Node 'unnamed27' (LearnableParameter operation): Initializing Parameter[1 x 4] <- 0.000000.
-Node 'unnamed27' (LearnableParameter operation): Initializing Parameter[1 x 4] <- 2.000000.
-
-Post-processing network...
-
-1 roots:
-	o1 = Times()
-
-Validating network. 3 nodes to process in pass 1.
-
-Validating --> unnamed27 = LearnableParameter() :  -> [1 x 4]
-Validating --> i1 = InputValue() :  -> [4 x *3]
-Validating --> o1 = Times (unnamed27, i1) : [1 x 4], [4 x *3] -> [1 x *3]
-
-Validating network. 1 nodes to process in pass 2.
-
-
-Validating network, final pass.
-
-
-
-1 out of 3 nodes do not share the minibatch layout with the input data.
-
-Post-processing network complete.
-
 Output dimension: 1
 Output name: o1
 
@@ -180,39 +94,20 @@ Allocating matrices for forward and/or backward propagation.
 
 Memory Sharing: Out of 3 matrices, 0 are shared as 0, and 3 are not shared.
 
+Here are the ones that share memory:
 
-Set current path to: /home/mahilleb/CNTK/Tests/EndToEndTests/UnitTests/EvalTests
-Current working directory: /home/mahilleb/CNTK/Tests/EndToEndTests/UnitTests/EvalTests
-Executable path: /home/mahilleb/CNTK/build/gpu/release/bin
-Test path: /home/mahilleb/CNTK/Tests/UnitTests/EvalTests
-Set current path to: /home/mahilleb/CNTK/Tests/UnitTests/EvalTests
-Current working directory is now: /home/mahilleb/CNTK/Tests/UnitTests/EvalTests
+Here are the ones that don't share memory:
+	{o1 : [1 x *3]}
+	{i1 : [4 x *3]}
+	{unnamed27 : [1 x 4]}
+
+Set current path to: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/EvalTests
+Current working directory: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/EvalTests
+Executable path: /home/ubuntu/workspace/build/1bitsgd/release/bin
+Test path: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
+Set current path to: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
+Current working directory is now: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
 NDLBuilder Using CPU
-Node 'unnamed35' (LearnableParameter operation): Initializing Parameter[1 x 3] <- 0.000000.
-Node 'unnamed35' (LearnableParameter operation): Initializing Parameter[1 x 3] <- 2.000000.
-
-Post-processing network...
-
-1 roots:
-	o1 = Times()
-
-Validating network. 3 nodes to process in pass 1.
-
-Validating --> unnamed35 = LearnableParameter() :  -> [1 x 3]
-Validating --> i1 = SparseInputValue() :  -> [3 x *4]
-Validating --> o1 = Times (unnamed35, i1) : [1 x 3], [3 x *4] -> [1 x *4]
-
-Validating network. 1 nodes to process in pass 2.
-
-
-Validating network, final pass.
-
-
-
-1 out of 3 nodes do not share the minibatch layout with the input data.
-
-Post-processing network complete.
-
 Output dimension: 1
 Output name: o1
 
@@ -221,9 +116,72 @@ Allocating matrices for forward and/or backward propagation.
 
 Memory Sharing: Out of 3 matrices, 0 are shared as 0, and 3 are not shared.
 
+Here are the ones that share memory:
 
-Set current path to: /home/mahilleb/CNTK/Tests/EndToEndTests/UnitTests/EvalTests
-Running 5 test cases...
+Here are the ones that don't share memory:
+	{unnamed35 : [1 x 3]}
+	{o1 : [1 x *4]}
+	{i1 : [3 x *4]}
+
+Set current path to: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/EvalTests
+Current working directory: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/EvalTests
+Executable path: /home/ubuntu/workspace/build/1bitsgd/release/bin
+Test path: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
+Set current path to: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
+Current working directory is now: /home/ubuntu/workspace/Tests/UnitTests/EvalTests
+NDLBuilder Using CPU
+Node 'o1.wx' (LearnableParameter operation): Initializating Parameter[4 x 0] as uniform later when dimensions are fully known.
+Node 'o1.Wh' (LearnableParameter operation): Initializating Parameter[4 x 0] as uniform later when dimensions are fully known.
+Node 'o1.wx' (LearnableParameter operation) operation: Tensor shape was inferred as [4 x 4].
+Node 'o1.Wh' (LearnableParameter operation) operation: Tensor shape was inferred as [4 x 4].
+Output dimension: 4
+Output name: o1.output
+
+
+Allocating matrices for forward and/or backward propagation.
+
+Memory Sharing: Out of 34 matrices, 2 are shared as 1, and 32 are not shared.
+
+Here are the ones that share memory:
+	{ o1.wxx : [4 x *5]
+	  o1.wxxpbpwhh : [4 x 1 x *5] }
+
+Here are the ones that don't share memory:
+	{o1.mt : [1 x 1 x *5]}
+	{o1.output : [4 x 1 x *5]}
+	{i1 : [4 x *5]}
+	{o1.wx : [4 x 4]}
+	{o1.unnamed86 : [1 x 1 x *5]}
+	{o1.unnamed88 : [1 x 1 x *5]}
+	{o1.whh : [4 x 1 x *5]}
+	{o1.b : [4 x 1]}
+	{o1.Wh : [4 x 4]}
+	{o1.Wci : [1]}
+	{o1.Wcf : [1]}
+	{o1.Wco : [1]}
+	{o1.dh : [4 x 1 x *5]}
+	{o1.dc : [1 x 1 x *5]}
+	{o1.Wmr : [4 x 1]}
+	{o1.G4 : [1 x 1 x *5]}
+	{o1.Wcfdc : [1 x 1 x *5]}
+	{o1.unnamed85 : [1 x 1 x *5]}
+	{o1.bit : [1 x 1 x *5]}
+	{o1.ft : [1 x 1 x *5]}
+	{o1.bft : [1 x 1 x *5]}
+	{o1.G1 : [1 x 1 x *5]}
+	{o1.Wcidc : [1 x 1 x *5]}
+	{o1.unnamed84 : [1 x 1 x *5]}
+	{o1.it : [1 x 1 x *5]}
+	{o1.G2 : [1 x 1 x *5]}
+	{o1.ct : [1 x 1 x *5]}
+	{o1.Wcoct : [1 x 1 x *5]}
+	{o1.unnamed87 : [1 x 1 x *5]}
+	{o1.ot : [1 x 1 x *5]}
+	{o1.G3 : [1 x 1 x *5]}
+	{o1.wxxpb : [4 x 1 x *5]}
+
+Set current path to: /home/ubuntu/workspace/Tests/EndToEndTests/UnitTests/EvalTests
+Running 7 test cases...
 
 Test module "EvalTests" has passed with:
   7 test cases out of 7 passed

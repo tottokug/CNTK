@@ -1,59 +1,58 @@
 CPU info:
-    CPU Model Name: Intel(R) Xeon(R) CPU W3565 @ 3.20GHz
-    Hardware threads: 8
-    Total Memory: 12580436 kB
+    CPU Model Name: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
+    Hardware threads: 12
+    Total Memory: 57700428 kB
 -------------------------------------------------------------------
-=== Running /cygdrive/c/jenkins/workspace/CNTK-Test-Windows-W1/x64/release/cntk.exe configFile=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\BatchNormalization\NonSpatial/01_OneHidden.cntk currentDirectory=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20161215082658.690476\BatchNormalization\NonSpatial_CuDNN@release_gpu\TestData RunDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20161215082658.690476\BatchNormalization\NonSpatial_CuDNN@release_gpu DataDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20161215082658.690476\BatchNormalization\NonSpatial_CuDNN@release_gpu\TestData ConfigDir=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\BatchNormalization\NonSpatial OutputDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20161215082658.690476\BatchNormalization\NonSpatial_CuDNN@release_gpu DeviceId=0 timestamping=true batchNormalizationEngine=cudnn
-CNTK 2.0.beta6.0+ (HEAD 5f1fab, Dec 15 2016 06:29:34) on cntk-muc01 at 2016/12/15 08:27:27
+=== Running /home/ubuntu/workspace/build/1bitsgd/release/bin/cntk configFile=/home/ubuntu/workspace/Tests/EndToEndTests/BatchNormalization/NonSpatial/CNTK/../01_OneHidden.cntk currentDirectory=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST RunDir=/tmp/cntk-test-20171209080859.615414/BatchNormalization/NonSpatial_CNTK@release_gpu DataDir=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/BatchNormalization/NonSpatial/CNTK/.. OutputDir=/tmp/cntk-test-20171209080859.615414/BatchNormalization/NonSpatial_CNTK@release_gpu DeviceId=0 timestamping=true batchNormalizationEngine=cntk
+CNTK 2.3.1+ (HEAD b130d7, Dec  8 2017 01:52:00) at 2017/12/09 09:25:30
 
-C:\jenkins\workspace\CNTK-Test-Windows-W1\x64\release\cntk.exe  configFile=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\BatchNormalization\NonSpatial/01_OneHidden.cntk  currentDirectory=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20161215082658.690476\BatchNormalization\NonSpatial_CuDNN@release_gpu\TestData  RunDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20161215082658.690476\BatchNormalization\NonSpatial_CuDNN@release_gpu  DataDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20161215082658.690476\BatchNormalization\NonSpatial_CuDNN@release_gpu\TestData  ConfigDir=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\BatchNormalization\NonSpatial  OutputDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20161215082658.690476\BatchNormalization\NonSpatial_CuDNN@release_gpu  DeviceId=0  timestamping=true  batchNormalizationEngine=cudnn
-Changed current directory to C:\Users\svcphil\AppData\Local\Temp\cntk-test-20161215082658.690476\BatchNormalization\NonSpatial_CuDNN@release_gpu\TestData
-12/15/2016 08:27:27: -------------------------------------------------------------------
-12/15/2016 08:27:27: Build info: 
+/home/ubuntu/workspace/build/1bitsgd/release/bin/cntk  configFile=/home/ubuntu/workspace/Tests/EndToEndTests/BatchNormalization/NonSpatial/CNTK/../01_OneHidden.cntk  currentDirectory=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST  RunDir=/tmp/cntk-test-20171209080859.615414/BatchNormalization/NonSpatial_CNTK@release_gpu  DataDir=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST  ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/BatchNormalization/NonSpatial/CNTK/..  OutputDir=/tmp/cntk-test-20171209080859.615414/BatchNormalization/NonSpatial_CNTK@release_gpu  DeviceId=0  timestamping=true  batchNormalizationEngine=cntk
+Changed current directory to /home/ubuntu/workspace/Examples/Image/DataSets/MNIST
+12/09/2017 09:25:30: -------------------------------------------------------------------
+12/09/2017 09:25:30: Build info: 
 
-12/15/2016 08:27:27: 		Built time: Dec 15 2016 06:29:34
-12/15/2016 08:27:27: 		Last modified date: Wed Dec 14 12:53:20 2016
-12/15/2016 08:27:27: 		Build type: Release
-12/15/2016 08:27:27: 		Build target: GPU
-12/15/2016 08:27:27: 		With 1bit-SGD: no
-12/15/2016 08:27:27: 		With ASGD: yes
-12/15/2016 08:27:27: 		Math lib: mkl
-12/15/2016 08:27:27: 		CUDA_PATH: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0
-12/15/2016 08:27:27: 		CUB_PATH: c:\src\cub-1.4.1
-12/15/2016 08:27:27: 		CUDNN_PATH: C:\local\cudnn-8.0-windows10-x64-v5.1
-12/15/2016 08:27:27: 		Build Branch: HEAD
-12/15/2016 08:27:27: 		Build SHA1: 5f1fabfe95e68af0787193f8849159f824d914d5 (modified)
-12/15/2016 08:27:27: 		Built by svcphil on liana-08-w
-12/15/2016 08:27:27: 		Build Path: C:\jenkins\workspace\CNTK-Build-Windows\Source\CNTK\
-12/15/2016 08:27:27: -------------------------------------------------------------------
-12/15/2016 08:27:28: -------------------------------------------------------------------
-12/15/2016 08:27:28: GPU info:
+12/09/2017 09:25:30: 		Built time: Dec  8 2017 01:46:20
+12/09/2017 09:25:30: 		Last modified date: Wed Nov 15 09:27:10 2017
+12/09/2017 09:25:30: 		Build type: release
+12/09/2017 09:25:30: 		Build target: GPU
+12/09/2017 09:25:30: 		With 1bit-SGD: yes
+12/09/2017 09:25:30: 		With ASGD: yes
+12/09/2017 09:25:30: 		Math lib: mkl
+12/09/2017 09:25:30: 		CUDA version: 9.0.0
+12/09/2017 09:25:30: 		CUDNN version: 7.0.4
+12/09/2017 09:25:30: 		Build Branch: HEAD
+12/09/2017 09:25:30: 		Build SHA1: b130d7735044ce6697bfb963af91445bee740c73
+12/09/2017 09:25:30: 		MPI distribution: Open MPI
+12/09/2017 09:25:30: 		MPI version: 1.10.7
+12/09/2017 09:25:30: -------------------------------------------------------------------
+12/09/2017 09:25:30: -------------------------------------------------------------------
+12/09/2017 09:25:30: GPU info:
 
-12/15/2016 08:27:28: 		Device[0]: cores = 2496; computeCapability = 5.2; type = "Quadro M4000"; memory = 8192 MB
-12/15/2016 08:27:28: -------------------------------------------------------------------
+12/09/2017 09:25:30: 		Device[0]: cores = 3072; computeCapability = 5.2; type = "Tesla M60"; total memory = 8123 MB; free memory = 8112 MB
+12/09/2017 09:25:30: -------------------------------------------------------------------
 
 Configuration After Processing and Variable Resolution:
 
-configparameters: 01_OneHidden.cntk:batchNormalizationEngine=cudnn
+configparameters: 01_OneHidden.cntk:batchNormalizationEngine=cntk
 configparameters: 01_OneHidden.cntk:command=train:test
-configparameters: 01_OneHidden.cntk:configDir=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\BatchNormalization\NonSpatial
-configparameters: 01_OneHidden.cntk:currentDirectory=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20161215082658.690476\BatchNormalization\NonSpatial_CuDNN@release_gpu\TestData
-configparameters: 01_OneHidden.cntk:dataDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20161215082658.690476\BatchNormalization\NonSpatial_CuDNN@release_gpu\TestData
+configparameters: 01_OneHidden.cntk:configDir=/home/ubuntu/workspace/Tests/EndToEndTests/BatchNormalization/NonSpatial/CNTK/..
+configparameters: 01_OneHidden.cntk:currentDirectory=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST
+configparameters: 01_OneHidden.cntk:dataDir=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST
 configparameters: 01_OneHidden.cntk:deviceId=0
-configparameters: 01_OneHidden.cntk:modelDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20161215082658.690476\BatchNormalization\NonSpatial_CuDNN@release_gpu/Models
-configparameters: 01_OneHidden.cntk:modelPath=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20161215082658.690476\BatchNormalization\NonSpatial_CuDNN@release_gpu/Models/01_OneHidden
+configparameters: 01_OneHidden.cntk:modelDir=/tmp/cntk-test-20171209080859.615414/BatchNormalization/NonSpatial_CNTK@release_gpu/Models
+configparameters: 01_OneHidden.cntk:modelPath=/tmp/cntk-test-20171209080859.615414/BatchNormalization/NonSpatial_CNTK@release_gpu/Models/01_OneHidden
 configparameters: 01_OneHidden.cntk:numMBsToShowResult=500
-configparameters: 01_OneHidden.cntk:outputDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20161215082658.690476\BatchNormalization\NonSpatial_CuDNN@release_gpu
+configparameters: 01_OneHidden.cntk:outputDir=/tmp/cntk-test-20171209080859.615414/BatchNormalization/NonSpatial_CNTK@release_gpu
 configparameters: 01_OneHidden.cntk:precision=float
 configparameters: 01_OneHidden.cntk:rootDir=..
-configparameters: 01_OneHidden.cntk:RunDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20161215082658.690476\BatchNormalization\NonSpatial_CuDNN@release_gpu
+configparameters: 01_OneHidden.cntk:RunDir=/tmp/cntk-test-20171209080859.615414/BatchNormalization/NonSpatial_CNTK@release_gpu
 configparameters: 01_OneHidden.cntk:test=[
     action = "test"
 minibatchSize = 1024    
     evalNodeNames = ce:errs:top5Errs
     reader = [
         readerType = "CNTKTextFormatReader"
-        file = "C:\Users\svcphil\AppData\Local\Temp\cntk-test-20161215082658.690476\BatchNormalization\NonSpatial_CuDNN@release_gpu\TestData/Test-28x28_cntk_text.txt"
+        file = "/home/ubuntu/workspace/Examples/Image/DataSets/MNIST/Test-28x28_cntk_text.txt"
         input = [
             features = [
                 dim = 784
@@ -73,7 +72,7 @@ configparameters: 01_OneHidden.cntk:train=[
     action = "train"
     NDLNetworkBuilder = [
         initOnCPUOnly = true
-        networkDescription = "C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\BatchNormalization\NonSpatial/01_OneHidden.ndl"
+        networkDescription = "/home/ubuntu/workspace/Tests/EndToEndTests/BatchNormalization/NonSpatial/CNTK/../01_OneHidden.ndl"
     ]
     SGD = [
         epochSize = 60000
@@ -84,7 +83,7 @@ configparameters: 01_OneHidden.cntk:train=[
     ]
     reader = [
         readerType = "CNTKTextFormatReader"
-        file = "C:\Users\svcphil\AppData\Local\Temp\cntk-test-20161215082658.690476\BatchNormalization\NonSpatial_CuDNN@release_gpu\TestData/Train-28x28_cntk_text.txt"
+        file = "/home/ubuntu/workspace/Examples/Image/DataSets/MNIST/Train-28x28_cntk_text.txt"
         input = [
             features = [
                 dim = 784
@@ -98,89 +97,122 @@ configparameters: 01_OneHidden.cntk:train=[
     ]   
 ]
 
-12/15/2016 08:27:28: Commands: train test
-12/15/2016 08:27:28: precision = "float"
+12/09/2017 09:25:30: Commands: train test
+12/09/2017 09:25:30: precision = "float"
 
-12/15/2016 08:27:28: ##############################################################################
-12/15/2016 08:27:28: #                                                                            #
-12/15/2016 08:27:28: # train command (train action)                                               #
-12/15/2016 08:27:28: #                                                                            #
-12/15/2016 08:27:28: ##############################################################################
+12/09/2017 09:25:30: ##############################################################################
+12/09/2017 09:25:30: #                                                                            #
+12/09/2017 09:25:30: # train command (train action)                                               #
+12/09/2017 09:25:30: #                                                                            #
+12/09/2017 09:25:30: ##############################################################################
 
-12/15/2016 08:27:28: 
+12/09/2017 09:25:30: 
 Creating virgin network.
 NDLBuilder Using GPU 0
-Using cuDNN batch normalization engine.
-12/15/2016 08:27:29: 
-Model has 21 nodes. Using GPU 0.
+Using CNTK batch normalization engine.
+12/09/2017 09:25:30: 
+Model has 22 nodes. Using GPU 0.
 
-12/15/2016 08:27:29: Training criterion:   ce = CrossEntropyWithSoftmax
+12/09/2017 09:25:30: Training criterion:   ce = CrossEntropyWithSoftmax
 
-12/15/2016 08:27:29: Evaluation criteria:
-12/15/2016 08:27:29: 	top5Errs = ClassificationError
-12/15/2016 08:27:29: 	errs = ClassificationError
+12/09/2017 09:25:30: Evaluation criteria:
+12/09/2017 09:25:30: 	top5Errs = ClassificationError
+12/09/2017 09:25:30: 	errs = ClassificationError
 
 
 Allocating matrices for forward and/or backward propagation.
 
-Memory Sharing: Out of 33 matrices, 8 are shared as 4, and 25 are not shared.
+Gradient Memory Aliasing: 4 are aliased.
+	ol.t (gradient) reuses ol.z (gradient)
+	h1.t (gradient) reuses h1.z (gradient)
 
-	{ ol.W : [10 x 200] (gradient)
+Memory Sharing: Out of 34 matrices, 12 are shared as 4, and 22 are not shared.
+
+Here are the ones that share memory:
+	{ h1.t : [200 x 1 x *]
+	  h1.t : [200 x 1 x *] (gradient)
+	  h1.z : [200 x 1 x *] (gradient)
+	  ol.t : [10 x 1 x *] (gradient)
 	  ol.z : [10 x 1 x *] (gradient) }
-	{ ol.t : [10 x 1 x *] (gradient)
-	  sc : [200 x 1] (gradient) }
-	{ h1.z : [200 x 1 x *] (gradient)
-	  ol.t : [10 x 1 x *] }
+	{ h1.b : [200 x 1] (gradient)
+	  y : [200 x 1 x *] }
 	{ h1.W : [200 x 784] (gradient)
-	  h1.z : [200 x 1 x *] }
+	  ol.t : [10 x 1 x *]
+	  y : [200 x 1 x *] (gradient) }
+	{ ol.W : [10 x 200] (gradient)
+	  ol.z : [10 x 1 x *] }
+
+Here are the ones that don't share memory:
+	{features : [784 x *]}
+	{ce : [1]}
+	{featScale : [1 x 1]}
+	{h1.W : [200 x 784]}
+	{labels : [10 x *]}
+	{h1.b : [200 x 1]}
+	{b : [200 x 1]}
+	{sc : [200 x 1]}
+	{m : [200 x 1]}
+	{v : [200 x 1]}
+	{ol.W : [10 x 200]}
+	{y.run_sample_count : [1]}
+	{ol.b : [10 x 1]}
+	{unnamed32 : [1 x 1]}
+	{errs : [1]}
+	{top5Errs : [1]}
+	{h1.z : [200 x 1 x *]}
+	{b : [200 x 1] (gradient)}
+	{ce : [1] (gradient)}
+	{ol.b : [10 x 1] (gradient)}
+	{sc : [200 x 1] (gradient)}
+	{featScaled : [784 x 1 x *]}
 
 
-12/15/2016 08:27:29: Training 159410 parameters in 6 out of 6 parameter tensors and 12 nodes with gradient:
+12/09/2017 09:25:30: Training 159410 parameters in 6 out of 6 parameter tensors and 12 nodes with gradient:
 
-12/15/2016 08:27:29: 	Node 'b' (LearnableParameter operation) : [200 x 1]
-12/15/2016 08:27:29: 	Node 'h1.W' (LearnableParameter operation) : [200 x 784]
-12/15/2016 08:27:29: 	Node 'h1.b' (LearnableParameter operation) : [200 x 1]
-12/15/2016 08:27:29: 	Node 'ol.W' (LearnableParameter operation) : [10 x 200]
-12/15/2016 08:27:29: 	Node 'ol.b' (LearnableParameter operation) : [10 x 1]
-12/15/2016 08:27:29: 	Node 'sc' (LearnableParameter operation) : [200 x 1]
+12/09/2017 09:25:30: 	Node 'b' (LearnableParameter operation) : [200 x 1]
+12/09/2017 09:25:30: 	Node 'h1.W' (LearnableParameter operation) : [200 x 784]
+12/09/2017 09:25:30: 	Node 'h1.b' (LearnableParameter operation) : [200 x 1]
+12/09/2017 09:25:30: 	Node 'ol.W' (LearnableParameter operation) : [10 x 200]
+12/09/2017 09:25:30: 	Node 'ol.b' (LearnableParameter operation) : [10 x 1]
+12/09/2017 09:25:30: 	Node 'sc' (LearnableParameter operation) : [200 x 1]
 
-12/15/2016 08:27:29: No PreCompute nodes found, or all already computed. Skipping pre-computation step.
+12/09/2017 09:25:30: No PreCompute nodes found, or all already computed. Skipping pre-computation step.
 
-12/15/2016 08:27:29: Starting Epoch 1: learning rate per sample = 0.003125  effective momentum = 0.000000  momentum as time constant = 0.0 samples
+12/09/2017 09:25:30: Starting Epoch 1: learning rate per sample = 0.003125  effective momentum = 0.000000  momentum as time constant = 0.0 samples
 
-12/15/2016 08:27:29: Starting minibatch loop.
-12/15/2016 08:27:31:  Epoch[ 1 of 3]-Minibatch[   1- 500, 26.67%]: ce = 0.46954208 * 16000; top5Errs = 1.306% * 16000; errs = 13.719% * 16000; time = 2.3884s; samplesPerSecond = 6698.9
-12/15/2016 08:27:32:  Epoch[ 1 of 3]-Minibatch[ 501-1000, 53.33%]: ce = 0.40629935 * 16000; top5Errs = 0.869% * 16000; errs = 11.800% * 16000; time = 0.9766s; samplesPerSecond = 16384.1
-12/15/2016 08:27:33:  Epoch[ 1 of 3]-Minibatch[1001-1500, 80.00%]: ce = 0.36484326 * 16000; top5Errs = 0.725% * 16000; errs = 10.700% * 16000; time = 0.9721s; samplesPerSecond = 16458.4
-12/15/2016 08:27:34: Finished Epoch[ 1 of 3]: [Training] ce = 0.40319505 * 60000; top5Errs = 0.928% * 60000; errs = 11.752% * 60000; totalSamplesSeen = 60000; learningRatePerSample = 0.003125; epochTime=5.09913s
-12/15/2016 08:27:34: SGD: Saving checkpoint model 'C:\Users\svcphil\AppData\Local\Temp\cntk-test-20161215082658.690476\BatchNormalization\NonSpatial_CuDNN@release_gpu/Models/01_OneHidden.1'
+12/09/2017 09:25:30: Starting minibatch loop.
+12/09/2017 09:25:32:  Epoch[ 1 of 3]-Minibatch[   1- 500, 26.67%]: ce = 0.46954208 * 16000; top5Errs = 1.306% * 16000; errs = 13.719% * 16000; time = 1.6352s; samplesPerSecond = 9784.7
+12/09/2017 09:25:32:  Epoch[ 1 of 3]-Minibatch[ 501-1000, 53.33%]: ce = 0.40629929 * 16000; top5Errs = 0.869% * 16000; errs = 11.800% * 16000; time = 0.3893s; samplesPerSecond = 41101.4
+12/09/2017 09:25:32:  Epoch[ 1 of 3]-Minibatch[1001-1500, 80.00%]: ce = 0.36484332 * 16000; top5Errs = 0.725% * 16000; errs = 10.700% * 16000; time = 0.3836s; samplesPerSecond = 41707.7
+12/09/2017 09:25:33: Finished Epoch[ 1 of 3]: [Training] ce = 0.40319505 * 60000; top5Errs = 0.928% * 60000; errs = 11.752% * 60000; totalSamplesSeen = 60000; learningRatePerSample = 0.003125; epochTime=2.70387s
+12/09/2017 09:25:33: SGD: Saving checkpoint model '/tmp/cntk-test-20171209080859.615414/BatchNormalization/NonSpatial_CNTK@release_gpu/Models/01_OneHidden.1'
 
-12/15/2016 08:27:34: Starting Epoch 2: learning rate per sample = 0.003125  effective momentum = 0.000000  momentum as time constant = 0.0 samples
+12/09/2017 09:25:33: Starting Epoch 2: learning rate per sample = 0.003125  effective momentum = 0.000000  momentum as time constant = 0.0 samples
 
-12/15/2016 08:27:34: Starting minibatch loop.
-12/15/2016 08:27:35:  Epoch[ 2 of 3]-Minibatch[   1- 500, 26.67%]: ce = 0.34741147 * 16000; top5Errs = 0.606% * 16000; errs = 10.075% * 16000; time = 0.9530s; samplesPerSecond = 16789.1
-12/15/2016 08:27:36:  Epoch[ 2 of 3]-Minibatch[ 501-1000, 53.33%]: ce = 0.33650119 * 16000; top5Errs = 0.550% * 16000; errs = 9.863% * 16000; time = 0.9839s; samplesPerSecond = 16261.8
-12/15/2016 08:27:37:  Epoch[ 2 of 3]-Minibatch[1001-1500, 80.00%]: ce = 0.34222223 * 16000; top5Errs = 0.688% * 16000; errs = 10.125% * 16000; time = 0.9952s; samplesPerSecond = 16077.3
-12/15/2016 08:27:38: Finished Epoch[ 2 of 3]: [Training] ce = 0.34630986 * 60000; top5Errs = 0.638% * 60000; errs = 10.132% * 60000; totalSamplesSeen = 120000; learningRatePerSample = 0.003125; epochTime=3.68216s
-12/15/2016 08:27:38: SGD: Saving checkpoint model 'C:\Users\svcphil\AppData\Local\Temp\cntk-test-20161215082658.690476\BatchNormalization\NonSpatial_CuDNN@release_gpu/Models/01_OneHidden.2'
+12/09/2017 09:25:33: Starting minibatch loop.
+12/09/2017 09:25:33:  Epoch[ 2 of 3]-Minibatch[   1- 500, 26.67%]: ce = 0.34741150 * 16000; top5Errs = 0.606% * 16000; errs = 10.075% * 16000; time = 0.3731s; samplesPerSecond = 42888.6
+12/09/2017 09:25:34:  Epoch[ 2 of 3]-Minibatch[ 501-1000, 53.33%]: ce = 0.33650116 * 16000; top5Errs = 0.550% * 16000; errs = 9.863% * 16000; time = 0.3861s; samplesPerSecond = 41441.9
+12/09/2017 09:25:34:  Epoch[ 2 of 3]-Minibatch[1001-1500, 80.00%]: ce = 0.34222235 * 16000; top5Errs = 0.688% * 16000; errs = 10.125% * 16000; time = 0.3569s; samplesPerSecond = 44836.0
+12/09/2017 09:25:34: Finished Epoch[ 2 of 3]: [Training] ce = 0.34630990 * 60000; top5Errs = 0.638% * 60000; errs = 10.132% * 60000; totalSamplesSeen = 120000; learningRatePerSample = 0.003125; epochTime=1.38841s
+12/09/2017 09:25:34: SGD: Saving checkpoint model '/tmp/cntk-test-20171209080859.615414/BatchNormalization/NonSpatial_CNTK@release_gpu/Models/01_OneHidden.2'
 
-12/15/2016 08:27:38: Starting Epoch 3: learning rate per sample = 0.003125  effective momentum = 0.000000  momentum as time constant = 0.0 samples
+12/09/2017 09:25:34: Starting Epoch 3: learning rate per sample = 0.003125  effective momentum = 0.000000  momentum as time constant = 0.0 samples
 
-12/15/2016 08:27:38: Starting minibatch loop.
-12/15/2016 08:27:39:  Epoch[ 3 of 3]-Minibatch[   1- 500, 26.67%]: ce = 0.34093686 * 16000; top5Errs = 0.581% * 16000; errs = 9.994% * 16000; time = 0.9894s; samplesPerSecond = 16170.8
-12/15/2016 08:27:40:  Epoch[ 3 of 3]-Minibatch[ 501-1000, 53.33%]: ce = 0.33047696 * 16000; top5Errs = 0.600% * 16000; errs = 9.319% * 16000; time = 0.9754s; samplesPerSecond = 16404.3
-12/15/2016 08:27:41:  Epoch[ 3 of 3]-Minibatch[1001-1500, 80.00%]: ce = 0.33348969 * 16000; top5Errs = 0.600% * 16000; errs = 9.575% * 16000; time = 0.9662s; samplesPerSecond = 16559.7
-12/15/2016 08:27:42: Finished Epoch[ 3 of 3]: [Training] ce = 0.33080459 * 60000; top5Errs = 0.563% * 60000; errs = 9.542% * 60000; totalSamplesSeen = 180000; learningRatePerSample = 0.003125; epochTime=3.67833s
-12/15/2016 08:27:42: SGD: Saving checkpoint model 'C:\Users\svcphil\AppData\Local\Temp\cntk-test-20161215082658.690476\BatchNormalization\NonSpatial_CuDNN@release_gpu/Models/01_OneHidden'
+12/09/2017 09:25:34: Starting minibatch loop.
+12/09/2017 09:25:35:  Epoch[ 3 of 3]-Minibatch[   1- 500, 26.67%]: ce = 0.34093674 * 16000; top5Errs = 0.581% * 16000; errs = 9.994% * 16000; time = 0.3519s; samplesPerSecond = 45465.8
+12/09/2017 09:25:35:  Epoch[ 3 of 3]-Minibatch[ 501-1000, 53.33%]: ce = 0.33047702 * 16000; top5Errs = 0.600% * 16000; errs = 9.319% * 16000; time = 0.3572s; samplesPerSecond = 44792.5
+12/09/2017 09:25:35:  Epoch[ 3 of 3]-Minibatch[1001-1500, 80.00%]: ce = 0.33348969 * 16000; top5Errs = 0.600% * 16000; errs = 9.575% * 16000; time = 0.3502s; samplesPerSecond = 45693.9
+12/09/2017 09:25:35: Finished Epoch[ 3 of 3]: [Training] ce = 0.33080456 * 60000; top5Errs = 0.563% * 60000; errs = 9.542% * 60000; totalSamplesSeen = 180000; learningRatePerSample = 0.003125; epochTime=1.33617s
+12/09/2017 09:25:35: SGD: Saving checkpoint model '/tmp/cntk-test-20171209080859.615414/BatchNormalization/NonSpatial_CNTK@release_gpu/Models/01_OneHidden'
 
-12/15/2016 08:27:42: Action "train" complete.
+12/09/2017 09:25:36: Action "train" complete.
 
 
-12/15/2016 08:27:42: ##############################################################################
-12/15/2016 08:27:42: #                                                                            #
-12/15/2016 08:27:42: # test command (test action)                                                 #
-12/15/2016 08:27:42: #                                                                            #
-12/15/2016 08:27:42: ##############################################################################
+12/09/2017 09:25:36: ##############################################################################
+12/09/2017 09:25:36: #                                                                            #
+12/09/2017 09:25:36: # test command (test action)                                                 #
+12/09/2017 09:25:36: #                                                                            #
+12/09/2017 09:25:36: ##############################################################################
 
 
 Post-processing network...
@@ -190,7 +222,7 @@ Post-processing network...
 	errs = ClassificationError()
 	top5Errs = ClassificationError()
 
-Validating network. 21 nodes to process in pass 1.
+Validating network. 22 nodes to process in pass 1.
 
 Validating --> labels = InputValue() :  -> [10 x *1]
 Validating --> ol.W = LearnableParameter() :  -> [10 x 200]
@@ -205,7 +237,8 @@ Validating --> sc = LearnableParameter() :  -> [200 x 1]
 Validating --> b = LearnableParameter() :  -> [200 x 1]
 Validating --> m = LearnableParameter() :  -> [200 x 1]
 Validating --> v = LearnableParameter() :  -> [200 x 1]
-Validating --> y = BatchNormalization (h1.z, sc, b, m, v) : [200 x 1 x *1], [200 x 1], [200 x 1], [200 x 1], [200 x 1] -> [200 x 1 x *1]
+Validating --> y.run_sample_count = LearnableParameter() :  -> [1]
+Validating --> y = BatchNormalization (h1.z, sc, b, m, v, y.run_sample_count) : [200 x 1 x *1], [200 x 1], [200 x 1], [200 x 1], [200 x 1], [1] -> [200 x 1 x *1]
 Validating --> ol.t = Times (ol.W, y) : [10 x 200], [200 x 1 x *1] -> [10 x 1 x *1]
 Validating --> ol.b = LearnableParameter() :  -> [10 x 1]
 Validating --> ol.z = Plus (ol.t, ol.b) : [10 x 1 x *1], [10 x 1] -> [10 x 1 x *1]
@@ -219,7 +252,7 @@ Validating network. 9 nodes to process in pass 2.
 
 Validating network, final pass.
 
-Using cuDNN batch normalization engine.
+Using CNTK batch normalization engine.
 
 
 
@@ -229,12 +262,37 @@ Post-processing network complete.
 
 Allocating matrices for forward and/or backward propagation.
 
-Memory Sharing: Out of 21 matrices, 0 are shared as 0, and 21 are not shared.
+Memory Sharing: Out of 22 matrices, 6 are shared as 2, and 16 are not shared.
 
+Here are the ones that share memory:
+	{ h1.t : [200 x 1 x *1]
+	  ol.z : [10 x 1 x *1]
+	  y : [200 x 1 x *1] }
+	{ featScaled : [784 x 1 x *1]
+	  h1.z : [200 x 1 x *1]
+	  ol.t : [10 x 1 x *1] }
 
-12/15/2016 08:27:42: Minibatch[1-10]: ce = 0.29395443 * 10000; errs = 8.440% * 10000; top5Errs = 0.560% * 10000
-12/15/2016 08:27:42: Final Results: Minibatch[1-10]: ce = 0.29395443 * 10000; perplexity = 1.34172276; errs = 8.440% * 10000; top5Errs = 0.560% * 10000
+Here are the ones that don't share memory:
+	{ce : [1]}
+	{b : [200 x 1]}
+	{top5Errs : [1]}
+	{errs : [1]}
+	{featScale : [1 x 1]}
+	{features : [784 x *1]}
+	{h1.b : [200 x 1]}
+	{h1.W : [200 x 784]}
+	{labels : [10 x *1]}
+	{m : [200 x 1]}
+	{ol.b : [10 x 1]}
+	{ol.W : [10 x 200]}
+	{sc : [200 x 1]}
+	{unnamed32 : [1 x 1]}
+	{v : [200 x 1]}
+	{y.run_sample_count : [1]}
 
-12/15/2016 08:27:42: Action "test" complete.
+12/09/2017 09:25:36: Minibatch[1-10]: ce = 0.29395442 * 10000; errs = 8.440% * 10000; top5Errs = 0.560% * 10000
+12/09/2017 09:25:36: Final Results: Minibatch[1-10]: ce = 0.29395442 * 10000; perplexity = 1.34172275; errs = 8.440% * 10000; top5Errs = 0.560% * 10000
 
-12/15/2016 08:27:42: __COMPLETED__
+12/09/2017 09:25:36: Action "test" complete.
+
+12/09/2017 09:25:36: __COMPLETED__

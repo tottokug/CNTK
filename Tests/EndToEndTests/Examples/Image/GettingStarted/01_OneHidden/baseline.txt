@@ -1,60 +1,57 @@
 CPU info:
-    CPU Model Name: Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
-    Hardware threads: 24
-    Total Memory: 268381192 kB
+    CPU Model Name: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
+    Hardware threads: 12
+    Total Memory: 57700428 kB
 -------------------------------------------------------------------
-=== Running /cygdrive/c/jenkins/workspace/CNTK-Test-Windows-W1/x64/release/cntk.exe configFile=C:\jenkins\workspace\CNTK-Test-Windows-W1\Examples\Image\GettingStarted/01_OneHidden.cntk currentDirectory=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160922162518.374503\Examples\Image\GettingStarted_01_OneHidden@release_gpu\TestData RunDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160922162518.374503\Examples\Image\GettingStarted_01_OneHidden@release_gpu DataDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160922162518.374503\Examples\Image\GettingStarted_01_OneHidden@release_gpu\TestData ConfigDir=C:\jenkins\workspace\CNTK-Test-Windows-W1\Examples\Image\GettingStarted OutputDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160922162518.374503\Examples\Image\GettingStarted_01_OneHidden@release_gpu DeviceId=0 timestamping=true forceDeterministicAlgorithms=true stderr=- trainNetwork=[SGD=[maxEpochs=3]]
-CNTK 1.7+ (HEAD 216029, Sep 22 2016 16:13:35) on DPHAIM-22 at 2016/09/22 16:26:44
+=== Running /home/ubuntu/workspace/build/1bitsgd/release/bin/cntk configFile=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/GettingStarted/01_OneHidden/../../../../../../Examples/Image/GettingStarted/01_OneHidden.cntk currentDirectory=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST RunDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/GettingStarted_01_OneHidden@release_gpu DataDir=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/GettingStarted/01_OneHidden/../../../../../../Examples/Image/GettingStarted OutputDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/GettingStarted_01_OneHidden@release_gpu DeviceId=0 timestamping=true forceDeterministicAlgorithms=true stderr=- trainNetwork=[SGD=[maxEpochs=3]]
+CNTK 2.3.1+ (HEAD b130d7, Dec  8 2017 01:52:00) at 2017/12/09 10:58:23
 
-C:\jenkins\workspace\CNTK-Test-Windows-W1\x64\release\cntk.exe  configFile=C:\jenkins\workspace\CNTK-Test-Windows-W1\Examples\Image\GettingStarted/01_OneHidden.cntk  currentDirectory=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160922162518.374503\Examples\Image\GettingStarted_01_OneHidden@release_gpu\TestData  RunDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160922162518.374503\Examples\Image\GettingStarted_01_OneHidden@release_gpu  DataDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160922162518.374503\Examples\Image\GettingStarted_01_OneHidden@release_gpu\TestData  ConfigDir=C:\jenkins\workspace\CNTK-Test-Windows-W1\Examples\Image\GettingStarted  OutputDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160922162518.374503\Examples\Image\GettingStarted_01_OneHidden@release_gpu  DeviceId=0  timestamping=true  forceDeterministicAlgorithms=true  stderr=-  trainNetwork=[SGD=[maxEpochs=3]]
-Changed current directory to C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160922162518.374503\Examples\Image\GettingStarted_01_OneHidden@release_gpu\TestData
-09/22/2016 16:26:47: Redirecting stderr to file -_trainNetwork_testNetwork.log
-09/22/2016 16:26:47: -------------------------------------------------------------------
-09/22/2016 16:26:47: Build info: 
+/home/ubuntu/workspace/build/1bitsgd/release/bin/cntk  configFile=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/GettingStarted/01_OneHidden/../../../../../../Examples/Image/GettingStarted/01_OneHidden.cntk  currentDirectory=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST  RunDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/GettingStarted_01_OneHidden@release_gpu  DataDir=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST  ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/GettingStarted/01_OneHidden/../../../../../../Examples/Image/GettingStarted  OutputDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/GettingStarted_01_OneHidden@release_gpu  DeviceId=0  timestamping=true  forceDeterministicAlgorithms=true  stderr=-  trainNetwork=[SGD=[maxEpochs=3]]
+Changed current directory to /home/ubuntu/workspace/Examples/Image/DataSets/MNIST
+12/09/2017 10:58:23: Redirecting stderr to file -_trainNetwork_testNetwork.log
+12/09/2017 10:58:23: -------------------------------------------------------------------
+12/09/2017 10:58:23: Build info: 
 
-09/22/2016 16:26:47: 		Built time: Sep 22 2016 16:13:35
-09/22/2016 16:26:47: 		Last modified date: Thu Sep 22 13:24:23 2016
-09/22/2016 16:26:47: 		Build type: Release
-09/22/2016 16:26:47: 		Build target: GPU
-09/22/2016 16:26:47: 		With 1bit-SGD: no
-09/22/2016 16:26:47: 		Math lib: mkl
-09/22/2016 16:26:47: 		CUDA_PATH: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5
-09/22/2016 16:26:47: 		CUB_PATH: C:\src\cub-1.4.1
-09/22/2016 16:26:47: 		CUDNN_PATH: c:\NVIDIA\cudnn-5.1\cuda
-09/22/2016 16:26:47: 		Build Branch: HEAD
-09/22/2016 16:26:47: 		Build SHA1: 216029bfedd92253fd45034da1d1cc68c4d4c7f1
-09/22/2016 16:26:47: 		Built by svcphil on liana-08-w
-09/22/2016 16:26:47: 		Build Path: c:\jenkins\workspace\CNTK-Build-Windows\Source\CNTK\
-09/22/2016 16:26:47: -------------------------------------------------------------------
-09/22/2016 16:26:49: -------------------------------------------------------------------
-09/22/2016 16:26:49: GPU info:
+12/09/2017 10:58:23: 		Built time: Dec  8 2017 01:46:20
+12/09/2017 10:58:23: 		Last modified date: Wed Nov 15 09:27:10 2017
+12/09/2017 10:58:23: 		Build type: release
+12/09/2017 10:58:23: 		Build target: GPU
+12/09/2017 10:58:23: 		With 1bit-SGD: yes
+12/09/2017 10:58:23: 		With ASGD: yes
+12/09/2017 10:58:23: 		Math lib: mkl
+12/09/2017 10:58:23: 		CUDA version: 9.0.0
+12/09/2017 10:58:23: 		CUDNN version: 7.0.4
+12/09/2017 10:58:23: 		Build Branch: HEAD
+12/09/2017 10:58:23: 		Build SHA1: b130d7735044ce6697bfb963af91445bee740c73
+12/09/2017 10:58:23: 		MPI distribution: Open MPI
+12/09/2017 10:58:23: 		MPI version: 1.10.7
+12/09/2017 10:58:23: -------------------------------------------------------------------
+12/09/2017 10:58:23: -------------------------------------------------------------------
+12/09/2017 10:58:23: GPU info:
 
-09/22/2016 16:26:49: 		Device[0]: cores = 2880; computeCapability = 3.5; type = "GeForce GTX 780 Ti"; memory = 3072 MB
-09/22/2016 16:26:49: 		Device[1]: cores = 2880; computeCapability = 3.5; type = "GeForce GTX 780 Ti"; memory = 3072 MB
-09/22/2016 16:26:49: 		Device[2]: cores = 2880; computeCapability = 3.5; type = "GeForce GTX 780 Ti"; memory = 3072 MB
-09/22/2016 16:26:49: 		Device[3]: cores = 2880; computeCapability = 3.5; type = "GeForce GTX 780 Ti"; memory = 3072 MB
-09/22/2016 16:26:49: -------------------------------------------------------------------
+12/09/2017 10:58:23: 		Device[0]: cores = 3072; computeCapability = 5.2; type = "Tesla M60"; total memory = 8123 MB; free memory = 8112 MB
+12/09/2017 10:58:23: -------------------------------------------------------------------
 
 Configuration After Processing and Variable Resolution:
 
 configparameters: 01_OneHidden.cntk:command=trainNetwork:testNetwork
-configparameters: 01_OneHidden.cntk:ConfigDir=C:\jenkins\workspace\CNTK-Test-Windows-W1\Examples\Image\GettingStarted
-configparameters: 01_OneHidden.cntk:currentDirectory=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160922162518.374503\Examples\Image\GettingStarted_01_OneHidden@release_gpu\TestData
-configparameters: 01_OneHidden.cntk:dataDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160922162518.374503\Examples\Image\GettingStarted_01_OneHidden@release_gpu\TestData
+configparameters: 01_OneHidden.cntk:ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/GettingStarted/01_OneHidden/../../../../../../Examples/Image/GettingStarted
+configparameters: 01_OneHidden.cntk:currentDirectory=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST
+configparameters: 01_OneHidden.cntk:dataDir=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST
 configparameters: 01_OneHidden.cntk:deviceId=0
 configparameters: 01_OneHidden.cntk:forceDeterministicAlgorithms=true
-configparameters: 01_OneHidden.cntk:modelPath=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160922162518.374503\Examples\Image\GettingStarted_01_OneHidden@release_gpu/Models/01_OneHidden
-configparameters: 01_OneHidden.cntk:outputDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160922162518.374503\Examples\Image\GettingStarted_01_OneHidden@release_gpu
+configparameters: 01_OneHidden.cntk:modelPath=/tmp/cntk-test-20171209080859.615414/Examples/Image/GettingStarted_01_OneHidden@release_gpu/Models/01_OneHidden
+configparameters: 01_OneHidden.cntk:outputDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/GettingStarted_01_OneHidden@release_gpu
 configparameters: 01_OneHidden.cntk:precision=float
 configparameters: 01_OneHidden.cntk:rootDir=..
-configparameters: 01_OneHidden.cntk:RunDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160922162518.374503\Examples\Image\GettingStarted_01_OneHidden@release_gpu
+configparameters: 01_OneHidden.cntk:RunDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/GettingStarted_01_OneHidden@release_gpu
 configparameters: 01_OneHidden.cntk:stderr=-
 configparameters: 01_OneHidden.cntk:testNetwork={
     action = "test"
 minibatchSize = 1024    
     reader = {
         readerType = "CNTKTextFormatReader"
-        file = "C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160922162518.374503\Examples\Image\GettingStarted_01_OneHidden@release_gpu\TestData/Test-28x28_cntk_text.txt"
+        file = "/home/ubuntu/workspace/Examples/Image/DataSets/MNIST/Test-28x28_cntk_text.txt"
         input = {
             features = { dim = 784 ; format = "dense" }
             labels =   { dim = 10  ; format = "dense" }
@@ -70,22 +67,21 @@ configparameters: 01_OneHidden.cntk:trainNetwork={
 imageShape = 28:28:1                        
 labelDim = 10                               
         featScale = 1/256
-        Scale{f} = x => Constant(f) .* x
-        model = Sequential (
-            Scale {featScale} :
-            DenseLayer {200} : ReLU : 
-            LinearLayer {labelDim}
-        )
+        model(x) = {
+            s1 = x * featScale
+            h1 = DenseLayer {200, activation=ReLU} (s1) 
+            z = LinearLayer {labelDim} (h1)
+        }
         features = Input {imageShape}
-        labels = Input (labelDim)
-        ol = model (features)
-        ce   = CrossEntropyWithSoftmax (labels, ol)
-        errs = ClassificationError (labels, ol)
+        labels = Input {labelDim}
+        out = model (features)
+        ce   = CrossEntropyWithSoftmax (labels, out.z)
+        errs = ClassificationError (labels, out.z)
         featureNodes    = (features)
         labelNodes      = (labels)
         criterionNodes  = (ce)
         evaluationNodes = (errs)
-        outputNodes     = (ol)
+        outputNodes     = (out.z)
     }
     SGD = {
         epochSize = 60000
@@ -97,7 +93,7 @@ labelDim = 10
     }
     reader = {
         readerType = "CNTKTextFormatReader"
-        file = "C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160922162518.374503\Examples\Image\GettingStarted_01_OneHidden@release_gpu\TestData/Train-28x28_cntk_text.txt"
+        file = "/home/ubuntu/workspace/Examples/Image/DataSets/MNIST/Train-28x28_cntk_text.txt"
         input = {
             features = { dim = 784 ; format = "dense" }
             labels =   { dim = 10  ; format = "dense" }
@@ -105,16 +101,17 @@ labelDim = 10
     }   
 } [SGD=[maxEpochs=3]]
 
-09/22/2016 16:26:49: Commands: trainNetwork testNetwork
-09/22/2016 16:26:49: precision = "float"
+12/09/2017 10:58:23: Commands: trainNetwork testNetwork
+12/09/2017 10:58:23: precision = "float"
+12/09/2017 10:58:23: WARNING: forceDeterministicAlgorithms flag is specified. Using 1 CPU thread for processing.
 
-09/22/2016 16:26:49: ##############################################################################
-09/22/2016 16:26:49: #                                                                            #
-09/22/2016 16:26:49: # trainNetwork command (train action)                                        #
-09/22/2016 16:26:49: #                                                                            #
-09/22/2016 16:26:49: ##############################################################################
+12/09/2017 10:58:23: ##############################################################################
+12/09/2017 10:58:23: #                                                                            #
+12/09/2017 10:58:23: # trainNetwork command (train action)                                        #
+12/09/2017 10:58:23: #                                                                            #
+12/09/2017 10:58:23: ##############################################################################
 
-09/22/2016 16:26:49: 
+12/09/2017 10:58:23: 
 Creating virgin network.
 Node '<placeholder>' (LearnableParameter operation): Initializating Parameter[10 x 0] as glorotUniform later when dimensions are fully known.
 Node '<placeholder>' (LearnableParameter operation): Initializating Parameter[200 x 0] as glorotUniform later when dimensions are fully known.
@@ -124,31 +121,29 @@ Post-processing network...
 3 roots:
 	ce = CrossEntropyWithSoftmax()
 	errs = ClassificationError()
-	ol = Plus()
+	out.z = Plus()
 
 Validating network. 15 nodes to process in pass 1.
 
 Validating --> labels = InputValue() :  -> [10 x *]
-Validating --> model.arrayOfFunctions[3].W = LearnableParameter() :  -> [10 x 0]
-Validating --> model.arrayOfFunctions[1].arrayOfFunctions[0].W = LearnableParameter() :  -> [200 x 0]
-Validating --> ol.x._.x.ElementTimesArgs[0] = LearnableParameter() :  -> [1 x 1]
+Validating --> out.z.W = LearnableParameter() :  -> [10 x 0]
+Validating --> out.h1.arrayOfFunctions[0].W = LearnableParameter() :  -> [200 x 0]
 Validating --> features = InputValue() :  -> [28 x 28 x 1 x *]
-Validating --> _ol.x._.x = ElementTimes (ol.x._.x.ElementTimesArgs[0], features) : [1 x 1], [28 x 28 x 1 x *] -> [28 x 28 x 1 x *]
-Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [200 x 28 x 28 x 1].
-Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation): Initializing Parameter[200 x 28 x 28 x 1] <- glorotUniform(seed=2, init dims=[200 x 784], range=0.078087*1.000000, onCPU=true) { -0.03351783, ... }
-.
-Validating --> ol.x._.x.PlusArgs[0] = Times (model.arrayOfFunctions[1].arrayOfFunctions[0].W, _ol.x._.x) : [200 x 28 x 28 x 1], [28 x 28 x 1 x *] -> [200 x *]
-Validating --> model.arrayOfFunctions[1].arrayOfFunctions[0].b = LearnableParameter() :  -> [200]
-Validating --> ol.x._.x = Plus (ol.x._.x.PlusArgs[0], model.arrayOfFunctions[1].arrayOfFunctions[0].b) : [200 x *], [200] -> [200 x *]
-Validating --> ol.x = RectifiedLinear (ol.x._.x) : [200 x *] -> [200 x *]
-Node 'model.arrayOfFunctions[3].W' (LearnableParameter operation) operation: Tensor shape was inferred as [10 x 200].
-Node 'model.arrayOfFunctions[3].W' (LearnableParameter operation): Initializing Parameter[10 x 200] <- glorotUniform(seed=1, init dims=[10 x 200], range=0.169031*1.000000, onCPU=true) { -0.12079262, ... }
-.
-Validating --> ol.PlusArgs[0] = Times (model.arrayOfFunctions[3].W, ol.x) : [10 x 200], [200 x *] -> [10 x *]
-Validating --> model.arrayOfFunctions[3].b = LearnableParameter() :  -> [10]
-Validating --> ol = Plus (ol.PlusArgs[0], model.arrayOfFunctions[3].b) : [10 x *], [10] -> [10 x *]
-Validating --> ce = CrossEntropyWithSoftmax (labels, ol) : [10 x *], [10 x *] -> [1]
-Validating --> errs = ClassificationError (labels, ol) : [10 x *], [10 x *] -> [1]
+Validating --> _out.s1 = LearnableParameter() :  -> [1]
+Validating --> out.s1 = ElementTimes (features, _out.s1) : [28 x 28 x 1 x *], [1] -> [28 x 28 x 1 x *]
+Node 'out.h1.arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [200 x 28 x 28 x 1].
+Node 'out.h1.arrayOfFunctions[0].W' (LearnableParameter operation): Initializing Parameter[200 x 28 x 28 x 1] <- glorotUniform(seed=2, init dims=[200 x 784], range=0.078087(0.078087*1.000000), onCPU=true.
+)Validating --> out.h1._.PlusArgs[0] = Times (out.h1.arrayOfFunctions[0].W, out.s1) : [200 x 28 x 28 x 1], [28 x 28 x 1 x *] -> [200 x *]
+Validating --> out.h1.arrayOfFunctions[0].b = LearnableParameter() :  -> [200]
+Validating --> out.h1._ = Plus (out.h1._.PlusArgs[0], out.h1.arrayOfFunctions[0].b) : [200 x *], [200] -> [200 x *]
+Validating --> out.h1 = RectifiedLinear (out.h1._) : [200 x *] -> [200 x *]
+Node 'out.z.W' (LearnableParameter operation) operation: Tensor shape was inferred as [10 x 200].
+Node 'out.z.W' (LearnableParameter operation): Initializing Parameter[10 x 200] <- glorotUniform(seed=1, init dims=[10 x 200], range=0.169031(0.169031*1.000000), onCPU=true.
+)Validating --> out.z.PlusArgs[0] = Times (out.z.W, out.h1) : [10 x 200], [200 x *] -> [10 x *]
+Validating --> out.z.b = LearnableParameter() :  -> [10]
+Validating --> out.z = Plus (out.z.PlusArgs[0], out.z.b) : [10 x *], [10] -> [10 x *]
+Validating --> ce = CrossEntropyWithSoftmax (labels, out.z) : [10 x *], [10 x *] -> [1]
+Validating --> errs = ClassificationError (labels, out.z) : [10 x *], [10 x *] -> [1]
 
 Validating network. 8 nodes to process in pass 2.
 
@@ -160,67 +155,89 @@ Validating network, final pass.
 
 Post-processing network complete.
 
-09/22/2016 16:26:50: 
+12/09/2017 10:58:23: 
 Model has 15 nodes. Using GPU 0.
 
-09/22/2016 16:26:50: Training criterion:   ce = CrossEntropyWithSoftmax
-09/22/2016 16:26:50: Evaluation criterion: errs = ClassificationError
+12/09/2017 10:58:23: Training criterion:   ce = CrossEntropyWithSoftmax
+12/09/2017 10:58:23: Evaluation criterion: errs = ClassificationError
 
 
 Allocating matrices for forward and/or backward propagation.
 
-Memory Sharing: Out of 25 matrices, 10 are shared as 5, and 15 are not shared.
+Gradient Memory Aliasing: 4 are aliased.
+	out.h1._.PlusArgs[0] (gradient) reuses out.h1._ (gradient)
+	out.z.PlusArgs[0] (gradient) reuses out.z (gradient)
 
-	{ model.arrayOfFunctions[1].arrayOfFunctions[0].W : [200 x 28 x 28 x 1] (gradient)
-	  ol.x._.x : [200 x *] }
-	{ ol.x : [200 x *]
-	  ol.x._.x.PlusArgs[0] : [200 x *] (gradient) }
-	{ model.arrayOfFunctions[1].arrayOfFunctions[0].b : [200] (gradient)
-	  ol.x : [200 x *] (gradient) }
-	{ model.arrayOfFunctions[3].W : [10 x 200] (gradient)
-	  ol : [10 x *] (gradient) }
-	{ ol.PlusArgs[0] : [10 x *]
-	  ol.x._.x : [200 x *] (gradient) }
+Memory Sharing: Out of 25 matrices, 12 are shared as 3, and 13 are not shared.
 
+Here are the ones that share memory:
+	{ out.h1._ : [200 x *] (gradient)
+	  out.h1._.PlusArgs[0] : [200 x *]
+	  out.h1._.PlusArgs[0] : [200 x *] (gradient)
+	  out.z : [10 x *] (gradient)
+	  out.z.PlusArgs[0] : [10 x *]
+	  out.z.PlusArgs[0] : [10 x *] (gradient) }
+	{ out.h1 : [200 x *] (gradient)
+	  out.h1._ : [200 x *]
+	  out.h1.arrayOfFunctions[0].W : [200 x 28 x 28 x 1] (gradient)
+	  out.z : [10 x *] }
+	{ out.h1 : [200 x *]
+	  out.h1.arrayOfFunctions[0].b : [200] (gradient) }
 
-09/22/2016 16:26:50: Training 159010 parameters in 4 out of 4 parameter tensors and 10 nodes with gradient:
-
-09/22/2016 16:26:50: 	Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) : [200 x 28 x 28 x 1]
-09/22/2016 16:26:50: 	Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].b' (LearnableParameter operation) : [200]
-09/22/2016 16:26:50: 	Node 'model.arrayOfFunctions[3].W' (LearnableParameter operation) : [10 x 200]
-09/22/2016 16:26:50: 	Node 'model.arrayOfFunctions[3].b' (LearnableParameter operation) : [10]
-
-09/22/2016 16:26:50: No PreCompute nodes found, or all already computed. Skipping pre-computation step.
-
-09/22/2016 16:26:50: Starting Epoch 1: learning rate per sample = 0.010000  effective momentum = 0.000000  momentum as time constant = 0.0 samples
-
-09/22/2016 16:26:50: Starting minibatch loop.
-09/22/2016 16:26:52:  Epoch[ 1 of 3]-Minibatch[   1- 500, 53.33%]: ce = 0.30956033 * 32000; errs = 9.431% * 32000; time = 2.2384s; samplesPerSecond = 14296.2
-09/22/2016 16:26:53: Finished Epoch[ 1 of 3]: [Training] ce = 0.22936094 * 60000; errs = 6.970% * 60000; totalSamplesSeen = 60000; learningRatePerSample = 0.0099999998; epochTime=2.81153s
-09/22/2016 16:26:53: SGD: Saving checkpoint model 'C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160922162518.374503\Examples\Image\GettingStarted_01_OneHidden@release_gpu/Models/01_OneHidden.1'
-
-09/22/2016 16:26:53: Starting Epoch 2: learning rate per sample = 0.010000  effective momentum = 0.000000  momentum as time constant = 0.0 samples
-
-09/22/2016 16:26:53: Starting minibatch loop.
-09/22/2016 16:26:54:  Epoch[ 2 of 3]-Minibatch[   1- 500, 53.33%]: ce = 0.09488918 * 32000; errs = 2.850% * 32000; time = 0.6253s; samplesPerSecond = 51174.2
-09/22/2016 16:26:54: Finished Epoch[ 2 of 3]: [Training] ce = 0.09379909 * 60000; errs = 2.883% * 60000; totalSamplesSeen = 120000; learningRatePerSample = 0.0099999998; epochTime=1.18173s
-09/22/2016 16:26:54: SGD: Saving checkpoint model 'C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160922162518.374503\Examples\Image\GettingStarted_01_OneHidden@release_gpu/Models/01_OneHidden.2'
-
-09/22/2016 16:26:54: Starting Epoch 3: learning rate per sample = 0.010000  effective momentum = 0.000000  momentum as time constant = 0.0 samples
-
-09/22/2016 16:26:54: Starting minibatch loop.
-09/22/2016 16:26:55:  Epoch[ 3 of 3]-Minibatch[   1- 500, 53.33%]: ce = 0.06256667 * 32000; errs = 1.972% * 32000; time = 0.6282s; samplesPerSecond = 50940.6
-09/22/2016 16:26:55: Finished Epoch[ 3 of 3]: [Training] ce = 0.06414283 * 60000; errs = 1.988% * 60000; totalSamplesSeen = 180000; learningRatePerSample = 0.0099999998; epochTime=1.18468s
-09/22/2016 16:26:55: SGD: Saving checkpoint model 'C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160922162518.374503\Examples\Image\GettingStarted_01_OneHidden@release_gpu/Models/01_OneHidden'
-
-09/22/2016 16:26:55: Action "train" complete.
+Here are the ones that don't share memory:
+	{out.z.W : [10 x 200]}
+	{out.h1.arrayOfFunctions[0].b : [200]}
+	{_out.s1 : [1]}
+	{features : [28 x 28 x 1 x *]}
+	{out.h1.arrayOfFunctions[0].W : [200 x 28 x 28 x 1]}
+	{out.z.b : [10]}
+	{out.z.W : [10 x 200] (gradient)}
+	{errs : [1]}
+	{ce : [1] (gradient)}
+	{out.s1 : [28 x 28 x 1 x *]}
+	{out.z.b : [10] (gradient)}
+	{labels : [10 x *]}
+	{ce : [1]}
 
 
-09/22/2016 16:26:55: ##############################################################################
-09/22/2016 16:26:55: #                                                                            #
-09/22/2016 16:26:55: # testNetwork command (test action)                                          #
-09/22/2016 16:26:55: #                                                                            #
-09/22/2016 16:26:55: ##############################################################################
+12/09/2017 10:58:23: Training 159010 parameters in 4 out of 4 parameter tensors and 10 nodes with gradient:
+
+12/09/2017 10:58:23: 	Node 'out.h1.arrayOfFunctions[0].W' (LearnableParameter operation) : [200 x 28 x 28 x 1]
+12/09/2017 10:58:23: 	Node 'out.h1.arrayOfFunctions[0].b' (LearnableParameter operation) : [200]
+12/09/2017 10:58:23: 	Node 'out.z.W' (LearnableParameter operation) : [10 x 200]
+12/09/2017 10:58:23: 	Node 'out.z.b' (LearnableParameter operation) : [10]
+
+12/09/2017 10:58:23: No PreCompute nodes found, or all already computed. Skipping pre-computation step.
+
+12/09/2017 10:58:23: Starting Epoch 1: learning rate per sample = 0.010000  effective momentum = 0.000000  momentum as time constant = 0.0 samples
+
+12/09/2017 10:58:23: Starting minibatch loop.
+12/09/2017 10:58:25:  Epoch[ 1 of 3]-Minibatch[   1- 500, 53.33%]: ce = 0.30729382 * 32000; errs = 9.516% * 32000; time = 1.8748s; samplesPerSecond = 17068.2
+12/09/2017 10:58:25: Finished Epoch[ 1 of 3]: [Training] ce = 0.22720059 * 60000; errs = 6.982% * 60000; totalSamplesSeen = 60000; learningRatePerSample = 0.0099999998; epochTime=2.11908s
+12/09/2017 10:58:25: SGD: Saving checkpoint model '/tmp/cntk-test-20171209080859.615414/Examples/Image/GettingStarted_01_OneHidden@release_gpu/Models/01_OneHidden.1'
+
+12/09/2017 10:58:25: Starting Epoch 2: learning rate per sample = 0.010000  effective momentum = 0.000000  momentum as time constant = 0.0 samples
+
+12/09/2017 10:58:25: Starting minibatch loop.
+12/09/2017 10:58:26:  Epoch[ 2 of 3]-Minibatch[   1- 500, 53.33%]: ce = 0.09341621 * 32000; errs = 2.859% * 32000; time = 0.2784s; samplesPerSecond = 114930.9
+12/09/2017 10:58:26: Finished Epoch[ 2 of 3]: [Training] ce = 0.09241722 * 60000; errs = 2.838% * 60000; totalSamplesSeen = 120000; learningRatePerSample = 0.0099999998; epochTime=0.533725s
+12/09/2017 10:58:26: SGD: Saving checkpoint model '/tmp/cntk-test-20171209080859.615414/Examples/Image/GettingStarted_01_OneHidden@release_gpu/Models/01_OneHidden.2'
+
+12/09/2017 10:58:26: Starting Epoch 3: learning rate per sample = 0.010000  effective momentum = 0.000000  momentum as time constant = 0.0 samples
+
+12/09/2017 10:58:26: Starting minibatch loop.
+12/09/2017 10:58:26:  Epoch[ 3 of 3]-Minibatch[   1- 500, 53.33%]: ce = 0.06297770 * 32000; errs = 2.028% * 32000; time = 0.2750s; samplesPerSecond = 116365.5
+12/09/2017 10:58:26: Finished Epoch[ 3 of 3]: [Training] ce = 0.06358307 * 60000; errs = 2.028% * 60000; totalSamplesSeen = 180000; learningRatePerSample = 0.0099999998; epochTime=0.525038s
+12/09/2017 10:58:26: SGD: Saving checkpoint model '/tmp/cntk-test-20171209080859.615414/Examples/Image/GettingStarted_01_OneHidden@release_gpu/Models/01_OneHidden'
+
+12/09/2017 10:58:26: Action "train" complete.
+
+
+12/09/2017 10:58:26: ##############################################################################
+12/09/2017 10:58:26: #                                                                            #
+12/09/2017 10:58:26: # testNetwork command (test action)                                          #
+12/09/2017 10:58:26: #                                                                            #
+12/09/2017 10:58:26: ##############################################################################
 
 
 Post-processing network...
@@ -228,25 +245,25 @@ Post-processing network...
 3 roots:
 	ce = CrossEntropyWithSoftmax()
 	errs = ClassificationError()
-	ol = Plus()
+	out.z = Plus()
 
 Validating network. 15 nodes to process in pass 1.
 
 Validating --> labels = InputValue() :  -> [10 x *1]
-Validating --> model.arrayOfFunctions[3].W = LearnableParameter() :  -> [10 x 200]
-Validating --> model.arrayOfFunctions[1].arrayOfFunctions[0].W = LearnableParameter() :  -> [200 x 28 x 28 x 1]
-Validating --> ol.x._.x.ElementTimesArgs[0] = LearnableParameter() :  -> [1 x 1]
+Validating --> out.z.W = LearnableParameter() :  -> [10 x 200]
+Validating --> out.h1.arrayOfFunctions[0].W = LearnableParameter() :  -> [200 x 28 x 28 x 1]
 Validating --> features = InputValue() :  -> [28 x 28 x 1 x *1]
-Validating --> _ol.x._.x = ElementTimes (ol.x._.x.ElementTimesArgs[0], features) : [1 x 1], [28 x 28 x 1 x *1] -> [28 x 28 x 1 x *1]
-Validating --> ol.x._.x.PlusArgs[0] = Times (model.arrayOfFunctions[1].arrayOfFunctions[0].W, _ol.x._.x) : [200 x 28 x 28 x 1], [28 x 28 x 1 x *1] -> [200 x *1]
-Validating --> model.arrayOfFunctions[1].arrayOfFunctions[0].b = LearnableParameter() :  -> [200]
-Validating --> ol.x._.x = Plus (ol.x._.x.PlusArgs[0], model.arrayOfFunctions[1].arrayOfFunctions[0].b) : [200 x *1], [200] -> [200 x *1]
-Validating --> ol.x = RectifiedLinear (ol.x._.x) : [200 x *1] -> [200 x *1]
-Validating --> ol.PlusArgs[0] = Times (model.arrayOfFunctions[3].W, ol.x) : [10 x 200], [200 x *1] -> [10 x *1]
-Validating --> model.arrayOfFunctions[3].b = LearnableParameter() :  -> [10]
-Validating --> ol = Plus (ol.PlusArgs[0], model.arrayOfFunctions[3].b) : [10 x *1], [10] -> [10 x *1]
-Validating --> ce = CrossEntropyWithSoftmax (labels, ol) : [10 x *1], [10 x *1] -> [1]
-Validating --> errs = ClassificationError (labels, ol) : [10 x *1], [10 x *1] -> [1]
+Validating --> _out.s1 = LearnableParameter() :  -> [1]
+Validating --> out.s1 = ElementTimes (features, _out.s1) : [28 x 28 x 1 x *1], [1] -> [28 x 28 x 1 x *1]
+Validating --> out.h1._.PlusArgs[0] = Times (out.h1.arrayOfFunctions[0].W, out.s1) : [200 x 28 x 28 x 1], [28 x 28 x 1 x *1] -> [200 x *1]
+Validating --> out.h1.arrayOfFunctions[0].b = LearnableParameter() :  -> [200]
+Validating --> out.h1._ = Plus (out.h1._.PlusArgs[0], out.h1.arrayOfFunctions[0].b) : [200 x *1], [200] -> [200 x *1]
+Validating --> out.h1 = RectifiedLinear (out.h1._) : [200 x *1] -> [200 x *1]
+Validating --> out.z.PlusArgs[0] = Times (out.z.W, out.h1) : [10 x 200], [200 x *1] -> [10 x *1]
+Validating --> out.z.b = LearnableParameter() :  -> [10]
+Validating --> out.z = Plus (out.z.PlusArgs[0], out.z.b) : [10 x *1], [10] -> [10 x *1]
+Validating --> ce = CrossEntropyWithSoftmax (labels, out.z) : [10 x *1], [10 x *1] -> [1]
+Validating --> errs = ClassificationError (labels, out.z) : [10 x *1], [10 x *1] -> [1]
 
 Validating network. 8 nodes to process in pass 2.
 
@@ -263,12 +280,30 @@ evalNodeNames are not specified, using all the default evalnodes and training cr
 
 Allocating matrices for forward and/or backward propagation.
 
-Memory Sharing: Out of 15 matrices, 0 are shared as 0, and 15 are not shared.
+Memory Sharing: Out of 15 matrices, 6 are shared as 2, and 9 are not shared.
 
+Here are the ones that share memory:
+	{ out.h1._ : [200 x *1]
+	  out.s1 : [28 x 28 x 1 x *1]
+	  out.z.PlusArgs[0] : [10 x *1] }
+	{ out.h1 : [200 x *1]
+	  out.h1._.PlusArgs[0] : [200 x *1]
+	  out.z : [10 x *1] }
 
-09/22/2016 16:26:56: Minibatch[1-10]: errs = 2.560% * 10000; ce = 0.08479329 * 10000
-09/22/2016 16:26:56: Final Results: Minibatch[1-10]: errs = 2.560% * 10000; ce = 0.08479329 * 10000; perplexity = 1.08849204
+Here are the ones that don't share memory:
+	{features : [28 x 28 x 1 x *1]}
+	{labels : [10 x *1]}
+	{out.h1.arrayOfFunctions[0].b : [200]}
+	{_out.s1 : [1]}
+	{errs : [1]}
+	{out.z.b : [10]}
+	{out.h1.arrayOfFunctions[0].W : [200 x 28 x 28 x 1]}
+	{out.z.W : [10 x 200]}
+	{ce : [1]}
 
-09/22/2016 16:26:56: Action "test" complete.
+12/09/2017 10:58:27: Minibatch[1-10]: errs = 2.660% * 10000; ce = 0.07977878 * 10000
+12/09/2017 10:58:27: Final Results: Minibatch[1-10]: errs = 2.660% * 10000; ce = 0.07977878 * 10000; perplexity = 1.08304745
 
-09/22/2016 16:26:56: __COMPLETED__
+12/09/2017 10:58:27: Action "test" complete.
+
+12/09/2017 10:58:27: __COMPLETED__

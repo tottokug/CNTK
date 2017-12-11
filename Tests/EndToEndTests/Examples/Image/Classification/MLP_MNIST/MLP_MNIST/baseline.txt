@@ -1,60 +1,57 @@
 CPU info:
-    CPU Model Name: Intel(R) Xeon(R) CPU X5680 @ 3.33GHz
+    CPU Model Name: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
     Hardware threads: 12
-    Total Memory: 33537232 kB
+    Total Memory: 57700428 kB
 -------------------------------------------------------------------
-=== Running /cygdrive/d/GitHub/CNTK/x64/release/cntk.exe configFile=D:\GitHub\CNTK\Examples\Image\Classification\MLP\BrainScript/MLP_MNIST.cntk currentDirectory=D:\GitHub\CNTK\Examples\Image\DataSets\MNIST RunDir=C:\cygwin64\tmp\cntk-test-20170508135957.222853\Examples\Image\Classification\MLP_MNIST_MLP_MNIST@release_gpu DataDir=D:\GitHub\CNTK\Examples\Image\DataSets\MNIST ConfigDir=D:\GitHub\CNTK\Examples\Image\Classification\MLP\BrainScript OutputDir=C:\cygwin64\tmp\cntk-test-20170508135957.222853\Examples\Image\Classification\MLP_MNIST_MLP_MNIST@release_gpu DeviceId=0 timestamping=true forceDeterministicAlgorithms=true stderr=- trainNetwork=[SGD=[epochSize=2048,maxEpochs=3,numMBsToShowResult=16]]
-CNTK 2.0rc2+ (HEAD fbb53d, May  8 2017 10:15:58) on CHAZHANG at 2017/05/08 21:59:59
+=== Running /home/ubuntu/workspace/build/1bitsgd/release/bin/cntk configFile=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/MLP_MNIST/MLP_MNIST/../../../../../../../Examples/Image/Classification/MLP/BrainScript/MLP_MNIST.cntk currentDirectory=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST RunDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/Classification/MLP_MNIST_MLP_MNIST@release_gpu DataDir=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/MLP_MNIST/MLP_MNIST/../../../../../../../Examples/Image/Classification/MLP/BrainScript OutputDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/Classification/MLP_MNIST_MLP_MNIST@release_gpu DeviceId=0 timestamping=true forceDeterministicAlgorithms=true stderr=- trainNetwork=[SGD=[epochSize=2048,maxEpochs=3,numMBsToShowResult=16]]
+CNTK 2.3.1+ (HEAD b130d7, Dec  8 2017 01:52:00) at 2017/12/09 10:46:47
 
-D:\GitHub\CNTK\x64\release\cntk.exe  configFile=D:\GitHub\CNTK\Examples\Image\Classification\MLP\BrainScript/MLP_MNIST.cntk  currentDirectory=D:\GitHub\CNTK\Examples\Image\DataSets\MNIST  RunDir=C:\cygwin64\tmp\cntk-test-20170508135957.222853\Examples\Image\Classification\MLP_MNIST_MLP_MNIST@release_gpu  DataDir=D:\GitHub\CNTK\Examples\Image\DataSets\MNIST  ConfigDir=D:\GitHub\CNTK\Examples\Image\Classification\MLP\BrainScript  OutputDir=C:\cygwin64\tmp\cntk-test-20170508135957.222853\Examples\Image\Classification\MLP_MNIST_MLP_MNIST@release_gpu  DeviceId=0  timestamping=true  forceDeterministicAlgorithms=true  stderr=-  trainNetwork=[SGD=[epochSize=2048,maxEpochs=3,numMBsToShowResult=16]]
-Changed current directory to D:\GitHub\CNTK\Examples\Image\DataSets\MNIST
-05/08/2017 21:59:59: Redirecting stderr to file -_trainNetwork_testNetwork.log
--------------------------------------------------------------------
-Build info: 
+/home/ubuntu/workspace/build/1bitsgd/release/bin/cntk  configFile=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/MLP_MNIST/MLP_MNIST/../../../../../../../Examples/Image/Classification/MLP/BrainScript/MLP_MNIST.cntk  currentDirectory=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST  RunDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/Classification/MLP_MNIST_MLP_MNIST@release_gpu  DataDir=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST  ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/MLP_MNIST/MLP_MNIST/../../../../../../../Examples/Image/Classification/MLP/BrainScript  OutputDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/Classification/MLP_MNIST_MLP_MNIST@release_gpu  DeviceId=0  timestamping=true  forceDeterministicAlgorithms=true  stderr=-  trainNetwork=[SGD=[epochSize=2048,maxEpochs=3,numMBsToShowResult=16]]
+Changed current directory to /home/ubuntu/workspace/Examples/Image/DataSets/MNIST
+12/09/2017 10:46:47: Redirecting stderr to file -_trainNetwork_testNetwork.log
+12/09/2017 10:46:47: -------------------------------------------------------------------
+12/09/2017 10:46:47: Build info: 
 
-		Built time: May  8 2017 10:09:53
-		Last modified date: Mon May  8 09:12:53 2017
-		Build type: Release
-		Build target: GPU
-		With 1bit-SGD: yes
-		With ASGD: yes
-		Math lib: mkl
-		CUDA_PATH: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0
-		CUB_PATH: C:\src\cub-1.4.1
-		CUDNN_PATH: C:\local\cudnn-8.0-v5.1\cuda
-		Build Branch: master
-		Build SHA1: 190dc1b3042d62c20aeba5bd336bbeaa8a6466ca
-		Built by chazhang on CHAZHANG
-		Build Path: D:\GitHub\CNTK\Source\CNTKv2LibraryDll\
-		MPI distribution: Microsoft MPI
-		MPI version: 7.0.12437.6
--------------------------------------------------------------------
--------------------------------------------------------------------
-GPU info:
+12/09/2017 10:46:47: 		Built time: Dec  8 2017 01:46:20
+12/09/2017 10:46:47: 		Last modified date: Wed Nov 15 09:27:10 2017
+12/09/2017 10:46:47: 		Build type: release
+12/09/2017 10:46:47: 		Build target: GPU
+12/09/2017 10:46:47: 		With 1bit-SGD: yes
+12/09/2017 10:46:47: 		With ASGD: yes
+12/09/2017 10:46:47: 		Math lib: mkl
+12/09/2017 10:46:47: 		CUDA version: 9.0.0
+12/09/2017 10:46:47: 		CUDNN version: 7.0.4
+12/09/2017 10:46:47: 		Build Branch: HEAD
+12/09/2017 10:46:47: 		Build SHA1: b130d7735044ce6697bfb963af91445bee740c73
+12/09/2017 10:46:47: 		MPI distribution: Open MPI
+12/09/2017 10:46:47: 		MPI version: 1.10.7
+12/09/2017 10:46:47: -------------------------------------------------------------------
+12/09/2017 10:46:47: -------------------------------------------------------------------
+12/09/2017 10:46:47: GPU info:
 
-		Device[0]: cores = 2688; computeCapability = 3.5; type = "GeForce GTX TITAN"; total memory = 6144 MB; free memory = 5649 MB
--------------------------------------------------------------------
+12/09/2017 10:46:47: 		Device[0]: cores = 3072; computeCapability = 5.2; type = "Tesla M60"; total memory = 8123 MB; free memory = 8112 MB
+12/09/2017 10:46:47: -------------------------------------------------------------------
 
 Configuration After Processing and Variable Resolution:
 
 configparameters: MLP_MNIST.cntk:command=trainNetwork:testNetwork
-configparameters: MLP_MNIST.cntk:ConfigDir=D:\GitHub\CNTK\Examples\Image\Classification\MLP\BrainScript
-configparameters: MLP_MNIST.cntk:currentDirectory=D:\GitHub\CNTK\Examples\Image\DataSets\MNIST
-configparameters: MLP_MNIST.cntk:dataDir=D:\GitHub\CNTK\Examples\Image\DataSets\MNIST
+configparameters: MLP_MNIST.cntk:ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/MLP_MNIST/MLP_MNIST/../../../../../../../Examples/Image/Classification/MLP/BrainScript
+configparameters: MLP_MNIST.cntk:currentDirectory=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST
+configparameters: MLP_MNIST.cntk:dataDir=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST
 configparameters: MLP_MNIST.cntk:deviceId=0
 configparameters: MLP_MNIST.cntk:forceDeterministicAlgorithms=true
-configparameters: MLP_MNIST.cntk:modelPath=C:\cygwin64\tmp\cntk-test-20170508135957.222853\Examples\Image\Classification\MLP_MNIST_MLP_MNIST@release_gpu/Models/MLP_MNIST
-configparameters: MLP_MNIST.cntk:outputDir=C:\cygwin64\tmp\cntk-test-20170508135957.222853\Examples\Image\Classification\MLP_MNIST_MLP_MNIST@release_gpu
+configparameters: MLP_MNIST.cntk:modelPath=/tmp/cntk-test-20171209080859.615414/Examples/Image/Classification/MLP_MNIST_MLP_MNIST@release_gpu/Models/MLP_MNIST
+configparameters: MLP_MNIST.cntk:outputDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/Classification/MLP_MNIST_MLP_MNIST@release_gpu
 configparameters: MLP_MNIST.cntk:precision=float
 configparameters: MLP_MNIST.cntk:rootDir=../../..
-configparameters: MLP_MNIST.cntk:RunDir=C:\cygwin64\tmp\cntk-test-20170508135957.222853\Examples\Image\Classification\MLP_MNIST_MLP_MNIST@release_gpu
+configparameters: MLP_MNIST.cntk:RunDir=/tmp/cntk-test-20171209080859.615414/Examples/Image/Classification/MLP_MNIST_MLP_MNIST@release_gpu
 configparameters: MLP_MNIST.cntk:stderr=-
 configparameters: MLP_MNIST.cntk:testNetwork={
     action = test
 minibatchSize = 1024    
     reader = {
         readerType = "CNTKTextFormatReader"
-        file = "D:\GitHub\CNTK\Examples\Image\DataSets\MNIST/Test-28x28_cntk_text.txt"
+        file = "/home/ubuntu/workspace/Examples/Image/DataSets/MNIST/Test-28x28_cntk_text.txt"
         input = {
             features = { dim = 784 ; format = "dense" }
             labels =   { dim = 10  ; format = "dense" }
@@ -100,7 +97,7 @@ labelDim = 10
     }
     reader = {
         readerType = "CNTKTextFormatReader"
-        file = "D:\GitHub\CNTK\Examples\Image\DataSets\MNIST/Train-28x28_cntk_text.txt"
+        file = "/home/ubuntu/workspace/Examples/Image/DataSets/MNIST/Train-28x28_cntk_text.txt"
         input = {
             features = { dim = 784 ; format = "dense" }
             labels =   { dim = 10  ; format = "dense" }
@@ -108,17 +105,17 @@ labelDim = 10
     }    
 } [SGD=[epochSize=2048,maxEpochs=3,numMBsToShowResult=16]]
 
-05/08/2017 21:59:59: Commands: trainNetwork testNetwork
-05/08/2017 21:59:59: precision = "float"
-05/08/2017 21:59:59: WARNING: forceDeterministicAlgorithms flag is specified. Using 1 CPU thread for processing.
+12/09/2017 10:46:47: Commands: trainNetwork testNetwork
+12/09/2017 10:46:47: precision = "float"
+12/09/2017 10:46:47: WARNING: forceDeterministicAlgorithms flag is specified. Using 1 CPU thread for processing.
 
-05/08/2017 21:59:59: ##############################################################################
-05/08/2017 21:59:59: #                                                                            #
-05/08/2017 21:59:59: # trainNetwork command (train action)                                        #
-05/08/2017 21:59:59: #                                                                            #
-05/08/2017 21:59:59: ##############################################################################
+12/09/2017 10:46:47: ##############################################################################
+12/09/2017 10:46:47: #                                                                            #
+12/09/2017 10:46:47: # trainNetwork command (train action)                                        #
+12/09/2017 10:46:47: #                                                                            #
+12/09/2017 10:46:47: ##############################################################################
 
-05/08/2017 21:59:59: 
+12/09/2017 10:46:47: 
 Creating virgin network.
 Node '<placeholder>' (LearnableParameter operation): Initializating Parameter[10 x 0] as glorotUniform later when dimensions are fully known.
 Node '<placeholder>' (LearnableParameter operation): Initializating Parameter[256 x 0] as gaussian later when dimensions are fully known.
@@ -181,128 +178,134 @@ Validating network, final pass.
 
 Post-processing network complete.
 
-05/08/2017 22:00:00: 
+12/09/2017 10:46:48: 
 Model has 28 nodes. Using GPU 0.
 
-05/08/2017 22:00:00: Training criterion:   ce = CrossEntropyWithSoftmax
-05/08/2017 22:00:00: Evaluation criterion: errs = ClassificationError
+12/09/2017 10:46:48: Training criterion:   ce = CrossEntropyWithSoftmax
+12/09/2017 10:46:48: Evaluation criterion: errs = ClassificationError
 
 
 Allocating matrices for forward and/or backward propagation.
 
-Memory Sharing: Out of 51 matrices, 32 are shared as 6, and 19 are not shared.
+Gradient Memory Aliasing: 8 are aliased.
+	z.PlusArgs[0] (gradient) reuses z (gradient)
+	z.x._._.x._._.x._._.x.PlusArgs[0] (gradient) reuses z.x._._.x._._.x._._.x (gradient)
+	z.x._._.x._._.x.PlusArgs[0] (gradient) reuses z.x._._.x._._.x (gradient)
+	z.x._._.x.PlusArgs[0] (gradient) reuses z.x._._.x (gradient)
+
+Memory Sharing: Out of 51 matrices, 32 are shared as 5, and 19 are not shared.
 
 Here are the ones that share memory:
 	{ _z.x._._.x : [512 x *]
-	  _z.x._._.x._._.x : [768 x *] (gradient)
 	  model.arrayOfFunctions[1].arrayOfFunctions[0].W : [768 x 28 x 28 x 1] (gradient)
-	  z.x._._.x._._.x : [512 x *]
-	  z.x._._.x._._.x._ : [768 x *]
-	  z.x._._.x._._.x._._.x.PlusArgs[0] : [768 x *] }
-	{ _z.x._._.x : [512 x *] (gradient)
-	  z.x : [256 x *]
-	  z.x._._.x : [256 x *]
-	  z.x._._.x._ : [512 x *]
 	  z.x._._.x._._.x : [512 x *] (gradient)
 	  z.x._._.x._._.x.PlusArgs[0] : [512 x *]
+	  z.x._._.x._._.x.PlusArgs[0] : [512 x *] (gradient)
 	  z.x._._.x._._.x._ : [768 x *] (gradient)
-	  z.x._._.x._._.x._._.x : [768 x *]
-	  z.x._._.x._._.x._._.x.PlusArgs[0] : [768 x *] (gradient) }
+	  z.x._._.x._._.x._._.x : [768 x *] }
+	{ model.arrayOfFunctions[7].arrayOfFunctions[0].W : [256 x 512] (gradient)
+	  z.x : [256 x *]
+	  z.x._._.x : [256 x *] }
 	{ _z.x._._.x._._.x : [768 x *]
-	  z.x._._.x._._.x._._.x : [768 x *] (gradient) }
-	{ model.arrayOfFunctions[4].arrayOfFunctions[0].W : [512 x 768] (gradient)
-	  z : [10 x *] (gradient)
-	  z.PlusArgs[0] : [10 x *]
-	  z.x._ : [256 x *] (gradient)
-	  z.x._._.x.PlusArgs[0] : [256 x *] (gradient) }
-	{ model.arrayOfFunctions[1].arrayOfFunctions[0].b : [768] (gradient)
+	  model.arrayOfFunctions[1].arrayOfFunctions[0].b : [768] (gradient) }
+	{ _z.x._._.x._._.x : [768 x *] (gradient)
 	  z : [10 x *]
 	  z.x : [256 x *] (gradient)
-	  z.x._ : [256 x *]
 	  z.x._._.x : [256 x *] (gradient)
-	  z.x._._.x.PlusArgs[0] : [256 x *]
+	  z.x._._.x.PlusArgs[0] : [256 x *] (gradient)
 	  z.x._._.x._ : [512 x *] (gradient)
-	  z.x._._.x._._.x.PlusArgs[0] : [512 x *] (gradient) }
-	{ model.arrayOfFunctions[7].arrayOfFunctions[0].W : [256 x 512] (gradient)
-	  z.PlusArgs[0] : [10 x *] (gradient) }
+	  z.x._._.x._._.x : [512 x *]
+	  z.x._._.x._._.x._ : [768 x *]
+	  z.x._._.x._._.x._._.x : [768 x *] (gradient)
+	  z.x._._.x._._.x._._.x.PlusArgs[0] : [768 x *]
+	  z.x._._.x._._.x._._.x.PlusArgs[0] : [768 x *] (gradient) }
+	{ _z.x._._.x : [512 x *] (gradient)
+	  model.arrayOfFunctions[4].arrayOfFunctions[0].W : [512 x 768] (gradient)
+	  z : [10 x *] (gradient)
+	  z.PlusArgs[0] : [10 x *]
+	  z.PlusArgs[0] : [10 x *] (gradient)
+	  z.x._ : [256 x *]
+	  z.x._ : [256 x *] (gradient)
+	  z.x._._.x.PlusArgs[0] : [256 x *]
+	  z.x._._.x._ : [512 x *] }
 
 Here are the ones that don't share memory:
+	{ce : [1] (gradient)}
+	{model.arrayOfFunctions[4].arrayOfFunctions[0].b : [512] (gradient)}
 	{labels : [10 x *]}
+	{_z.x._._.x._._.x._._.x : [28 x 28 x 1 x *]}
+	{model.arrayOfFunctions[1].arrayOfFunctions[0].b : [768]}
 	{model.arrayOfFunctions[10].b : [10]}
 	{model.arrayOfFunctions[10].W : [10 x 256]}
 	{model.arrayOfFunctions[7].arrayOfFunctions[0].b : [256]}
+	{model.arrayOfFunctions[10].W : [10 x 256] (gradient)}
 	{model.arrayOfFunctions[7].arrayOfFunctions[0].W : [256 x 512]}
-	{errs : [1]}
-	{ce : [1]}
-	{model.arrayOfFunctions[7].arrayOfFunctions[0].b : [256] (gradient)}
 	{model.arrayOfFunctions[4].arrayOfFunctions[0].b : [512]}
 	{model.arrayOfFunctions[10].b : [10] (gradient)}
+	{ce : [1]}
 	{model.arrayOfFunctions[4].arrayOfFunctions[0].W : [512 x 768]}
-	{model.arrayOfFunctions[10].W : [10 x 256] (gradient)}
-	{ce : [1] (gradient)}
-	{features : [28 x 28 x 1 x *]}
-	{_z.x._._.x._._.x._._.x : [28 x 28 x 1 x *]}
-	{model.arrayOfFunctions[1].arrayOfFunctions[0].b : [768]}
 	{model.arrayOfFunctions[1].arrayOfFunctions[0].W : [768 x 28 x 28 x 1]}
+	{model.arrayOfFunctions[7].arrayOfFunctions[0].b : [256] (gradient)}
+	{errs : [1]}
+	{features : [28 x 28 x 1 x *]}
 	{z.x._._.x._._.x._._.x.ElementTimesArgs[0] : [1 x 1]}
-	{model.arrayOfFunctions[4].arrayOfFunctions[0].b : [512] (gradient)}
 
 
-05/08/2017 22:00:00: Training 1130506 parameters in 8 out of 8 parameter tensors and 23 nodes with gradient:
+12/09/2017 10:46:48: Training 1130506 parameters in 8 out of 8 parameter tensors and 23 nodes with gradient:
 
-05/08/2017 22:00:00: 	Node 'model.arrayOfFunctions[10].W' (LearnableParameter operation) : [10 x 256]
-05/08/2017 22:00:00: 	Node 'model.arrayOfFunctions[10].b' (LearnableParameter operation) : [10]
-05/08/2017 22:00:01: 	Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) : [768 x 28 x 28 x 1]
-05/08/2017 22:00:01: 	Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].b' (LearnableParameter operation) : [768]
-05/08/2017 22:00:01: 	Node 'model.arrayOfFunctions[4].arrayOfFunctions[0].W' (LearnableParameter operation) : [512 x 768]
-05/08/2017 22:00:01: 	Node 'model.arrayOfFunctions[4].arrayOfFunctions[0].b' (LearnableParameter operation) : [512]
-05/08/2017 22:00:01: 	Node 'model.arrayOfFunctions[7].arrayOfFunctions[0].W' (LearnableParameter operation) : [256 x 512]
-05/08/2017 22:00:01: 	Node 'model.arrayOfFunctions[7].arrayOfFunctions[0].b' (LearnableParameter operation) : [256]
+12/09/2017 10:46:48: 	Node 'model.arrayOfFunctions[10].W' (LearnableParameter operation) : [10 x 256]
+12/09/2017 10:46:48: 	Node 'model.arrayOfFunctions[10].b' (LearnableParameter operation) : [10]
+12/09/2017 10:46:48: 	Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].W' (LearnableParameter operation) : [768 x 28 x 28 x 1]
+12/09/2017 10:46:48: 	Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].b' (LearnableParameter operation) : [768]
+12/09/2017 10:46:48: 	Node 'model.arrayOfFunctions[4].arrayOfFunctions[0].W' (LearnableParameter operation) : [512 x 768]
+12/09/2017 10:46:48: 	Node 'model.arrayOfFunctions[4].arrayOfFunctions[0].b' (LearnableParameter operation) : [512]
+12/09/2017 10:46:48: 	Node 'model.arrayOfFunctions[7].arrayOfFunctions[0].W' (LearnableParameter operation) : [256 x 512]
+12/09/2017 10:46:48: 	Node 'model.arrayOfFunctions[7].arrayOfFunctions[0].b' (LearnableParameter operation) : [256]
 
-05/08/2017 22:00:01: No PreCompute nodes found, or all already computed. Skipping pre-computation step.
+12/09/2017 10:46:48: No PreCompute nodes found, or all already computed. Skipping pre-computation step.
 Setting dropout rate to 0.5.
 
-05/08/2017 22:00:01: Starting Epoch 1: learning rate per sample = 0.001000  effective momentum = 0.898824  momentum as time constant = 600.0 samples
+12/09/2017 10:46:48: Starting Epoch 1: learning rate per sample = 0.001000  effective momentum = 0.898824  momentum as time constant = 600.0 samples
 
-05/08/2017 22:00:01: Starting minibatch loop.
+12/09/2017 10:46:48: Starting minibatch loop.
 (GPU): creating curand object with seed 0
 (GPU): creating curand object with seed 1
 (GPU): creating curand object with seed 2
-05/08/2017 22:00:02:  Epoch[ 1 of 3]-Minibatch[   1-  16, 50.00%]: ce = 2.30184174 * 1024; errs = 88.184% * 1024; time = 1.6009s; samplesPerSecond = 639.6
-05/08/2017 22:00:02:  Epoch[ 1 of 3]-Minibatch[  17-  32, 100.00%]: ce = 2.30038643 * 1024; errs = 84.766% * 1024; time = 0.0417s; samplesPerSecond = 24572.3
-05/08/2017 22:00:02: Finished Epoch[ 1 of 3]: [Training] ce = 2.30111408 * 2048; errs = 86.475% * 2048; totalSamplesSeen = 2048; learningRatePerSample = 0.001; epochTime=1.65165s
-05/08/2017 22:00:02: SGD: Saving checkpoint model 'C:\cygwin64\tmp\cntk-test-20170508135957.222853\Examples\Image\Classification\MLP_MNIST_MLP_MNIST@release_gpu/Models/MLP_MNIST.1'
+12/09/2017 10:46:49:  Epoch[ 1 of 3]-Minibatch[   1-  16, 50.00%]: ce = 2.30184174 * 1024; errs = 88.184% * 1024; time = 1.2395s; samplesPerSecond = 826.1
+12/09/2017 10:46:49:  Epoch[ 1 of 3]-Minibatch[  17-  32, 100.00%]: ce = 2.30038643 * 1024; errs = 84.766% * 1024; time = 0.0161s; samplesPerSecond = 63489.3
+12/09/2017 10:46:49: Finished Epoch[ 1 of 3]: [Training] ce = 2.30111408 * 2048; errs = 86.475% * 2048; totalSamplesSeen = 2048; learningRatePerSample = 0.001; epochTime=1.26269s
+12/09/2017 10:46:49: SGD: Saving checkpoint model '/tmp/cntk-test-20171209080859.615414/Examples/Image/Classification/MLP_MNIST_MLP_MNIST@release_gpu/Models/MLP_MNIST.1'
 
-05/08/2017 22:00:02: Starting Epoch 2: learning rate per sample = 0.001000  effective momentum = 0.898824  momentum as time constant = 600.0 samples
+12/09/2017 10:46:49: Starting Epoch 2: learning rate per sample = 0.001000  effective momentum = 0.898824  momentum as time constant = 600.0 samples
 
-05/08/2017 22:00:02: Starting minibatch loop.
+12/09/2017 10:46:49: Starting minibatch loop.
 (GPU): creating curand object with seed 3
 (GPU): creating curand object with seed 4
 (GPU): creating curand object with seed 5
-05/08/2017 22:00:03:  Epoch[ 2 of 3]-Minibatch[   1-  16, 50.00%]: ce = 2.29803061 * 1024; errs = 83.887% * 1024; time = 0.1511s; samplesPerSecond = 6777.5
-05/08/2017 22:00:03:  Epoch[ 2 of 3]-Minibatch[  17-  32, 100.00%]: ce = 2.29530358 * 1024; errs = 80.371% * 1024; time = 0.0434s; samplesPerSecond = 23608.3
-05/08/2017 22:00:03: Finished Epoch[ 2 of 3]: [Training] ce = 2.29666710 * 2048; errs = 82.129% * 2048; totalSamplesSeen = 4096; learningRatePerSample = 0.001; epochTime=0.19624s
-05/08/2017 22:00:03: SGD: Saving checkpoint model 'C:\cygwin64\tmp\cntk-test-20170508135957.222853\Examples\Image\Classification\MLP_MNIST_MLP_MNIST@release_gpu/Models/MLP_MNIST.2'
+12/09/2017 10:46:49:  Epoch[ 2 of 3]-Minibatch[   1-  16, 50.00%]: ce = 2.29803061 * 1024; errs = 83.887% * 1024; time = 0.0229s; samplesPerSecond = 44693.9
+12/09/2017 10:46:49:  Epoch[ 2 of 3]-Minibatch[  17-  32, 100.00%]: ce = 2.29530358 * 1024; errs = 80.371% * 1024; time = 0.0160s; samplesPerSecond = 63871.5
+12/09/2017 10:46:49: Finished Epoch[ 2 of 3]: [Training] ce = 2.29666710 * 2048; errs = 82.129% * 2048; totalSamplesSeen = 4096; learningRatePerSample = 0.001; epochTime=0.0400377s
+12/09/2017 10:46:49: SGD: Saving checkpoint model '/tmp/cntk-test-20171209080859.615414/Examples/Image/Classification/MLP_MNIST_MLP_MNIST@release_gpu/Models/MLP_MNIST.2'
 
-05/08/2017 22:00:03: Starting Epoch 3: learning rate per sample = 0.001000  effective momentum = 0.898824  momentum as time constant = 600.0 samples
+12/09/2017 10:46:49: Starting Epoch 3: learning rate per sample = 0.001000  effective momentum = 0.898824  momentum as time constant = 600.0 samples
 
-05/08/2017 22:00:03: Starting minibatch loop.
+12/09/2017 10:46:49: Starting minibatch loop.
 (GPU): creating curand object with seed 6
 (GPU): creating curand object with seed 7
 (GPU): creating curand object with seed 8
-05/08/2017 22:00:03:  Epoch[ 3 of 3]-Minibatch[   1-  16, 50.00%]: ce = 2.28963256 * 1024; errs = 78.906% * 1024; time = 0.0720s; samplesPerSecond = 14216.2
-05/08/2017 22:00:03:  Epoch[ 3 of 3]-Minibatch[  17-  32, 100.00%]: ce = 2.28485131 * 1024; errs = 74.512% * 1024; time = 0.0358s; samplesPerSecond = 28569.9
-05/08/2017 22:00:03: Finished Epoch[ 3 of 3]: [Training] ce = 2.28724194 * 2048; errs = 76.709% * 2048; totalSamplesSeen = 6144; learningRatePerSample = 0.001; epochTime=0.110093s
-05/08/2017 22:00:03: SGD: Saving checkpoint model 'C:\cygwin64\tmp\cntk-test-20170508135957.222853\Examples\Image\Classification\MLP_MNIST_MLP_MNIST@release_gpu/Models/MLP_MNIST'
+12/09/2017 10:46:49:  Epoch[ 3 of 3]-Minibatch[   1-  16, 50.00%]: ce = 2.28963256 * 1024; errs = 78.906% * 1024; time = 0.0220s; samplesPerSecond = 46503.2
+12/09/2017 10:46:49:  Epoch[ 3 of 3]-Minibatch[  17-  32, 100.00%]: ce = 2.28485131 * 1024; errs = 74.512% * 1024; time = 0.0153s; samplesPerSecond = 66778.4
+12/09/2017 10:46:49: Finished Epoch[ 3 of 3]: [Training] ce = 2.28724194 * 2048; errs = 76.709% * 2048; totalSamplesSeen = 6144; learningRatePerSample = 0.001; epochTime=0.0385759s
+12/09/2017 10:46:49: SGD: Saving checkpoint model '/tmp/cntk-test-20171209080859.615414/Examples/Image/Classification/MLP_MNIST_MLP_MNIST@release_gpu/Models/MLP_MNIST'
 
-05/08/2017 22:00:03: Action "train" complete.
+12/09/2017 10:46:49: Action "train" complete.
 
 
-05/08/2017 22:00:03: ##############################################################################
-05/08/2017 22:00:03: #                                                                            #
-05/08/2017 22:00:03: # testNetwork command (test action)                                          #
-05/08/2017 22:00:03: #                                                                            #
-05/08/2017 22:00:03: ##############################################################################
+12/09/2017 10:46:49: ##############################################################################
+12/09/2017 10:46:49: #                                                                            #
+12/09/2017 10:46:49: # testNetwork command (test action)                                          #
+12/09/2017 10:46:49: #                                                                            #
+12/09/2017 10:46:49: ##############################################################################
 
 
 Post-processing network...
@@ -358,43 +361,43 @@ evalNodeNames are not specified, using all the default evalnodes and training cr
 
 Allocating matrices for forward and/or backward propagation.
 
-Memory Sharing: Out of 28 matrices, 15 are shared as 2, and 13 are not shared.
+Memory Sharing: Out of 28 matrices, 15 are shared as 3, and 13 are not shared.
 
 Here are the ones that share memory:
-	{ _z.x._._.x : [512 x *1]
-	  _z.x._._.x._._.x : [768 x *1]
-	  _z.x._._.x._._.x._._.x : [28 x 28 x 1 x *1]
-	  z : [10 x *1]
+	{ z : [10 x *1]
 	  z.x : [256 x *1]
-	  z.x._._.x : [256 x *1]
-	  z.x._._.x._._.x : [512 x *1]
-	  z.x._._.x._._.x._._.x : [768 x *1] }
-	{ z.PlusArgs[0] : [10 x *1]
-	  z.x._ : [256 x *1]
 	  z.x._._.x.PlusArgs[0] : [256 x *1]
 	  z.x._._.x._ : [512 x *1]
 	  z.x._._.x._._.x.PlusArgs[0] : [512 x *1]
 	  z.x._._.x._._.x._ : [768 x *1]
 	  z.x._._.x._._.x._._.x.PlusArgs[0] : [768 x *1] }
+	{ _z.x._._.x : [512 x *1]
+	  _z.x._._.x._._.x : [768 x *1]
+	  _z.x._._.x._._.x._._.x : [28 x 28 x 1 x *1]
+	  z.x._ : [256 x *1]
+	  z.x._._.x._._.x : [512 x *1]
+	  z.x._._.x._._.x._._.x : [768 x *1] }
+	{ z.PlusArgs[0] : [10 x *1]
+	  z.x._._.x : [256 x *1] }
 
 Here are the ones that don't share memory:
+	{features : [28 x 28 x 1 x *1]}
+	{errs : [1]}
 	{ce : [1]}
+	{labels : [10 x *1]}
+	{model.arrayOfFunctions[10].b : [10]}
+	{model.arrayOfFunctions[10].W : [10 x 256]}
+	{model.arrayOfFunctions[1].arrayOfFunctions[0].b : [768]}
+	{model.arrayOfFunctions[1].arrayOfFunctions[0].W : [768 x 28 x 28 x 1]}
+	{model.arrayOfFunctions[4].arrayOfFunctions[0].b : [512]}
+	{model.arrayOfFunctions[4].arrayOfFunctions[0].W : [512 x 768]}
 	{model.arrayOfFunctions[7].arrayOfFunctions[0].b : [256]}
 	{model.arrayOfFunctions[7].arrayOfFunctions[0].W : [256 x 512]}
 	{z.x._._.x._._.x._._.x.ElementTimesArgs[0] : [1 x 1]}
-	{errs : [1]}
-	{model.arrayOfFunctions[4].arrayOfFunctions[0].W : [512 x 768]}
-	{labels : [10 x *1]}
-	{features : [28 x 28 x 1 x *1]}
-	{model.arrayOfFunctions[10].W : [10 x 256]}
-	{model.arrayOfFunctions[1].arrayOfFunctions[0].W : [768 x 28 x 28 x 1]}
-	{model.arrayOfFunctions[4].arrayOfFunctions[0].b : [512]}
-	{model.arrayOfFunctions[10].b : [10]}
-	{model.arrayOfFunctions[1].arrayOfFunctions[0].b : [768]}
 
-05/08/2017 22:00:04: Minibatch[1-10]: errs = 66.700% * 10000; ce = 2.27636420 * 10000
-05/08/2017 22:00:04: Final Results: Minibatch[1-10]: errs = 66.700% * 10000; ce = 2.27636420 * 10000; perplexity = 9.74119886
+12/09/2017 10:46:50: Minibatch[1-10]: errs = 66.700% * 10000; ce = 2.27636420 * 10000
+12/09/2017 10:46:50: Final Results: Minibatch[1-10]: errs = 66.700% * 10000; ce = 2.27636420 * 10000; perplexity = 9.74119886
 
-05/08/2017 22:00:04: Action "test" complete.
+12/09/2017 10:46:50: Action "test" complete.
 
-05/08/2017 22:00:04: __COMPLETED__
+12/09/2017 10:46:50: __COMPLETED__

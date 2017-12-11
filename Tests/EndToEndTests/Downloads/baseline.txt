@@ -1,1 +1,154 @@
++ for p in '"${downloaders[@]}"'
++ [[ -f Examples/Image/DataSets/Animals/install_animals.py ]]
+++ dirname Examples/Image/DataSets/Animals/install_animals.py
++ git clean -fdx Examples/Image/DataSets/Animals
+Removing Examples/Image/DataSets/Animals/Animals.zip
+Removing Examples/Image/DataSets/Animals/Test/
+Removing Examples/Image/DataSets/Animals/Train/
++ for p in '"${downloaders[@]}"'
++ [[ -f Examples/Image/DataSets/CIFAR-10/install_cifar10.py ]]
+++ dirname Examples/Image/DataSets/CIFAR-10/install_cifar10.py
++ git clean -fdx Examples/Image/DataSets/CIFAR-10
+Removing Examples/Image/DataSets/CIFAR-10/cifar-10-batches-py/
+Removing Examples/Image/DataSets/CIFAR-10/model.cmf
+Removing Examples/Image/DataSets/CIFAR-10/test_map.txt
+Removing Examples/Image/DataSets/CIFAR-10/train_map.txt
++ for p in '"${downloaders[@]}"'
++ [[ -f Examples/Image/DataSets/Flowers/install_flowers.py ]]
+++ dirname Examples/Image/DataSets/Flowers/install_flowers.py
++ git clean -fdx Examples/Image/DataSets/Flowers
++ for p in '"${downloaders[@]}"'
++ [[ -f Examples/Image/DataSets/Grocery/install_grocery.py ]]
+++ dirname Examples/Image/DataSets/Grocery/install_grocery.py
++ git clean -fdx Examples/Image/DataSets/Grocery
+Removing Examples/Image/DataSets/Grocery/class_map.txt
+Removing Examples/Image/DataSets/Grocery/negative/
+Removing Examples/Image/DataSets/Grocery/positive/
+Removing Examples/Image/DataSets/Grocery/test.txt
+Removing Examples/Image/DataSets/Grocery/testImages/
+Removing Examples/Image/DataSets/Grocery/test_100.roilabels.txt
+Removing Examples/Image/DataSets/Grocery/test_100.rois.txt
+Removing Examples/Image/DataSets/Grocery/test_img_file.txt
+Removing Examples/Image/DataSets/Grocery/test_roi_file.txt
+Removing Examples/Image/DataSets/Grocery/train.txt
+Removing Examples/Image/DataSets/Grocery/train_100.roilabels.txt
+Removing Examples/Image/DataSets/Grocery/train_100.rois.txt
+Removing Examples/Image/DataSets/Grocery/train_img_file.txt
+Removing Examples/Image/DataSets/Grocery/train_roi_file.txt
++ for p in '"${downloaders[@]}"'
++ [[ -f Examples/Image/DataSets/MNIST/install_mnist.py ]]
+++ dirname Examples/Image/DataSets/MNIST/install_mnist.py
++ git clean -fdx Examples/Image/DataSets/MNIST
+Removing Examples/Image/DataSets/MNIST/Test-28x28_cntk_text.txt
+Removing Examples/Image/DataSets/MNIST/Train-28x28_cntk_text.txt
++ for p in '"${downloaders[@]}"'
++ [[ -f Examples/Image/DataSets/Pascal/install_pascalvoc.py ]]
+++ dirname Examples/Image/DataSets/Pascal/install_pascalvoc.py
++ git clean -fdx Examples/Image/DataSets/Pascal
++ for p in '"${downloaders[@]}"'
++ [[ -f Examples/Text/LightRNN/PTB/Data/download_data.py ]]
+++ dirname Examples/Text/LightRNN/PTB/Data/download_data.py
++ git clean -fdx Examples/Text/LightRNN/PTB/Data
++ for p in '"${downloaders[@]}"'
++ [[ -f Examples/Text/WordLMWithSampledSoftmax/download_data.py ]]
+++ dirname Examples/Text/WordLMWithSampledSoftmax/download_data.py
++ git clean -fdx Examples/Text/WordLMWithSampledSoftmax
+Removing Examples/Text/WordLMWithSampledSoftmax/__pycache__/
+Removing Examples/Text/WordLMWithSampledSoftmax/data_reader.pyc
+Removing Examples/Text/WordLMWithSampledSoftmax/log.txt
+Removing Examples/Text/WordLMWithSampledSoftmax/ptb/
+Removing Examples/Text/WordLMWithSampledSoftmax/word_rnn.pyc
++ for p in '"${downloaders[@]}"'
++ [[ -f Examples/Video/DataSets/UCF11/ucf11_utils.py ]]
+++ dirname Examples/Video/DataSets/UCF11/ucf11_utils.py
++ git clean -fdx Examples/Video/DataSets/UCF11
++ ERRORS=0
++ for p in '"${downloaders[@]}"' '"${callingDownloaders[@]}"'
++ python Examples/Image/DataSets/Animals/install_animals.py
+Downloading data from https://www.cntk.ai/DataSets/Animals/Animals.zip...
+Extracting /home/ubuntu/workspace/Examples/Image/DataSets/Animals/../Animals.zip...
+Done.
++ for p in '"${downloaders[@]}"' '"${callingDownloaders[@]}"'
++ python Examples/Image/DataSets/CIFAR-10/install_cifar10.py
+Downloading http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+Done.
+Extracting files...
+Done.
+Preparing train set...
+Done.
+Preparing test set...
+Done.
+Writing train text file...
+Done.
+Writing test text file...
+Done.
+Converting train data to png images...
+Done.
+Converting test data to png images...
+Done.
++ for p in '"${downloaders[@]}"' '"${callingDownloaders[@]}"'
++ python Examples/Image/DataSets/Flowers/install_flowers.py
+Downloading data from http://www.robots.ox.ac.uk/~vgg/data/flowers/102/ ...
+Extracting /home/ubuntu/workspace/Examples/Image/DataSets/Flowers/102flowers.tgz...
+Writing map files ...
+Done.
++ for p in '"${downloaders[@]}"' '"${callingDownloaders[@]}"'
++ python Examples/Image/DataSets/Grocery/install_grocery.py
+Extracting /home/ubuntu/workspace/Examples/Image/DataSets/Grocery/../Grocery.zip...
+Done.
++ for p in '"${downloaders[@]}"' '"${callingDownloaders[@]}"'
++ python Examples/Image/DataSets/MNIST/install_mnist.py
+Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
+Done.
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
+Done.
+Writing train text file...
+Done.
+Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
+Done.
+Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
+Done.
+Writing test text file...
+Done.
++ for p in '"${downloaders[@]}"' '"${callingDownloaders[@]}"'
++ python Examples/Image/DataSets/Pascal/install_pascalvoc.py
+Downloading 450MB from http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar, may take a while...
+Extracting ./VOCtrainval_06-Nov-2007.tar...
+Done.
+Downloading 430MB from http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtest_06-Nov-2007.tar, may take a while...
+Extracting ./VOCtest_06-Nov-2007.tar...
+Done.
+Downloading 2GB from http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar, may take a while...
+Extracting ./VOCtrainval_11-May-2012.tar...
+Done.
+Downloading 460MB from http://dl.dropboxusercontent.com/s/orrt7o6bp6ae0tc/selective_search_data.tgz?dl=0, may take a while...
+Extracting ./selective_search_data.tgz...
+Done.
++ for p in '"${downloaders[@]}"' '"${callingDownloaders[@]}"'
++ python Examples/Text/LightRNN/PTB/Data/download_data.py
++ for p in '"${downloaders[@]}"' '"${callingDownloaders[@]}"'
++ python Examples/Text/WordLMWithSampledSoftmax/download_data.py
+downloading http://www.fit.vutbr.cz/~imikolov/rnnlm/simple-examples.tgz to tmp.tgz
+Extracting files into: ./tmp/
+creating final data files in directory:./ptb/
++ for p in '"${downloaders[@]}"' '"${callingDownloaders[@]}"'
++ python Examples/Video/DataSets/UCF11/ucf11_utils.py
++ for p in '"${downloaders[@]}"' '"${callingDownloaders[@]}"'
++ python Examples/Image/Detection/FastRCNN/install_data_and_model.py
+Data already available at /home/ubuntu/workspace/Examples/Image/DataSets/Grocery/../Grocery
+CNTK model already available at /home/ubuntu/workspace/PretrainedModels/AlexNet_ImageNet_Caffe.model
+Creating mapping files for Grocery data set..
++ for p in '"${downloaders[@]}"' '"${callingDownloaders[@]}"'
++ python Examples/Image/FeatureExtraction/install_data_and_model.py
+Data already available at /home/ubuntu/workspace/Examples/Image/DataSets/Grocery/../Grocery
+Downloading model from https://www.cntk.ai/Models/CNTK_Pretrained/ResNet18_ImageNet_CNTK.model, may take a while...
+Saved model as /home/ubuntu/workspace/PretrainedModels/ResNet18_ImageNet_CNTK.model
++ for p in '"${downloaders[@]}"' '"${callingDownloaders[@]}"'
++ python Examples/Image/TransferLearning/install_data_and_model.py
+Data already available at /home/ubuntu/workspace/Examples/Image/DataSets/Flowers/Flowers
+Data already available at /home/ubuntu/workspace/Examples/Image/DataSets/Animals/../Animals
+Data already available at /home/ubuntu/workspace/Examples/Image/DataSets/Grocery/../Grocery
+CNTK model already available at /home/ubuntu/workspace/PretrainedModels/ResNet18_ImageNet_CNTK.model
++ (( ERRORS != 0 ))
++ set +x
 __COMPLETED__

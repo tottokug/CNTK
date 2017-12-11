@@ -1,1 +1,22 @@
+CPU info:
+    CPU Model Name: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
+    Hardware threads: 12
+    Total Memory: 57700428 kB
+-------------------------------------------------------------------
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.3.1, py-1.5.2, pluggy-0.6.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Manual, inifile: pytest.ini
+collecting ... collected 8 items
+
+Manual_How_to_create_user_minibatch_sources_test.py::test_manual_learners_cntk_noErrors[0] PASSED [ 12%]
+Manual_How_to_debug_test.py::test_debugging_cntk_noErrors[0] PASSED      [ 25%]
+Manual_How_to_feed_data_test.py::test_manual_how_to_feed_data_noErrors[0] PASSED [ 37%]
+Manual_How_to_train_using_declarative_and_imperative_API_test.py::test_cntk_how_to_train_no_errors[0] PASSED [ 50%]
+Manual_How_to_train_using_declarative_and_imperative_API_test.py::test_cntk_how_to_train_eval_correct[0] PASSED [ 62%]
+Manual_How_to_use_learners_test.py::test_manual_learners_cntk_noErrors[0] PASSED [ 75%]
+Manual_How_to_write_a_custom_deserializer_test.py::test_cntk_how_to_train_no_errors[0] PASSED [ 87%]
+Manual_How_to_write_a_custom_deserializer_test.py::test_csv_correct[0] PASSED [100%]
+
+========================== 8 passed in 65.57 seconds ===========================
 __COMPLETED__

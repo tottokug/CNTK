@@ -3025,6 +3025,7 @@ def input_variable(shape, dtype=default_override_or(np.float32), needs_gradient=
         :class:`~cntk.variables.Variable`
     '''
     from cntk.cntk_py import input_variable
+    from cntk.internal import sanitize_shape, sanitize_dtype_cntk
 
     shape = sanitize_shape(shape)
     dtype = get_default_override(_input_spec, dtype=dtype)
@@ -3053,6 +3054,7 @@ def output_variable(shape, dtype, dynamic_axes, needs_gradient=True, name=''):
         :class:`~cntk.variables.Variable` that is of output type
     '''
     from cntk.cntk_py import output_variable
+    from cntk.internal import sanitize_shape, sanitize_dtype_cntk
 
     shape = sanitize_shape(shape)
 
@@ -3369,6 +3371,7 @@ def depth_to_space(operand, block_size, name=''):
         block_size (int): Integer value. This defines the size of the spatial block where the 
          depth elements move to. Number of channels, C, in the input tensor must be divisible 
          by math:`(block_size \\times block_size)`
+        name (str, optional): the name of the Function instance in the network
     Returns:
         :class:`~cntk.ops.functions.Function`
 
@@ -3387,6 +3390,7 @@ def space_to_depth(operand, block_size, name=''):
     Rearranges elements in the input tensor from the spatial dimensions to the depth dimension.
 
     This is the reverse transformation of depth_to_space. This operation is useful for implementing 
+    and testing sub-pixel convolution that is part of models for image super-resolution (see [1]).
     It rearranges elements of an input tensor of shape (C, H, W) to a tensor of shape (C*b*b, H/b, W/b),
     where b is the `block_size`, by rearranging non-overlapping spatial blocks of size `block_size` x `block_size`
     into the depth/channel dimension at each location.

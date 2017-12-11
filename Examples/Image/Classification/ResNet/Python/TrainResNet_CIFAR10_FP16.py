@@ -152,7 +152,7 @@ def train_and_evaluate(reader_train, reader_test, network_name, epoch_size, max_
         data = reader_test.next_minibatch(current_minibatch, input_map=input_map)
         data16 = cast.eval(data, as_numpy=False)
         # minibatch data to be trained with
-        metric_numer += trainer.train_minibatch({input16:data16[cast[0]], label16:data16[cast[1]]}) * current_minibatch
+        metric_numer += trainer.test_minibatch({input16:data16[cast[0]], label16:data16[cast[1]]}) * current_minibatch
         metric_denom += current_minibatch
         # Keep track of the number of samples processed so far.
         sample_count += data[label_var].num_samples

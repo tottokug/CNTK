@@ -36,7 +36,7 @@ inline void float16ToFloat(const unsigned short* src, float* res)
     *(unsigned*)res = ((sign << 31) | (exponent << 23) | mantissa);
 }
 
-inline void float2Float16(float* src, unsigned short* dest)
+inline void floatToFloat16(float* src, unsigned short* dest)
 {
     unsigned x = *(unsigned*)src;
     unsigned u = (x & 0x7fffffff), remainder, shift, lsb, lsb_s1, lsb_m1;

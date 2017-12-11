@@ -50,7 +50,7 @@ namespace CNTK
 
 #ifndef SWIG
         // construction from build-in types
-        float16(float f) { float2Float16(&f, &__x); }
+        float16(float f) { floatToFloat16(&f, &__x); }
         float16(double d) : float16((float)d) {}
         float16(int i) : float16((float)i) {}
         float16(size_t u) : float16((float)u) {}
@@ -66,7 +66,7 @@ namespace CNTK
         static float16 create(float f)
         {
             float16 v;
-            float2Float16(&f, &v.__x);
+            floatToFloat16(&f, &v.__x);
             return v;
         }
 

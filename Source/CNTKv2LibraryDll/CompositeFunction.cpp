@@ -510,11 +510,11 @@ namespace CNTK
                 // (AssignValuesOf throws when source and destination matrices reside on different GPU devices).
                 // Once this bug is fixed, change to
                 // Matrix<ElementType> clonedMatrix(valueMatrix->GetNumRows(), valueMatrix->GetNumCols(), network->GetDeviceId(), valueMatrix->GetMatrixType(), valueMatrix->GetFormat());
-                Matrix<ElementType> clonedMatrix(valueMatrix->GetDeviceId());
-                clonedMatrix.SwitchToMatrixType(valueMatrix->GetMatrixType(), valueMatrix->GetFormat(), false);
+                Matrix<ElementType>& nodeValue = dynamic_cast<ComputationNode<ElementType>*>(&*computationNodePtr)->Value();
+                Matrix<ElementType> clonedMatrix(nodeValue.GetNumRows(), nodeValue.GetNumCols(), valueMatrix->GetDeviceId(), nodeValue.GetMatrixType(), nodeValue.GetFormat());
                 clonedMatrix.CastAssignValuesOf(*valueMatrix);
                 clonedMatrix.TransferToDeviceIfNotThere(network->GetDeviceId(), true);
-                dynamic_cast<ComputationNode<ElementType>*>(&*computationNodePtr)->Value() = std::move(clonedMatrix);
+                nodeValue = std::move(clonedMatrix);
             }
         }
         else if (variable.IsInput())

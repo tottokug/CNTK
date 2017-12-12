@@ -1,1 +1,66 @@
+CPU info:
+    CPU Model Name: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
+    Hardware threads: 12
+    Total Memory: 57700428 kB
+-------------------------------------------------------------------
+Python: 3.4.4 |Continuum Analytics, Inc.| (default, Jun 15 2016, 15:26:54) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)]
+NumPy: 1.11.2
+SciPy: 0.18.1
+PyTest: 3.0.3
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Tutorials, inifile: pytest.ini
+collecting ... collected 47 items
+
+CNTK_101_LogisticRegression_test.py::test_cntk_101_logisticregression_noErrors[-1] PASSED
+CNTK_101_LogisticRegression_test.py::test_cntk_101_logisticregression_evalCorrect[-1] PASSED
+CNTK_102_FeedForward_test.py::test_cntk_102_feedforward_noErrors[-1] PASSED
+CNTK_102_FeedForward_test.py::test_cntk_102_feedforward_evalCorrect[-1] PASSED
+CNTK_103A_MNIST_DataLoader_test.py::test_cntk_103a_mnist_dataloader_noErrors[-1] SKIPPED
+CNTK_103B_MNIST_LogisticRegression_test.py::test_cntk_103b_mnist_logisticregression_noErrors[-1] PASSED
+CNTK_103B_MNIST_LogisticRegression_test.py::test_cntk_103b_mnist_logisticregression_evalCorrect[-1] PASSED
+CNTK_103C_MNIST_MultiLayerPerceptron_test.py::test_cntk_103c_mnist_multilayerperceptron_noErrors[-1] PASSED
+CNTK_103C_MNIST_MultiLayerPerceptron_test.py::test_cntk_103c_mnist_multilayerperceptron_evalCorrect[-1] PASSED
+CNTK_103D_MNIST_ConvolutionalNeuralNetwork_test.py::test_cntk_103d_mnist_convolutionalneuralnetwork_noErrors[-1] PASSED
+CNTK_103D_MNIST_ConvolutionalNeuralNetwork_test.py::test_cntk_103d_mnist_convolutionalneuralnetwork_trainerror[-1] PASSED
+CNTK_104_Finance_Timeseries_Basic_with_Pandas_Numpy_test.py::test_cntk_104_finance_timeseries_basic_with_pandas_numpy_noErrors[-1] PASSED
+CNTK_104_Finance_Timeseries_Basic_with_Pandas_Numpy_test.py::test_cntk_104_finance_timeseries_basic_with_pandas_numpy_trainerror[-1] PASSED
+CNTK_105_Basic_Autoencoder_for_Dimensionality_Reduction_test.py::test_cntk_105_basic_autoencoder_for_dimensionality_reduction_noErrors[-1] PASSED
+CNTK_105_Basic_Autoencoder_for_Dimensionality_Reduction_test.py::test_cntk_105_basic_autoencoder_for_dimensionality_reduction_simple_trainerror[-1] PASSED
+CNTK_106A_LSTM_Timeseries_with_Simulated_Data_test.py::test_cntk_106A_lstm_timeseries_with_simulated_data_noErrors[-1] PASSED
+CNTK_106A_LSTM_Timeseries_with_Simulated_Data_test.py::test_cntk_106A_lstm_timeseries_with_simulated_data_evalCorrect[-1] PASSED
+CNTK_106B_LSTM_Timeseries_with_IOT_Data_test.py::test_cntk_106B_lstm_timeseries_with_iot_data_noErrors[-1] PASSED
+CNTK_106B_LSTM_Timeseries_with_IOT_Data_test.py::test_cntk_106B_lstm_timeseries_with_iot_data_evalCorrect[-1] PASSED
+CNTK_200_GuidedTour_test.py::test_cntk_200_guidedtour_noErrors[-1] SKIPPED
+CNTK_200_GuidedTour_test.py::test_cntk_200_guidedtour_evalCorrect[-1] SKIPPED
+CNTK_201A_CIFAR-10_DataLoader_test.py::test_cntk_201a_cifar_10_dataloader_noErrors[-1] SKIPPED
+CNTK_201B_CIFAR-10_ImageHandsOn_test.py::test_cntk_201B_cifar_10_imagehandson_noErrors[-1] SKIPPED
+CNTK_202_Language_Understanding_test.py::test_cntk_202_language_understanding_noErrors[-1] SKIPPED
+CNTK_202_Language_Understanding_test.py::test_cntk_202_language_understanding_trainerror[-1] SKIPPED
+CNTK_203_Reinforcement_Learning_Basics_test.py::test_cntk_203_reinforcement_learning_basics_noErrors[-1] PASSED
+CNTK_203_Reinforcement_Learning_Basics_test.py::test_cntk_203_reinforcement_learning_basics_tasks_are_solved[-1] PASSED
+CNTK_204_Sequence_To_Sequence_test.py::test_cntk_204_sequence_to_sequence_noErrors[-1] PASSED
+CNTK_204_Sequence_To_Sequence_test.py::test_cntk_204_sequence_to_sequence_trainerror[-1] PASSED
+CNTK_205_Artistic_Style_Transfer_test.py::test_cntk_205_artistic_style_transfer_noErrors[-1] PASSED
+CNTK_205_Artistic_Style_Transfer_test.py::test_cntk_205_artistic_style_transfer_evalCorrect[-1] PASSED
+CNTK_206A_Basic_GAN_test.py::test_cntk_206A_basic_gan_noErrors[-1] PASSED
+CNTK_206B_DCGAN_test.py::test_cntk_206B_dcgan_noErrors[-1] SKIPPED
+CNTK_206C_WGAN_LSGAN_test.py::test_cntk_206C_wgan_lsgan_noErrors[-1] SKIPPED
+CNTK_207_Training_with_Sampled_Softmax_test.py::test_cntk_207_sampledsoftmax_noErrors[-1] PASSED
+CNTK_208_Speech_Connectionist_Temporal_Classification_test.py::test_cntk_208_speech_connectionist_temporal_classification_noErrors[-1] SKIPPED
+CNTK_208_Speech_Connectionist_Temporal_Classification_test.py::test_cntk_208_speech_connectionist_temporal_classification_evalCorrect[-1] SKIPPED
+CNTK_301_Image_Recognition_with_Deep_Transfer_Learning_test.py::test_CNTK_301_Image_Recognition_with_Deep_Transfer_Learning_noErrors[-1] SKIPPED
+CNTK_302A_Evaluation_of_Pretrained_Super-resolution_Models_test.py::test_cntk_302a_evaluation_superresolution_noErrors[-1] SKIPPED
+CNTK_302B_Image_Super-resolution_Using_CNNs_and_GANs_test.py::test_cntk_302b_superresolution_cnns_gans_noErrors[-1] SKIPPED
+CNTK_599A_Sequence_To_Sequence_test.py::test_cntk_599_sequence_to_sequence_noErrors[-1] PASSED
+CNTK_599A_Sequence_To_Sequence_test.py::test_cntk_599_sequence_to_sequence_trainerror[-1] PASSED
+CNTK_FastRCNNEval_test.py::test_cntk_fastrcnn_eval_noErrors[-1] PASSED
+CNTK_FastRCNNEval_test.py::test_cntk_fastrcnn_eval_evalCorrect[-1] PASSED
+FunctionalAPI_CNTK_200_GuidedTour_test.py::test_cntk_200_guidedtour_noErrors[-1] SKIPPED
+FunctionalAPI_CNTK_200_GuidedTour_test.py::test_cntk_200_guidedtour_evalCorrect[-1] SKIPPED
+NumpyInterop_FeedForwardNet_test.py::test_numpyinterop_feedforwardnet_error[-1] PASSED
+
+=================== 31 passed, 16 skipped in 640.12 seconds ====================
 __COMPLETED__

@@ -1,664 +1,45 @@
 CPU info:
-    CPU Model Name: Intel(R) Xeon(R) CPU W3550 @ 3.07GHz
-    Hardware threads: 4
-    Total Memory: 12580388 kB
+    CPU Model Name: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
+    Hardware threads: 12
+    Total Memory: 57700428 kB
 -------------------------------------------------------------------
-=== Running /cygdrive/c/jenkins/workspace/CNTK-Test-Windows-W1/x64/release/cntk.exe configFile=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\HTKDeserializers\LSTM\FullUtterance/cntk.cntk currentDirectory=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data RunDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160816030156.514477\Speech\HTKDeserializers\LSTM_FullUtterance@release_cpu DataDir=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data ConfigDir=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\HTKDeserializers\LSTM\FullUtterance OutputDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160816030156.514477\Speech\HTKDeserializers\LSTM_FullUtterance@release_cpu DeviceId=-1 timestamping=true Truncated=false speechTrain=[SGD=[epochSize=2560]] speechTrain=[SGD=[maxEpochs=2]] speechTrain=[SGD=[numMBsToShowResult=1]] shareNodeValueMatrices=true
--------------------------------------------------------------------
-Build info: 
+=== Running /home/ubuntu/workspace/build/1bitsgd/release/bin/cntk configFile=/home/ubuntu/workspace/Tests/EndToEndTests/Speech/HTKDeserializers/LSTM/FullUtterance/../../../HTKDeserializers/LSTM/FullUtterance/cntk.cntk currentDirectory=/home/ubuntu/workspace/Tests/EndToEndTests/Speech/Data RunDir=/tmp/cntk-test-20171211223423.932710/Speech/HTKDeserializers/LSTM_FullUtterance@release_cpu DataDir=/home/ubuntu/workspace/Tests/EndToEndTests/Speech/Data ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Speech/HTKDeserializers/LSTM/FullUtterance/../../../HTKDeserializers/LSTM/FullUtterance OutputDir=/tmp/cntk-test-20171211223423.932710/Speech/HTKDeserializers/LSTM_FullUtterance@release_cpu DeviceId=-1 timestamping=true Truncated=false speechTrain=[SGD=[epochSize=2560]] speechTrain=[SGD=[maxEpochs=2]] speechTrain=[SGD=[numMBsToShowResult=1]] shareNodeValueMatrices=true
+CNTK 2.3.1+ (HEAD f4f0f8, Dec 11 2017 18:34:12) at 2017/12/12 15:54:39
 
-		Built time: Aug 16 2016 02:54:53
-		Last modified date: Fri Aug 12 05:31:21 2016
-		Build type: Release
-		Build target: GPU
-		With 1bit-SGD: no
-		Math lib: mkl
-		CUDA_PATH: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5
-		CUB_PATH: c:\src\cub-1.4.1
-		CUDNN_PATH: c:\NVIDIA\cudnn-4.0\cuda
-		Build Branch: HEAD
-		Build SHA1: 026b1e772b963461e189f8f00aa7ed6951298f84
-		Built by svcphil on Philly-Pool3
-		Build Path: c:\Jenkins\workspace\CNTK-Build-Windows\Source\CNTK\
--------------------------------------------------------------------
-Changed current directory to C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data
-08/16/2016 03:01:59: -------------------------------------------------------------------
-08/16/2016 03:01:59: Build info: 
+/home/ubuntu/workspace/build/1bitsgd/release/bin/cntk  configFile=/home/ubuntu/workspace/Tests/EndToEndTests/Speech/HTKDeserializers/LSTM/FullUtterance/../../../HTKDeserializers/LSTM/FullUtterance/cntk.cntk  currentDirectory=/home/ubuntu/workspace/Tests/EndToEndTests/Speech/Data  RunDir=/tmp/cntk-test-20171211223423.932710/Speech/HTKDeserializers/LSTM_FullUtterance@release_cpu  DataDir=/home/ubuntu/workspace/Tests/EndToEndTests/Speech/Data  ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Speech/HTKDeserializers/LSTM/FullUtterance/../../../HTKDeserializers/LSTM/FullUtterance  OutputDir=/tmp/cntk-test-20171211223423.932710/Speech/HTKDeserializers/LSTM_FullUtterance@release_cpu  DeviceId=-1  timestamping=true  Truncated=false  speechTrain=[SGD=[epochSize=2560]]  speechTrain=[SGD=[maxEpochs=2]]  speechTrain=[SGD=[numMBsToShowResult=1]]  shareNodeValueMatrices=true
+Changed current directory to /home/ubuntu/workspace/Tests/EndToEndTests/Speech/Data
+12/12/2017 15:54:39: -------------------------------------------------------------------
+12/12/2017 15:54:39: Build info: 
 
-08/16/2016 03:01:59: 		Built time: Aug 16 2016 02:54:53
-08/16/2016 03:01:59: 		Last modified date: Fri Aug 12 05:31:21 2016
-08/16/2016 03:01:59: 		Build type: Release
-08/16/2016 03:01:59: 		Build target: GPU
-08/16/2016 03:01:59: 		With 1bit-SGD: no
-08/16/2016 03:01:59: 		Math lib: mkl
-08/16/2016 03:01:59: 		CUDA_PATH: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5
-08/16/2016 03:01:59: 		CUB_PATH: c:\src\cub-1.4.1
-08/16/2016 03:01:59: 		CUDNN_PATH: c:\NVIDIA\cudnn-4.0\cuda
-08/16/2016 03:01:59: 		Build Branch: HEAD
-08/16/2016 03:01:59: 		Build SHA1: 026b1e772b963461e189f8f00aa7ed6951298f84
-08/16/2016 03:01:59: 		Built by svcphil on Philly-Pool3
-08/16/2016 03:01:59: 		Build Path: c:\Jenkins\workspace\CNTK-Build-Windows\Source\CNTK\
-08/16/2016 03:01:59: -------------------------------------------------------------------
-08/16/2016 03:02:00: -------------------------------------------------------------------
-08/16/2016 03:02:00: GPU info:
+12/12/2017 15:54:39: 		Built time: Dec 11 2017 18:28:39
+12/12/2017 15:54:39: 		Last modified date: Wed Nov 15 09:27:10 2017
+12/12/2017 15:54:39: 		Build type: release
+12/12/2017 15:54:39: 		Build target: GPU
+12/12/2017 15:54:39: 		With 1bit-SGD: yes
+12/12/2017 15:54:39: 		With ASGD: yes
+12/12/2017 15:54:39: 		Math lib: mkl
+12/12/2017 15:54:39: 		CUDA version: 9.0.0
+12/12/2017 15:54:39: 		CUDNN version: 7.0.4
+12/12/2017 15:54:39: 		Build Branch: HEAD
+12/12/2017 15:54:39: 		Build SHA1: f4f0f82eabcc482dbd03af1f946a44ae2b8b97bf
+12/12/2017 15:54:39: 		MPI distribution: Open MPI
+12/12/2017 15:54:39: 		MPI version: 1.10.7
+12/12/2017 15:54:39: -------------------------------------------------------------------
+12/12/2017 15:54:39: -------------------------------------------------------------------
+12/12/2017 15:54:39: GPU info:
 
-08/16/2016 03:02:00: 		Device[0]: cores = 2496; computeCapability = 5.2; type = "Quadro M4000"; memory = 8192 MB
-08/16/2016 03:02:00: -------------------------------------------------------------------
+12/12/2017 15:54:39: 		Device[0]: cores = 3072; computeCapability = 5.2; type = "Tesla M60"; total memory = 8123 MB; free memory = 8112 MB
+12/12/2017 15:54:39: -------------------------------------------------------------------
 
-08/16/2016 03:02:00: Running on cntk-muc02 at 2016/08/16 03:02:00
-08/16/2016 03:02:00: Command line: 
-C:\jenkins\workspace\CNTK-Test-Windows-W1\x64\release\cntk.exe  configFile=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\HTKDeserializers\LSTM\FullUtterance/cntk.cntk  currentDirectory=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data  RunDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160816030156.514477\Speech\HTKDeserializers\LSTM_FullUtterance@release_cpu  DataDir=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data  ConfigDir=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\HTKDeserializers\LSTM\FullUtterance  OutputDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160816030156.514477\Speech\HTKDeserializers\LSTM_FullUtterance@release_cpu  DeviceId=-1  timestamping=true  Truncated=false  speechTrain=[SGD=[epochSize=2560]]  speechTrain=[SGD=[maxEpochs=2]]  speechTrain=[SGD=[numMBsToShowResult=1]]  shareNodeValueMatrices=true
+12/12/2017 15:54:39: ##############################################################################
+12/12/2017 15:54:39: #                                                                            #
+12/12/2017 15:54:39: # speechTrain command (train action)                                         #
+12/12/2017 15:54:39: #                                                                            #
+12/12/2017 15:54:39: ##############################################################################
 
-
-
-08/16/2016 03:02:00: >>>>>>>>>>>>>>>>>>>> RAW CONFIG (VARIABLES NOT RESOLVED) >>>>>>>>>>>>>>>>>>>>
-08/16/2016 03:02:00: precision = "float"
-deviceId = $DeviceId$
-command = speechTrain
-frameMode = false
-truncated = true
-parallelTrain = false
-speechTrain = [
-    action = "train"
-    modelPath = "$RunDir$/models/cntkSpeech.dnn"
-    traceLevel = 1
-    SGD = [
-        epochSize = 20480
-        minibatchSize = 20
-        learningRatesPerMB = 0.5
-        numMBsToShowResult = 10
-        momentumPerMB = 0:0.9
-        maxEpochs = 4
-        keepCheckPointFiles = true       
-    ]
-    reader = [
-        verbosity = 0
-        randomize = true
-        deserializers = (
-            [   
-                type = "HTKFeatureDeserializer"
-                module = "HTKDeserializers"
-                input = [
-                    features = [
-                        dim = 363
-                        scpFile = "$DataDir$/glob_0000.scp"
-                    ]
-                ]
-            ]:
-            [
-                type = "HTKMLFDeserializer"
-                module = "HTKDeserializers"
-                input = [
-                    labels = [
-                        mlfFile = "$DataDir$/glob_0000.mlf"
-                        labelMappingFile = "$DataDir$/state.list"
-                        scpFile = "$DataDir$/glob_0000.scp"
-                        dim = 132
-                    ]
-                ]
-            ]
-        )
-    ]
-    BrainScriptNetworkBuilder = [
-        useSelfStabilization = true
-        // define basic I/O
-        baseFeatDim = 33
-        featDim = 11 * baseFeatDim
-        labelDim = 132
-        // hidden dimensions
-        innerCellDim  = 1024
-        hiddenDim     = 256
-        numLSTMLayers = 3        // number of hidden LSTM model layers
-        // features
-        features = Input((1 : featDim),  tag='feature') // TEST: Artificially reading data transposed
-        realFeatures = Transpose (features)             //       and swapping them back to (featDim:1), for testing Transpose()
-        labels   = Input(labelDim, tag='label')
-        feashift = RowSlice(featDim - baseFeatDim, baseFeatDim, realFeatures);
-        featNorm = MeanVarNorm(feashift)
-        // we define the LSTM locally for now, since the one in CNTK.core.bs has a slightly changed configuration that breaks this test
-        Stabilize (x, enabled=true) =
-            if enabled
-            then [
-beta = Exp (BS.Parameters.BiasParam ((1))) 
-                result = beta .* x
-            ].result
-            else x
-        LSTMP (outputDim, cellDim=outputDim, x, inputDim=x.dim, prevState, enableSelfStabilization=false) =
-        [
-            _privateInnards = [       // encapsulate the inner workings
-                dh = prevState.h // previous values
-                dc = prevState.c
-                // parameter macros--these carry their own weight matrices
-                B() = BS.Parameters.BiasParam (cellDim)
-                W(v) = BS.Parameters.WeightParam (cellDim, inputDim)  * Stabilize (v, enabled=enableSelfStabilization) // input-to-hidden
-                H(h) = BS.Parameters.WeightParam (cellDim, outputDim) * Stabilize (h, enabled=enableSelfStabilization) // hidden-to-hidden
-                C(c) = BS.Parameters.DiagWeightParam (cellDim)       .* Stabilize (c, enabled=enableSelfStabilization) // cell-to-hiddden (note: applied elementwise)
-                // note: the W(x) here are all different, they all come with their own set of weights; same for H(dh), C(dc), and B()
-                it = Sigmoid (W(x) + B() + H(dh) + C(dc))          // input gate(t)
-                bit = it .* Tanh (W(x) + (H(dh) + B()))            // applied to tanh of input network
-                ft = Sigmoid (W(x) + B() + H(dh) + C(dc))          // forget-me-not gate(t)
-                bft = ft .* dc                                     // applied to cell(t-1)
-                ct = bft + bit                                     // c(t) is sum of both
-                ot = Sigmoid (W(x) + B() + H(dh) + C(ct))          // output gate(t)
-                ht = ot .* Tanh (ct)                               // applied to tanh(cell(t))
-            ]
-            c = _privateInnards.ct          // cell value
-            h = if outputDim != cellDim     // output/hidden state
-                then [                      // project
-                    Wmr = BS.Parameters.WeightParam (outputDim, cellDim);
-                    htp = Wmr * Stabilize (_privateInnards.ht, enabled=enableSelfStabilization)
-                ].htp         // TODO: ^^ extend BS syntax to allow to say: then [ Wmr = WeightParam(outputDim, cellDim) ] in Wmr * Stabilize (...)
-                else _privateInnards.ht     // no projection
-            dim = outputDim
-        ]
-        RecurrentLSTMP (outputDim, cellDim=outputDim.dim, x, inputDim=x.dim, previousHook=BS.RNNs.PreviousHC, enableSelfStabilization=false) =
-        [
-            prevState = previousHook (lstmState)
-            inputDim1 = inputDim ; cellDim1 = cellDim ; enableSelfStabilization1 = enableSelfStabilization
-            lstmState = LSTMP (outputDim, cellDim=cellDim1, x, inputDim=inputDim1, prevState, enableSelfStabilization=enableSelfStabilization1)
-        ].lstmState // we return the state record (h,c)
-        // define the stack of hidden LSTM layers  --TODO: change to RecurrentLSTMPStack(), change stabilizer config
-        S(x) = Stabilize (x, enabled=useSelfStabilization)
-        LSTMoutput[k:1..numLSTMLayers] =
-            if k == 1
-            then /*BS.RNNs.*/ RecurrentLSTMP (hiddenDim, cellDim=innerCellDim, /*S*/ (featNorm),        inputDim=baseFeatDim, enableSelfStabilization=useSelfStabilization).h
-            else /*BS.RNNs.*/ RecurrentLSTMP (hiddenDim, cellDim=innerCellDim, /*S*/ (LSTMoutput[k-1]), inputDim=hiddenDim,   enableSelfStabilization=useSelfStabilization).h
-        // and add a softmax layer on top
-        W = BS.Parameters.WeightParam (labelDim, hiddenDim)
-        B = BS.Parameters.BiasParam   (labelDim)
-        z = W * S(LSTMoutput[numLSTMLayers]) + B; // top-level input to Softmax
-        // training
-        ce  = /*Pass*/ SumElements (ReduceLogSum (z) - TransposeTimes (labels,          z),  tag='criterion')  // manually-defined per-sample objective
-        err = /*Pass*/ SumElements (BS.Constants.One - TransposeTimes (labels, Hardmax (z)), tag='evaluation') // also track frame errors
-        // decoding
-        logPrior = LogPrior(labels)	 
-        ScaledLogLikelihood = Pass (z - logPrior, tag='output') // using Pass() since we can't assign a tag to x - y
-    ]
-]
-currentDirectory=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data
-RunDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160816030156.514477\Speech\HTKDeserializers\LSTM_FullUtterance@release_cpu
-DataDir=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data
-ConfigDir=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\HTKDeserializers\LSTM\FullUtterance
-OutputDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160816030156.514477\Speech\HTKDeserializers\LSTM_FullUtterance@release_cpu
-DeviceId=-1
-timestamping=true
-Truncated=false
-speechTrain=[SGD=[epochSize=2560]]
-speechTrain=[SGD=[maxEpochs=2]]
-speechTrain=[SGD=[numMBsToShowResult=1]]
-shareNodeValueMatrices=true
-
-08/16/2016 03:02:00: <<<<<<<<<<<<<<<<<<<< RAW CONFIG (VARIABLES NOT RESOLVED)  <<<<<<<<<<<<<<<<<<<<
-
-08/16/2016 03:02:00: >>>>>>>>>>>>>>>>>>>> RAW CONFIG WITH ALL VARIABLES RESOLVED >>>>>>>>>>>>>>>>>>>>
-08/16/2016 03:02:00: precision = "float"
-deviceId = -1
-command = speechTrain
-frameMode = false
-truncated = true
-parallelTrain = false
-speechTrain = [
-    action = "train"
-    modelPath = "C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160816030156.514477\Speech\HTKDeserializers\LSTM_FullUtterance@release_cpu/models/cntkSpeech.dnn"
-    traceLevel = 1
-    SGD = [
-        epochSize = 20480
-        minibatchSize = 20
-        learningRatesPerMB = 0.5
-        numMBsToShowResult = 10
-        momentumPerMB = 0:0.9
-        maxEpochs = 4
-        keepCheckPointFiles = true       
-    ]
-    reader = [
-        verbosity = 0
-        randomize = true
-        deserializers = (
-            [   
-                type = "HTKFeatureDeserializer"
-                module = "HTKDeserializers"
-                input = [
-                    features = [
-                        dim = 363
-                        scpFile = "C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data/glob_0000.scp"
-                    ]
-                ]
-            ]:
-            [
-                type = "HTKMLFDeserializer"
-                module = "HTKDeserializers"
-                input = [
-                    labels = [
-                        mlfFile = "C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data/glob_0000.mlf"
-                        labelMappingFile = "C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data/state.list"
-                        scpFile = "C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data/glob_0000.scp"
-                        dim = 132
-                    ]
-                ]
-            ]
-        )
-    ]
-    BrainScriptNetworkBuilder = [
-        useSelfStabilization = true
-        // define basic I/O
-        baseFeatDim = 33
-        featDim = 11 * baseFeatDim
-        labelDim = 132
-        // hidden dimensions
-        innerCellDim  = 1024
-        hiddenDim     = 256
-        numLSTMLayers = 3        // number of hidden LSTM model layers
-        // features
-        features = Input((1 : featDim),  tag='feature') // TEST: Artificially reading data transposed
-        realFeatures = Transpose (features)             //       and swapping them back to (featDim:1), for testing Transpose()
-        labels   = Input(labelDim, tag='label')
-        feashift = RowSlice(featDim - baseFeatDim, baseFeatDim, realFeatures);
-        featNorm = MeanVarNorm(feashift)
-        // we define the LSTM locally for now, since the one in CNTK.core.bs has a slightly changed configuration that breaks this test
-        Stabilize (x, enabled=true) =
-            if enabled
-            then [
-beta = Exp (BS.Parameters.BiasParam ((1))) 
-                result = beta .* x
-            ].result
-            else x
-        LSTMP (outputDim, cellDim=outputDim, x, inputDim=x.dim, prevState, enableSelfStabilization=false) =
-        [
-            _privateInnards = [       // encapsulate the inner workings
-                dh = prevState.h // previous values
-                dc = prevState.c
-                // parameter macros--these carry their own weight matrices
-                B() = BS.Parameters.BiasParam (cellDim)
-                W(v) = BS.Parameters.WeightParam (cellDim, inputDim)  * Stabilize (v, enabled=enableSelfStabilization) // input-to-hidden
-                H(h) = BS.Parameters.WeightParam (cellDim, outputDim) * Stabilize (h, enabled=enableSelfStabilization) // hidden-to-hidden
-                C(c) = BS.Parameters.DiagWeightParam (cellDim)       .* Stabilize (c, enabled=enableSelfStabilization) // cell-to-hiddden (note: applied elementwise)
-                // note: the W(x) here are all different, they all come with their own set of weights; same for H(dh), C(dc), and B()
-                it = Sigmoid (W(x) + B() + H(dh) + C(dc))          // input gate(t)
-                bit = it .* Tanh (W(x) + (H(dh) + B()))            // applied to tanh of input network
-                ft = Sigmoid (W(x) + B() + H(dh) + C(dc))          // forget-me-not gate(t)
-                bft = ft .* dc                                     // applied to cell(t-1)
-                ct = bft + bit                                     // c(t) is sum of both
-                ot = Sigmoid (W(x) + B() + H(dh) + C(ct))          // output gate(t)
-                ht = ot .* Tanh (ct)                               // applied to tanh(cell(t))
-            ]
-            c = _privateInnards.ct          // cell value
-            h = if outputDim != cellDim     // output/hidden state
-                then [                      // project
-                    Wmr = BS.Parameters.WeightParam (outputDim, cellDim);
-                    htp = Wmr * Stabilize (_privateInnards.ht, enabled=enableSelfStabilization)
-                ].htp         // TODO: ^^ extend BS syntax to allow to say: then [ Wmr = WeightParam(outputDim, cellDim) ] in Wmr * Stabilize (...)
-                else _privateInnards.ht     // no projection
-            dim = outputDim
-        ]
-        RecurrentLSTMP (outputDim, cellDim=outputDim.dim, x, inputDim=x.dim, previousHook=BS.RNNs.PreviousHC, enableSelfStabilization=false) =
-        [
-            prevState = previousHook (lstmState)
-            inputDim1 = inputDim ; cellDim1 = cellDim ; enableSelfStabilization1 = enableSelfStabilization
-            lstmState = LSTMP (outputDim, cellDim=cellDim1, x, inputDim=inputDim1, prevState, enableSelfStabilization=enableSelfStabilization1)
-        ].lstmState // we return the state record (h,c)
-        // define the stack of hidden LSTM layers  --TODO: change to RecurrentLSTMPStack(), change stabilizer config
-        S(x) = Stabilize (x, enabled=useSelfStabilization)
-        LSTMoutput[k:1..numLSTMLayers] =
-            if k == 1
-            then /*BS.RNNs.*/ RecurrentLSTMP (hiddenDim, cellDim=innerCellDim, /*S*/ (featNorm),        inputDim=baseFeatDim, enableSelfStabilization=useSelfStabilization).h
-            else /*BS.RNNs.*/ RecurrentLSTMP (hiddenDim, cellDim=innerCellDim, /*S*/ (LSTMoutput[k-1]), inputDim=hiddenDim,   enableSelfStabilization=useSelfStabilization).h
-        // and add a softmax layer on top
-        W = BS.Parameters.WeightParam (labelDim, hiddenDim)
-        B = BS.Parameters.BiasParam   (labelDim)
-        z = W * S(LSTMoutput[numLSTMLayers]) + B; // top-level input to Softmax
-        // training
-        ce  = /*Pass*/ SumElements (ReduceLogSum (z) - TransposeTimes (labels,          z),  tag='criterion')  // manually-defined per-sample objective
-        err = /*Pass*/ SumElements (BS.Constants.One - TransposeTimes (labels, Hardmax (z)), tag='evaluation') // also track frame errors
-        // decoding
-        logPrior = LogPrior(labels)	 
-        ScaledLogLikelihood = Pass (z - logPrior, tag='output') // using Pass() since we can't assign a tag to x - y
-    ]
-]
-currentDirectory=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data
-RunDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160816030156.514477\Speech\HTKDeserializers\LSTM_FullUtterance@release_cpu
-DataDir=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data
-ConfigDir=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\HTKDeserializers\LSTM\FullUtterance
-OutputDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160816030156.514477\Speech\HTKDeserializers\LSTM_FullUtterance@release_cpu
-DeviceId=-1
-timestamping=true
-Truncated=false
-speechTrain=[SGD=[epochSize=2560]]
-speechTrain=[SGD=[maxEpochs=2]]
-speechTrain=[SGD=[numMBsToShowResult=1]]
-shareNodeValueMatrices=true
-
-08/16/2016 03:02:00: <<<<<<<<<<<<<<<<<<<< RAW CONFIG WITH ALL VARIABLES RESOLVED <<<<<<<<<<<<<<<<<<<<
-
-08/16/2016 03:02:00: >>>>>>>>>>>>>>>>>>>> PROCESSED CONFIG WITH ALL VARIABLES RESOLVED >>>>>>>>>>>>>>>>>>>>
-configparameters: cntk.cntk:command=speechTrain
-configparameters: cntk.cntk:ConfigDir=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\HTKDeserializers\LSTM\FullUtterance
-configparameters: cntk.cntk:currentDirectory=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data
-configparameters: cntk.cntk:DataDir=C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data
-configparameters: cntk.cntk:deviceId=-1
-configparameters: cntk.cntk:frameMode=false
-configparameters: cntk.cntk:OutputDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160816030156.514477\Speech\HTKDeserializers\LSTM_FullUtterance@release_cpu
-configparameters: cntk.cntk:parallelTrain=false
-configparameters: cntk.cntk:precision=float
-configparameters: cntk.cntk:RunDir=C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160816030156.514477\Speech\HTKDeserializers\LSTM_FullUtterance@release_cpu
-configparameters: cntk.cntk:shareNodeValueMatrices=true
-configparameters: cntk.cntk:speechTrain=[
-    action = "train"
-    modelPath = "C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160816030156.514477\Speech\HTKDeserializers\LSTM_FullUtterance@release_cpu/models/cntkSpeech.dnn"
-    traceLevel = 1
-    SGD = [
-        epochSize = 20480
-        minibatchSize = 20
-        learningRatesPerMB = 0.5
-        numMBsToShowResult = 10
-        momentumPerMB = 0:0.9
-        maxEpochs = 4
-        keepCheckPointFiles = true       
-    ]
-    reader = [
-        verbosity = 0
-        randomize = true
-        deserializers = (
-            [   
-                type = "HTKFeatureDeserializer"
-                module = "HTKDeserializers"
-                input = [
-                    features = [
-                        dim = 363
-                        scpFile = "C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data/glob_0000.scp"
-                    ]
-                ]
-            ]:
-            [
-                type = "HTKMLFDeserializer"
-                module = "HTKDeserializers"
-                input = [
-                    labels = [
-                        mlfFile = "C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data/glob_0000.mlf"
-                        labelMappingFile = "C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data/state.list"
-                        scpFile = "C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data/glob_0000.scp"
-                        dim = 132
-                    ]
-                ]
-            ]
-        )
-    ]
-    BrainScriptNetworkBuilder = [
-        useSelfStabilization = true
-        // define basic I/O
-        baseFeatDim = 33
-        featDim = 11 * baseFeatDim
-        labelDim = 132
-        // hidden dimensions
-        innerCellDim  = 1024
-        hiddenDim     = 256
-        numLSTMLayers = 3        // number of hidden LSTM model layers
-        // features
-        features = Input((1 : featDim),  tag='feature') // TEST: Artificially reading data transposed
-        realFeatures = Transpose (features)             //       and swapping them back to (featDim:1), for testing Transpose()
-        labels   = Input(labelDim, tag='label')
-        feashift = RowSlice(featDim - baseFeatDim, baseFeatDim, realFeatures);
-        featNorm = MeanVarNorm(feashift)
-        // we define the LSTM locally for now, since the one in CNTK.core.bs has a slightly changed configuration that breaks this test
-        Stabilize (x, enabled=true) =
-            if enabled
-            then [
-beta = Exp (BS.Parameters.BiasParam ((1))) 
-                result = beta .* x
-            ].result
-            else x
-        LSTMP (outputDim, cellDim=outputDim, x, inputDim=x.dim, prevState, enableSelfStabilization=false) =
-        [
-            _privateInnards = [       // encapsulate the inner workings
-                dh = prevState.h // previous values
-                dc = prevState.c
-                // parameter macros--these carry their own weight matrices
-                B() = BS.Parameters.BiasParam (cellDim)
-                W(v) = BS.Parameters.WeightParam (cellDim, inputDim)  * Stabilize (v, enabled=enableSelfStabilization) // input-to-hidden
-                H(h) = BS.Parameters.WeightParam (cellDim, outputDim) * Stabilize (h, enabled=enableSelfStabilization) // hidden-to-hidden
-                C(c) = BS.Parameters.DiagWeightParam (cellDim)       .* Stabilize (c, enabled=enableSelfStabilization) // cell-to-hiddden (note: applied elementwise)
-                // note: the W(x) here are all different, they all come with their own set of weights; same for H(dh), C(dc), and B()
-                it = Sigmoid (W(x) + B() + H(dh) + C(dc))          // input gate(t)
-                bit = it .* Tanh (W(x) + (H(dh) + B()))            // applied to tanh of input network
-                ft = Sigmoid (W(x) + B() + H(dh) + C(dc))          // forget-me-not gate(t)
-                bft = ft .* dc                                     // applied to cell(t-1)
-                ct = bft + bit                                     // c(t) is sum of both
-                ot = Sigmoid (W(x) + B() + H(dh) + C(ct))          // output gate(t)
-                ht = ot .* Tanh (ct)                               // applied to tanh(cell(t))
-            ]
-            c = _privateInnards.ct          // cell value
-            h = if outputDim != cellDim     // output/hidden state
-                then [                      // project
-                    Wmr = BS.Parameters.WeightParam (outputDim, cellDim);
-                    htp = Wmr * Stabilize (_privateInnards.ht, enabled=enableSelfStabilization)
-                ].htp         // TODO: ^^ extend BS syntax to allow to say: then [ Wmr = WeightParam(outputDim, cellDim) ] in Wmr * Stabilize (...)
-                else _privateInnards.ht     // no projection
-            dim = outputDim
-        ]
-        RecurrentLSTMP (outputDim, cellDim=outputDim.dim, x, inputDim=x.dim, previousHook=BS.RNNs.PreviousHC, enableSelfStabilization=false) =
-        [
-            prevState = previousHook (lstmState)
-            inputDim1 = inputDim ; cellDim1 = cellDim ; enableSelfStabilization1 = enableSelfStabilization
-            lstmState = LSTMP (outputDim, cellDim=cellDim1, x, inputDim=inputDim1, prevState, enableSelfStabilization=enableSelfStabilization1)
-        ].lstmState // we return the state record (h,c)
-        // define the stack of hidden LSTM layers  --TODO: change to RecurrentLSTMPStack(), change stabilizer config
-        S(x) = Stabilize (x, enabled=useSelfStabilization)
-        LSTMoutput[k:1..numLSTMLayers] =
-            if k == 1
-            then /*BS.RNNs.*/ RecurrentLSTMP (hiddenDim, cellDim=innerCellDim, /*S*/ (featNorm),        inputDim=baseFeatDim, enableSelfStabilization=useSelfStabilization).h
-            else /*BS.RNNs.*/ RecurrentLSTMP (hiddenDim, cellDim=innerCellDim, /*S*/ (LSTMoutput[k-1]), inputDim=hiddenDim,   enableSelfStabilization=useSelfStabilization).h
-        // and add a softmax layer on top
-        W = BS.Parameters.WeightParam (labelDim, hiddenDim)
-        B = BS.Parameters.BiasParam   (labelDim)
-        z = W * S(LSTMoutput[numLSTMLayers]) + B; // top-level input to Softmax
-        // training
-        ce  = /*Pass*/ SumElements (ReduceLogSum (z) - TransposeTimes (labels,          z),  tag='criterion')  // manually-defined per-sample objective
-        err = /*Pass*/ SumElements (BS.Constants.One - TransposeTimes (labels, Hardmax (z)), tag='evaluation') // also track frame errors
-        // decoding
-        logPrior = LogPrior(labels)	 
-        ScaledLogLikelihood = Pass (z - logPrior, tag='output') // using Pass() since we can't assign a tag to x - y
-    ]
-] [SGD=[epochSize=2560]] [SGD=[maxEpochs=2]] [SGD=[numMBsToShowResult=1]]
-
-configparameters: cntk.cntk:timestamping=true
-configparameters: cntk.cntk:truncated=false
-08/16/2016 03:02:00: <<<<<<<<<<<<<<<<<<<< PROCESSED CONFIG WITH ALL VARIABLES RESOLVED <<<<<<<<<<<<<<<<<<<<
-08/16/2016 03:02:00: Commands: speechTrain
-08/16/2016 03:02:00: Precision = "float"
-08/16/2016 03:02:00: CNTKModelPath: C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160816030156.514477\Speech\HTKDeserializers\LSTM_FullUtterance@release_cpu/models/cntkSpeech.dnn
-08/16/2016 03:02:00: CNTKCommandTrainInfo: speechTrain : 2
-08/16/2016 03:02:00: CNTKCommandTrainInfo: CNTKNoMoreCommands_Total : 2
-
-08/16/2016 03:02:00: ##############################################################################
-08/16/2016 03:02:00: #                                                                            #
-08/16/2016 03:02:00: # Action "train"                                                             #
-08/16/2016 03:02:00: #                                                                            #
-08/16/2016 03:02:00: ##############################################################################
-
-08/16/2016 03:02:00: CNTKCommandTrainBegin: speechTrain
-Reading script file C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data/glob_0000.scp ... 948 entries
-HTKDataDeserializer::HTKDataDeserializer: selected 948 utterances grouped into 3 chunks, average chunk size: 316.0 utterances, 84244.7 frames (for I/O: 316.0 utterances, 84244.7 frames)
-HTKDataDeserializer::HTKDataDeserializer: determined feature kind as 33-dimensional 'USER' with frame shift 10.0 ms
-total 132 state names in state list C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data/state.list
-htkmlfreader: reading MLF file C:\jenkins\workspace\CNTK-Test-Windows-W1\Tests\EndToEndTests\Speech\Data/glob_0000.mlf ... total 948 entries
-MLFDataDeserializer::MLFDataDeserializer: 948 utterances with 252734 frames in 129 classes
-useParallelTrain option is not enabled. ParallelTrain config will be ignored.
-08/16/2016 03:02:01: Creating virgin network.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[132] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[132] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[132 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[132 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[256 x 1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[256 x 1024] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[256 x 1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[256 x 1024] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[256 x 1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[256 x 1024] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 33] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 33] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 33] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 33] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 33] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 33] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 33] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 33] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024 x 256] <- uniform(seed=1, range=0.050000*1.000000, onCPU=true).
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1024] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 0.000000.
-Node '<placeholder>' (LearnableParameter operation): Initializing Parameter[1] <- 1.000000.
+parallelTrain option is not enabled. ParallelTrain config will be ignored.
+12/12/2017 15:54:39: 
+Creating virgin network.
 
 Post-processing network...
 
@@ -988,9 +369,9 @@ Validating --> logPrior._ = Mean (labels) : [132 x *] -> [132]
 Validating --> logPrior = Log (logPrior._) : [132] -> [132]
 Validating --> ScaledLogLikelihood._ = Minus (z, logPrior) : [132 x 1 x *], [132] -> [132 x 1 x *]
 Validating --> ScaledLogLikelihood = Pass (ScaledLogLikelihood._) : [132 x 1 x *] -> [132 x 1 x *]
-Validating --> ce.matrix.MinusArgs[0] = ReduceElements (z) : [132 x 1 x *] -> [1 x *]
+Validating --> ce.matrix.MinusArgs[0].r = ReduceElements (z) : [132 x 1 x *] -> [1 x *]
 Validating --> ce.matrix.MinusArgs[1] = TransposeTimes (labels, z) : [132 x *], [132 x 1 x *] -> [1 x 1 x *]
-Validating --> ce.matrix = Minus (ce.matrix.MinusArgs[0], ce.matrix.MinusArgs[1]) : [1 x *], [1 x 1 x *] -> [1 x 1 x *]
+Validating --> ce.matrix = Minus (ce.matrix.MinusArgs[0].r, ce.matrix.MinusArgs[1]) : [1 x *], [1 x 1 x *] -> [1 x 1 x *]
 Validating --> ce = SumElements (ce.matrix) : [1 x 1 x *] -> [1]
 Validating --> BS.Constants.One = LearnableParameter() :  -> [1]
 Validating --> err.matrix.MinusArgs[1].rightMatrix = Hardmax (z) : [132 x 1 x *] -> [132 x 1 x *]
@@ -1053,503 +434,741 @@ Validating network, final pass.
 
 
 
-131 out of 286 nodes do not share the minibatch layout with the input data.
 
 Post-processing network complete.
 
-08/16/2016 03:02:01: Created model with 286 nodes on CPU.
+Reading script file /home/ubuntu/workspace/Tests/EndToEndTests/Speech/Data/glob_0000.scp ... 948 entries
+HTKDeserializer: selected '948' utterances grouped into '3' chunks, average chunk size: 316.0 utterances, 84244.7 frames (for I/O: 316.0 utterances, 84244.7 frames)
+HTKDeserializer: determined feature kind as '33'-dimensional 'USER' with frame shift 10.0 ms
+Total (133) state names in state list '/home/ubuntu/workspace/Tests/EndToEndTests/Speech/Data/state.list'
+MLFDeserializer: '948' utterances with '252734' frames
+12/12/2017 15:54:39: 
+Model has 286 nodes. Using CPU.
 
-08/16/2016 03:02:01: Training criterion node(s):
-08/16/2016 03:02:01: 	ce = SumElements
-
-08/16/2016 03:02:01: Evaluation criterion node(s):
-08/16/2016 03:02:01: 	err = SumElements
+12/12/2017 15:54:39: Training criterion:   ce = SumElements
+12/12/2017 15:54:39: Evaluation criterion: err = SumElements
 
 
 Allocating matrices for forward and/or backward propagation.
 
-Memory Sharing: Out of 555 matrices, 344 are shared as 114, and 211 are not shared.
+Gradient Memory Aliasing: 35 are aliased.
+	LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0] (gradient) reuses LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0] (gradient)
+	LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0] (gradient) reuses LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0] (gradient)
+	LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0] (gradient) reuses LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0] (gradient)
+	LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0] (gradient) reuses LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0] (gradient)
+	LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0] (gradient) reuses LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0] (gradient)
+	LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0] (gradient) reuses LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0] (gradient)
+	LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0] (gradient) reuses LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0] (gradient)
+	LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0] (gradient) reuses LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0] (gradient)
+	LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0] (gradient) reuses LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0] (gradient)
+	LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0] (gradient) reuses LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z (gradient)
+	LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0] (gradient) reuses LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0] (gradient)
+	LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0] (gradient) reuses LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0] (gradient)
+	LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0] (gradient) reuses LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z (gradient)
+	LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0] (gradient) reuses LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0] (gradient)
+	LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0] (gradient) reuses LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0] (gradient)
+	LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0] (gradient) reuses LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0] (gradient)
+	LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0] (gradient) reuses LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0] (gradient)
+	LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0] (gradient) reuses LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0] (gradient)
+	z.PlusArgs[0] (gradient) reuses z (gradient)
+	LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0] (gradient) reuses LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z (gradient)
+	LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0] (gradient) reuses LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0] (gradient)
+	LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0] (gradient) reuses LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0] (gradient)
 
-	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [33 x 1 x *] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[1].lstmState.h.htp.TimesArgs[1].beta._ : [1] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 33] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [33 x 1 x *] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] (gradient) }
-	{ LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[2].lstmState.h.htp.TimesArgs[1].beta._ : [1] (gradient) }
-	{ LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ct : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].prevState.c : [1024 x 1 x *] }
-	{ LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[3].lstmState.h.htp.TimesArgs[1].beta._ : [1] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ot : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ht : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] (gradient) }
-	{ LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1] (gradient) }
-	{ LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient) }
-	{ LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient) }
-	{ LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient) }
-	{ LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1] (gradient) }
-	{ LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[3].prevState.h : [256 x 1 x *] }
-	{ LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].result : [33 x 1 x *] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024] (gradient)
-	  LSTMoutput[1].prevState.h : [256 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 33] (gradient)
-	  LSTMoutput[2].lstmState.h.htp.TimesArgs[1].result : [1024 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256] (gradient)
-	  LSTMoutput[2].lstmState.h.htp : [256 x 1 x *] }
-	{ LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].result : [256 x 1 x *]
-	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ht : [1024 x 1 x *] }
-	{ LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
-	  W : [132 x 256] (gradient)
-	  z : [132 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 33] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ct : [1024 x 1 x *] }
-	{ LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
-	  ScaledLogLikelihood._ : [132 x 1 x *]
-	  ce.matrix.MinusArgs[0] : [1 x *]
-	  z.PlusArgs[0] : [132 x 1 x *]
-	  z.PlusArgs[0] : [132 x 1 x *] (gradient)
-	  z.PlusArgs[0].TimesArgs[1].beta : [1] (gradient) }
-	{ LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0] : [1024 x 1 x *]
-	  LSTMoutput[3].lstmState.h.Wmr : [256 x 1024] (gradient)
-	  z.PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState.h.htp : [256 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.it : [1024 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1] : [1024 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.ft._ : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ot : [1024 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[1] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ht.ElementTimesArgs[1] : [1024 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ft : [1024 x 1 x *] }
-	{ LSTMoutput[1].lstmState.h.htp : [256 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.ot : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
-	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
-	  LSTMoutput[3].lstmState.h.htp.TimesArgs[1].result : [1024 x 1 x *] (gradient)
-	  ce.matrix : [1 x 1 x *] (gradient)
-	  ce.matrix.MinusArgs[1] : [1 x 1 x *]
-	  err.matrix.MinusArgs[1] : [1 x 1 x *]
-	  z : [132 x 1 x *] (gradient)
-	  z.PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient) }
-	{ LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].result : [256 x 1 x *]
-	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] }
-	{ LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0] : [1024 x 1 x *]
-	  LSTMoutput[2].lstmState.h.Wmr : [256 x 1024] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] }
-	{ LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
-	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *]
-	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] }
-	{ LSTMoutput[1].lstmState.h.htp.TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *]
-	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.it : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] }
-	{ feashift : [33 x 1 x *]
-	  featNorm : [33 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [33 x 1 x *]
-	  featNorm.ElementTimesArgs[0] : [33 x 1 x *]
-	  realFeatures : [363 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
-	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
-	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
-	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].result : [33 x 1 x *]
-	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [33 x 1 x *]
-	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
-	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
-	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
-	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [33 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
-	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *]
-	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] }
-	{ LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[2].prevState.h : [256 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0] : [1024 x 1 x *]
-	  LSTMoutput[1].lstmState.h.Wmr : [256 x 1024] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [33 x 1 x *] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.ct : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].prevState.c : [1024 x 1 x *] }
-	{ ce.matrix : [1 x 1 x *]
-	  err.matrix.MinusArgs[1].rightMatrix : [132 x 1 x *] }
-	{ ce : [1] (gradient)
-	  err.matrix : [1 x 1 x *] }
-	{ B : [132] (gradient)
-	  ce.matrix.MinusArgs[0] : [1 x *] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.ht : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState.h.htp : [256 x 1 x *] (gradient)
-	  ce.matrix.MinusArgs[1] : [1 x 1 x *] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[1].prevState.h : [256 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[1] : [1024] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[1] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1] : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ct : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ht : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0] : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[0] : [1024] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ht.ElementTimesArgs[1] : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[0] : [1024] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState.h.htp.TimesArgs[1].result : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient) }
-	{ LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.it : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1] : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.it._ : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient) }
+Memory Sharing: Out of 555 matrices, 372 are shared as 91, and 183 are not shared.
+
+Here are the ones that share memory:
+	{ ScaledLogLikelihood : [132 x 1 x *]
+	  ScaledLogLikelihood._ : [132 x 1 x *] }
 	{ LSTMoutput[3].lstmState.h.htp.TimesArgs[1].beta : [1] (gradient)
 	  z.PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.ht.ElementTimesArgs[1] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ot : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[1].prevState.c : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.bit : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.bft : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.bft : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ft : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ot._ : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta : [1] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.ot._ : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].prevState.c : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.bit : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[1] : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta : [1] (gradient) }
-	{ LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ft : [1024 x 1 x *] }
-	{ LSTMoutput[2].lstmState.h.htp.TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *]
-	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[0] : [1024 x 33] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.it : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] }
-	{ LSTMoutput[1].lstmState.h.htp.TimesArgs[1].result : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[1] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.it._ : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.it : [1024 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1] : [1024 x 1 x *] }
-	{ LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] }
-	{ LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024] (gradient)
-	  LSTMoutput[2].prevState.h : [256 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] }
-	{ LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ct : [1024 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[0] : [1024] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[1] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ht.ElementTimesArgs[1] : [1024 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ft._ : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ot : [1024 x 1 x *] }
-	{ LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient)
-	  LSTMoutput[3].lstmState.h.htp.TimesArgs[1].result : [1024 x 1 x *] }
-	{ LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[1] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ht : [1024 x 1 x *] }
-	{ LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256] (gradient)
-	  LSTMoutput[3].lstmState.h.htp : [256 x 1 x *] }
 	{ LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1] (gradient)
 	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta : [1] (gradient) }
-	{ LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.ft : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ot._ : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].prevState.c : [1024 x 1 x *] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].result : [33 x 1 x *]
+	  featNorm.ElementTimesArgs[0] : [33 x 1 x *] }
+	{ LSTMoutput[1].lstmState.h.htp : [256 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] }
+	{ LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta : [1] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] }
+	{ LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient)
+	  LSTMoutput[3].lstmState.h.htp.TimesArgs[1].result : [1024 x 1 x *] }
+	{ LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[1] : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] }
 	{ LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[0] : [1024] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.it._ : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1] (gradient) }
-	{ LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024] (gradient)
-	  LSTMoutput[3].prevState.h : [256 x 1 x *] (gradient) }
-	{ LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0] : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] (gradient) }
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState.h.Wmr : [256 x 1024] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ht : [1024 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[1] : [1024] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] }
 	{ LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[1] : [1024] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[1] : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[3].prevState.h : [256 x 1 x *] (gradient)
+	  z.PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[1] : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ft : [1024 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *]
+	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ht : [1024 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.bft : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ct : [1024 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta : [1] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta : [1] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.it._ : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.ht.ElementTimesArgs[1] : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.bft : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.bit : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
 	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[1] : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ot._ : [1024 x 1 x *] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.ft._ : [1024 x 1 x *]
+	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState.h.htp : [256 x 1 x *] (gradient)
+	  ce.matrix.MinusArgs[0].r : [1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta : [1] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState.h.htp : [256 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 33] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.it : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ht : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ft._ : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0] : [1024 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.ot._ : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ht.ElementTimesArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.bit : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.it._ : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.bit : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[1] : [1024 x 1 x *] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[1].lstmState.h.Wmr : [256 x 1024] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ot : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[0] : [1024] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[1].prevState.c : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ht : [1024 x 1 x *] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.ct : [1024 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ft._ : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState.h.htp.TimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[2].prevState.c : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.bft : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[1] : [1024 x 1 x *] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[1] : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it._ : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState.h.htp.TimesArgs[1].beta._ : [1] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024] (gradient)
+	  LSTMoutput[2].lstmState.h.htp.TimesArgs[1].result : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[1] : [1024 x 1 x *] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].result : [33 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [33 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [33 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [33 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState.h.htp : [256 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] }
+	{ LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta : [1] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] }
+	{ LSTMoutput[1].lstmState.h.htp.TimesArgs[1].beta : [1] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta : [1] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta : [1] (gradient) }
+	{ LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta : [1] (gradient) }
+	{ LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1] (gradient) }
+	{ LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1] (gradient) }
+	{ LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
 	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
 	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[1] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta : [1] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[0] : [1024] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ht.ElementTimesArgs[1] : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0] : [1024 x 1 x *] (gradient) }
+	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta : [1] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[1] : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ot : [1024 x 1 x *] }
 	{ LSTMoutput[1].lstmState._privateInnards.bit : [1024 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.bft : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ft : [1024 x 1 x *] (gradient) }
-	{ LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] (gradient)
-	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ft._ : [1024 x 1 x *] (gradient) }
+	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 33] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ot : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it._ : [1024 x 1 x *] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ht.ElementTimesArgs[1] : [1024 x 1 x *] }
+	{ LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] }
 	{ LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[0] : [1024] (gradient)
-	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[1] : [1024 x 1 x *] (gradient) }
+	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.bft : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.ht.ElementTimesArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState.h.htp.TimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[1] : [1024 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ot._ : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState.h.htp.TimesArgs[1].result : [1024 x 1 x *] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.bft : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1] : [1024 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.bft : [1024 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[1] : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[1] : [1024 x 1 x *]
+	  ce.matrix.MinusArgs[1] : [1 x 1 x *] (gradient) }
+	{ LSTMoutput[1].prevState.h : [256 x 1 x *] (gradient)
+	  LSTMoutput[2].prevState.h : [256 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] }
+	{ LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] (gradient)
+	  z : [132 x 1 x *] }
+	{ LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[0] : [1024] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] }
+	{ ce.matrix.MinusArgs[1] : [1 x 1 x *]
+	  err.matrix.MinusArgs[1].rightMatrix : [132 x 1 x *]
+	  feashift : [33 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1] : [1024 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.it._ : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ct : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *] (gradient) }
+	{ LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] }
+	{ LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.ot._ : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.ft : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z : [1024 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ft._ : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].prevState.c : [1024 x 1 x *] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.ft : [1024 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1] : [1024 x 1 x *]
+	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState.h.htp.TimesArgs[1].result : [1024 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.bit : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.it : [1024 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.it._ : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ot : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0] : [1024 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[0] : [1024 x 33] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.ft._ : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ht.ElementTimesArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0] : [1024 x 1 x *] (gradient) }
+	{ LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024] (gradient)
+	  ce.matrix : [1 x 1 x *]
+	  ce.matrix : [1 x 1 x *] (gradient)
+	  err.matrix.MinusArgs[1] : [1 x 1 x *]
+	  z : [132 x 1 x *] (gradient)
+	  z.PlusArgs[0] : [132 x 1 x *]
+	  z.PlusArgs[0] : [132 x 1 x *] (gradient) }
+	{ LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] (gradient)
+	  ce.matrix.MinusArgs[0].r : [1 x *] (gradient)
+	  err.matrix : [1 x 1 x *] }
+	{ LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.it : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ot._ : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ot._ : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.ot : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.ft._ : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta : [1] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState.h.htp : [256 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1] : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[1] : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.bit : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0] : [1024 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)
+	  LSTMoutput[1].lstmState.h.htp.TimesArgs[1].result : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ft : [1024 x 1 x *] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[3].lstmState._privateInnards.ft : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[1] : [1024 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z : [1024 x 1 x *]
+	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ct : [1024 x 1 x *] }
+	{ LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[0] : [1024] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient)
+	  z.PlusArgs[0].TimesArgs[1].result : [256 x 1 x *] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[0] : [1024] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.it : [1024 x 1 x *]
+	  realFeatures : [363 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *]
+	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0] : [1024 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0] : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024] (gradient) }
+	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1] : [1024 x 1 x *]
+	  LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1] : [1024 x 1 x *] }
+	{ LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta : [1] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.ht : [1024 x 1 x *] (gradient)
+	  LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 33] (gradient)
+	  LSTMoutput[2].lstmState._privateInnards.ct : [1024 x 1 x *] (gradient)
+	  LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1] : [1024 x 1 x *] (gradient) }
+
+Here are the ones that don't share memory:
+	{B : [132]}
+	{W : [132 x 256]}
+	{LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1]}
+	{z.PlusArgs[0].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[3].lstmState.h.Wmr : [256 x 1024]}
+	{LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[0] : [1024 x 256]}
+	{LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256]}
+	{LSTMoutput[3].lstmState.h.htp.TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024]}
+	{LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 256]}
+	{LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256]}
+	{LSTMoutput[2].lstmState.h.Wmr : [256 x 1024]}
+	{LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024]}
+	{ce : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[2].lstmState.h.htp.TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 256]}
+	{LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 33]}
+	{LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256]}
+	{LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[0] : [1024]}
+	{LSTMoutput[1].lstmState.h.Wmr : [256 x 1024]}
+	{LSTMoutput[2].prevState.h : [256 x 1 x *]}
+	{LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256]}
+	{LSTMoutput[3].prevState.h : [256 x 1 x *]}
+	{LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 256]}
+	{LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[0] : [1024]}
+	{LSTMoutput[1].lstmState.h.htp.TimesArgs[1].beta._ : [1]}
+	{featNorm.mean : [33 x 1]}
+	{featNorm.invStdDev : [33 x 1]}
+	{LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024]}
+	{LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256]}
+	{LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1]}
+	{features : [1 x 363 x *]}
+	{LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[1].prevState.h : [256 x 1 x *]}
+	{LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024]}
+	{LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 33]}
+	{logPrior._ : [132]}
+	{LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256]}
+	{LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256]}
+	{LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1]}
+	{LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 33]}
+	{LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024]}
+	{LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[0] : [1024]}
+	{LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024]}
+	{LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[1].prevState.c : [1024 x 1 x *]}
+	{LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[1] : [1024]}
+	{LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[0] : [1024]}
+	{LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024]}
+	{LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256]}
+	{LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[1] : [1024]}
+	{LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[0] : [1024]}
+	{LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[0] : [1024 x 33]}
+	{LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1]}
+	{LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[0] : [1024 x 256]}
+	{LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1]}
+	{LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256]}
+	{LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 256]}
+	{LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[0] : [1024]}
+	{LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[2].prevState.c : [1024 x 1 x *]}
+	{LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024]}
+	{LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[0] : [1024 x 256]}
+	{LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[0] : [1024]}
+	{LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[0] : [1024 x 256]}
+	{err : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 256]}
+	{LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[1] : [1024]}
+	{LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[0] : [1024]}
+	{LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1]}
+	{BS.Constants.One : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[3].prevState.c : [1024 x 1 x *]}
+	{labels : [132 x *]}
+	{LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1] : [1024]}
+	{LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0] : [1024 x 256]}
+	{LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[0] : [1024 x 256]}
+	{LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[0] : [1024]}
+	{LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta._ : [1]}
+	{LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1] (gradient)}
+	{ce : [1] (gradient)}
+	{LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1] (gradient)}
+	{LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1]}
+	{LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta : [1]}
+	{LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1]}
+	{LSTMoutput[1].lstmState.h.htp.TimesArgs[1].beta : [1]}
+	{LSTMoutput[3].lstmState.h.htp.TimesArgs[1].beta : [1]}
+	{LSTMoutput[2].lstmState.h.htp.TimesArgs[1].beta : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1]}
+	{z.PlusArgs[0].TimesArgs[1].beta : [1]}
+	{LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1]}
+	{LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta : [1]}
+	{LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta : [1]}
+	{LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta : [1]}
+	{LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1]}
+	{LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1]}
+	{LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)}
+	{LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta : [1]}
+	{LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1] : [1024 x 1 x *]}
+	{LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1]}
+	{LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1] (gradient)}
+	{LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta : [1]}
+	{LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[0] : [1024] (gradient)}
+	{LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)}
+	{logPrior : [132]}
+	{LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1] (gradient)}
+	{LSTMoutput[1].lstmState._privateInnards.ot : [1024 x 1 x *]}
+	{LSTMoutput[1].lstmState._privateInnards.ht.ElementTimesArgs[1] : [1024 x 1 x *]}
+	{LSTMoutput[1].lstmState.h.htp.TimesArgs[1].result : [1024 x 1 x *]}
+	{LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[1] : [1024] (gradient)}
+	{LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._ : [1] (gradient)}
+	{LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *]}
+	{LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta._ : [1] (gradient)}
+	{featNorm : [33 x 1 x *]}
+	{LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [33 x 1 x *]}
+	{LSTMoutput[1].lstmState._privateInnards.ft : [1024 x 1 x *]}
+	{LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)}
+	{LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta._ : [1] (gradient)}
+	{LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *]}
+	{LSTMoutput[3].lstmState.h.Wmr : [256 x 1024] (gradient)}
+	{LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256] (gradient)}
+	{LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256] (gradient)}
+	{LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [33 x 1 x *]}
+	{LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].result : [256 x 1 x *]}
+	{LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[0] : [1024] (gradient)}
+	{LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta : [1] (gradient)}
+	{LSTMoutput[1].lstmState.h.htp : [256 x 1 x *]}
+	{LSTMoutput[1].lstmState._privateInnards.ct : [1024 x 1 x *]}
+	{LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[0] : [1024 x 256] (gradient)}
+	{W : [132 x 256] (gradient)}
+	{LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[0] : [1024] (gradient)}
+	{LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[0] : [1024 x 256] (gradient)}
+	{B : [132] (gradient)}
+	{z.PlusArgs[0].TimesArgs[1].beta : [1] (gradient)}
+	{LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].result : [33 x 1 x *]}
+	{LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *]}
+	{LSTMoutput[1].lstmState._privateInnards.it : [1024 x 1 x *]}
+	{LSTMoutput[2].lstmState.h.htp.TimesArgs[1].beta : [1] (gradient)}
+	{LSTMoutput[1].lstmState._privateInnards.ht : [1024 x 1 x *]}
+	{LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].result : [256 x 1 x *]}
+	{LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].result : [1024 x 1 x *]}
 
 
-08/16/2016 03:02:01: Training 6219945 parameters in 87 out of 87 parameter tensors and 269 nodes with gradient:
+12/12/2017 15:54:39: Training 6219945 parameters in 87 out of 87 parameter tensors and 269 nodes with gradient:
 
-08/16/2016 03:02:01: 	Node 'B' (LearnableParameter operation) : [132]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 33]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[1]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 33]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[0]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 33]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[0]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 33]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[0]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState.h.Wmr' (LearnableParameter operation) : [256 x 1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[1].lstmState.h.htp.TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[1]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[0]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[0]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[0]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState.h.Wmr' (LearnableParameter operation) : [256 x 1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[2].lstmState.h.htp.TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[1]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[0]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[0]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[0]' (LearnableParameter operation) : [1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState.h.Wmr' (LearnableParameter operation) : [256 x 1024]
-08/16/2016 03:02:01: 	Node 'LSTMoutput[3].lstmState.h.htp.TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-08/16/2016 03:02:01: 	Node 'W' (LearnableParameter operation) : [132 x 256]
-08/16/2016 03:02:01: 	Node 'z.PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
-
-
-08/16/2016 03:02:01: Precomputing --> 3 PreCompute nodes found.
-
-08/16/2016 03:02:01: 	featNorm.mean = Mean()
-08/16/2016 03:02:01: 	featNorm.invStdDev = InvStdDev()
-08/16/2016 03:02:01: 	logPrior._ = Mean()
-BlockRandomizer::StartEpoch: epoch 0: frames [0..252734] (first sequence at sample 0), data subset 0 of 1
-
-08/16/2016 03:02:02: Precomputing --> Completed.
+12/12/2017 15:54:39: 	Node 'B' (LearnableParameter operation) : [132]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 33]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[1]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 33]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[0]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 33]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[0]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 33]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[0]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState.h.Wmr' (LearnableParameter operation) : [256 x 1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[1].lstmState.h.htp.TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[1]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[0]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[0]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[0]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState.h.Wmr' (LearnableParameter operation) : [256 x 1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[2].lstmState.h.htp.TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.bit.ElementTimesArgs[1].z.PlusArgs[1].PlusArgs[1]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[0].PlusArgs[1]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[0]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.ft._.PlusArgs[1].ElementTimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[0].PlusArgs[1]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[0]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.it._.PlusArgs[1].ElementTimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[0].PlusArgs[1]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[0]' (LearnableParameter operation) : [1024 x 256]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[0].PlusArgs[1].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[0]' (LearnableParameter operation) : [1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState._privateInnards.ot._.PlusArgs[1].ElementTimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState.h.Wmr' (LearnableParameter operation) : [256 x 1024]
+12/12/2017 15:54:39: 	Node 'LSTMoutput[3].lstmState.h.htp.TimesArgs[1].beta._' (LearnableParameter operation) : [1]
+12/12/2017 15:54:39: 	Node 'W' (LearnableParameter operation) : [132 x 256]
+12/12/2017 15:54:39: 	Node 'z.PlusArgs[0].TimesArgs[1].beta._' (LearnableParameter operation) : [1]
 
 
-08/16/2016 03:02:02: Starting Epoch 1: learning rate per sample = 0.025000  effective momentum = 0.000000  momentum as time constant = 0.0 samples
-BlockRandomizer::StartEpoch: epoch 0: frames [0..2560] (first sequence at sample 0), data subset 0 of 1
+12/12/2017 15:54:39: Precomputing --> 3 PreCompute nodes found.
 
-08/16/2016 03:02:02: Starting minibatch loop.
-08/16/2016 03:02:04:  Epoch[ 1 of 2]-Minibatch[   1-   1, 0.78%]: ce = 4.88298801 * 418; err = 0.99521531 * 418; time = 1.4418s; samplesPerSecond = 289.9
-08/16/2016 03:02:05:  Epoch[ 1 of 2]-Minibatch[   2-   2, 1.56%]: ce = 4.59713954 * 468; err = 0.91025641 * 468; time = 1.6241s; samplesPerSecond = 288.2
-08/16/2016 03:02:06:  Epoch[ 1 of 2]-Minibatch[   3-   3, 2.34%]: ce = 3.79830228 * 78; err = 0.65384615 * 78; time = 0.2926s; samplesPerSecond = 266.5
-08/16/2016 03:02:06:  Epoch[ 1 of 2]-Minibatch[   4-   4, 3.13%]: ce = 5.50696791 * 148; err = 0.81756757 * 148; time = 0.4864s; samplesPerSecond = 304.3
-08/16/2016 03:02:08:  Epoch[ 1 of 2]-Minibatch[   5-   5, 3.91%]: ce = 4.31618057 * 238; err = 0.91176471 * 238; time = 1.4368s; samplesPerSecond = 165.6
-08/16/2016 03:02:09:  Epoch[ 1 of 2]-Minibatch[   6-   6, 4.69%]: ce = 4.07120429 * 288; err = 0.90625000 * 288; time = 1.6453s; samplesPerSecond = 175.0
-08/16/2016 03:02:13:  Epoch[ 1 of 2]-Minibatch[   7-   7, 5.47%]: ce = 4.15909199 * 618; err = 0.88349515 * 618; time = 3.6091s; samplesPerSecond = 171.2
-08/16/2016 03:02:15:  Epoch[ 1 of 2]-Minibatch[   8-   8, 6.25%]: ce = 4.56687369 * 328; err = 0.92682927 * 328; time = 1.8079s; samplesPerSecond = 181.4
-08/16/2016 03:02:15: Finished Epoch[ 1 of 2]: [Training] ce = 4.47827413 * 2584; err = 0.90634675 * 2584; totalSamplesSeen = 2584; learningRatePerSample = 0.025; epochTime=12.3451s
-08/16/2016 03:02:15: SGD: Saving checkpoint model 'C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160816030156.514477\Speech\HTKDeserializers\LSTM_FullUtterance@release_cpu/models/cntkSpeech.dnn.1'
+12/12/2017 15:54:39: 	featNorm.mean = Mean()
+12/12/2017 15:54:39: 	featNorm.invStdDev = InvStdDev()
+12/12/2017 15:54:39: 	logPrior._ = Mean()
 
-08/16/2016 03:02:15: Starting Epoch 2: learning rate per sample = 0.025000  effective momentum = 0.900000  momentum as time constant = 189.8 samples
-BlockRandomizer::StartEpoch: epoch 1: frames [2560..5120] (first sequence at sample 2584), data subset 0 of 1
+12/12/2017 15:54:54: Precomputing --> Completed.
 
-08/16/2016 03:02:15: Starting minibatch loop.
-08/16/2016 03:02:16:  Epoch[ 2 of 2]-Minibatch[   1-   1, 0.78%]: ce = 3.81991621 * 138; err = 0.73913043 * 138; time = 0.7846s; samplesPerSecond = 175.9
-08/16/2016 03:02:18:  Epoch[ 2 of 2]-Minibatch[   2-   2, 1.56%]: ce = 4.19142858 * 328; err = 0.92378049 * 328; time = 1.7474s; samplesPerSecond = 187.7
-08/16/2016 03:02:19:  Epoch[ 2 of 2]-Minibatch[   3-   3, 2.34%]: ce = 4.38246918 * 128; err = 0.96875000 * 128; time = 0.7306s; samplesPerSecond = 175.2
-08/16/2016 03:02:19:  Epoch[ 2 of 2]-Minibatch[   4-   4, 3.13%]: ce = 4.47557667 * 158; err = 0.94936709 * 158; time = 0.8530s; samplesPerSecond = 185.2
-08/16/2016 03:02:21:  Epoch[ 2 of 2]-Minibatch[   5-   5, 3.91%]: ce = 4.45825195 * 228; err = 0.95614035 * 228; time = 1.2536s; samplesPerSecond = 181.9
-08/16/2016 03:02:23:  Epoch[ 2 of 2]-Minibatch[   6-   6, 4.69%]: ce = 4.02229426 * 498; err = 0.86546185 * 498; time = 2.7427s; samplesPerSecond = 181.6
-08/16/2016 03:02:25:  Epoch[ 2 of 2]-Minibatch[   7-   7, 5.47%]: ce = 4.22601827 * 288; err = 0.92708333 * 288; time = 1.5260s; samplesPerSecond = 188.7
-08/16/2016 03:02:27:  Epoch[ 2 of 2]-Minibatch[   8-   8, 6.25%]: ce = 4.05615602 * 398; err = 0.90703518 * 398; time = 2.1690s; samplesPerSecond = 183.5
-08/16/2016 03:02:28:  Epoch[ 2 of 2]-Minibatch[   9-   9, 7.03%]: ce = 3.40287189 * 98; err = 0.72448980 * 98; time = 0.5418s; samplesPerSecond = 180.9
-08/16/2016 03:02:31:  Epoch[ 2 of 2]-Minibatch[  10-  10, 7.81%]: ce = 3.90451072 * 548; err = 0.91240876 * 548; time = 2.9909s; samplesPerSecond = 183.2
-08/16/2016 03:02:31: Finished Epoch[ 2 of 2]: [Training] ce = 4.09046792 * 2810; err = 0.89928826 * 2810; totalSamplesSeen = 5394; learningRatePerSample = 0.025; epochTime=15.3405s
-08/16/2016 03:02:31: SGD: Saving checkpoint model 'C:\Users\svcphil\AppData\Local\Temp\cntk-test-20160816030156.514477\Speech\HTKDeserializers\LSTM_FullUtterance@release_cpu/models/cntkSpeech.dnn'
-08/16/2016 03:02:31: CNTKCommandTrainEnd: speechTrain
 
-08/16/2016 03:02:31: Action "train" complete.
+12/12/2017 15:54:54: Starting Epoch 1: learning rate per sample = 0.025000  effective momentum = 0.000000  momentum as time constant = 0.0 samples
 
-08/16/2016 03:02:31: __COMPLETED__
+12/12/2017 15:54:54: Starting minibatch loop.
+WARNING: ce.matrix.MinusArgs[1] TransposeTimes operation: being unrolled, execution may be slow
+WARNING: err.matrix.MinusArgs[1] TransposeTimes operation: being unrolled, execution may be slow
+12/12/2017 15:54:56:  Epoch[ 1 of 2]-Minibatch[   1-   1, 0.78%]: ce = 4.88267554 * 418; err = 1.00000000 * 418; time = 2.2786s; samplesPerSecond = 183.4
+12/12/2017 15:54:59:  Epoch[ 1 of 2]-Minibatch[   2-   2, 1.56%]: ce = 4.59844945 * 468; err = 0.91025641 * 468; time = 2.4649s; samplesPerSecond = 189.9
+12/12/2017 15:55:00:  Epoch[ 1 of 2]-Minibatch[   3-   3, 2.34%]: ce = 3.80659054 * 78; err = 0.65384615 * 78; time = 0.6256s; samplesPerSecond = 124.7
+12/12/2017 15:55:00:  Epoch[ 1 of 2]-Minibatch[   4-   4, 3.12%]: ce = 4.46399916 * 148; err = 0.81756757 * 148; time = 0.6567s; samplesPerSecond = 225.4
+12/12/2017 15:55:01:  Epoch[ 1 of 2]-Minibatch[   5-   5, 3.91%]: ce = 4.25493615 * 238; err = 0.90336134 * 238; time = 1.0110s; samplesPerSecond = 235.4
+12/12/2017 15:55:03:  Epoch[ 1 of 2]-Minibatch[   6-   6, 4.69%]: ce = 3.91829936 * 288; err = 0.76736111 * 288; time = 1.3453s; samplesPerSecond = 214.1
+12/12/2017 15:55:05:  Epoch[ 1 of 2]-Minibatch[   7-   7, 5.47%]: ce = 4.16530296 * 618; err = 0.88349515 * 618; time = 2.8365s; samplesPerSecond = 217.9
+12/12/2017 15:55:07:  Epoch[ 1 of 2]-Minibatch[   8-   8, 6.25%]: ce = 4.57487376 * 328; err = 0.92682927 * 328; time = 1.3478s; samplesPerSecond = 243.4
+12/12/2017 15:55:07: Finished Epoch[ 1 of 2]: [Training] ce = 4.39879237 * 2584; err = 0.89086687 * 2584; totalSamplesSeen = 2584; learningRatePerSample = 0.025; epochTime=12.5682s
+12/12/2017 15:55:07: SGD: Saving checkpoint model '/tmp/cntk-test-20171211223423.932710/Speech/HTKDeserializers/LSTM_FullUtterance@release_cpu/models/cntkSpeech.dnn.1'
+
+12/12/2017 15:55:07: Starting Epoch 2: learning rate per sample = 0.025000  effective momentum = 0.900000  momentum as time constant = 189.8 samples
+
+12/12/2017 15:55:07: Starting minibatch loop.
+12/12/2017 15:55:08:  Epoch[ 2 of 2]-Minibatch[   1-   1, 0.78%]: ce = 3.84136653 * 138; err = 0.73913043 * 138; time = 0.6640s; samplesPerSecond = 207.8
+12/12/2017 15:55:09:  Epoch[ 2 of 2]-Minibatch[   2-   2, 1.56%]: ce = 4.19434580 * 328; err = 0.92378049 * 328; time = 1.3728s; samplesPerSecond = 238.9
+12/12/2017 15:55:10:  Epoch[ 2 of 2]-Minibatch[   3-   3, 2.34%]: ce = 4.38957977 * 128; err = 0.96875000 * 128; time = 0.5703s; samplesPerSecond = 224.4
+12/12/2017 15:55:11:  Epoch[ 2 of 2]-Minibatch[   4-   4, 3.12%]: ce = 4.47024575 * 158; err = 0.94936709 * 158; time = 0.9189s; samplesPerSecond = 171.9
+12/12/2017 15:55:12:  Epoch[ 2 of 2]-Minibatch[   5-   5, 3.91%]: ce = 4.45699056 * 228; err = 0.95614035 * 228; time = 0.9491s; samplesPerSecond = 240.2
+12/12/2017 15:55:14:  Epoch[ 2 of 2]-Minibatch[   6-   6, 4.69%]: ce = 4.02276097 * 498; err = 0.86546185 * 498; time = 2.0922s; samplesPerSecond = 238.0
+12/12/2017 15:55:15:  Epoch[ 2 of 2]-Minibatch[   7-   7, 5.47%]: ce = 4.22561476 * 288; err = 0.92708333 * 288; time = 1.3243s; samplesPerSecond = 217.5
+12/12/2017 15:55:17:  Epoch[ 2 of 2]-Minibatch[   8-   8, 6.25%]: ce = 4.05592047 * 398; err = 0.90703518 * 398; time = 1.7731s; samplesPerSecond = 224.5
+12/12/2017 15:55:17:  Epoch[ 2 of 2]-Minibatch[   9-   9, 7.03%]: ce = 3.40291175 * 98; err = 0.72448980 * 98; time = 0.4836s; samplesPerSecond = 202.6
+12/12/2017 15:55:20:  Epoch[ 2 of 2]-Minibatch[  10-  10, 7.81%]: ce = 3.90451072 * 548; err = 0.91240876 * 548; time = 2.1611s; samplesPerSecond = 253.6
+12/12/2017 15:55:20: Finished Epoch[ 2 of 2]: [Training] ce = 4.09179305 * 2810; err = 0.89928826 * 2810; totalSamplesSeen = 5394; learningRatePerSample = 0.025; epochTime=12.3114s
+12/12/2017 15:55:20: SGD: Saving checkpoint model '/tmp/cntk-test-20171211223423.932710/Speech/HTKDeserializers/LSTM_FullUtterance@release_cpu/models/cntkSpeech.dnn'
+
+12/12/2017 15:55:20: Action "train" complete.
+
+12/12/2017 15:55:20: __COMPLETED__

@@ -1,47 +1,44 @@
 CPU info:
-    CPU Model Name: Intel(R) Xeon(R) CPU X5680 @ 3.33GHz
+    CPU Model Name: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
     Hardware threads: 12
-    Total Memory: 33537232 kB
+    Total Memory: 57700428 kB
 -------------------------------------------------------------------
-=== Running /cygdrive/d/GitHub/CNTK/x64/release/cntk.exe configFile=D:\GitHub\CNTK\Examples\Image\Classification\ConvNet\BrainScript/ConvNet_CIFAR10_DataAug.cntk currentDirectory=D:\GitHub\CNTK\Examples\Image\DataSets\CIFAR-10 RunDir=C:\cygwin64\tmp\cntk-test-20170508111112.960863\Examples\Image\Classification\ConvNet_ConvNet_CIFAR10_DataAug@release_gpu DataDir=D:\GitHub\CNTK\Examples\Image\DataSets\CIFAR-10 ConfigDir=D:\GitHub\CNTK\Examples\Image\Classification\ConvNet\BrainScript OutputDir=C:\cygwin64\tmp\cntk-test-20170508111112.960863\Examples\Image\Classification\ConvNet_ConvNet_CIFAR10_DataAug@release_gpu DeviceId=0 timestamping=true forceDeterministicAlgorithms=true stderr=- TrainConvNet=[SGD=[epochSize=4096,maxEpochs=3,numMBsToShowResult=16]]
-CNTK 2.0rc2+ (HEAD fbb53d, May  8 2017 10:15:58) on CHAZHANG at 2017/05/08 19:11:14
+=== Running /home/ubuntu/workspace/build/1bitsgd/release/bin/cntk configFile=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ConvNet_CIFAR/ConvNet_CIFAR10_DataAug/../../../../../../../Examples/Image/Classification/ConvNet/BrainScript/ConvNet_CIFAR10_DataAug.cntk currentDirectory=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu/TestData RunDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu DataDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu/TestData ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ConvNet_CIFAR/ConvNet_CIFAR10_DataAug/../../../../../../../Examples/Image/Classification/ConvNet/BrainScript OutputDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu DeviceId=-1 timestamping=true forceDeterministicAlgorithms=true stderr=- TrainConvNet=[SGD=[epochSize=4096,maxEpochs=3,numMBsToShowResult=16]]
+CNTK 2.3.1+ (HEAD f4f0f8, Dec 11 2017 18:34:12) at 2017/12/12 01:05:53
 
-D:\GitHub\CNTK\x64\release\cntk.exe  configFile=D:\GitHub\CNTK\Examples\Image\Classification\ConvNet\BrainScript/ConvNet_CIFAR10_DataAug.cntk  currentDirectory=D:\GitHub\CNTK\Examples\Image\DataSets\CIFAR-10  RunDir=C:\cygwin64\tmp\cntk-test-20170508111112.960863\Examples\Image\Classification\ConvNet_ConvNet_CIFAR10_DataAug@release_gpu  DataDir=D:\GitHub\CNTK\Examples\Image\DataSets\CIFAR-10  ConfigDir=D:\GitHub\CNTK\Examples\Image\Classification\ConvNet\BrainScript  OutputDir=C:\cygwin64\tmp\cntk-test-20170508111112.960863\Examples\Image\Classification\ConvNet_ConvNet_CIFAR10_DataAug@release_gpu  DeviceId=0  timestamping=true  forceDeterministicAlgorithms=true  stderr=-  TrainConvNet=[SGD=[epochSize=4096,maxEpochs=3,numMBsToShowResult=16]]
-Changed current directory to D:\GitHub\CNTK\Examples\Image\DataSets\CIFAR-10
-05/08/2017 19:11:14: Redirecting stderr to file -_TrainConvNet_Eval.log
--------------------------------------------------------------------
-Build info: 
+/home/ubuntu/workspace/build/1bitsgd/release/bin/cntk  configFile=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ConvNet_CIFAR/ConvNet_CIFAR10_DataAug/../../../../../../../Examples/Image/Classification/ConvNet/BrainScript/ConvNet_CIFAR10_DataAug.cntk  currentDirectory=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu/TestData  RunDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu  DataDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu/TestData  ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ConvNet_CIFAR/ConvNet_CIFAR10_DataAug/../../../../../../../Examples/Image/Classification/ConvNet/BrainScript  OutputDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu  DeviceId=-1  timestamping=true  forceDeterministicAlgorithms=true  stderr=-  TrainConvNet=[SGD=[epochSize=4096,maxEpochs=3,numMBsToShowResult=16]]
+Changed current directory to /tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu/TestData
+12/12/2017 01:05:53: Redirecting stderr to file -_TrainConvNet_Eval.log
+12/12/2017 01:05:53: -------------------------------------------------------------------
+12/12/2017 01:05:53: Build info: 
 
-		Built time: May  8 2017 10:09:53
-		Last modified date: Mon May  8 09:12:53 2017
-		Build type: Release
-		Build target: GPU
-		With 1bit-SGD: yes
-		With ASGD: yes
-		Math lib: mkl
-		CUDA_PATH: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0
-		CUB_PATH: C:\src\cub-1.4.1
-		CUDNN_PATH: C:\local\cudnn-8.0-v5.1\cuda
-		Build Branch: master
-		Build SHA1: 190dc1b3042d62c20aeba5bd336bbeaa8a6466ca
-		Built by chazhang on CHAZHANG
-		Build Path: D:\GitHub\CNTK\Source\CNTKv2LibraryDll\
-		MPI distribution: Microsoft MPI
-		MPI version: 7.0.12437.6
--------------------------------------------------------------------
--------------------------------------------------------------------
-GPU info:
+12/12/2017 01:05:53: 		Built time: Dec 11 2017 18:28:39
+12/12/2017 01:05:53: 		Last modified date: Wed Nov 15 09:27:10 2017
+12/12/2017 01:05:53: 		Build type: release
+12/12/2017 01:05:53: 		Build target: GPU
+12/12/2017 01:05:53: 		With 1bit-SGD: yes
+12/12/2017 01:05:53: 		With ASGD: yes
+12/12/2017 01:05:53: 		Math lib: mkl
+12/12/2017 01:05:53: 		CUDA version: 9.0.0
+12/12/2017 01:05:53: 		CUDNN version: 7.0.4
+12/12/2017 01:05:53: 		Build Branch: HEAD
+12/12/2017 01:05:53: 		Build SHA1: f4f0f82eabcc482dbd03af1f946a44ae2b8b97bf
+12/12/2017 01:05:53: 		MPI distribution: Open MPI
+12/12/2017 01:05:53: 		MPI version: 1.10.7
+12/12/2017 01:05:53: -------------------------------------------------------------------
+12/12/2017 01:05:53: -------------------------------------------------------------------
+12/12/2017 01:05:53: GPU info:
 
-		Device[0]: cores = 2688; computeCapability = 3.5; type = "GeForce GTX TITAN"; total memory = 6144 MB; free memory = 5549 MB
--------------------------------------------------------------------
+12/12/2017 01:05:53: 		Device[0]: cores = 3072; computeCapability = 5.2; type = "Tesla M60"; total memory = 8123 MB; free memory = 8112 MB
+12/12/2017 01:05:53: -------------------------------------------------------------------
 
 Configuration After Processing and Variable Resolution:
 
 configparameters: ConvNet_CIFAR10_DataAug.cntk:command=TrainConvNet:Eval
-configparameters: ConvNet_CIFAR10_DataAug.cntk:ConfigDir=D:\GitHub\CNTK\Examples\Image\Classification\ConvNet\BrainScript
-configparameters: ConvNet_CIFAR10_DataAug.cntk:currentDirectory=D:\GitHub\CNTK\Examples\Image\DataSets\CIFAR-10
-configparameters: ConvNet_CIFAR10_DataAug.cntk:dataDir=D:\GitHub\CNTK\Examples\Image\DataSets\CIFAR-10
-configparameters: ConvNet_CIFAR10_DataAug.cntk:deviceId=0
+configparameters: ConvNet_CIFAR10_DataAug.cntk:ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ConvNet_CIFAR/ConvNet_CIFAR10_DataAug/../../../../../../../Examples/Image/Classification/ConvNet/BrainScript
+configparameters: ConvNet_CIFAR10_DataAug.cntk:currentDirectory=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu/TestData
+configparameters: ConvNet_CIFAR10_DataAug.cntk:dataDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu/TestData
+configparameters: ConvNet_CIFAR10_DataAug.cntk:deviceId=-1
 configparameters: ConvNet_CIFAR10_DataAug.cntk:Eval={
     action = "eval"
 evalNodeNames = errs:top5Errs  
@@ -50,11 +47,11 @@ evalNodeNames = errs:top5Errs
         verbosity = 0 ; randomize = false
         deserializers = ({
             type = "ImageDeserializer" ; module = "ImageReader"
-            file = "D:\GitHub\CNTK\Examples\Image\DataSets\CIFAR-10/test_map.txt"
+            file = "/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu/TestData/test_map.txt"
             input = {
                 features = { transforms = (
                    { type = "Scale" ; width = 32 ; height = 32 ; channels = 3 ; interpolations = "linear" } :
-                   { type = "Mean"; meanFile = "D:\GitHub\CNTK\Examples\Image\DataSets\CIFAR-10/CIFAR-10_mean.xml" } : 
+                   { type = "Mean"; meanFile = "/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu/TestData/CIFAR-10_mean.xml" } : 
                    { type = "Transpose" }
                 )}
                 labels = { labelDim = 10 }
@@ -64,11 +61,11 @@ evalNodeNames = errs:top5Errs
 }
 
 configparameters: ConvNet_CIFAR10_DataAug.cntk:forceDeterministicAlgorithms=true
-configparameters: ConvNet_CIFAR10_DataAug.cntk:modelPath=C:\cygwin64\tmp\cntk-test-20170508111112.960863\Examples\Image\Classification\ConvNet_ConvNet_CIFAR10_DataAug@release_gpu/Models/ConvNet_CIFAR10_DataAug
-configparameters: ConvNet_CIFAR10_DataAug.cntk:outputDir=C:\cygwin64\tmp\cntk-test-20170508111112.960863\Examples\Image\Classification\ConvNet_ConvNet_CIFAR10_DataAug@release_gpu
+configparameters: ConvNet_CIFAR10_DataAug.cntk:modelPath=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu/Models/ConvNet_CIFAR10_DataAug
+configparameters: ConvNet_CIFAR10_DataAug.cntk:outputDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu
 configparameters: ConvNet_CIFAR10_DataAug.cntk:precision=float
 configparameters: ConvNet_CIFAR10_DataAug.cntk:rootDir=../../..
-configparameters: ConvNet_CIFAR10_DataAug.cntk:RunDir=C:\cygwin64\tmp\cntk-test-20170508111112.960863\Examples\Image\Classification\ConvNet_ConvNet_CIFAR10_DataAug@release_gpu
+configparameters: ConvNet_CIFAR10_DataAug.cntk:RunDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu
 configparameters: ConvNet_CIFAR10_DataAug.cntk:stderr=-
 configparameters: ConvNet_CIFAR10_DataAug.cntk:timestamping=true
 configparameters: ConvNet_CIFAR10_DataAug.cntk:traceLevel=1
@@ -117,12 +114,12 @@ evaluationNodes = (errs)
         verbosity = 0 ; randomize = true
         deserializers = ({
             type = "ImageDeserializer" ; module = "ImageReader"
-            file = "D:\GitHub\CNTK\Examples\Image\DataSets\CIFAR-10/train_map.txt"
+            file = "/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu/TestData/train_map.txt"
             input = {
                 features = { transforms = (
                     { type = "Crop" ; cropType = "RandomSide" ; sideRatio = 0.8 ; jitterType = "UniRatio" } :
                     { type = "Scale" ; width = 32 ; height = 32 ; channels = 3 ; interpolations = "linear" } :
-                    { type = "Mean" ; meanFile = "D:\GitHub\CNTK\Examples\Image\DataSets\CIFAR-10/CIFAR-10_mean.xml" } : 
+                    { type = "Mean" ; meanFile = "/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu/TestData/CIFAR-10_mean.xml" } : 
                     { type = "Transpose" }
                 )}
                 labels = { labelDim = 10 }
@@ -131,17 +128,17 @@ evaluationNodes = (errs)
     }
 } [SGD=[epochSize=4096,maxEpochs=3,numMBsToShowResult=16]]
 
-05/08/2017 19:11:14: Commands: TrainConvNet Eval
-05/08/2017 19:11:14: precision = "float"
-05/08/2017 19:11:14: WARNING: forceDeterministicAlgorithms flag is specified. Using 1 CPU thread for processing.
+12/12/2017 01:05:53: Commands: TrainConvNet Eval
+12/12/2017 01:05:53: precision = "float"
+12/12/2017 01:05:53: WARNING: forceDeterministicAlgorithms flag is specified. Using 1 CPU thread for processing.
 
-05/08/2017 19:11:14: ##############################################################################
-05/08/2017 19:11:14: #                                                                            #
-05/08/2017 19:11:14: # TrainConvNet command (train action)                                        #
-05/08/2017 19:11:14: #                                                                            #
-05/08/2017 19:11:14: ##############################################################################
+12/12/2017 01:05:53: ##############################################################################
+12/12/2017 01:05:53: #                                                                            #
+12/12/2017 01:05:53: # TrainConvNet command (train action)                                        #
+12/12/2017 01:05:53: #                                                                            #
+12/12/2017 01:05:53: ##############################################################################
 
-05/08/2017 19:11:14: 
+12/12/2017 01:05:53: 
 Creating virgin network.
 Node '<placeholder>' (LearnableParameter operation): Initializating Parameter[10 x 0] as glorotUniform later when dimensions are fully known.
 Node '<placeholder>' (LearnableParameter operation): Initializating Parameter[128 x 0] as glorotUniform later when dimensions are fully known.
@@ -227,182 +224,185 @@ Validating network. 28 nodes to process in pass 2.
 
 Validating network, final pass.
 
-z.x._._.x._._.x.x._.x._.x.x._.x._.c: using cuDNN convolution engine for geometry: Input: 32 x 32 x 3, Output: 32 x 32 x 64, Kernel: 3 x 3 x 3, Map: 64, Stride: 1 x 1 x 3, Sharing: (1, 1, 1), AutoPad: (1, 1, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
-z.x._._.x._._.x.x._.x._.x.x._.c: using cuDNN convolution engine for geometry: Input: 32 x 32 x 64, Output: 32 x 32 x 64, Kernel: 3 x 3 x 64, Map: 64, Stride: 1 x 1 x 64, Sharing: (1, 1, 1), AutoPad: (1, 1, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
-z.x._._.x._._.x.x._.x._.x: using cuDNN convolution engine for geometry: Input: 32 x 32 x 64, Output: 15 x 15 x 64, Kernel: 3 x 3 x 1, Map: 1, Stride: 2 x 2 x 1, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
-z.x._._.x._._.x.x._.x._.c: using cuDNN convolution engine for geometry: Input: 15 x 15 x 64, Output: 15 x 15 x 64, Kernel: 3 x 3 x 64, Map: 64, Stride: 1 x 1 x 64, Sharing: (1, 1, 1), AutoPad: (1, 1, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
-z.x._._.x._._.x.x._.c: using cuDNN convolution engine for geometry: Input: 15 x 15 x 64, Output: 15 x 15 x 64, Kernel: 3 x 3 x 64, Map: 64, Stride: 1 x 1 x 64, Sharing: (1, 1, 1), AutoPad: (1, 1, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
-_z.x._._.x._._.x: using cuDNN convolution engine for geometry: Input: 15 x 15 x 64, Output: 7 x 7 x 64, Kernel: 3 x 3 x 1, Map: 1, Stride: 2 x 2 x 1, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+z.x._._.x._._.x.x._.x._.x.x._.x._.c: using GEMM convolution engine for geometry: Input: 32 x 32 x 3, Output: 32 x 32 x 64, Kernel: 3 x 3 x 3, Map: 64, Stride: 1 x 1 x 3, Sharing: (1, 1, 1), AutoPad: (1, 1, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+z.x._._.x._._.x.x._.x._.x.x._.c: using GEMM convolution engine for geometry: Input: 32 x 32 x 64, Output: 32 x 32 x 64, Kernel: 3 x 3 x 64, Map: 64, Stride: 1 x 1 x 64, Sharing: (1, 1, 1), AutoPad: (1, 1, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+z.x._._.x._._.x.x._.x._.x: using GEMM convolution engine for geometry: Input: 32 x 32 x 64, Output: 15 x 15 x 64, Kernel: 3 x 3 x 1, Map: 1, Stride: 2 x 2 x 1, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+z.x._._.x._._.x.x._.x._.c: using GEMM convolution engine for geometry: Input: 15 x 15 x 64, Output: 15 x 15 x 64, Kernel: 3 x 3 x 64, Map: 64, Stride: 1 x 1 x 64, Sharing: (1, 1, 1), AutoPad: (1, 1, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+z.x._._.x._._.x.x._.c: using GEMM convolution engine for geometry: Input: 15 x 15 x 64, Output: 15 x 15 x 64, Kernel: 3 x 3 x 64, Map: 64, Stride: 1 x 1 x 64, Sharing: (1, 1, 1), AutoPad: (1, 1, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+_z.x._._.x._._.x: using GEMM convolution engine for geometry: Input: 15 x 15 x 64, Output: 7 x 7 x 64, Kernel: 3 x 3 x 1, Map: 1, Stride: 2 x 2 x 1, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
 
 
 
 Post-processing network complete.
 
-05/08/2017 19:11:15: 
-Model has 46 nodes. Using GPU 0.
+12/12/2017 01:05:53: 
+Model has 46 nodes. Using CPU.
 
-05/08/2017 19:11:15: Training criterion:   ce = CrossEntropyWithSoftmax
-05/08/2017 19:11:15: Evaluation criterion: errs = ClassificationError
+12/12/2017 01:05:53: Training criterion:   ce = CrossEntropyWithSoftmax
+12/12/2017 01:05:53: Evaluation criterion: errs = ClassificationError
 
 
 Allocating matrices for forward and/or backward propagation.
 
-Memory Sharing: Out of 85 matrices, 59 are shared as 13, and 26 are not shared.
+Gradient Memory Aliasing: 14 are aliased.
+	z.x._._.x._._.x.x._.x._.x.x._.c (gradient) reuses z.x._._.x._._.x.x._.x._.x.x._.res.x (gradient)
+	z.PlusArgs[0] (gradient) reuses z (gradient)
+	z.x._._.x._._.x.PlusArgs[0] (gradient) reuses z.x._._.x._._.x (gradient)
+	z.x._._.x._._.x.x._.x._.c (gradient) reuses z.x._._.x._._.x.x._.x._.res.x (gradient)
+	z.x._._.x._._.x.x._.c (gradient) reuses z.x._._.x._._.x.x._.res.x (gradient)
+	z.x._._.x.PlusArgs[0] (gradient) reuses z.x._._.x (gradient)
+	z.x._._.x._._.x.x._.x._.x.x._.x._.c (gradient) reuses z.x._._.x._._.x.x._.x._.x.x._.x._.res.x (gradient)
+
+Memory Sharing: Out of 85 matrices, 58 are shared as 12, and 27 are not shared.
 
 Here are the ones that share memory:
-	{ model.arrayOfFunctions[3].b : [1 x 1 x 64] (gradient)
-	  z.x._._.x._._.x.x._.x : [15 x 15 x 64 x *]
-	  z.x._._.x._._.x.x._.x._.c : [15 x 15 x 64 x *] (gradient) }
-	{ model.arrayOfFunctions[3].W : [3 x 3 x 64 x 64] (gradient)
-	  z.x._ : [128 x *]
-	  z.x._._.x.PlusArgs[0] : [128 x *]
-	  z.x._._.x._ : [256 x *] (gradient)
-	  z.x._._.x._._.x : [256 x *]
-	  z.x._._.x._._.x.x : [15 x 15 x 64 x *] (gradient)
-	  z.x._._.x._._.x.x._.c : [15 x 15 x 64 x *] (gradient)
-	  z.x._._.x._._.x.x._.res.x : [15 x 15 x 64 x *]
-	  z.x._._.x._._.x.x._.x._.res.x : [15 x 15 x 64 x *]
-	  z.x._._.x._._.x.x._.x._.res.x : [15 x 15 x 64 x *] (gradient)
-	  z.x._._.x._._.x.x._.x._.x.x : [32 x 32 x 64 x *] (gradient) }
-	{ model.arrayOfFunctions[6].b : [1 x 1 x 64] (gradient)
-	  z.x._._.x._ : [256 x *]
-	  z.x._._.x._._.x.PlusArgs[0] : [256 x *] (gradient) }
-	{ model.arrayOfFunctions[17].W : [10 x 128] (gradient)
-	  z : [10 x *] (gradient) }
-	{ z.x._._.x._._.x.x._.x._.x.x : [32 x 32 x 64 x *]
-	  z.x._._.x._._.x.x._.x._.x.x._.c : [32 x 32 x 64 x *]
-	  z.x._._.x._._.x.x._.x._.x.x._.c : [32 x 32 x 64 x *] (gradient)
-	  z.x._._.x._._.x.x._.x._.x.x._.x._.res.x : [32 x 32 x 64 x *]
-	  z.x._._.x._._.x.x._.x._.x.x._.x._.res.x : [32 x 32 x 64 x *] (gradient) }
 	{ _z.x._._.x._._.x : [7 x 7 x 64 x *]
 	  model.arrayOfFunctions[1].b : [1 x 1 x 64] (gradient)
+	  z.x._._.x._._.x.x._.c : [15 x 15 x 64 x *] (gradient)
+	  z.x._._.x._._.x.x._.res.x : [15 x 15 x 64 x *]
 	  z.x._._.x._._.x.x._.res.x : [15 x 15 x 64 x *] (gradient)
-	  z.x._._.x._._.x.x._.x._.x : [15 x 15 x 64 x *] (gradient) }
+	  z.x._._.x._._.x.x._.x._.c : [15 x 15 x 64 x *] (gradient)
+	  z.x._._.x._._.x.x._.x._.res.x : [15 x 15 x 64 x *]
+	  z.x._._.x._._.x.x._.x._.res.x : [15 x 15 x 64 x *] (gradient)
+	  z.x._._.x._._.x.x._.x._.x.x : [32 x 32 x 64 x *] (gradient)
+	  z.x._._.x._._.x.x._.x._.x.x._.res.x : [32 x 32 x 64 x *]
+	  z.x._._.x._._.x.x._.x._.x.x._.x : [32 x 32 x 64 x *] (gradient) }
 	{ _z.x._._.x : [256 x *]
-	  model.arrayOfFunctions[11].arrayOfFunctions[0].W : [256 x 7 x 7 x 64] (gradient) }
-	{ model.arrayOfFunctions[6].W : [3 x 3 x 64 x 64] (gradient)
-	  z.x._._.x._._.x.x : [15 x 15 x 64 x *]
+	  z.x._._.x._._.x : [256 x *]
+	  z.x._._.x._._.x : [256 x *] (gradient)
+	  z.x._._.x._._.x.PlusArgs[0] : [256 x *] (gradient)
+	  z.x._._.x._._.x.x : [15 x 15 x 64 x *] (gradient)
 	  z.x._._.x._._.x.x._.c : [15 x 15 x 64 x *]
 	  z.x._._.x._._.x.x._.x : [15 x 15 x 64 x *] (gradient)
-	  z.x._._.x._._.x.x._.x._.c : [15 x 15 x 64 x *] }
-	{ model.arrayOfFunctions[14].arrayOfFunctions[0].W : [128 x 256] (gradient)
+	  z.x._._.x._._.x.x._.x._.c : [15 x 15 x 64 x *]
+	  z.x._._.x._._.x.x._.x._.x : [15 x 15 x 64 x *] (gradient)
+	  z.x._._.x._._.x.x._.x._.x.x._.c : [32 x 32 x 64 x *] (gradient)
+	  z.x._._.x._._.x.x._.x._.x.x._.res.x : [32 x 32 x 64 x *] (gradient) }
+	{ model.arrayOfFunctions[8].W : [3 x 3 x 64 x 64] (gradient)
+	  z.x._._.x._._.x.x : [15 x 15 x 64 x *] }
+	{ _z.x._._.x._._.x : [7 x 7 x 64 x *] (gradient)
+	  model.arrayOfFunctions[6].b : [1 x 1 x 64] (gradient)
+	  z.x._._.x._ : [256 x *]
+	  z.x._._.x._._.x.PlusArgs[0] : [256 x *] }
+	{ model.arrayOfFunctions[11].arrayOfFunctions[0].W : [256 x 7 x 7 x 64] (gradient)
+	  z.x : [128 x *]
+	  z.x._._.x : [128 x *]
+	  z.x._._.x._ : [256 x *] (gradient) }
+	{ _z.x._._.x : [256 x *] (gradient)
+	  model.arrayOfFunctions[11].arrayOfFunctions[0].b : [256] (gradient)
+	  z : [10 x *] (gradient)
 	  z.PlusArgs[0] : [10 x *]
 	  z.PlusArgs[0] : [10 x *] (gradient)
-	  z.x._ : [128 x *] (gradient) }
-	{ model.arrayOfFunctions[11].arrayOfFunctions[0].b : [256] (gradient)
-	  z.x : [128 x *]
-	  z.x._._.x.PlusArgs[0] : [128 x *] (gradient) }
-	{ _z.x._._.x : [256 x *] (gradient)
-	  _z.x._._.x._._.x : [7 x 7 x 64 x *] (gradient)
-	  model.arrayOfFunctions[8].W : [3 x 3 x 64 x 64] (gradient)
+	  z.x._ : [128 x *] (gradient)
+	  z.x._._.x.PlusArgs[0] : [128 x *] }
+	{ model.arrayOfFunctions[3].W : [3 x 3 x 64 x 64] (gradient)
+	  z.x._._.x._._.x.x._.x._.x : [15 x 15 x 64 x *] }
+	{ model.arrayOfFunctions[6].W : [3 x 3 x 64 x 64] (gradient)
+	  z.x._._.x._._.x.x._.x : [15 x 15 x 64 x *] }
+	{ model.arrayOfFunctions[14].arrayOfFunctions[0].W : [128 x 256] (gradient)
+	  z.x._ : [128 x *] }
+	{ model.arrayOfFunctions[3].b : [1 x 1 x 64] (gradient)
 	  z : [10 x *]
 	  z.x : [128 x *] (gradient)
-	  z.x._._.x : [128 x *]
 	  z.x._._.x : [128 x *] (gradient)
-	  z.x._._.x._._.x : [256 x *] (gradient)
-	  z.x._._.x._._.x.PlusArgs[0] : [256 x *] }
+	  z.x._._.x.PlusArgs[0] : [128 x *] (gradient) }
 	{ model.arrayOfFunctions[1].W : [3 x 3 x 3 x 64] (gradient)
 	  z.x._._.x._._.x.x._.x._.x.x._.x : [32 x 32 x 64 x *]
 	  z.x._._.x._._.x.x._.x._.x.x._.x._.c : [32 x 32 x 64 x *] }
-	{ z.x._._.x._._.x.x._.x._.x : [15 x 15 x 64 x *]
-	  z.x._._.x._._.x.x._.x._.x.x._.res.x : [32 x 32 x 64 x *]
-	  z.x._._.x._._.x.x._.x._.x.x._.res.x : [32 x 32 x 64 x *] (gradient)
-	  z.x._._.x._._.x.x._.x._.x.x._.x : [32 x 32 x 64 x *] (gradient)
-	  z.x._._.x._._.x.x._.x._.x.x._.x._.c : [32 x 32 x 64 x *] (gradient) }
+	{ z.x._._.x._._.x.x._.x._.x.x : [32 x 32 x 64 x *]
+	  z.x._._.x._._.x.x._.x._.x.x._.c : [32 x 32 x 64 x *]
+	  z.x._._.x._._.x.x._.x._.x.x._.x._.c : [32 x 32 x 64 x *] (gradient)
+	  z.x._._.x._._.x.x._.x._.x.x._.x._.res.x : [32 x 32 x 64 x *]
+	  z.x._._.x._._.x.x._.x._.x.x._.x._.res.x : [32 x 32 x 64 x *] (gradient) }
 
 Here are the ones that don't share memory:
 	{top5Errs : [1]}
-	{labels : [10 x *]}
-	{model.arrayOfFunctions[17].W : [10 x 128]}
-	{inputs.inputs[2] : [1 x 1]}
 	{model.arrayOfFunctions[17].b : [10]}
-	{model.arrayOfFunctions[11].arrayOfFunctions[0].b : [256]}
-	{model.arrayOfFunctions[14].arrayOfFunctions[0].W : [128 x 256]}
+	{errs : [1]}
+	{labels : [10 x *]}
 	{model.arrayOfFunctions[14].arrayOfFunctions[0].b : [128]}
-	{model.arrayOfFunctions[8].b : [1 x 1 x 64]}
+	{model.arrayOfFunctions[17].W : [10 x 128]}
+	{z.x._._.x._._.x.x._.x._.x.x._.x._.x : [32 x 32 x 3 x *]}
+	{inputs.inputs[2] : [1 x 1]}
+	{model.arrayOfFunctions[14].arrayOfFunctions[0].W : [128 x 256]}
+	{model.arrayOfFunctions[11].arrayOfFunctions[0].b : [256]}
 	{model.arrayOfFunctions[11].arrayOfFunctions[0].W : [256 x 7 x 7 x 64]}
-	{model.arrayOfFunctions[8].W : [3 x 3 x 64 x 64]}
-	{model.arrayOfFunctions[3].b : [1 x 1 x 64]}
-	{model.arrayOfFunctions[6].W : [3 x 3 x 64 x 64]}
-	{model.arrayOfFunctions[3].W : [3 x 3 x 64 x 64]}
+	{ce : [1]}
+	{model.arrayOfFunctions[17].W : [10 x 128] (gradient)}
+	{model.arrayOfFunctions[8].b : [1 x 1 x 64]}
 	{model.arrayOfFunctions[6].b : [1 x 1 x 64]}
+	{model.arrayOfFunctions[8].W : [3 x 3 x 64 x 64]}
+	{model.arrayOfFunctions[6].W : [3 x 3 x 64 x 64]}
+	{model.arrayOfFunctions[3].b : [1 x 1 x 64]}
+	{model.arrayOfFunctions[17].b : [10] (gradient)}
+	{ce : [1] (gradient)}
+	{_z.x._._.x._._.x.x._.x._.x.x._.x._.x : [1]}
+	{model.arrayOfFunctions[14].arrayOfFunctions[0].b : [128] (gradient)}
+	{model.arrayOfFunctions[8].b : [1 x 1 x 64] (gradient)}
+	{model.arrayOfFunctions[3].W : [3 x 3 x 64 x 64]}
+	{features : [32 x 32 x 3 x *]}
 	{model.arrayOfFunctions[1].b : [1 x 1 x 64]}
 	{model.arrayOfFunctions[1].W : [3 x 3 x 3 x 64]}
-	{features : [32 x 32 x 3 x *]}
-	{_z.x._._.x._._.x.x._.x._.x.x._.x._.x : [1]}
-	{errs : [1]}
-	{ce : [1]}
-	{ce : [1] (gradient)}
-	{model.arrayOfFunctions[14].arrayOfFunctions[0].b : [128] (gradient)}
-	{z.x._._.x._._.x.x._.x._.x.x._.x._.x : [32 x 32 x 3 x *]}
-	{model.arrayOfFunctions[8].b : [1 x 1 x 64] (gradient)}
-	{model.arrayOfFunctions[17].b : [10] (gradient)}
 
 
-05/08/2017 19:11:15: Training 949834 parameters in 14 out of 14 parameter tensors and 39 nodes with gradient:
+12/12/2017 01:05:53: Training 949834 parameters in 14 out of 14 parameter tensors and 39 nodes with gradient:
 
-05/08/2017 19:11:15: 	Node 'model.arrayOfFunctions[11].arrayOfFunctions[0].W' (LearnableParameter operation) : [256 x 7 x 7 x 64]
-05/08/2017 19:11:15: 	Node 'model.arrayOfFunctions[11].arrayOfFunctions[0].b' (LearnableParameter operation) : [256]
-05/08/2017 19:11:15: 	Node 'model.arrayOfFunctions[14].arrayOfFunctions[0].W' (LearnableParameter operation) : [128 x 256]
-05/08/2017 19:11:15: 	Node 'model.arrayOfFunctions[14].arrayOfFunctions[0].b' (LearnableParameter operation) : [128]
-05/08/2017 19:11:15: 	Node 'model.arrayOfFunctions[17].W' (LearnableParameter operation) : [10 x 128]
-05/08/2017 19:11:15: 	Node 'model.arrayOfFunctions[17].b' (LearnableParameter operation) : [10]
-05/08/2017 19:11:15: 	Node 'model.arrayOfFunctions[1].W' (LearnableParameter operation) : [3 x 3 x 3 x 64]
-05/08/2017 19:11:15: 	Node 'model.arrayOfFunctions[1].b' (LearnableParameter operation) : [1 x 1 x 64]
-05/08/2017 19:11:15: 	Node 'model.arrayOfFunctions[3].W' (LearnableParameter operation) : [3 x 3 x 64 x 64]
-05/08/2017 19:11:15: 	Node 'model.arrayOfFunctions[3].b' (LearnableParameter operation) : [1 x 1 x 64]
-05/08/2017 19:11:15: 	Node 'model.arrayOfFunctions[6].W' (LearnableParameter operation) : [3 x 3 x 64 x 64]
-05/08/2017 19:11:15: 	Node 'model.arrayOfFunctions[6].b' (LearnableParameter operation) : [1 x 1 x 64]
-05/08/2017 19:11:15: 	Node 'model.arrayOfFunctions[8].W' (LearnableParameter operation) : [3 x 3 x 64 x 64]
-05/08/2017 19:11:15: 	Node 'model.arrayOfFunctions[8].b' (LearnableParameter operation) : [1 x 1 x 64]
+12/12/2017 01:05:53: 	Node 'model.arrayOfFunctions[11].arrayOfFunctions[0].W' (LearnableParameter operation) : [256 x 7 x 7 x 64]
+12/12/2017 01:05:53: 	Node 'model.arrayOfFunctions[11].arrayOfFunctions[0].b' (LearnableParameter operation) : [256]
+12/12/2017 01:05:53: 	Node 'model.arrayOfFunctions[14].arrayOfFunctions[0].W' (LearnableParameter operation) : [128 x 256]
+12/12/2017 01:05:53: 	Node 'model.arrayOfFunctions[14].arrayOfFunctions[0].b' (LearnableParameter operation) : [128]
+12/12/2017 01:05:53: 	Node 'model.arrayOfFunctions[17].W' (LearnableParameter operation) : [10 x 128]
+12/12/2017 01:05:53: 	Node 'model.arrayOfFunctions[17].b' (LearnableParameter operation) : [10]
+12/12/2017 01:05:53: 	Node 'model.arrayOfFunctions[1].W' (LearnableParameter operation) : [3 x 3 x 3 x 64]
+12/12/2017 01:05:53: 	Node 'model.arrayOfFunctions[1].b' (LearnableParameter operation) : [1 x 1 x 64]
+12/12/2017 01:05:53: 	Node 'model.arrayOfFunctions[3].W' (LearnableParameter operation) : [3 x 3 x 64 x 64]
+12/12/2017 01:05:53: 	Node 'model.arrayOfFunctions[3].b' (LearnableParameter operation) : [1 x 1 x 64]
+12/12/2017 01:05:53: 	Node 'model.arrayOfFunctions[6].W' (LearnableParameter operation) : [3 x 3 x 64 x 64]
+12/12/2017 01:05:53: 	Node 'model.arrayOfFunctions[6].b' (LearnableParameter operation) : [1 x 1 x 64]
+12/12/2017 01:05:53: 	Node 'model.arrayOfFunctions[8].W' (LearnableParameter operation) : [3 x 3 x 64 x 64]
+12/12/2017 01:05:53: 	Node 'model.arrayOfFunctions[8].b' (LearnableParameter operation) : [1 x 1 x 64]
 
-05/08/2017 19:11:15: No PreCompute nodes found, or all already computed. Skipping pre-computation step.
+12/12/2017 01:05:53: No PreCompute nodes found, or all already computed. Skipping pre-computation step.
 Setting dropout rate to 0.5.
 
-05/08/2017 19:11:15: Starting Epoch 1: learning rate per sample = 0.001563  effective momentum = 0.000000  momentum as time constant = 0.0 samples
+12/12/2017 01:05:53: Starting Epoch 1: learning rate per sample = 0.001563  effective momentum = 0.000000  momentum as time constant = 0.0 samples
 
-05/08/2017 19:11:15: Starting minibatch loop.
-(GPU): creating curand object with seed 0
-(GPU): creating curand object with seed 1
-05/08/2017 19:11:18:  Epoch[ 1 of 3]-Minibatch[   1-  16, 25.00%]: ce = 2.29821801 * 1024; errs = 89.160% * 1024; time = 2.3506s; samplesPerSecond = 435.6
-05/08/2017 19:11:18:  Epoch[ 1 of 3]-Minibatch[  17-  32, 50.00%]: ce = 2.29916739 * 1024; errs = 87.988% * 1024; time = 0.4976s; samplesPerSecond = 2057.9
-05/08/2017 19:11:19:  Epoch[ 1 of 3]-Minibatch[  33-  48, 75.00%]: ce = 2.28768778 * 1024; errs = 87.305% * 1024; time = 0.4981s; samplesPerSecond = 2055.9
-05/08/2017 19:11:19:  Epoch[ 1 of 3]-Minibatch[  49-  64, 100.00%]: ce = 2.24976301 * 1024; errs = 83.789% * 1024; time = 0.4973s; samplesPerSecond = 2059.2
-05/08/2017 19:11:19: Finished Epoch[ 1 of 3]: [Training] ce = 2.28370905 * 4096; errs = 87.061% * 4096; totalSamplesSeen = 4096; learningRatePerSample = 0.0015625; epochTime=3.85148s
-05/08/2017 19:11:19: SGD: Saving checkpoint model 'C:\cygwin64\tmp\cntk-test-20170508111112.960863\Examples\Image\Classification\ConvNet_ConvNet_CIFAR10_DataAug@release_gpu/Models/ConvNet_CIFAR10_DataAug.1'
+12/12/2017 01:05:53: Starting minibatch loop.
+12/12/2017 01:06:15:  Epoch[ 1 of 3]-Minibatch[   1-  16, 25.00%]: ce = 2.30014062 * 1024; errs = 89.355% * 1024; time = 21.9480s; samplesPerSecond = 46.7
+12/12/2017 01:06:38:  Epoch[ 1 of 3]-Minibatch[  17-  32, 50.00%]: ce = 2.28534150 * 1024; errs = 84.668% * 1024; time = 22.2369s; samplesPerSecond = 46.0
+12/12/2017 01:06:59:  Epoch[ 1 of 3]-Minibatch[  33-  48, 75.00%]: ce = 2.28059292 * 1024; errs = 86.523% * 1024; time = 21.8702s; samplesPerSecond = 46.8
+12/12/2017 01:07:21:  Epoch[ 1 of 3]-Minibatch[  49-  64, 100.00%]: ce = 2.24815416 * 1024; errs = 85.938% * 1024; time = 21.9077s; samplesPerSecond = 46.7
+12/12/2017 01:07:21: Finished Epoch[ 1 of 3]: [Training] ce = 2.27855730 * 4096; errs = 86.621% * 4096; totalSamplesSeen = 4096; learningRatePerSample = 0.0015625; epochTime=87.9667s
+12/12/2017 01:07:21: SGD: Saving checkpoint model '/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu/Models/ConvNet_CIFAR10_DataAug.1'
 
-05/08/2017 19:11:19: Starting Epoch 2: learning rate per sample = 0.001563  effective momentum = 0.000000  momentum as time constant = 0.0 samples
+12/12/2017 01:07:21: Starting Epoch 2: learning rate per sample = 0.001563  effective momentum = 0.000000  momentum as time constant = 0.0 samples
 
-05/08/2017 19:11:19: Starting minibatch loop.
-(GPU): creating curand object with seed 2
-(GPU): creating curand object with seed 3
-05/08/2017 19:11:20:  Epoch[ 2 of 3]-Minibatch[   1-  16, 25.00%]: ce = 2.21508861 * 1024; errs = 83.691% * 1024; time = 0.5852s; samplesPerSecond = 1749.8
-05/08/2017 19:11:20:  Epoch[ 2 of 3]-Minibatch[  17-  32, 50.00%]: ce = 2.18572211 * 1024; errs = 82.715% * 1024; time = 0.4954s; samplesPerSecond = 2066.8
-05/08/2017 19:11:37:  Epoch[ 2 of 3]-Minibatch[  33-  48, 75.00%]: ce = 2.15456247 * 1024; errs = 79.395% * 1024; time = 16.4937s; samplesPerSecond = 62.1
-05/08/2017 19:11:53:  Epoch[ 2 of 3]-Minibatch[  49-  64, 100.00%]: ce = 2.14946270 * 1024; errs = 81.055% * 1024; time = 16.4152s; samplesPerSecond = 62.4
-05/08/2017 19:11:53: Finished Epoch[ 2 of 3]: [Training] ce = 2.17620897 * 4096; errs = 81.714% * 4096; totalSamplesSeen = 8192; learningRatePerSample = 0.0015625; epochTime=33.9933s
-05/08/2017 19:11:53: SGD: Saving checkpoint model 'C:\cygwin64\tmp\cntk-test-20170508111112.960863\Examples\Image\Classification\ConvNet_ConvNet_CIFAR10_DataAug@release_gpu/Models/ConvNet_CIFAR10_DataAug.2'
+12/12/2017 01:07:21: Starting minibatch loop.
+12/12/2017 01:07:43:  Epoch[ 2 of 3]-Minibatch[   1-  16, 25.00%]: ce = 2.22114182 * 1024; errs = 82.520% * 1024; time = 22.0384s; samplesPerSecond = 46.5
+12/12/2017 01:08:05:  Epoch[ 2 of 3]-Minibatch[  17-  32, 50.00%]: ce = 2.15987825 * 1024; errs = 82.227% * 1024; time = 21.8571s; samplesPerSecond = 46.8
+12/12/2017 01:08:27:  Epoch[ 2 of 3]-Minibatch[  33-  48, 75.00%]: ce = 2.17947865 * 1024; errs = 81.738% * 1024; time = 21.8844s; samplesPerSecond = 46.8
+12/12/2017 01:08:49:  Epoch[ 2 of 3]-Minibatch[  49-  64, 100.00%]: ce = 2.17232084 * 1024; errs = 81.738% * 1024; time = 21.9018s; samplesPerSecond = 46.8
+12/12/2017 01:08:49: Finished Epoch[ 2 of 3]: [Training] ce = 2.18320489 * 4096; errs = 82.056% * 4096; totalSamplesSeen = 8192; learningRatePerSample = 0.0015625; epochTime=87.6829s
+12/12/2017 01:08:49: SGD: Saving checkpoint model '/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu/Models/ConvNet_CIFAR10_DataAug.2'
 
-05/08/2017 19:11:53: Starting Epoch 3: learning rate per sample = 0.001563  effective momentum = 0.000000  momentum as time constant = 0.0 samples
+12/12/2017 01:08:49: Starting Epoch 3: learning rate per sample = 0.001563  effective momentum = 0.000000  momentum as time constant = 0.0 samples
 
-05/08/2017 19:11:53: Starting minibatch loop.
-(GPU): creating curand object with seed 4
-(GPU): creating curand object with seed 5
-05/08/2017 19:12:10:  Epoch[ 3 of 3]-Minibatch[   1-  16, 25.00%]: ce = 2.11168361 * 1024; errs = 79.199% * 1024; time = 16.8525s; samplesPerSecond = 60.8
-05/08/2017 19:12:27:  Epoch[ 3 of 3]-Minibatch[  17-  32, 50.00%]: ce = 2.12423587 * 1024; errs = 79.492% * 1024; time = 16.7599s; samplesPerSecond = 61.1
-05/08/2017 19:12:43:  Epoch[ 3 of 3]-Minibatch[  33-  48, 75.00%]: ce = 2.09917402 * 1024; errs = 79.102% * 1024; time = 16.2973s; samplesPerSecond = 62.8
-05/08/2017 19:13:00:  Epoch[ 3 of 3]-Minibatch[  49-  64, 100.00%]: ce = 2.11960983 * 1024; errs = 78.613% * 1024; time = 16.4589s; samplesPerSecond = 62.2
-05/08/2017 19:13:00: Finished Epoch[ 3 of 3]: [Training] ce = 2.11367583 * 4096; errs = 79.102% * 4096; totalSamplesSeen = 12288; learningRatePerSample = 0.0015625; epochTime=66.372s
-05/08/2017 19:13:00: SGD: Saving checkpoint model 'C:\cygwin64\tmp\cntk-test-20170508111112.960863\Examples\Image\Classification\ConvNet_ConvNet_CIFAR10_DataAug@release_gpu/Models/ConvNet_CIFAR10_DataAug'
+12/12/2017 01:08:49: Starting minibatch loop.
+12/12/2017 01:09:11:  Epoch[ 3 of 3]-Minibatch[   1-  16, 25.00%]: ce = 2.10595345 * 1024; errs = 79.199% * 1024; time = 21.8446s; samplesPerSecond = 46.9
+12/12/2017 01:09:33:  Epoch[ 3 of 3]-Minibatch[  17-  32, 50.00%]: ce = 2.13139796 * 1024; errs = 79.883% * 1024; time = 21.8671s; samplesPerSecond = 46.8
+12/12/2017 01:09:55:  Epoch[ 3 of 3]-Minibatch[  33-  48, 75.00%]: ce = 2.12842274 * 1024; errs = 78.906% * 1024; time = 21.9457s; samplesPerSecond = 46.7
+12/12/2017 01:10:17:  Epoch[ 3 of 3]-Minibatch[  49-  64, 100.00%]: ce = 2.11394787 * 1024; errs = 78.906% * 1024; time = 21.8173s; samplesPerSecond = 46.9
+12/12/2017 01:10:17: Finished Epoch[ 3 of 3]: [Training] ce = 2.11993051 * 4096; errs = 79.224% * 4096; totalSamplesSeen = 12288; learningRatePerSample = 0.0015625; epochTime=87.4756s
+12/12/2017 01:10:17: SGD: Saving checkpoint model '/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_CIFAR_ConvNet_CIFAR10_DataAug@release_cpu/Models/ConvNet_CIFAR10_DataAug'
 
-05/08/2017 19:13:00: Action "train" complete.
+12/12/2017 01:10:17: Action "train" complete.
 
 
-05/08/2017 19:13:00: ##############################################################################
-05/08/2017 19:13:00: #                                                                            #
-05/08/2017 19:13:00: # Eval command (eval action)                                                 #
-05/08/2017 19:13:00: #                                                                            #
-05/08/2017 19:13:00: ##############################################################################
+12/12/2017 01:10:17: ##############################################################################
+12/12/2017 01:10:17: #                                                                            #
+12/12/2017 01:10:17: # Eval command (eval action)                                                 #
+12/12/2017 01:10:17: #                                                                            #
+12/12/2017 01:10:17: ##############################################################################
 
 
 Post-processing network...
@@ -466,12 +466,12 @@ Validating network. 28 nodes to process in pass 2.
 
 Validating network, final pass.
 
-z.x._._.x._._.x.x._.x._.x.x._.x._.c: using cuDNN convolution engine for geometry: Input: 32 x 32 x 3, Output: 32 x 32 x 64, Kernel: 3 x 3 x 3, Map: 64, Stride: 1 x 1 x 3, Sharing: (1, 1, 1), AutoPad: (1, 1, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
-z.x._._.x._._.x.x._.x._.x.x._.c: using cuDNN convolution engine for geometry: Input: 32 x 32 x 64, Output: 32 x 32 x 64, Kernel: 3 x 3 x 64, Map: 64, Stride: 1 x 1 x 64, Sharing: (1, 1, 1), AutoPad: (1, 1, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
-z.x._._.x._._.x.x._.x._.x: using cuDNN convolution engine for geometry: Input: 32 x 32 x 64, Output: 15 x 15 x 64, Kernel: 3 x 3 x 1, Map: 1, Stride: 2 x 2 x 1, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
-z.x._._.x._._.x.x._.x._.c: using cuDNN convolution engine for geometry: Input: 15 x 15 x 64, Output: 15 x 15 x 64, Kernel: 3 x 3 x 64, Map: 64, Stride: 1 x 1 x 64, Sharing: (1, 1, 1), AutoPad: (1, 1, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
-z.x._._.x._._.x.x._.c: using cuDNN convolution engine for geometry: Input: 15 x 15 x 64, Output: 15 x 15 x 64, Kernel: 3 x 3 x 64, Map: 64, Stride: 1 x 1 x 64, Sharing: (1, 1, 1), AutoPad: (1, 1, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
-_z.x._._.x._._.x: using cuDNN convolution engine for geometry: Input: 15 x 15 x 64, Output: 7 x 7 x 64, Kernel: 3 x 3 x 1, Map: 1, Stride: 2 x 2 x 1, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+z.x._._.x._._.x.x._.x._.x.x._.x._.c: using GEMM convolution engine for geometry: Input: 32 x 32 x 3, Output: 32 x 32 x 64, Kernel: 3 x 3 x 3, Map: 64, Stride: 1 x 1 x 3, Sharing: (1, 1, 1), AutoPad: (1, 1, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+z.x._._.x._._.x.x._.x._.x.x._.c: using GEMM convolution engine for geometry: Input: 32 x 32 x 64, Output: 32 x 32 x 64, Kernel: 3 x 3 x 64, Map: 64, Stride: 1 x 1 x 64, Sharing: (1, 1, 1), AutoPad: (1, 1, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+z.x._._.x._._.x.x._.x._.x: using GEMM convolution engine for geometry: Input: 32 x 32 x 64, Output: 15 x 15 x 64, Kernel: 3 x 3 x 1, Map: 1, Stride: 2 x 2 x 1, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+z.x._._.x._._.x.x._.x._.c: using GEMM convolution engine for geometry: Input: 15 x 15 x 64, Output: 15 x 15 x 64, Kernel: 3 x 3 x 64, Map: 64, Stride: 1 x 1 x 64, Sharing: (1, 1, 1), AutoPad: (1, 1, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+z.x._._.x._._.x.x._.c: using GEMM convolution engine for geometry: Input: 15 x 15 x 64, Output: 15 x 15 x 64, Kernel: 3 x 3 x 64, Map: 64, Stride: 1 x 1 x 64, Sharing: (1, 1, 1), AutoPad: (1, 1, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+_z.x._._.x._._.x: using GEMM convolution engine for geometry: Input: 15 x 15 x 64, Output: 7 x 7 x 64, Kernel: 3 x 3 x 1, Map: 1, Stride: 2 x 2 x 1, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
 
 
 
@@ -484,6 +484,12 @@ Allocating matrices for forward and/or backward propagation.
 Memory Sharing: Out of 46 matrices, 25 are shared as 3, and 21 are not shared.
 
 Here are the ones that share memory:
+	{ z.x._._.x._._.x.x._.res.x : [15 x 15 x 64 x *1]
+	  z.x._._.x._._.x.x._.x._.res.x : [15 x 15 x 64 x *1]
+	  z.x._._.x._._.x.x._.x._.x : [15 x 15 x 64 x *1]
+	  z.x._._.x._._.x.x._.x._.x.x._.res.x : [32 x 32 x 64 x *1]
+	  z.x._._.x._._.x.x._.x._.x.x._.x : [32 x 32 x 64 x *1]
+	  z.x._._.x._._.x.x._.x._.x.x._.x._.c : [32 x 32 x 64 x *1] }
 	{ z.PlusArgs[0] : [10 x *1]
 	  z.x._ : [128 x *1]
 	  z.x._._.x.PlusArgs[0] : [128 x *1]
@@ -495,12 +501,6 @@ Here are the ones that share memory:
 	  z.x._._.x._._.x.x._.x._.x.x : [32 x 32 x 64 x *1]
 	  z.x._._.x._._.x.x._.x._.x.x._.c : [32 x 32 x 64 x *1]
 	  z.x._._.x._._.x.x._.x._.x.x._.x._.res.x : [32 x 32 x 64 x *1] }
-	{ z.x._._.x._._.x.x._.res.x : [15 x 15 x 64 x *1]
-	  z.x._._.x._._.x.x._.x._.res.x : [15 x 15 x 64 x *1]
-	  z.x._._.x._._.x.x._.x._.x : [15 x 15 x 64 x *1]
-	  z.x._._.x._._.x.x._.x._.x.x._.res.x : [32 x 32 x 64 x *1]
-	  z.x._._.x._._.x.x._.x._.x.x._.x : [32 x 32 x 64 x *1]
-	  z.x._._.x._._.x.x._.x._.x.x._.x._.c : [32 x 32 x 64 x *1] }
 	{ _z.x._._.x : [256 x *1]
 	  _z.x._._.x._._.x : [7 x 7 x 64 x *1]
 	  z : [10 x *1]
@@ -512,30 +512,30 @@ Here are the ones that share memory:
 
 Here are the ones that don't share memory:
 	{ce : [1]}
-	{features : [32 x 32 x 3 x *1]}
-	{inputs.inputs[2] : [1 x 1]}
+	{model.arrayOfFunctions[1].W : [3 x 3 x 3 x 64]}
+	{model.arrayOfFunctions[3].b : [1 x 1 x 64]}
+	{model.arrayOfFunctions[3].W : [3 x 3 x 64 x 64]}
+	{model.arrayOfFunctions[6].b : [1 x 1 x 64]}
+	{model.arrayOfFunctions[6].W : [3 x 3 x 64 x 64]}
 	{labels : [10 x *1]}
-	{_z.x._._.x._._.x.x._.x._.x.x._.x._.x : [1]}
+	{model.arrayOfFunctions[11].arrayOfFunctions[0].b : [256]}
+	{model.arrayOfFunctions[11].arrayOfFunctions[0].W : [256 x 7 x 7 x 64]}
+	{model.arrayOfFunctions[14].arrayOfFunctions[0].b : [128]}
 	{model.arrayOfFunctions[14].arrayOfFunctions[0].W : [128 x 256]}
+	{model.arrayOfFunctions[17].b : [10]}
 	{model.arrayOfFunctions[17].W : [10 x 128]}
 	{model.arrayOfFunctions[1].b : [1 x 1 x 64]}
-	{model.arrayOfFunctions[11].arrayOfFunctions[0].b : [256]}
-	{model.arrayOfFunctions[14].arrayOfFunctions[0].b : [128]}
-	{model.arrayOfFunctions[17].b : [10]}
-	{model.arrayOfFunctions[11].arrayOfFunctions[0].W : [256 x 7 x 7 x 64]}
-	{top5Errs : [1]}
 	{model.arrayOfFunctions[8].b : [1 x 1 x 64]}
-	{model.arrayOfFunctions[3].b : [1 x 1 x 64]}
-	{model.arrayOfFunctions[6].W : [3 x 3 x 64 x 64]}
-	{model.arrayOfFunctions[1].W : [3 x 3 x 3 x 64]}
-	{model.arrayOfFunctions[6].b : [1 x 1 x 64]}
-	{model.arrayOfFunctions[3].W : [3 x 3 x 64 x 64]}
 	{model.arrayOfFunctions[8].W : [3 x 3 x 64 x 64]}
+	{_z.x._._.x._._.x.x._.x._.x.x._.x._.x : [1]}
+	{features : [32 x 32 x 3 x *1]}
+	{inputs.inputs[2] : [1 x 1]}
 	{errs : [1]}
+	{top5Errs : [1]}
 
-05/08/2017 19:13:02: Minibatch[1-20]: errs = 71.390% * 10000; top5Errs = 20.220% * 10000
-05/08/2017 19:13:02: Final Results: Minibatch[1-20]: errs = 71.390% * 10000; top5Errs = 20.220% * 10000
+12/12/2017 01:11:26: Minibatch[1-20]: errs = 71.710% * 10000; top5Errs = 19.270% * 10000
+12/12/2017 01:11:26: Final Results: Minibatch[1-20]: errs = 71.710% * 10000; top5Errs = 19.270% * 10000
 
-05/08/2017 19:13:02: Action "eval" complete.
+12/12/2017 01:11:26: Action "eval" complete.
 
-05/08/2017 19:13:02: __COMPLETED__
+12/12/2017 01:11:26: __COMPLETED__

@@ -1,49 +1,46 @@
 CPU info:
-    CPU Model Name: Intel(R) Xeon(R) CPU X5680 @ 3.33GHz
+    CPU Model Name: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
     Hardware threads: 12
-    Total Memory: 33537232 kB
+    Total Memory: 57700428 kB
 -------------------------------------------------------------------
-=== Running /cygdrive/d/GitHub/CNTK/x64/release/cntk.exe configFile=D:\GitHub\CNTK\Examples\Image\Classification\ResNet\BrainScript/ResNet110_CIFAR10.cntk currentDirectory=D:\GitHub\CNTK\Examples\Image\DataSets\CIFAR-10 RunDir=C:\cygwin64\tmp\cntk-test-20170509073450.393227\Examples\Image\Classification\ResNet_CIFAR_ResNet110_CIFAR10@release_gpu DataDir=D:\GitHub\CNTK\Examples\Image\DataSets\CIFAR-10 ConfigDir=D:\GitHub\CNTK\Examples\Image\Classification\ResNet\BrainScript OutputDir=C:\cygwin64\tmp\cntk-test-20170509073450.393227\Examples\Image\Classification\ResNet_CIFAR_ResNet110_CIFAR10@release_gpu DeviceId=0 timestamping=true forceDeterministicAlgorithms=true traceLevel=0 stderr=- TrainConvNet=[SGD=[epochSize=512,minibatchSize=32,maxEpochs=3,numMBsToShowResult=8,learningRatesPerMB=0.128]]
-CNTK 2.0rc2+ (HEAD fbb53d, May  8 2017 10:15:58) on CHAZHANG at 2017/05/09 15:34:52
+=== Running /home/ubuntu/workspace/build/1bitsgd/release/bin/cntk configFile=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ResNet_CIFAR/ResNet110_CIFAR10/../../../../../../../Examples/Image/Classification/ResNet/BrainScript/ResNet110_CIFAR10.cntk currentDirectory=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ResNet_CIFAR_ResNet110_CIFAR10@release_cpu/TestData RunDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ResNet_CIFAR_ResNet110_CIFAR10@release_cpu DataDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ResNet_CIFAR_ResNet110_CIFAR10@release_cpu/TestData ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ResNet_CIFAR/ResNet110_CIFAR10/../../../../../../../Examples/Image/Classification/ResNet/BrainScript OutputDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ResNet_CIFAR_ResNet110_CIFAR10@release_cpu DeviceId=-1 timestamping=true forceDeterministicAlgorithms=true traceLevel=0 stderr=- TrainConvNet=[SGD=[epochSize=512,minibatchSize=32,maxEpochs=3,numMBsToShowResult=8,learningRatesPerMB=0.128]]
+CNTK 2.3.1+ (HEAD f4f0f8, Dec 11 2017 18:34:12) at 2017/12/12 01:58:34
 
-D:\GitHub\CNTK\x64\release\cntk.exe  configFile=D:\GitHub\CNTK\Examples\Image\Classification\ResNet\BrainScript/ResNet110_CIFAR10.cntk  currentDirectory=D:\GitHub\CNTK\Examples\Image\DataSets\CIFAR-10  RunDir=C:\cygwin64\tmp\cntk-test-20170509073450.393227\Examples\Image\Classification\ResNet_CIFAR_ResNet110_CIFAR10@release_gpu  DataDir=D:\GitHub\CNTK\Examples\Image\DataSets\CIFAR-10  ConfigDir=D:\GitHub\CNTK\Examples\Image\Classification\ResNet\BrainScript  OutputDir=C:\cygwin64\tmp\cntk-test-20170509073450.393227\Examples\Image\Classification\ResNet_CIFAR_ResNet110_CIFAR10@release_gpu  DeviceId=0  timestamping=true  forceDeterministicAlgorithms=true  traceLevel=0  stderr=-  TrainConvNet=[SGD=[epochSize=512,minibatchSize=32,maxEpochs=3,numMBsToShowResult=8,learningRatesPerMB=0.128]]
-Changed current directory to D:\GitHub\CNTK\Examples\Image\DataSets\CIFAR-10
-05/09/2017 15:34:52: Redirecting stderr to file -_TrainConvNet_Eval.log
-CNTK 2.0rc2+ (HEAD fbb53d, May  8 2017 10:15:58) on CHAZHANG at 2017/05/09 15:34:52
+/home/ubuntu/workspace/build/1bitsgd/release/bin/cntk  configFile=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ResNet_CIFAR/ResNet110_CIFAR10/../../../../../../../Examples/Image/Classification/ResNet/BrainScript/ResNet110_CIFAR10.cntk  currentDirectory=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ResNet_CIFAR_ResNet110_CIFAR10@release_cpu/TestData  RunDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ResNet_CIFAR_ResNet110_CIFAR10@release_cpu  DataDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ResNet_CIFAR_ResNet110_CIFAR10@release_cpu/TestData  ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ResNet_CIFAR/ResNet110_CIFAR10/../../../../../../../Examples/Image/Classification/ResNet/BrainScript  OutputDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ResNet_CIFAR_ResNet110_CIFAR10@release_cpu  DeviceId=-1  timestamping=true  forceDeterministicAlgorithms=true  traceLevel=0  stderr=-  TrainConvNet=[SGD=[epochSize=512,minibatchSize=32,maxEpochs=3,numMBsToShowResult=8,learningRatesPerMB=0.128]]
+Changed current directory to /tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ResNet_CIFAR_ResNet110_CIFAR10@release_cpu/TestData
+12/12/2017 01:58:34: Redirecting stderr to file -_TrainConvNet_Eval.log
+CNTK 2.3.1+ (HEAD f4f0f8, Dec 11 2017 18:34:12) at 2017/12/12 01:58:34
 
-D:\GitHub\CNTK\x64\release\cntk.exe  configFile=D:\GitHub\CNTK\Examples\Image\Classification\ResNet\BrainScript/ResNet110_CIFAR10.cntk  currentDirectory=D:\GitHub\CNTK\Examples\Image\DataSets\CIFAR-10  RunDir=C:\cygwin64\tmp\cntk-test-20170509073450.393227\Examples\Image\Classification\ResNet_CIFAR_ResNet110_CIFAR10@release_gpu  DataDir=D:\GitHub\CNTK\Examples\Image\DataSets\CIFAR-10  ConfigDir=D:\GitHub\CNTK\Examples\Image\Classification\ResNet\BrainScript  OutputDir=C:\cygwin64\tmp\cntk-test-20170509073450.393227\Examples\Image\Classification\ResNet_CIFAR_ResNet110_CIFAR10@release_gpu  DeviceId=0  timestamping=true  forceDeterministicAlgorithms=true  traceLevel=0  stderr=-  TrainConvNet=[SGD=[epochSize=512,minibatchSize=32,maxEpochs=3,numMBsToShowResult=8,learningRatesPerMB=0.128]]
--------------------------------------------------------------------
-Build info: 
+/home/ubuntu/workspace/build/1bitsgd/release/bin/cntk  configFile=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ResNet_CIFAR/ResNet110_CIFAR10/../../../../../../../Examples/Image/Classification/ResNet/BrainScript/ResNet110_CIFAR10.cntk  currentDirectory=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ResNet_CIFAR_ResNet110_CIFAR10@release_cpu/TestData  RunDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ResNet_CIFAR_ResNet110_CIFAR10@release_cpu  DataDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ResNet_CIFAR_ResNet110_CIFAR10@release_cpu/TestData  ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ResNet_CIFAR/ResNet110_CIFAR10/../../../../../../../Examples/Image/Classification/ResNet/BrainScript  OutputDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ResNet_CIFAR_ResNet110_CIFAR10@release_cpu  DeviceId=-1  timestamping=true  forceDeterministicAlgorithms=true  traceLevel=0  stderr=-  TrainConvNet=[SGD=[epochSize=512,minibatchSize=32,maxEpochs=3,numMBsToShowResult=8,learningRatesPerMB=0.128]]
+12/12/2017 01:58:34: -------------------------------------------------------------------
+12/12/2017 01:58:34: Build info: 
 
-		Built time: May  8 2017 10:09:53
-		Last modified date: Mon May  8 09:12:53 2017
-		Build type: Release
-		Build target: GPU
-		With 1bit-SGD: yes
-		With ASGD: yes
-		Math lib: mkl
-		CUDA_PATH: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0
-		CUB_PATH: C:\src\cub-1.4.1
-		CUDNN_PATH: C:\local\cudnn-8.0-v5.1\cuda
-		Build Branch: master
-		Build SHA1: 190dc1b3042d62c20aeba5bd336bbeaa8a6466ca
-		Built by chazhang on CHAZHANG
-		Build Path: D:\GitHub\CNTK\Source\CNTKv2LibraryDll\
-		MPI distribution: Microsoft MPI
-		MPI version: 7.0.12437.6
--------------------------------------------------------------------
--------------------------------------------------------------------
-GPU info:
+12/12/2017 01:58:34: 		Built time: Dec 11 2017 18:28:39
+12/12/2017 01:58:34: 		Last modified date: Wed Nov 15 09:27:10 2017
+12/12/2017 01:58:34: 		Build type: release
+12/12/2017 01:58:34: 		Build target: GPU
+12/12/2017 01:58:34: 		With 1bit-SGD: yes
+12/12/2017 01:58:34: 		With ASGD: yes
+12/12/2017 01:58:34: 		Math lib: mkl
+12/12/2017 01:58:34: 		CUDA version: 9.0.0
+12/12/2017 01:58:34: 		CUDNN version: 7.0.4
+12/12/2017 01:58:34: 		Build Branch: HEAD
+12/12/2017 01:58:34: 		Build SHA1: f4f0f82eabcc482dbd03af1f946a44ae2b8b97bf
+12/12/2017 01:58:34: 		MPI distribution: Open MPI
+12/12/2017 01:58:34: 		MPI version: 1.10.7
+12/12/2017 01:58:34: -------------------------------------------------------------------
+12/12/2017 01:58:34: -------------------------------------------------------------------
+12/12/2017 01:58:34: GPU info:
 
-		Device[0]: cores = 2688; computeCapability = 3.5; type = "GeForce GTX TITAN"; total memory = 6144 MB; free memory = 5652 MB
--------------------------------------------------------------------
-05/09/2017 15:34:52: WARNING: forceDeterministicAlgorithms flag is specified. Using 1 CPU thread for processing.
+12/12/2017 01:58:34: 		Device[0]: cores = 3072; computeCapability = 5.2; type = "Tesla M60"; total memory = 8123 MB; free memory = 8112 MB
+12/12/2017 01:58:34: -------------------------------------------------------------------
+12/12/2017 01:58:34: WARNING: forceDeterministicAlgorithms flag is specified. Using 1 CPU thread for processing.
 
-05/09/2017 15:34:52: ##############################################################################
-05/09/2017 15:34:52: #                                                                            #
-05/09/2017 15:34:52: # TrainConvNet command (train action)                                        #
-05/09/2017 15:34:52: #                                                                            #
-05/09/2017 15:34:52: ##############################################################################
+12/12/2017 01:58:34: ##############################################################################
+12/12/2017 01:58:34: #                                                                            #
+12/12/2017 01:58:34: # TrainConvNet command (train action)                                        #
+12/12/2017 01:58:34: #                                                                            #
+12/12/2017 01:58:34: ##############################################################################
 
 Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[0].W' (LearnableParameter operation) operation: Tensor shape was inferred as [3 x 3 x 3 x 16].
 Node 'model.arrayOfFunctions[1].arrayOfFunctions[0].arrayOfFunctions[1].scale' (LearnableParameter operation) operation: Tensor shape was inferred as [16 x 1].
@@ -601,25 +598,28 @@ Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].bias' (LearnableParameter 
 Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runMean' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
 Node 'z.x.x.b.arrayOfFunctions[1].arrayOfFunctions[1].runVariance' (LearnableParameter operation) operation: Tensor shape was inferred as [64 x 1].
 Node 'model.arrayOfFunctions[8].W' (LearnableParameter operation) operation: Tensor shape was inferred as [10 x 1 x 1 x 64].
-05/09/2017 15:34:54: 
-Model has 1064 nodes. Using GPU 0.
+12/12/2017 01:58:36: 
+Model has 1064 nodes. Using CPU.
 
-05/09/2017 15:34:54: Training criterion:   ce = CrossEntropyWithSoftmax
-05/09/2017 15:34:54: Evaluation criterion: errs = ClassificationError
+12/12/2017 01:58:36: Training criterion:   ce = CrossEntropyWithSoftmax
 
-05/09/2017 15:34:54: Training 1730714 parameters in 335 parameter tensors.
+12/12/2017 01:58:36: Evaluation criteria:
+12/12/2017 01:58:36: 	errs = ClassificationError
+12/12/2017 01:58:36: 	top5Errs = ClassificationError
 
-05/09/2017 15:35:01: Finished Epoch[ 1 of 3]: [Training] ce = 3.28156662 * 512; errs = 89.063% * 512; totalSamplesSeen = 512; learningRatePerSample = 0.0040000002; epochTime=6.64484s
-05/09/2017 15:35:05: Finished Epoch[ 2 of 3]: [Training] ce = 2.69539142 * 512; errs = 87.500% * 512; totalSamplesSeen = 1024; learningRatePerSample = 0.0040000002; epochTime=4.01828s
-05/09/2017 15:35:10: Finished Epoch[ 3 of 3]: [Training] ce = 2.48965573 * 512; errs = 84.570% * 512; totalSamplesSeen = 1536; learningRatePerSample = 0.0040000002; epochTime=4.02784s
+12/12/2017 01:58:36: Training 1730714 parameters in 335 parameter tensors.
+
+12/12/2017 01:59:46: Finished Epoch[ 1 of 3]: [Training] ce = 2.43214202 * 512; errs = 88.281% * 512; top5Errs = 47.461% * 512; totalSamplesSeen = 512; learningRatePerSample = 0.0040000002; epochTime=70.0035s
+12/12/2017 02:00:55: Finished Epoch[ 2 of 3]: [Training] ce = 2.72736144 * 512; errs = 89.258% * 512; top5Errs = 46.484% * 512; totalSamplesSeen = 1024; learningRatePerSample = 0.0040000002; epochTime=69.459s
+12/12/2017 02:02:05: Finished Epoch[ 3 of 3]: [Training] ce = 2.62705421 * 512; errs = 90.039% * 512; top5Errs = 46.484% * 512; totalSamplesSeen = 1536; learningRatePerSample = 0.0040000002; epochTime=69.3379s
 
 
-05/09/2017 15:35:10: ##############################################################################
-05/09/2017 15:35:10: #                                                                            #
-05/09/2017 15:35:10: # Eval command (eval action)                                                 #
-05/09/2017 15:35:10: #                                                                            #
-05/09/2017 15:35:10: ##############################################################################
+12/12/2017 02:02:05: ##############################################################################
+12/12/2017 02:02:05: #                                                                            #
+12/12/2017 02:02:05: # Eval command (eval action)                                                 #
+12/12/2017 02:02:05: #                                                                            #
+12/12/2017 02:02:05: ##############################################################################
 
-05/09/2017 15:35:18: Final Results: Minibatch[1-79]: errs = 90.000% * 10000; top5Errs = 50.470% * 10000
+12/12/2017 02:08:43: Final Results: Minibatch[1-79]: errs = 90.000% * 10000; top5Errs = 50.250% * 10000
 
-05/09/2017 15:35:18: __COMPLETED__
+12/12/2017 02:08:43: __COMPLETED__

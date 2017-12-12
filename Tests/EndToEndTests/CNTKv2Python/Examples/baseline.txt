@@ -1,1 +1,446 @@
+CPU info:
+    CPU Model Name: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
+    Hardware threads: 12
+    Total Memory: 57700428 kB
+-------------------------------------------------------------------
+Python: 3.4.4 |Continuum Analytics, Inc.| (default, Jun 15 2016, 15:26:54) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)]
+NumPy: 1.11.2
+SciPy: 0.18.1
+PyTest: 3.0.3
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 2 items
+
+AlexNet_ImageNet_Distributed_test.py::test_alexnet_imagenet_distributed[-1] SKIPPED
+AlexNet_ImageNet_Distributed_test.py::test_alexnet_imagenet_distributed_1bitsgd[-1] SKIPPED
+
+========================== 2 skipped in 0.24 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+BN_Inception_CIFAR10_Distributed_test.py::test_bn_inception_cifar_distributed[-1] SKIPPED
+
+========================== 1 skipped in 0.15 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+BN_Inception_CIFAR10_test.py::test_bn_inception_cifar[-1] SKIPPED
+
+========================== 1 skipped in 0.02 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+BN_Inception_ImageNet_Distributed_test.py::test_bn_inception_imagenet_distributed[-1] SKIPPED
+
+========================== 1 skipped in 0.01 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+BN_Inception_ImageNet_test.py::test_bn_inception_imagenet[-1] SKIPPED
+
+========================== 1 skipped in 0.02 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+ConvNetLRN_CIFAR10_DataAug_test.py::test_cifar_convnet_error[-1] SKIPPED
+
+========================== 1 skipped in 0.01 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 3 items
+
+ConvNet_CIFAR10_DataAug_Distributed_test.py::test_cifar_convnet_distributed[-1] SKIPPED
+ConvNet_CIFAR10_DataAug_Distributed_test.py::test_cifar_convnet_distributed_1bitsgd[-1] SKIPPED
+ConvNet_CIFAR10_DataAug_Distributed_test.py::test_cifar_convnet_distributed_block_momentum[-1] SKIPPED
+
+========================== 3 skipped in 0.02 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+ConvNet_CIFAR10_DataAug_test.py::test_cifar_convnet_error[-1] SKIPPED
+
+========================== 1 skipped in 0.02 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 2 items
+
+ConvNet_CIFAR10_test.py::test_convnet_cifar_error[-1] SKIPPED
+ConvNet_CIFAR10_test.py::test_check_percentages_after_restarting_training[-1] SKIPPED
+
+========================== 2 skipped in 0.02 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+ConvNet_MNIST_test.py::test_convnet_mnist_error[-1] SKIPPED
+
+========================== 1 skipped in 0.01 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+DeepQNeuralNetwork_test.py::test_deep_q_neural_network[-1] PASSED
+
+=========================== 1 passed in 7.14 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+DetectionDemo_test.py::test_detection_demo[-1] SKIPPED
+
+========================== 1 skipped in 0.01 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 3 items
+
+FastRCNNBS_test.py::test_fastrcnn_grocery_visualization PASSED
+FastRCNNBS_test.py::test_fastrcnn_with_config_file[-1] SKIPPED
+FastRCNNBS_test.py::test_fastrcnn_grocery_training[-1] SKIPPED
+
+===================== 1 passed, 2 skipped in 59.79 seconds =====================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+FastRCNN_test.py::test_fastrcnnpy_grocery_training[-1] SKIPPED
+
+========================== 1 skipped in 0.43 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 2 items
+
+FasterRCNN_test.py::test_fasterrcnn_grocery_training_e2e[-1] PASSED
+FasterRCNN_test.py::test_fasterrcnn_grocery_training_4stage[-1] SKIPPED
+
+==================== 1 passed, 1 skipped in 104.07 seconds =====================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+FlappingBird_with_keras_DQN_test.py::test_FlappingBird_with_keras_DQN_noerror[-1] SKIPPED
+
+========================== 1 skipped in 0.01 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 3 items
+
+HTK_LSTM_Truncated_Distributed_test.py::test_htk_lstm_truncated_distributed_1bitsgd[-1] SKIPPED
+HTK_LSTM_Truncated_Distributed_test.py::test_htk_lstm_truncated_distributed_block_momentum[-1] SKIPPED
+HTK_LSTM_Truncated_Distributed_test.py::test_htk_lstm_truncated_distributed_1bitsgd_with_cv[-1] SKIPPED
+
+========================== 3 skipped in 0.02 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+InceptionV3_ImageNet_Distributed_test.py::test_inception_v3_imagenet_distributed[-1] SKIPPED
+
+========================== 1 skipped in 0.01 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+InceptionV3_ImageNet_test.py::test_inception_v3_imagenet[-1] SKIPPED
+
+========================== 1 skipped in 0.02 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 2 items
+
+Seq2Seq_CMUDict_Distributed_test.py::test_sequence_to_sequence_distributed_1bitsgd[-1] SKIPPED
+Seq2Seq_CMUDict_Distributed_test.py::test_sequence_to_sequence_distributed_block_momentum[-1] SKIPPED
+
+========================== 2 skipped in 0.01 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 3 items
+
+TrainResNet_CIFAR10_Distributed_test.py::test_cifar_resnet_distributed[-1] SKIPPED
+TrainResNet_CIFAR10_Distributed_test.py::test_cifar_resnet_distributed_1bitsgd[-1] SKIPPED
+TrainResNet_CIFAR10_Distributed_test.py::test_cifar_resnet_distributed_block_momentum[-1] SKIPPED
+
+========================== 3 skipped in 0.02 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+TrainResNet_CIFAR10_test.py::test_cifar_resnet_error[-1] SKIPPED
+
+========================== 1 skipped in 0.02 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+VGG16_ImageNet_Distributed_test.py::test_VGG16_imagenet_distributed[-1] PASSED
+
+========================== 1 passed in 36.62 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+VGG19_ImageNet_Distributed_test.py::test_VGG19_imagenet_distributed[-1] PASSED
+
+========================== 1 passed in 42.15 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+binary_convnet_test.py::test_binary_convnet_error[-1] SKIPPED
+
+============================ pytest-warning summary ============================
+WC1 /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples/binary_convnet_test.py cannot collect test class 'TestConfig' because it has a __init__ constructor
+================= 1 skipped, 1 pytest-warnings in 0.03 seconds =================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+binary_convolution_native_eval_test.py::test_native_binary_function PASSED
+
+============================ pytest-warning summary ============================
+WC1 /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples/binary_convolution_native_eval_test.py cannot collect test class 'TestConfig' because it has a __init__ constructor
+================= 1 passed, 1 pytest-warnings in 0.38 seconds ==================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+bptt_checkpointing_test.py::test_checkpointing_with_truncated_sequences PASSED
+
+=========================== 1 passed in 4.88 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+char_rnn_test.py::test_char_rnn[-1] PASSED
+
+========================== 1 passed in 13.80 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 2 items
+
+deconv_MNIST_test.py::test_simple_mnist_py_error[-1] PASSED
+deconv_MNIST_test.py::test_simple_mnist_bs_error[-1] PASSED
+
+========================== 2 passed in 20.59 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+deeprl_test.py::test_deeprl PASSED
+
+========================== 1 passed in 204.78 seconds ==========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+feature_extraction_test.py::test_feature_extraction[-1] SKIPPED
+
+========================== 1 skipped in 0.01 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+feed_forward_net_test.py::test_ffnet_error[-1] PASSED
+
+=========================== 1 passed in 1.13 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+finalize_test.py::test_finalize_with_exception_no_hang PASSED
+
+=========================== 1 passed in 0.59 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 3 items
+
+htk_deserializer_test.py::test_htk_deserializers PASSED
+htk_deserializer_test.py::test_multiple_mlf_files PASSED
+htk_deserializer_test.py::test_multiple_streams_in_htk PASSED
+
+=========================== 3 passed in 2.20 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+language_understanding_test.py::test_language_understanding[-1] PASSED
+
+=========================== 1 passed in 0.02 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 0 items
+
+========================= no tests ran in 0.01 seconds =========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+lightrnn_test.py::test_lightrnn[-1] SKIPPED
+
+========================== 1 skipped in 0.01 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+multiple_distributed_learners_test.py::test_sample_count_with_several_distributed_learners PASSED
+
+=========================== 1 passed in 1.55 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 3 items
+
+rpn_unit_test.py::test_proposal_layer PASSED
+rpn_unit_test.py::test_proposal_target_layer PASSED
+rpn_unit_test.py::test_anchor_target_layer PASSED
+
+=========================== 3 passed in 0.73 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+sequence_classification_test.py::test_seq_classification_error[-1] PASSED
+
+=========================== 1 passed in 2.35 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+sequence_to_sequence_test.py::test_sequence_to_sequence[-1] PASSED
+
+========================== 1 passed in 43.34 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+simple_mnist_test.py::test_simple_mnist_error[-1] PASSED
+
+========================== 1 passed in 37.30 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+transfer_learning_extended_test.py::test_transfer_learning[-1] SKIPPED
+
+========================== 1 skipped in 0.02 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+transfer_learning_test.py::test_transfer_learning[-1] SKIPPED
+
+========================== 1 skipped in 0.02 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 1 items
+
+ucf11_conv3d_test.py::test_ucf11_conv3d_error[-1] SKIPPED
+
+========================== 1 skipped in 0.04 seconds ===========================
+============================= test session starts ==============================
+platform linux -- Python 3.4.4, pytest-3.0.3, py-1.5.2, pluggy-0.4.0 -- /home/ubuntu/anaconda-envs/cntk-py34/bin/python
+cachedir: .cache
+rootdir: /home/ubuntu/workspace/Tests/EndToEndTests/CNTKv2Python/Examples, inifile: pytest.ini
+collecting ... collected 3 items
+
+word_rnn_test.py::test_data_reader[-1] PASSED
+word_rnn_test.py::test_ptb_word_rnn[-1] SKIPPED
+word_rnn_test.py::test_word_rnn[-1] PASSED
+
+===================== 2 passed, 1 skipped in 2.09 seconds ======================
 __COMPLETED__

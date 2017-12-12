@@ -1,2 +1,69 @@
-Post-processing network complete.
-__COMPLETED__
+CPU info:
+    CPU Model Name: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
+    Hardware threads: 12
+    Total Memory: 57700428 kB
+-------------------------------------------------------------------
+DataDir : /tmp/cntk-test-20171211223423.932710/ModelExport_Model1@release_cpu/TestData
+=== Running /home/ubuntu/workspace/build/1bitsgd/release/bin/cntk configFile=/home/ubuntu/workspace/Tests/EndToEndTests/ModelExport/Model1/1.cntk currentDirectory=/tmp/cntk-test-20171211223423.932710/ModelExport_Model1@release_cpu/TestData RunDir=/tmp/cntk-test-20171211223423.932710/ModelExport_Model1@release_cpu DataDir=/tmp/cntk-test-20171211223423.932710/ModelExport_Model1@release_cpu/TestData ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/ModelExport/Model1 OutputDir=/tmp/cntk-test-20171211223423.932710/ModelExport_Model1@release_cpu DeviceId=-1 timestamping=true
+CNTK 2.3.1+ (HEAD f4f0f8, Dec 11 2017 18:34:12) at 2017/12/12 15:02:29
+
+/home/ubuntu/workspace/build/1bitsgd/release/bin/cntk  configFile=/home/ubuntu/workspace/Tests/EndToEndTests/ModelExport/Model1/1.cntk  currentDirectory=/tmp/cntk-test-20171211223423.932710/ModelExport_Model1@release_cpu/TestData  RunDir=/tmp/cntk-test-20171211223423.932710/ModelExport_Model1@release_cpu  DataDir=/tmp/cntk-test-20171211223423.932710/ModelExport_Model1@release_cpu/TestData  ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/ModelExport/Model1  OutputDir=/tmp/cntk-test-20171211223423.932710/ModelExport_Model1@release_cpu  DeviceId=-1  timestamping=true
+Changed current directory to /tmp/cntk-test-20171211223423.932710/ModelExport_Model1@release_cpu/TestData
+12/12/2017 15:02:29: -------------------------------------------------------------------
+12/12/2017 15:02:29: Build info: 
+
+12/12/2017 15:02:29: 		Built time: Dec 11 2017 18:28:39
+12/12/2017 15:02:29: 		Last modified date: Wed Nov 15 09:27:10 2017
+12/12/2017 15:02:29: 		Build type: release
+12/12/2017 15:02:29: 		Build target: GPU
+12/12/2017 15:02:29: 		With 1bit-SGD: yes
+12/12/2017 15:02:29: 		With ASGD: yes
+12/12/2017 15:02:29: 		Math lib: mkl
+12/12/2017 15:02:29: 		CUDA version: 9.0.0
+12/12/2017 15:02:29: 		CUDNN version: 7.0.4
+12/12/2017 15:02:29: 		Build Branch: HEAD
+12/12/2017 15:02:29: 		Build SHA1: f4f0f82eabcc482dbd03af1f946a44ae2b8b97bf
+12/12/2017 15:02:29: 		MPI distribution: Open MPI
+12/12/2017 15:02:29: 		MPI version: 1.10.7
+12/12/2017 15:02:29: -------------------------------------------------------------------
+12/12/2017 15:02:29: -------------------------------------------------------------------
+12/12/2017 15:02:29: GPU info:
+
+12/12/2017 15:02:29: 		Device[0]: cores = 3072; computeCapability = 5.2; type = "Tesla M60"; total memory = 8123 MB; free memory = 8112 MB
+12/12/2017 15:02:29: -------------------------------------------------------------------
+
+Configuration After Processing and Variable Resolution:
+
+configparameters: 1.cntk:]=true
+configparameters: 1.cntk:command=export
+configparameters: 1.cntk:ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/ModelExport/Model1
+configparameters: 1.cntk:currentDirectory=/tmp/cntk-test-20171211223423.932710/ModelExport_Model1@release_cpu/TestData
+configparameters: 1.cntk:DataDir=/tmp/cntk-test-20171211223423.932710/ModelExport_Model1@release_cpu/TestData
+configparameters: 1.cntk:dbnModelPath=1_export.dbn
+configparameters: 1.cntk:deviceId=-1
+configparameters: 1.cntk:export=[
+    action = "exportdbn"
+    ]
+
+configparameters: 1.cntk:imageLayout=legacy
+configparameters: 1.cntk:modelPath=1_model.cntk
+configparameters: 1.cntk:numMBsToShowResult=500
+configparameters: 1.cntk:OutputDir=/tmp/cntk-test-20171211223423.932710/ModelExport_Model1@release_cpu
+configparameters: 1.cntk:precision=float
+configparameters: 1.cntk:RunDir=/tmp/cntk-test-20171211223423.932710/ModelExport_Model1@release_cpu
+configparameters: 1.cntk:timestamping=true
+configparameters: 1.cntk:traceLevel=1
+12/12/2017 15:02:29: Commands: export
+12/12/2017 15:02:29: precision = "float"
+
+12/12/2017 15:02:29: ##############################################################################
+12/12/2017 15:02:29: #                                                                            #
+12/12/2017 15:02:29: # export command (exportdbn action)                                          #
+12/12/2017 15:02:29: #                                                                            #
+12/12/2017 15:02:29: ##############################################################################
+
+
+12/12/2017 15:02:30: Action "exportdbn" complete.
+
+12/12/2017 15:02:30: __COMPLETED__
+Comparing exported file to base file

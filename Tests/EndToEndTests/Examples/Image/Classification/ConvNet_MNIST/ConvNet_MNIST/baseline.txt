@@ -1,60 +1,57 @@
 CPU info:
-    CPU Model Name: Intel(R) Xeon(R) CPU X5680 @ 3.33GHz
+    CPU Model Name: Intel(R) Xeon(R) CPU E5-2690 v3 @ 2.60GHz
     Hardware threads: 12
-    Total Memory: 33537232 kB
+    Total Memory: 57700428 kB
 -------------------------------------------------------------------
-=== Running /cygdrive/d/GitHub/CNTK/x64/release/cntk.exe configFile=D:\GitHub\CNTK\Examples\Image\Classification\ConvNet\BrainScript/ConvNet_MNIST.cntk currentDirectory=D:\GitHub\CNTK\Examples\Image\DataSets\MNIST RunDir=C:\cygwin64\tmp\cntk-test-20170508122004.231896\Examples\Image\Classification\ConvNet_MNIST_ConvNet_MNIST@release_gpu DataDir=D:\GitHub\CNTK\Examples\Image\DataSets\MNIST ConfigDir=D:\GitHub\CNTK\Examples\Image\Classification\ConvNet\BrainScript OutputDir=C:\cygwin64\tmp\cntk-test-20170508122004.231896\Examples\Image\Classification\ConvNet_MNIST_ConvNet_MNIST@release_gpu DeviceId=0 timestamping=true forceDeterministicAlgorithms=true stderr=- trainNetwork=[SGD=[epochSize=2048,maxEpochs=3,numMBsToShowResult=16]]
-CNTK 2.0rc2+ (HEAD fbb53d, May  8 2017 10:15:58) on CHAZHANG at 2017/05/08 20:20:05
+=== Running /home/ubuntu/workspace/build/1bitsgd/release/bin/cntk configFile=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ConvNet_MNIST/ConvNet_MNIST/../../../../../../../Examples/Image/Classification/ConvNet/BrainScript/ConvNet_MNIST.cntk currentDirectory=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST RunDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_MNIST_ConvNet_MNIST@release_cpu DataDir=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ConvNet_MNIST/ConvNet_MNIST/../../../../../../../Examples/Image/Classification/ConvNet/BrainScript OutputDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_MNIST_ConvNet_MNIST@release_cpu DeviceId=-1 timestamping=true forceDeterministicAlgorithms=true stderr=- trainNetwork=[SGD=[epochSize=2048,maxEpochs=3,numMBsToShowResult=16]]
+CNTK 2.3.1+ (HEAD f4f0f8, Dec 11 2017 18:34:12) at 2017/12/12 01:11:26
 
-D:\GitHub\CNTK\x64\release\cntk.exe  configFile=D:\GitHub\CNTK\Examples\Image\Classification\ConvNet\BrainScript/ConvNet_MNIST.cntk  currentDirectory=D:\GitHub\CNTK\Examples\Image\DataSets\MNIST  RunDir=C:\cygwin64\tmp\cntk-test-20170508122004.231896\Examples\Image\Classification\ConvNet_MNIST_ConvNet_MNIST@release_gpu  DataDir=D:\GitHub\CNTK\Examples\Image\DataSets\MNIST  ConfigDir=D:\GitHub\CNTK\Examples\Image\Classification\ConvNet\BrainScript  OutputDir=C:\cygwin64\tmp\cntk-test-20170508122004.231896\Examples\Image\Classification\ConvNet_MNIST_ConvNet_MNIST@release_gpu  DeviceId=0  timestamping=true  forceDeterministicAlgorithms=true  stderr=-  trainNetwork=[SGD=[epochSize=2048,maxEpochs=3,numMBsToShowResult=16]]
-Changed current directory to D:\GitHub\CNTK\Examples\Image\DataSets\MNIST
-05/08/2017 20:20:05: Redirecting stderr to file -_trainNetwork_testNetwork.log
--------------------------------------------------------------------
-Build info: 
+/home/ubuntu/workspace/build/1bitsgd/release/bin/cntk  configFile=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ConvNet_MNIST/ConvNet_MNIST/../../../../../../../Examples/Image/Classification/ConvNet/BrainScript/ConvNet_MNIST.cntk  currentDirectory=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST  RunDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_MNIST_ConvNet_MNIST@release_cpu  DataDir=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST  ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ConvNet_MNIST/ConvNet_MNIST/../../../../../../../Examples/Image/Classification/ConvNet/BrainScript  OutputDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_MNIST_ConvNet_MNIST@release_cpu  DeviceId=-1  timestamping=true  forceDeterministicAlgorithms=true  stderr=-  trainNetwork=[SGD=[epochSize=2048,maxEpochs=3,numMBsToShowResult=16]]
+Changed current directory to /home/ubuntu/workspace/Examples/Image/DataSets/MNIST
+12/12/2017 01:11:26: Redirecting stderr to file -_trainNetwork_testNetwork.log
+12/12/2017 01:11:26: -------------------------------------------------------------------
+12/12/2017 01:11:26: Build info: 
 
-		Built time: May  8 2017 10:09:53
-		Last modified date: Mon May  8 09:12:53 2017
-		Build type: Release
-		Build target: GPU
-		With 1bit-SGD: yes
-		With ASGD: yes
-		Math lib: mkl
-		CUDA_PATH: C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0
-		CUB_PATH: C:\src\cub-1.4.1
-		CUDNN_PATH: C:\local\cudnn-8.0-v5.1\cuda
-		Build Branch: master
-		Build SHA1: 190dc1b3042d62c20aeba5bd336bbeaa8a6466ca
-		Built by chazhang on CHAZHANG
-		Build Path: D:\GitHub\CNTK\Source\CNTKv2LibraryDll\
-		MPI distribution: Microsoft MPI
-		MPI version: 7.0.12437.6
--------------------------------------------------------------------
--------------------------------------------------------------------
-GPU info:
+12/12/2017 01:11:26: 		Built time: Dec 11 2017 18:28:39
+12/12/2017 01:11:26: 		Last modified date: Wed Nov 15 09:27:10 2017
+12/12/2017 01:11:26: 		Build type: release
+12/12/2017 01:11:26: 		Build target: GPU
+12/12/2017 01:11:26: 		With 1bit-SGD: yes
+12/12/2017 01:11:26: 		With ASGD: yes
+12/12/2017 01:11:26: 		Math lib: mkl
+12/12/2017 01:11:26: 		CUDA version: 9.0.0
+12/12/2017 01:11:26: 		CUDNN version: 7.0.4
+12/12/2017 01:11:26: 		Build Branch: HEAD
+12/12/2017 01:11:26: 		Build SHA1: f4f0f82eabcc482dbd03af1f946a44ae2b8b97bf
+12/12/2017 01:11:26: 		MPI distribution: Open MPI
+12/12/2017 01:11:26: 		MPI version: 1.10.7
+12/12/2017 01:11:26: -------------------------------------------------------------------
+12/12/2017 01:11:26: -------------------------------------------------------------------
+12/12/2017 01:11:26: GPU info:
 
-		Device[0]: cores = 2688; computeCapability = 3.5; type = "GeForce GTX TITAN"; total memory = 6144 MB; free memory = 5527 MB
--------------------------------------------------------------------
+12/12/2017 01:11:26: 		Device[0]: cores = 3072; computeCapability = 5.2; type = "Tesla M60"; total memory = 8123 MB; free memory = 8112 MB
+12/12/2017 01:11:26: -------------------------------------------------------------------
 
 Configuration After Processing and Variable Resolution:
 
 configparameters: ConvNet_MNIST.cntk:command=trainNetwork:testNetwork
-configparameters: ConvNet_MNIST.cntk:ConfigDir=D:\GitHub\CNTK\Examples\Image\Classification\ConvNet\BrainScript
-configparameters: ConvNet_MNIST.cntk:currentDirectory=D:\GitHub\CNTK\Examples\Image\DataSets\MNIST
-configparameters: ConvNet_MNIST.cntk:dataDir=D:\GitHub\CNTK\Examples\Image\DataSets\MNIST
-configparameters: ConvNet_MNIST.cntk:deviceId=0
+configparameters: ConvNet_MNIST.cntk:ConfigDir=/home/ubuntu/workspace/Tests/EndToEndTests/Examples/Image/Classification/ConvNet_MNIST/ConvNet_MNIST/../../../../../../../Examples/Image/Classification/ConvNet/BrainScript
+configparameters: ConvNet_MNIST.cntk:currentDirectory=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST
+configparameters: ConvNet_MNIST.cntk:dataDir=/home/ubuntu/workspace/Examples/Image/DataSets/MNIST
+configparameters: ConvNet_MNIST.cntk:deviceId=-1
 configparameters: ConvNet_MNIST.cntk:forceDeterministicAlgorithms=true
-configparameters: ConvNet_MNIST.cntk:modelPath=C:\cygwin64\tmp\cntk-test-20170508122004.231896\Examples\Image\Classification\ConvNet_MNIST_ConvNet_MNIST@release_gpu/Models/ConvNet_MNIST
-configparameters: ConvNet_MNIST.cntk:outputDir=C:\cygwin64\tmp\cntk-test-20170508122004.231896\Examples\Image\Classification\ConvNet_MNIST_ConvNet_MNIST@release_gpu
+configparameters: ConvNet_MNIST.cntk:modelPath=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_MNIST_ConvNet_MNIST@release_cpu/Models/ConvNet_MNIST
+configparameters: ConvNet_MNIST.cntk:outputDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_MNIST_ConvNet_MNIST@release_cpu
 configparameters: ConvNet_MNIST.cntk:precision=float
 configparameters: ConvNet_MNIST.cntk:rootDir=../../..
-configparameters: ConvNet_MNIST.cntk:RunDir=C:\cygwin64\tmp\cntk-test-20170508122004.231896\Examples\Image\Classification\ConvNet_MNIST_ConvNet_MNIST@release_gpu
+configparameters: ConvNet_MNIST.cntk:RunDir=/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_MNIST_ConvNet_MNIST@release_cpu
 configparameters: ConvNet_MNIST.cntk:stderr=-
 configparameters: ConvNet_MNIST.cntk:testNetwork={
     action = test
 minibatchSize = 1024    
     reader = {
         readerType = "CNTKTextFormatReader"
-        file = "D:\GitHub\CNTK\Examples\Image\DataSets\MNIST/Test-28x28_cntk_text.txt"
+        file = "/home/ubuntu/workspace/Examples/Image/DataSets/MNIST/Test-28x28_cntk_text.txt"
         input = {
             features = { dim = 784 ; format = "dense" }
             labels =   { dim = 10  ; format = "dense" }
@@ -103,7 +100,7 @@ labelDim = 10
     }
     reader = {
         readerType = "CNTKTextFormatReader"
-        file = "D:\GitHub\CNTK\Examples\Image\DataSets\MNIST/Train-28x28_cntk_text.txt"
+        file = "/home/ubuntu/workspace/Examples/Image/DataSets/MNIST/Train-28x28_cntk_text.txt"
         randomize = true
         keepDataInMemory = true
         input = {
@@ -113,17 +110,17 @@ labelDim = 10
     }    
 } [SGD=[epochSize=2048,maxEpochs=3,numMBsToShowResult=16]]
 
-05/08/2017 20:20:05: Commands: trainNetwork testNetwork
-05/08/2017 20:20:05: precision = "float"
-05/08/2017 20:20:05: WARNING: forceDeterministicAlgorithms flag is specified. Using 1 CPU thread for processing.
+12/12/2017 01:11:26: Commands: trainNetwork testNetwork
+12/12/2017 01:11:26: precision = "float"
+12/12/2017 01:11:26: WARNING: forceDeterministicAlgorithms flag is specified. Using 1 CPU thread for processing.
 
-05/08/2017 20:20:05: ##############################################################################
-05/08/2017 20:20:05: #                                                                            #
-05/08/2017 20:20:05: # trainNetwork command (train action)                                        #
-05/08/2017 20:20:05: #                                                                            #
-05/08/2017 20:20:05: ##############################################################################
+12/12/2017 01:11:26: ##############################################################################
+12/12/2017 01:11:26: #                                                                            #
+12/12/2017 01:11:26: # trainNetwork command (train action)                                        #
+12/12/2017 01:11:26: #                                                                            #
+12/12/2017 01:11:26: ##############################################################################
 
-05/08/2017 20:20:05: 
+12/12/2017 01:11:26: 
 Creating virgin network.
 Node '<placeholder>' (LearnableParameter operation): Initializating Parameter[10 x 0] as glorotUniform later when dimensions are fully known.
 Node '<placeholder>' (LearnableParameter operation): Initializating Parameter[96 x 0] as glorotUniform later when dimensions are fully known.
@@ -189,144 +186,148 @@ Validating network. 20 nodes to process in pass 2.
 
 Validating network, final pass.
 
-ol.x._._.x._.x.x._.x.x._.c: using cuDNN convolution engine for geometry: Input: 28 x 28 x 1, Output: 28 x 28 x 32, Kernel: 5 x 5 x 1, Map: 32, Stride: 1 x 1 x 1, Sharing: (1, 1, 1), AutoPad: (1, 1, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
-ol.x._._.x._.x.x._.x: using cuDNN convolution engine for geometry: Input: 28 x 28 x 32, Output: 13 x 13 x 32, Kernel: 3 x 3 x 1, Map: 1, Stride: 2 x 2 x 1, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
-ol.x._._.x._.x.x._.c: using cuDNN convolution engine for geometry: Input: 13 x 13 x 32, Output: 11 x 11 x 48, Kernel: 3 x 3 x 32, Map: 48, Stride: 1 x 1 x 32, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
-ol.x._._.x._.x: using cuDNN convolution engine for geometry: Input: 11 x 11 x 48, Output: 5 x 5 x 48, Kernel: 3 x 3 x 1, Map: 1, Stride: 2 x 2 x 1, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
-ol.x._._.x._.c: using cuDNN convolution engine for geometry: Input: 5 x 5 x 48, Output: 3 x 3 x 64, Kernel: 3 x 3 x 48, Map: 64, Stride: 1 x 1 x 48, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+ol.x._._.x._.x.x._.x.x._.c: using GEMM convolution engine for geometry: Input: 28 x 28 x 1, Output: 28 x 28 x 32, Kernel: 5 x 5 x 1, Map: 32, Stride: 1 x 1 x 1, Sharing: (1, 1, 1), AutoPad: (1, 1, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+ol.x._._.x._.x.x._.x: using GEMM convolution engine for geometry: Input: 28 x 28 x 32, Output: 13 x 13 x 32, Kernel: 3 x 3 x 1, Map: 1, Stride: 2 x 2 x 1, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+ol.x._._.x._.x.x._.c: using GEMM convolution engine for geometry: Input: 13 x 13 x 32, Output: 11 x 11 x 48, Kernel: 3 x 3 x 32, Map: 48, Stride: 1 x 1 x 32, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+ol.x._._.x._.x: using GEMM convolution engine for geometry: Input: 11 x 11 x 48, Output: 5 x 5 x 48, Kernel: 3 x 3 x 1, Map: 1, Stride: 2 x 2 x 1, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+ol.x._._.x._.c: using GEMM convolution engine for geometry: Input: 5 x 5 x 48, Output: 3 x 3 x 64, Kernel: 3 x 3 x 48, Map: 64, Stride: 1 x 1 x 48, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
 
 
 
 Post-processing network complete.
 
-05/08/2017 20:20:07: 
-Model has 33 nodes. Using GPU 0.
+12/12/2017 01:11:26: 
+Model has 33 nodes. Using CPU.
 
-05/08/2017 20:20:07: Training criterion:   ce = CrossEntropyWithSoftmax
-05/08/2017 20:20:07: Evaluation criterion: errs = ClassificationError
+12/12/2017 01:11:26: Training criterion:   ce = CrossEntropyWithSoftmax
+12/12/2017 01:11:26: Evaluation criterion: errs = ClassificationError
 
 
 Allocating matrices for forward and/or backward propagation.
 
+Gradient Memory Aliasing: 10 are aliased.
+	ol.x._._.x.PlusArgs[0] (gradient) reuses ol.x._._.x (gradient)
+	ol.x._._.x._.c (gradient) reuses ol.x._._.x._.res.x (gradient)
+	ol.x._._.x._.x.x._.c (gradient) reuses ol.x._._.x._.x.x._.res.x (gradient)
+	ol.x._._.x._.x.x._.x.x._.c (gradient) reuses ol.x._._.x._.x.x._.x.x._.res.x (gradient)
+	ol.PlusArgs[0] (gradient) reuses ol (gradient)
+
 Memory Sharing: Out of 61 matrices, 39 are shared as 8, and 22 are not shared.
 
 Here are the ones that share memory:
-	{ model.arrayOfFunctions[7].W : [3 x 3 x 48 x 64] (gradient)
-	  ol : [10 x *] (gradient)
-	  ol.x._ : [96 x *]
-	  ol.x._ : [96 x *] (gradient)
-	  ol.x._._.x.PlusArgs[0] : [96 x *]
-	  ol.x._._.x.PlusArgs[0] : [96 x *] (gradient)
-	  ol.x._._.x._.res.x : [3 x 3 x 64 x *] (gradient) }
-	{ ol.x._._.x._.x : [5 x 5 x 48 x *]
-	  ol.x._._.x._.x.x._.res.x : [11 x 11 x 48 x *]
-	  ol.x._._.x._.x.x._.res.x : [11 x 11 x 48 x *] (gradient)
-	  ol.x._._.x._.x.x._.x.x : [28 x 28 x 32 x *] (gradient)
-	  ol.x._._.x._.x.x._.x.x._.c : [28 x 28 x 32 x *] (gradient)
-	  ol.x._._.x._.x.x._.x.x._.res.x : [28 x 28 x 32 x *] }
-	{ _ol.x._._.x : [3 x 3 x 64 x *] (gradient)
-	  model.arrayOfFunctions[1].b : [1 x 1 x 32] (gradient)
-	  ol : [10 x *]
-	  ol.x : [96 x *] (gradient)
-	  ol.x._._.x : [96 x *]
-	  ol.x._._.x : [96 x *] (gradient)
-	  ol.x._._.x._.c : [3 x 3 x 64 x *] (gradient)
-	  ol.x._._.x._.res.x : [3 x 3 x 64 x *]
-	  ol.x._._.x._.x.x : [11 x 11 x 48 x *] (gradient)
-	  ol.x._._.x._.x.x._.x : [13 x 13 x 32 x *] (gradient) }
-	{ model.arrayOfFunctions[9].arrayOfFunctions[0].b : [96] (gradient)
-	  ol.PlusArgs[0] : [10 x *]
-	  ol.PlusArgs[0] : [10 x *] (gradient) }
-	{ model.arrayOfFunctions[1].W : [5 x 5 x 1 x 32] (gradient)
-	  ol.x._._.x._.x.x._.x.x : [28 x 28 x 32 x *]
-	  ol.x._._.x._.x.x._.x.x._.c : [28 x 28 x 32 x *] }
 	{ model.arrayOfFunctions[9].arrayOfFunctions[0].W : [96 x 3 x 3 x 64] (gradient)
 	  ol.x : [96 x *] }
-	{ ol.x._._.x._.x.x : [11 x 11 x 48 x *]
-	  ol.x._._.x._.x.x._.c : [11 x 11 x 48 x *]
+	{ ol.x._._.x._.x : [5 x 5 x 48 x *]
 	  ol.x._._.x._.x.x._.c : [11 x 11 x 48 x *] (gradient)
-	  ol.x._._.x._.x.x._.x.x._.res.x : [28 x 28 x 32 x *] (gradient) }
-	{ _ol.x._._.x : [3 x 3 x 64 x *]
+	  ol.x._._.x._.x.x._.res.x : [11 x 11 x 48 x *]
+	  ol.x._._.x._.x.x._.res.x : [11 x 11 x 48 x *] (gradient) }
+	{ model.arrayOfFunctions[1].b : [1 x 1 x 32] (gradient)
+	  ol.x._._.x._.x.x._.x.x : [28 x 28 x 32 x *] }
+	{ model.arrayOfFunctions[7].b : [1 x 1 x 64] (gradient)
+	  ol : [10 x *] (gradient)
+	  ol.PlusArgs[0] : [10 x *]
+	  ol.PlusArgs[0] : [10 x *] (gradient)
+	  ol.x._ : [96 x *]
+	  ol.x._._.x : [96 x *] (gradient)
+	  ol.x._._.x.PlusArgs[0] : [96 x *] (gradient) }
+	{ _ol.x._._.x : [3 x 3 x 64 x *] (gradient)
 	  model.arrayOfFunctions[4].W : [3 x 3 x 32 x 48] (gradient)
+	  ol : [10 x *]
+	  ol.x : [96 x *] (gradient)
+	  ol.x._._.x.PlusArgs[0] : [96 x *]
 	  ol.x._._.x._.c : [3 x 3 x 64 x *]
 	  ol.x._._.x._.x : [5 x 5 x 48 x *] (gradient) }
+	{ model.arrayOfFunctions[1].W : [5 x 5 x 1 x 32] (gradient)
+	  ol.x._._.x._.x.x : [11 x 11 x 48 x *]
+	  ol.x._._.x._.x.x._.c : [11 x 11 x 48 x *]
+	  ol.x._._.x._.x.x._.x.x : [28 x 28 x 32 x *] (gradient)
+	  ol.x._._.x._.x.x._.x.x._.res.x : [28 x 28 x 32 x *] }
+	{ ol.x._ : [96 x *] (gradient)
+	  ol.x._._.x : [96 x *]
+	  ol.x._._.x._.c : [3 x 3 x 64 x *] (gradient)
+	  ol.x._._.x._.res.x : [3 x 3 x 64 x *]
+	  ol.x._._.x._.res.x : [3 x 3 x 64 x *] (gradient)
+	  ol.x._._.x._.x.x : [11 x 11 x 48 x *] (gradient)
+	  ol.x._._.x._.x.x._.x : [13 x 13 x 32 x *] (gradient)
+	  ol.x._._.x._.x.x._.x.x._.c : [28 x 28 x 32 x *]
+	  ol.x._._.x._.x.x._.x.x._.c : [28 x 28 x 32 x *] (gradient)
+	  ol.x._._.x._.x.x._.x.x._.res.x : [28 x 28 x 32 x *] (gradient) }
+	{ _ol.x._._.x : [3 x 3 x 64 x *]
+	  model.arrayOfFunctions[7].W : [3 x 3 x 48 x 64] (gradient) }
 
 Here are the ones that don't share memory:
-	{model.arrayOfFunctions[12].W : [10 x 96]}
-	{model.arrayOfFunctions[9].arrayOfFunctions[0].b : [96]}
-	{model.arrayOfFunctions[7].b : [1 x 1 x 64]}
-	{model.arrayOfFunctions[12].b : [10]}
-	{model.arrayOfFunctions[7].W : [3 x 3 x 48 x 64]}
-	{model.arrayOfFunctions[9].arrayOfFunctions[0].W : [96 x 3 x 3 x 64]}
-	{model.arrayOfFunctions[4].b : [1 x 1 x 48]}
-	{model.arrayOfFunctions[4].W : [3 x 3 x 32 x 48]}
-	{model.arrayOfFunctions[1].b : [1 x 1 x 32]}
-	{model.arrayOfFunctions[1].W : [5 x 5 x 1 x 32]}
-	{ol.x._._.x._.x.x._.x.x._.x.ElementTimesArgs[0] : [1 x 1]}
-	{features : [28 x 28 x 1 x *]}
-	{errs : [1]}
-	{ce : [1]}
 	{ol.x._._.x._.x.x._.x : [13 x 13 x 32 x *]}
-	{model.arrayOfFunctions[12].b : [10] (gradient)}
+	{labels : [10 x *]}
+	{model.arrayOfFunctions[12].W : [10 x 96]}
 	{model.arrayOfFunctions[4].b : [1 x 1 x 48] (gradient)}
 	{ce : [1] (gradient)}
+	{model.arrayOfFunctions[9].arrayOfFunctions[0].W : [96 x 3 x 3 x 64]}
+	{model.arrayOfFunctions[7].b : [1 x 1 x 64]}
+	{model.arrayOfFunctions[9].arrayOfFunctions[0].b : [96]}
+	{model.arrayOfFunctions[9].arrayOfFunctions[0].b : [96] (gradient)}
+	{ce : [1]}
+	{model.arrayOfFunctions[7].W : [3 x 3 x 48 x 64]}
+	{model.arrayOfFunctions[12].b : [10] (gradient)}
+	{model.arrayOfFunctions[4].b : [1 x 1 x 48]}
+	{model.arrayOfFunctions[4].W : [3 x 3 x 32 x 48]}
 	{ol.x._._.x._.x.x._.x.x._.x : [28 x 28 x 1 x *]}
-	{model.arrayOfFunctions[7].b : [1 x 1 x 64] (gradient)}
+	{errs : [1]}
+	{model.arrayOfFunctions[1].b : [1 x 1 x 32]}
+	{model.arrayOfFunctions[12].b : [10]}
 	{model.arrayOfFunctions[12].W : [10 x 96] (gradient)}
-	{labels : [10 x *]}
+	{features : [28 x 28 x 1 x *]}
+	{model.arrayOfFunctions[1].W : [5 x 5 x 1 x 32]}
+	{ol.x._._.x._.x.x._.x.x._.x.ElementTimesArgs[0] : [1 x 1]}
 
 
-05/08/2017 20:20:07: Training 98778 parameters in 10 out of 10 parameter tensors and 28 nodes with gradient:
+12/12/2017 01:11:26: Training 98778 parameters in 10 out of 10 parameter tensors and 28 nodes with gradient:
 
-05/08/2017 20:20:07: 	Node 'model.arrayOfFunctions[12].W' (LearnableParameter operation) : [10 x 96]
-05/08/2017 20:20:07: 	Node 'model.arrayOfFunctions[12].b' (LearnableParameter operation) : [10]
-05/08/2017 20:20:07: 	Node 'model.arrayOfFunctions[1].W' (LearnableParameter operation) : [5 x 5 x 1 x 32]
-05/08/2017 20:20:07: 	Node 'model.arrayOfFunctions[1].b' (LearnableParameter operation) : [1 x 1 x 32]
-05/08/2017 20:20:07: 	Node 'model.arrayOfFunctions[4].W' (LearnableParameter operation) : [3 x 3 x 32 x 48]
-05/08/2017 20:20:07: 	Node 'model.arrayOfFunctions[4].b' (LearnableParameter operation) : [1 x 1 x 48]
-05/08/2017 20:20:07: 	Node 'model.arrayOfFunctions[7].W' (LearnableParameter operation) : [3 x 3 x 48 x 64]
-05/08/2017 20:20:07: 	Node 'model.arrayOfFunctions[7].b' (LearnableParameter operation) : [1 x 1 x 64]
-05/08/2017 20:20:07: 	Node 'model.arrayOfFunctions[9].arrayOfFunctions[0].W' (LearnableParameter operation) : [96 x 3 x 3 x 64]
-05/08/2017 20:20:07: 	Node 'model.arrayOfFunctions[9].arrayOfFunctions[0].b' (LearnableParameter operation) : [96]
+12/12/2017 01:11:26: 	Node 'model.arrayOfFunctions[12].W' (LearnableParameter operation) : [10 x 96]
+12/12/2017 01:11:26: 	Node 'model.arrayOfFunctions[12].b' (LearnableParameter operation) : [10]
+12/12/2017 01:11:26: 	Node 'model.arrayOfFunctions[1].W' (LearnableParameter operation) : [5 x 5 x 1 x 32]
+12/12/2017 01:11:26: 	Node 'model.arrayOfFunctions[1].b' (LearnableParameter operation) : [1 x 1 x 32]
+12/12/2017 01:11:26: 	Node 'model.arrayOfFunctions[4].W' (LearnableParameter operation) : [3 x 3 x 32 x 48]
+12/12/2017 01:11:26: 	Node 'model.arrayOfFunctions[4].b' (LearnableParameter operation) : [1 x 1 x 48]
+12/12/2017 01:11:26: 	Node 'model.arrayOfFunctions[7].W' (LearnableParameter operation) : [3 x 3 x 48 x 64]
+12/12/2017 01:11:26: 	Node 'model.arrayOfFunctions[7].b' (LearnableParameter operation) : [1 x 1 x 64]
+12/12/2017 01:11:26: 	Node 'model.arrayOfFunctions[9].arrayOfFunctions[0].W' (LearnableParameter operation) : [96 x 3 x 3 x 64]
+12/12/2017 01:11:26: 	Node 'model.arrayOfFunctions[9].arrayOfFunctions[0].b' (LearnableParameter operation) : [96]
 
-05/08/2017 20:20:07: No PreCompute nodes found, or all already computed. Skipping pre-computation step.
+12/12/2017 01:11:26: No PreCompute nodes found, or all already computed. Skipping pre-computation step.
 Setting dropout rate to 0.5.
 
-05/08/2017 20:20:07: Starting Epoch 1: learning rate per sample = 0.001000  effective momentum = 0.000000  momentum as time constant = 0.0 samples
+12/12/2017 01:11:26: Starting Epoch 1: learning rate per sample = 0.001000  effective momentum = 0.000000  momentum as time constant = 0.0 samples
 
-05/08/2017 20:20:07: Starting minibatch loop.
-(GPU): creating curand object with seed 0
-05/08/2017 20:20:09:  Epoch[ 1 of 3]-Minibatch[   1-  16, 50.00%]: ce = 2.28695416 * 1024; errs = 84.570% * 1024; time = 2.1256s; samplesPerSecond = 481.7
-05/08/2017 20:20:10:  Epoch[ 1 of 3]-Minibatch[  17-  32, 100.00%]: ce = 2.23295093 * 1024; errs = 76.563% * 1024; time = 0.1403s; samplesPerSecond = 7299.7
-05/08/2017 20:20:10: Finished Epoch[ 1 of 3]: [Training] ce = 2.25995255 * 2048; errs = 80.566% * 2048; totalSamplesSeen = 2048; learningRatePerSample = 0.001; epochTime=2.27497s
-05/08/2017 20:20:10: SGD: Saving checkpoint model 'C:\cygwin64\tmp\cntk-test-20170508122004.231896\Examples\Image\Classification\ConvNet_MNIST_ConvNet_MNIST@release_gpu/Models/ConvNet_MNIST.1'
+12/12/2017 01:11:26: Starting minibatch loop.
+12/12/2017 01:11:29:  Epoch[ 1 of 3]-Minibatch[   1-  16, 50.00%]: ce = 2.29120874 * 1024; errs = 84.277% * 1024; time = 2.5990s; samplesPerSecond = 394.0
+12/12/2017 01:11:31:  Epoch[ 1 of 3]-Minibatch[  17-  32, 100.00%]: ce = 2.23939610 * 1024; errs = 76.074% * 1024; time = 1.5943s; samplesPerSecond = 642.3
+12/12/2017 01:11:31: Finished Epoch[ 1 of 3]: [Training] ce = 2.26530242 * 2048; errs = 80.176% * 2048; totalSamplesSeen = 2048; learningRatePerSample = 0.001; epochTime=4.19971s
+12/12/2017 01:11:31: SGD: Saving checkpoint model '/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_MNIST_ConvNet_MNIST@release_cpu/Models/ConvNet_MNIST.1'
 
-05/08/2017 20:20:10: Starting Epoch 2: learning rate per sample = 0.001000  effective momentum = 0.000000  momentum as time constant = 0.0 samples
+12/12/2017 01:11:31: Starting Epoch 2: learning rate per sample = 0.001000  effective momentum = 0.000000  momentum as time constant = 0.0 samples
 
-05/08/2017 20:20:10: Starting minibatch loop.
-(GPU): creating curand object with seed 1
-05/08/2017 20:20:10:  Epoch[ 2 of 3]-Minibatch[   1-  16, 50.00%]: ce = 2.07892108 * 1024; errs = 67.969% * 1024; time = 0.1465s; samplesPerSecond = 6990.1
-05/08/2017 20:20:10:  Epoch[ 2 of 3]-Minibatch[  17-  32, 100.00%]: ce = 1.77646995 * 1024; errs = 58.203% * 1024; time = 0.1381s; samplesPerSecond = 7413.7
-05/08/2017 20:20:10: Finished Epoch[ 2 of 3]: [Training] ce = 1.92769551 * 2048; errs = 63.086% * 2048; totalSamplesSeen = 4096; learningRatePerSample = 0.001; epochTime=0.286443s
-05/08/2017 20:20:10: SGD: Saving checkpoint model 'C:\cygwin64\tmp\cntk-test-20170508122004.231896\Examples\Image\Classification\ConvNet_MNIST_ConvNet_MNIST@release_gpu/Models/ConvNet_MNIST.2'
+12/12/2017 01:11:31: Starting minibatch loop.
+12/12/2017 01:11:32:  Epoch[ 2 of 3]-Minibatch[   1-  16, 50.00%]: ce = 2.10430360 * 1024; errs = 68.750% * 1024; time = 1.5484s; samplesPerSecond = 661.3
+12/12/2017 01:11:34:  Epoch[ 2 of 3]-Minibatch[  17-  32, 100.00%]: ce = 1.81241345 * 1024; errs = 59.277% * 1024; time = 1.5453s; samplesPerSecond = 662.6
+12/12/2017 01:11:34: Finished Epoch[ 2 of 3]: [Training] ce = 1.95835853 * 2048; errs = 64.014% * 2048; totalSamplesSeen = 4096; learningRatePerSample = 0.001; epochTime=3.09433s
+12/12/2017 01:11:34: SGD: Saving checkpoint model '/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_MNIST_ConvNet_MNIST@release_cpu/Models/ConvNet_MNIST.2'
 
-05/08/2017 20:20:10: Starting Epoch 3: learning rate per sample = 0.001000  effective momentum = 0.000000  momentum as time constant = 0.0 samples
+12/12/2017 01:11:34: Starting Epoch 3: learning rate per sample = 0.001000  effective momentum = 0.000000  momentum as time constant = 0.0 samples
 
-05/08/2017 20:20:10: Starting minibatch loop.
-(GPU): creating curand object with seed 2
-05/08/2017 20:20:10:  Epoch[ 3 of 3]-Minibatch[   1-  16, 50.00%]: ce = 1.32759368 * 1024; errs = 42.285% * 1024; time = 0.2295s; samplesPerSecond = 4462.8
-05/08/2017 20:20:10:  Epoch[ 3 of 3]-Minibatch[  17-  32, 100.00%]: ce = 1.03382075 * 1024; errs = 35.254% * 1024; time = 0.1358s; samplesPerSecond = 7539.6
-05/08/2017 20:20:10: Finished Epoch[ 3 of 3]: [Training] ce = 1.18070722 * 2048; errs = 38.770% * 2048; totalSamplesSeen = 6144; learningRatePerSample = 0.001; epochTime=0.367028s
-05/08/2017 20:20:10: SGD: Saving checkpoint model 'C:\cygwin64\tmp\cntk-test-20170508122004.231896\Examples\Image\Classification\ConvNet_MNIST_ConvNet_MNIST@release_gpu/Models/ConvNet_MNIST'
+12/12/2017 01:11:34: Starting minibatch loop.
+12/12/2017 01:11:35:  Epoch[ 3 of 3]-Minibatch[   1-  16, 50.00%]: ce = 1.45292616 * 1024; errs = 50.293% * 1024; time = 1.5459s; samplesPerSecond = 662.4
+12/12/2017 01:11:37:  Epoch[ 3 of 3]-Minibatch[  17-  32, 100.00%]: ce = 1.10258842 * 1024; errs = 37.012% * 1024; time = 1.6827s; samplesPerSecond = 608.5
+12/12/2017 01:11:37: Finished Epoch[ 3 of 3]: [Training] ce = 1.27775729 * 2048; errs = 43.652% * 2048; totalSamplesSeen = 6144; learningRatePerSample = 0.001; epochTime=3.22925s
+12/12/2017 01:11:37: SGD: Saving checkpoint model '/tmp/cntk-test-20171211223423.932710/Examples/Image/Classification/ConvNet_MNIST_ConvNet_MNIST@release_cpu/Models/ConvNet_MNIST'
 
-05/08/2017 20:20:10: Action "train" complete.
+12/12/2017 01:11:37: Action "train" complete.
 
 
-05/08/2017 20:20:10: ##############################################################################
-05/08/2017 20:20:10: #                                                                            #
-05/08/2017 20:20:10: # testNetwork command (test action)                                          #
-05/08/2017 20:20:10: #                                                                            #
-05/08/2017 20:20:10: ##############################################################################
+12/12/2017 01:11:37: ##############################################################################
+12/12/2017 01:11:37: #                                                                            #
+12/12/2017 01:11:37: # testNetwork command (test action)                                          #
+12/12/2017 01:11:37: #                                                                            #
+12/12/2017 01:11:37: ##############################################################################
 
 
 Post-processing network...
@@ -377,11 +378,11 @@ Validating network. 20 nodes to process in pass 2.
 
 Validating network, final pass.
 
-ol.x._._.x._.x.x._.x.x._.c: using cuDNN convolution engine for geometry: Input: 28 x 28 x 1, Output: 28 x 28 x 32, Kernel: 5 x 5 x 1, Map: 32, Stride: 1 x 1 x 1, Sharing: (1, 1, 1), AutoPad: (1, 1, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
-ol.x._._.x._.x.x._.x: using cuDNN convolution engine for geometry: Input: 28 x 28 x 32, Output: 13 x 13 x 32, Kernel: 3 x 3 x 1, Map: 1, Stride: 2 x 2 x 1, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
-ol.x._._.x._.x.x._.c: using cuDNN convolution engine for geometry: Input: 13 x 13 x 32, Output: 11 x 11 x 48, Kernel: 3 x 3 x 32, Map: 48, Stride: 1 x 1 x 32, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
-ol.x._._.x._.x: using cuDNN convolution engine for geometry: Input: 11 x 11 x 48, Output: 5 x 5 x 48, Kernel: 3 x 3 x 1, Map: 1, Stride: 2 x 2 x 1, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
-ol.x._._.x._.c: using cuDNN convolution engine for geometry: Input: 5 x 5 x 48, Output: 3 x 3 x 64, Kernel: 3 x 3 x 48, Map: 64, Stride: 1 x 1 x 48, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+ol.x._._.x._.x.x._.x.x._.c: using GEMM convolution engine for geometry: Input: 28 x 28 x 1, Output: 28 x 28 x 32, Kernel: 5 x 5 x 1, Map: 32, Stride: 1 x 1 x 1, Sharing: (1, 1, 1), AutoPad: (1, 1, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+ol.x._._.x._.x.x._.x: using GEMM convolution engine for geometry: Input: 28 x 28 x 32, Output: 13 x 13 x 32, Kernel: 3 x 3 x 1, Map: 1, Stride: 2 x 2 x 1, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+ol.x._._.x._.x.x._.c: using GEMM convolution engine for geometry: Input: 13 x 13 x 32, Output: 11 x 11 x 48, Kernel: 3 x 3 x 32, Map: 48, Stride: 1 x 1 x 32, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+ol.x._._.x._.x: using GEMM convolution engine for geometry: Input: 11 x 11 x 48, Output: 5 x 5 x 48, Kernel: 3 x 3 x 1, Map: 1, Stride: 2 x 2 x 1, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
+ol.x._._.x._.c: using GEMM convolution engine for geometry: Input: 5 x 5 x 48, Output: 3 x 3 x 64, Kernel: 3 x 3 x 48, Map: 64, Stride: 1 x 1 x 48, Sharing: (1, 1, 1), AutoPad: (0, 0, 0), LowerPad: 0 x 0 x 0, UpperPad: 0 x 0 x 0.
 
 
 
@@ -395,16 +396,6 @@ Allocating matrices for forward and/or backward propagation.
 Memory Sharing: Out of 33 matrices, 18 are shared as 3, and 15 are not shared.
 
 Here are the ones that share memory:
-	{ ol.x._._.x._.x.x._.res.x : [11 x 11 x 48 x *1]
-	  ol.x._._.x._.x.x._.x.x : [28 x 28 x 32 x *1]
-	  ol.x._._.x._.x.x._.x.x._.c : [28 x 28 x 32 x *1] }
-	{ ol.PlusArgs[0] : [10 x *1]
-	  ol.x._ : [96 x *1]
-	  ol.x._._.x.PlusArgs[0] : [96 x *1]
-	  ol.x._._.x._.res.x : [3 x 3 x 64 x *1]
-	  ol.x._._.x._.x : [5 x 5 x 48 x *1]
-	  ol.x._._.x._.x.x._.x : [13 x 13 x 32 x *1]
-	  ol.x._._.x._.x.x._.x.x._.x : [28 x 28 x 1 x *1] }
 	{ _ol.x._._.x : [3 x 3 x 64 x *1]
 	  ol : [10 x *1]
 	  ol.x : [96 x *1]
@@ -413,27 +404,37 @@ Here are the ones that share memory:
 	  ol.x._._.x._.x.x : [11 x 11 x 48 x *1]
 	  ol.x._._.x._.x.x._.c : [11 x 11 x 48 x *1]
 	  ol.x._._.x._.x.x._.x.x._.res.x : [28 x 28 x 32 x *1] }
+	{ ol.PlusArgs[0] : [10 x *1]
+	  ol.x._ : [96 x *1]
+	  ol.x._._.x.PlusArgs[0] : [96 x *1]
+	  ol.x._._.x._.res.x : [3 x 3 x 64 x *1]
+	  ol.x._._.x._.x : [5 x 5 x 48 x *1]
+	  ol.x._._.x._.x.x._.x : [13 x 13 x 32 x *1]
+	  ol.x._._.x._.x.x._.x.x._.x : [28 x 28 x 1 x *1] }
+	{ ol.x._._.x._.x.x._.res.x : [11 x 11 x 48 x *1]
+	  ol.x._._.x._.x.x._.x.x : [28 x 28 x 32 x *1]
+	  ol.x._._.x._.x.x._.x.x._.c : [28 x 28 x 32 x *1] }
 
 Here are the ones that don't share memory:
-	{labels : [10 x *1]}
 	{features : [28 x 28 x 1 x *1]}
-	{model.arrayOfFunctions[12].W : [10 x 96]}
+	{labels : [10 x *1]}
 	{model.arrayOfFunctions[12].b : [10]}
-	{model.arrayOfFunctions[9].arrayOfFunctions[0].b : [96]}
-	{model.arrayOfFunctions[7].b : [1 x 1 x 64]}
+	{model.arrayOfFunctions[12].W : [10 x 96]}
 	{model.arrayOfFunctions[1].b : [1 x 1 x 32]}
 	{model.arrayOfFunctions[1].W : [5 x 5 x 1 x 32]}
-	{model.arrayOfFunctions[4].W : [3 x 3 x 32 x 48]}
-	{model.arrayOfFunctions[7].W : [3 x 3 x 48 x 64]}
 	{model.arrayOfFunctions[4].b : [1 x 1 x 48]}
+	{model.arrayOfFunctions[4].W : [3 x 3 x 32 x 48]}
+	{model.arrayOfFunctions[7].b : [1 x 1 x 64]}
+	{model.arrayOfFunctions[7].W : [3 x 3 x 48 x 64]}
+	{model.arrayOfFunctions[9].arrayOfFunctions[0].b : [96]}
+	{model.arrayOfFunctions[9].arrayOfFunctions[0].W : [96 x 3 x 3 x 64]}
 	{ol.x._._.x._.x.x._.x.x._.x.ElementTimesArgs[0] : [1 x 1]}
 	{ce : [1]}
-	{model.arrayOfFunctions[9].arrayOfFunctions[0].W : [96 x 3 x 3 x 64]}
 	{errs : [1]}
 
-05/08/2017 20:20:11: Minibatch[1-10]: errs = 14.310% * 10000; ce = 0.56751275 * 10000
-05/08/2017 20:20:11: Final Results: Minibatch[1-10]: errs = 14.310% * 10000; ce = 0.56751275 * 10000; perplexity = 1.76387439
+12/12/2017 01:11:43: Minibatch[1-10]: errs = 24.430% * 10000; ce = 0.71060675 * 10000
+12/12/2017 01:11:43: Final Results: Minibatch[1-10]: errs = 24.430% * 10000; ce = 0.71060675 * 10000; perplexity = 2.03522576
 
-05/08/2017 20:20:11: Action "test" complete.
+12/12/2017 01:11:43: Action "test" complete.
 
-05/08/2017 20:20:11: __COMPLETED__
+12/12/2017 01:11:43: __COMPLETED__

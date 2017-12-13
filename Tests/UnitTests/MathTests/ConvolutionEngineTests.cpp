@@ -1059,8 +1059,8 @@ BOOST_AUTO_TEST_CASE(PoolingBackward)
                 std::string msgNan = " has NaNs, " + tmsg.str();
                 std::string msgNotNan = " has buffer overflow/underflow, " + tmsg.str();
 
-                float relErr = 1e-3f;
-                float absErr = 1e-3f;
+                float relErr = 3e-3f;
+                float absErr = 3e-3f;
                 std::string emsg;
 
                 BOOST_REQUIRE_MESSAGE(!grad.HasNan("grad"), "grad" << msgNan);

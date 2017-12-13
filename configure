@@ -94,7 +94,7 @@ py_versions=
 declare -A py_paths
 
 jdk_check=include/jni.h
-default_jdk="jvm/java-7-openjdk-amd64"
+default_jdk="jvm/java-8-openjdk-amd64"
 
 mathlib=
 

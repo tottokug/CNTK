@@ -113,6 +113,7 @@ namespace CNTK
         {PrimitiveOpType::Pad, L"Pad"},
         {PrimitiveOpType::Crop, L"Crop"},
         {PrimitiveOpType::TopK, L"TopK"},
+        {PrimitiveOpType::Cast, L"Cast" },
     };
 
     inline const std::wstring& PrimitiveOpTypeName(PrimitiveOpType opType)

@@ -46,6 +46,7 @@ namespace CNTK
         }
 
         auto dataType = gradientValues.begin()->first.GetDataType();
+
         info.evalCriterionValue = MakeSharedObject<NDArrayView>(0, dataType, NDShape{}, DeviceDescriptor::UseDefaultDevice());
         info.trainingLossValue = MakeSharedObject<NDArrayView>(0, dataType, NDShape{}, DeviceDescriptor::UseDefaultDevice());
     }

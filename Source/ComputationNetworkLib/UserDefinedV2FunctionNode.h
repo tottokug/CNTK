@@ -10,10 +10,6 @@
 #include "CNTKLibrary.h"
 #include "Utils.h"
 
-
-
-#include <iostream>
-
 namespace Microsoft { namespace MSR { namespace CNTK {
 
 template <typename ElemType>
@@ -28,9 +24,9 @@ class OutputMultiplexerNode;
 
 // TODO: We currently only support external nodes that cannot be part of CNTK recurrent loops
 template <class ElemType>
-class UserDefinedV2FunctionNode final : public ComputationNode<ElemType>, public MultiOutputNode<ElemType>
+class UserDefinedV2FunctionNode final : public ComputationNodeNonLooping<ElemType>, public MultiOutputNode<ElemType>
 {
-    typedef ComputationNode<ElemType> Base; UsingComputationNodeMembersBoilerplate;
+    typedef ComputationNodeNonLooping<ElemType> Base; UsingComputationNodeMembersBoilerplate;
     static const std::wstring TypeName() { return L"UserDefinedV2Function"; }
     
     friend class OutputMultiplexerNode<ElemType>;
@@ -49,11 +45,9 @@ public:
         return std::any_of(outputs.begin(), outputs.end(), [](const ::CNTK::Variable& output) { return output.Shape().HasFreeDimension(); });
     }
 
-    virtual void ForwardProp(const FrameRange& fr) override
-    {      
-        // The first output value is set as this node's output. Others are mapped
-        // using OutputMultiplexerNode when creating the computation network.
-        this->m_outputsValue[0] = m_value;        
+    virtual void ForwardPropNonLooping() override
+    {
+        this->m_outputsValue[0] = m_value;
 
         // Get the arguments of the external function
         auto arguments = m_externalFunction->Arguments();
@@ -61,24 +55,14 @@ public:
         auto numInputs = GetNumInputs();
         size_t j = 0;
         for (size_t i = 0; i < numInputs; ++i)
-        { 
+        {
             auto& input = InputRef(i);
-
             if (input.template Is<LearnableParameter<ElemType>>())
                 continue;
 
             auto argumentVar = arguments[j++];
-
-            FrameRange inputFr = fr;
-            
-            if (fr.IsAllFrames())
-            {
-                inputFr = fr.WithLayout(input.GetMBLayout());
-            }           
-
-            auto inputValueForFrame = input.ValueFor(inputFr);           
             auto argumentShape = ::CNTK::AsNDShape(input.GetSampleLayout());
-            auto argumentValue = ::CNTK::Utils::GetValueObjectFromCNTKImplMatrixAndMBLayout(argumentShape, argumentVar.DynamicAxes(), inputValueForFrame, input.GetMBLayout());
+            auto argumentValue = ::CNTK::Utils::GetValueObjectFromCNTKImplMatrixAndMBLayout(argumentShape, argumentVar.DynamicAxes(), input.Value(), input.GetMBLayout());
             argumentValues.insert(std::make_pair(argumentVar, argumentValue));
         }
         assert(j == arguments.size());
@@ -103,7 +87,7 @@ public:
             auto output = outputs[i];
             ::CNTK::NDShape inferredVarShape;
             auto outputMatrixAndLayout = ::CNTK::Utils::GetCNTKImplMatrixAndMBLayoutFromValueObject<ElemType>(output, outputValues[output], &inferredVarShape);
-          
+
             if (inferredVarShape.IsUnknown() || inferredVarShape.HasUnboundDimension())
                 LogicError("The output shape '%S' of an external user defined Function '%S' must be fully defined.", inferredVarShape.AsString().c_str(), m_externalFunction->AsString().c_str());
 
@@ -114,12 +98,8 @@ public:
                     SetDims(this->m_outputsShape[i], HasMBLayout());
             }
 
-            //if (i != 0)
-            //{
-            //    this->m_outputsValue[i] = std::make_shared<Microsoft::MSR::CNTK::Matrix<ElemType>>(m_deviceId);
-            //}
-            this->m_outputsValue[i]->SetValue(*outputMatrixAndLayout.first);  
-            
+            this->m_outputsValue[i]->SetValue(*outputMatrixAndLayout.first);
+
             if ((this->m_outputsMBLayout[i] != nullptr) && (outputMatrixAndLayout.second == nullptr))
                 LogicError("The UserDefinedFunction node has a non-null output MBLayout but none found from the '%S' user Function::Forward output Value", m_externalFunction->Name().c_str());
             else if ((this->m_outputsMBLayout[i] == nullptr) && (outputMatrixAndLayout.second != nullptr))
@@ -142,15 +122,13 @@ public:
         }
     }
 
-    virtual void BackpropTo(const size_t inputIndex, const FrameRange& fr) override
+    virtual void BackpropToNonLooping(size_t /*inputIndex*/) override
     {
         if (m_currentBackpropStatePtr == nullptr)
             return;
 
-        // Similar to the output, the gradient 0 is set to this node's
-        // gradient. other values are handled by OutputMultiplexerNode.
         this->m_outputsGradient[0] = m_gradient;
-        
+
         std::unordered_map<::CNTK::Variable, ::CNTK::ValuePtr> outputGradientValues;
         auto outputs = m_externalFunction->Outputs();
         bool noOutputNeedsGradient = std::all_of(outputs.begin(), outputs.end(), [](const ::CNTK::Variable& outVar) { return !outVar.NeedsGradient(); });
@@ -160,10 +138,6 @@ public:
         for (size_t i = 0; i < outputs.size(); ++i)
         {
             auto output = outputs[i];
-            //if (i != 0)
-            //{
-            //    this->m_outputsGradient[i] = std::make_shared<Microsoft::MSR::CNTK::Matrix<ElemType>>(m_deviceId);
-            //}           
 
             // TODO: We unpack the same output gradients each time this method is called for a different input.
             // We should be able to cache the unpacked values during backpropagation of gradients to the first
@@ -186,9 +160,8 @@ public:
         std::unordered_map<::CNTK::Variable, ::CNTK::ValuePtr> inputGradientValues;
         for (size_t i = 0; i < externalFunctionUniqueInputs.size(); ++i)
         {
-            //This is a BUGBUG i is not the same once we put into unique
             if (InputRef(i).NeedsGradient())
-                inputGradientValues.insert({ externalFunctionUniqueInputs[i], nullptr});
+                inputGradientValues.insert({ externalFunctionUniqueInputs[i], nullptr });
         }
 
         m_externalFunction->Backward(m_currentBackpropStatePtr, outputGradientValues, inputGradientValues);
@@ -209,16 +182,7 @@ public:
                 continue;
 
             auto newInputGradientMatrixAndLayout = ::CNTK::Utils::GetCNTKImplMatrixAndMBLayoutFromValueObject<ElemType>(input, inputGradientValue);
-            
-            auto& inputNode = InputRef(i);
-            if (inputNode.HasMBLayout())
-            {
-                inputNode.GradientFor(fr) += *newInputGradientMatrixAndLayout.first;
-            }
-            else
-            {
-                inputNode.Gradient() += *newInputGradientMatrixAndLayout.first;
-            }            
+            InputRef(i).Gradient() += *newInputGradientMatrixAndLayout.first;
 
             if (*InputRef(i).GetMBLayout() != *newInputGradientMatrixAndLayout.second)
                 LogicError("The MBLayout 'NumSequences=%zu, NumTimeSteps=%zu' of the Input(%zu) gradient computed by the external function '%S' does not match the expected MBLayout 'NumSequences=%zu, NumTimeSteps=%zu'.",
@@ -232,11 +196,8 @@ public:
 
     virtual void Validate(bool isFinalValidationPass) override
     {
-        //Check all the inputs and outputs to see if the inputs has the same dynamic axis as the output. That is the computation node we need to get the mblayout from. create new only if we cannot find this.
-        
         Base::Validate(isFinalValidationPass);
 
-        // Find the output with a dynamic axis and use that, otherwise create new.
         auto outputs = m_externalFunction->Outputs();
         bool layoutNotInitialized = (m_pMBLayout == nullptr);
         for (size_t i = 0; i < outputs.size(); ++i)
@@ -255,17 +216,17 @@ public:
             {
                 auto outputDynamicAxes = output.DynamicAxes();
                 if (outputDynamicAxes.empty())
-                {                    
+                {
+                    this->m_outputsHasNewMBLayout[i] = true;
                     this->m_outputsMBLayout[i] = nullptr;
                 }
                 else
                 {
-                    this->m_outputsMBLayout[i] = make_shared<MBLayout>(); // this generates a new layout                    
+                    this->m_outputsMBLayout[i] = make_shared<MBLayout>(); // this generates a new layout
                     this->m_outputsMBLayout[i]->SetUniqueAxisName(InternalDynamicAxisNameFromDynamicAxes(output.DynamicAxes()));
-                       
+                    this->m_outputsHasNewMBLayout[i] = true;
                 }
-                this->m_outputsHasNewMBLayout[i] = true;
-            }         
+            }
 
             for (size_t k = 0; k < outputNDShape.Rank(); ++k)
             {
@@ -278,10 +239,7 @@ public:
             if (i == 0)
             {
                 if (layoutNotInitialized)
-                {
-                    //InferMBLayoutFromInputsForStandardCase(isFinalValidationPass);
                     m_pMBLayout = this->m_outputsMBLayout[i];
-                }
 
                 SetDims(this->m_outputsShape[i], HasMBLayout());
             }

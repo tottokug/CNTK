@@ -62,7 +62,7 @@
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(SolutionDir)$(Platform)\$(Configuration);$(OpenCvLibPath)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>Cntk.Common-$(CntkComponentVersion).lib;$(OpenCvLib);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>$(OpenCvLib);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="$(DebugBuild)">

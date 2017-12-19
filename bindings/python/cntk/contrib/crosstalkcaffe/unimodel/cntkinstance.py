@@ -54,8 +54,7 @@ class BlockApiSetup(object):
                                         set(kernel_sequence))
                     for index in range(len(insert_lines)):
                         insert_lines[index] -= index
-                    used_init = np.insert(used_init, insert_lines, 0, 
-                                             axis=len(init.shape) - axis - 1)
+                    used_init = np.insert(used_init, insert_lines, 0, axis=len(init.shape) - axis - 1)
             return ops.parameter(shape=(output_channels, cntk.InferredDimension) + ops.sanitize_shape(dilation_kernel),
                                  init=used_init, name=group_name)
 
@@ -161,10 +160,12 @@ class ApiSetup(object):
         params = cntk_layer.parameters
         output_channel = params.output
         kernel_size = params.kernel
+        kernel_shape = (output_channel, sanitize_input.shape[0]) + tuple(kernel_size)
         kernel_init = None
         if cntk_layer.parameter_tensor:
             kernel_data_tensor = cntk_layer.parameter_tensor[0]
             kernel_init = np.asarray(kernel_data_tensor.data, dtype=np.float32)
+            kernel_init = np.reshape(kernel_init, newshape=kernel_shape)
         bias_shape = (output_channel, ) + (1,) * 2
         bias_init = None
         if params.need_bias:

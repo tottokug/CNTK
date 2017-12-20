@@ -32,7 +32,7 @@ AlexNet, NIN, VGG16, VGG19, GoogLeNet, ResNet50, ResNet101, ResNet152, ALL
 *ImageNet*
 
 | Network | Baseline(top1/top5) |    Converted(top1/top5)    | Link                  |
-|:--------------:|:---------:|:---------:|:---------:|:---------------------:|
+|:--------------:|:---------:|:---------:|:---------:|
 | VGG16_ImageNet | -/7.5% | -/10.13% | [VGG_16_ImageNet](./Classification/VGG_ImageNet) |
 | VGG19_ImageNet | -/7.5% | -/10.20% | [VGG_19_ImageNet](./Classification/VGG_ImageNet) |
 | ResNet50_ImageNet | 24.7%/7.8% | 24.87%/7.76% | [ResNet_50_ImageNet](./Classification/ResNet_ImageNet) |

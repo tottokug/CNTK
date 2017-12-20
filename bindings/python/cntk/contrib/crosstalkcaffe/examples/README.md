@@ -40,5 +40,4 @@ AlexNet, NIN, VGG16, VGG19, GoogLeNet, ResNet50, ResNet101, ResNet152, ALL
 | ResNet152_ImageNet | 23.0%/6.7% | 23.34%/6.72% | [ResNet_152_ImageNet](./Classification/ResNet_ImageNet) |
 | GoogLeNet_ImageNet | 31.3%/11.1% | 33.43%/11.54% | [GoogLeNet_ImageNet](./Classification/GoogLeNet_ImageNet) |
 | NIN_ImageNet | 40.61%/- | 45.79%/19.8% | [NIN_ImageNet](./Classification/NIN_ImageNet) |
-|  |  |  |  |  |
 *'-' means the results are not reported.*

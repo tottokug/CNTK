@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/local/bin/bash
 #
 # Copyright (c) Microsoft. All rights reserved.
 #
@@ -132,6 +132,38 @@ default_libzips="libzip-1.1.2"
 default_swig="swig-3.0.10"
 default_mpi="mpi"
 
+
+# emulate GNU readlink's "readlink -f" behavior on Mac
+# http://stackoverflow.com/questions/1055671/how-can-i-get-the-behavior-of-gnus-readlink-f-on-a-mac
+function __readlink_f {
+  TARGET_FILE=$1
+
+  while [ "$TARGET_FILE" != "" ]; do
+      cd `dirname $TARGET_FILE`
+      FILENAME=`basename $TARGET_FILE`
+      TARGET_FILE=`readlink $FILENAME`
+  done
+
+  echo `pwd -P`/$FILENAME
+}
+
+
+
+function check_macos ()
+{
+    if test "$(uname)" == 'Darwin' 
+    then
+        echo yes
+    else
+        echo no
+    fi
+
+}
+
+nproc='nproc'
+
+
+
 function default_paths ()
 {
     echo $build_top $HOME $default_path_list
@@ -244,7 +276,7 @@ function is_hardlinked ()
     if test -e $1 && test -e $2
     then
         r=yes
-        [ "`stat -c '%i' $1`" != "`stat -c '%i' $2`" ] && r=no
+        [ "`stat -f '%i' $1`" != "`stat -f '%i' $2`" ] && r=no
     fi
     echo $r
 }
@@ -280,6 +312,10 @@ function check_swig ()
     "$swig_bin" -version 2>&1 1>/dev/null || return $?
 
     local actual_version=$("$swig_bin" -version | grep '^SWIG Version ' | head -1 | grep -o '[0-9.]*')
+    if test $(check_macos) = yes
+    then
+        actual_version=$("$swig_bin" -version | grep '^SWIG Version ' | head -1 | grep -o '[0-9.]\+')
+    fi
     if check_version "$swig_required_version" "$actual_version"
     then
         echo "$swig_dir"
@@ -364,7 +400,7 @@ function show_help ()
     echo "  --with-build-top=directory build directory $(show_default $build_top)"
     echo "  --add directory add directory to library search path"
     echo "  --1bitsgd[=(yes|no)] use 1Bit SGD $(show_default ${default_use_1bitsgd})"
-    echo "  --asgd[=(yes|no)] use ASGD powered by Multiverso $(show_default $(default_use_asgd))"
+    echo "  --asgd[=(yes|no)] use ASGD powered by Multiverso $(show_default ${default_use_asgd})"
     echo "  --cuda[=(yes|no)] use cuda GPU $(show_default $(default_use_cuda))"
     echo "  --python[=(yes|no)] with Python bindings $(show_default $(default_use_python))"
     echo "  --java[=(yes|no)] with Java bindings $(show_default $(default_use_java))"
@@ -544,6 +580,7 @@ do
                     exit 1
                 fi
             else
+                echo "swig optarg = $optarg"
                 if check_swig "$optarg"
                 then
                     swig_path=$optarg
@@ -1139,6 +1176,10 @@ echo Generating $config
 echo "#Configuration file for cntk" > $config
 echo BUILDTYPE=$buildtype >> $config
 echo MATHLIB=$mathlib >> $config
+if test $(check_macos) == yes
+then
+    echo MACOS=1 >> $config
+fi
 case $mathlib in
     mkl)
         echo MKL_PATH=$mkl_path >> $config
@@ -1227,7 +1268,13 @@ makefile=$build_top/Makefile
 if test $(is_hardlinked "$configure" "$build_top/configure") = no
 then
     echo Generating $makefile
-    realconf=`readlink -f $configure`
+    
+    if test $(check_macos) = yes
+    then
+        realconf=`__readlink_f $configure`
+    else
+        realconf=`readlink -f $configure`
+    fi
     dir=`dirname $realconf`
     echo "#Generate Makefile" > $makefile
     echo dir=$dir >> $makefile
@@ -1236,8 +1283,13 @@ then
     echo all clean : >> $makefile
     printf '\t$(MAKE) -C $(dir) BUILD_TOP=$(BUILD_TOP) $@\n' >> $makefile
 fi
+
 echo run
-echo '>make -j $(nproc) all'
+if test $(check_macos) = yes
+then
+    nproc='sysctl -n hw.physicalcpu'
+fi
+echo '>make -j $('$nproc') all'
 echo to build
 
 # vim:set expandtab tabstop=4 shiftwidth=4:

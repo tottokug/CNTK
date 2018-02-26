@@ -18,7 +18,7 @@
 #include <Windows.h>
 #undef max
 #endif
-#if __unix__
+#if __unix__ || __APPLE__
 #include <dlfcn.h> // for Plugin
 #endif
 #include <cctype>
